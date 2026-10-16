@@ -1,0 +1,14 @@
+{
+  "musica": "banco/phonk-br.mp3",
+  "inicioMusica": 14.6,
+  "vozFinal": "cta-2026-10-16.mp3",
+  "cenas": [
+    {"texto": "Motivação vai embora.", "destaque": ["embora."], "imagem": "banco/1BQueVnueXkw1RrJkiC3w30iWuo5pHIZb.jpg"},
+    {"texto": "Ela some no primeiro dia ruim.", "destaque": ["dia", "ruim."], "imagem": "banco/1wL3jxuFE1rIV7ZqhMhThIRjklJFDqzrf.jpg"},
+    {"texto": "Disciplina fica.", "destaque": ["Disciplina"], "imagem": "banco/1NrRIeKiRyW_erRqYB1bSzxRBQxONQ7Zv.jpg", "impacto": true},
+    {"texto": "Mesmo cansado. Mesmo sozinho.", "destaque": ["sozinho."], "imagem": "banco/1Mq3w39C0tHt18Gt219DSjMoqlGWgcaD1.jpg"},
+    {"texto": "Treina hoje.", "destaque": ["hoje."], "imagem": "banco/167hYmmtHy7jOit5Asd4TLCBBqDC7CXZW.jpg"},
+    {"texto": "Vence amanhã.", "destaque": ["Vence"], "imagem": "banco/1sEVBmbLPIp1XcCVmBzrzWT1-hxtzZUqG.jpg", "foco": "center 30%", "impacto": true}
+  ],
+  "assinatura": "@pvedicoes"
+}

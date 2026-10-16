@@ -1,13 +1,13 @@
 import React from 'react';
-import {AbsoluteFill, Audio, Sequence, interpolate, random, spring, staticFile, useCurrentFrame, useVideoConfig, Easing} from 'remotion';
+import {AbsoluteFill, Audio, Img, Sequence, interpolate, random, spring, staticFile, useCurrentFrame, useVideoConfig, Easing} from 'remotion';
 import {loadFont} from '@remotion/fonts';
 
 const fonte = 'Inter';
 [700, 800].forEach((w) => loadFont({family: fonte, url: staticFile(`inter-latin-${w}-normal.woff2`), weight: String(w)}));
 const fonteKanji = "'WenQuanYi Zen Hei', 'Noto Sans CJK JP', sans-serif";
 
-export type Cena = {texto: string; destaque?: string[]; kanji?: string; impacto?: boolean};
-export type Roteiro = {cenas: Cena[]; musica?: string; assinatura?: string};
+export type Cena = {texto: string; destaque?: string[]; kanji?: string; impacto?: boolean; imagem?: string; foco?: string};
+export type Roteiro = {cenas: Cena[]; musica?: string; inicioMusica?: number; vozFinal?: string; assinatura?: string};
 
 // Ritmo: 1 palavra a cada meio tempo (120 bpm = 15 frames por tempo).
 const POR_PALAVRA = 8;
@@ -17,7 +17,8 @@ const VERMELHO = '#E5192E';
 const BRANCO = '#F4F1EA';
 
 const duracaoCena = (c: Cena) => c.texto.split(' ').length * POR_PALAVRA + SEGURA + (c.impacto ? 14 : 0);
-export const duracaoTotal = (r: Roteiro) => r.cenas.reduce((a, c) => a + duracaoCena(c), 0) + FINAL;
+const duracaoFinal = (r: Roteiro) => (r.vozFinal ? 135 : FINAL);
+export const duracaoTotal = (r: Roteiro) => r.cenas.reduce((a, c) => a + duracaoCena(c), 0) + duracaoFinal(r);
 
 const clamp = {extrapolateLeft: 'clamp' as const, extrapolateRight: 'clamp' as const};
 
@@ -50,6 +51,22 @@ const Linhas: React.FC<{seed: number; forca: number}> = ({seed, forca}) => {
   return <AbsoluteFill style={{opacity: 0.16 + forca * 0.5}}><svg width="1080" height="1920">{linhas}</svg></AbsoluteFill>;
 };
 
+
+// Frame de mangá "animado": zoom lento, tremida nas palavras, alto contraste
+const FrameManga: React.FC<{src: string; foco?: string; dur: number; palavras: number}> = ({src, foco, dur, palavras}) => {
+  const f = useCurrentFrame();
+  const zoom = interpolate(f, [0, dur], [1.22, 1.06], clamp);
+  const pulso = f % POR_PALAVRA < 3 && f < palavras * POR_PALAVRA ? 1 : 0;
+  const tx = pulso ? (random(`x${f}`) - 0.5) * 22 : 0;
+  const ty = pulso ? (random(`y${f}`) - 0.5) * 22 : 0;
+  return (
+    <AbsoluteFill>
+      <Img src={staticFile(src)} style={{width: '100%', height: '100%', objectFit: 'cover', objectPosition: foco || 'center', transform: `translate(${tx}px, ${ty}px) scale(${zoom + pulso * 0.02})`, filter: 'grayscale(1) contrast(1.6) brightness(0.55)'}} />
+      <AbsoluteFill style={{background: 'radial-gradient(ellipse 85% 35% at 50% 50%, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.4) 70%, rgba(0,0,0,0.65) 100%)'}} />
+    </AbsoluteFill>
+  );
+};
+
 const Palavra: React.FC<{t: string; i: number; vermelha: boolean}> = ({t, i, vermelha}) => {
   const f = useCurrentFrame();
   const {fps} = useVideoConfig();
@@ -74,8 +91,9 @@ const CenaView: React.FC<{c: Cena; n: number; dur: number}> = ({c, n, dur}) => {
   return (
     <AbsoluteFill style={{transform: `scale(${zoom})`, opacity: sai}}>
       <Fundo seed={n} />
-      <Linhas seed={n} forca={Math.min(forca, 1)} />
-      {c.kanji && (
+      {c.imagem && <FrameManga src={c.imagem} foco={c.foco} dur={dur} palavras={palavras.length} />}
+      <Linhas seed={n} forca={Math.min(forca, 1) * (c.imagem ? 0.6 : 1)} />
+      {c.kanji && !c.imagem && (
         <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center'}}>
           <div style={{fontFamily: fonteKanji, fontSize: 780, color: VERMELHO, opacity: 0.16, transform: `translateY(${interpolate(f, [0, dur], [40, -40])}px)`}}>{c.kanji}</div>
         </AbsoluteFill>
@@ -110,7 +128,7 @@ export const Reel: React.FC<Roteiro> = (r) => {
   const total = duracaoTotal(r);
   return (
     <AbsoluteFill style={{background: '#000'}}>
-      {r.musica && <Audio src={staticFile(r.musica)} volume={(f) => interpolate(f, [0, 8, total - 20, total], [0, 1, 1, 0], clamp)} />}
+      {r.musica && <Audio src={staticFile(r.musica)} startFrom={Math.round((r.inicioMusica || 0) * 30)} volume={(f) => interpolate(f, [0, 8, total - duracaoFinal(r), total - duracaoFinal(r) + 10, total - 15, total], [0, 1, 1, r.vozFinal ? 0.35 : 1, r.vozFinal ? 0.35 : 1, 0], clamp)} />}
       {r.cenas.map((c, n) => {
         const d = duracaoCena(c);
         const el = (
@@ -121,8 +139,9 @@ export const Reel: React.FC<Roteiro> = (r) => {
         ini += d;
         return el;
       })}
-      <Sequence from={ini} durationInFrames={FINAL}>
+      <Sequence from={ini} durationInFrames={duracaoFinal(r)}>
         <Final assinatura={r.assinatura || '@pvedicoes'} />
+        {r.vozFinal && <Audio src={staticFile(r.vozFinal)} volume={1} />}
       </Sequence>
     </AbsoluteFill>
   );
