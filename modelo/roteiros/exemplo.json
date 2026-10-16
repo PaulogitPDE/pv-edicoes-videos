@@ -1,0 +1,12 @@
+{
+  "musica": "beat.wav",
+  "cenas": [
+    {"texto": "Ninguém viu as noites", "destaque": ["noites"], "kanji": "夜"},
+    {"texto": "que você treinou sozinho.", "destaque": ["sozinho."], "kanji": "孤"},
+    {"texto": "Ninguém ouviu", "destaque": ["ouviu"], "kanji": "静"},
+    {"texto": "quando você quase desistiu.", "destaque": ["desistiu."], "kanji": "痛"},
+    {"texto": "Mas todo mundo vai ver", "destaque": ["todo", "mundo"], "kanji": "見"},
+    {"texto": "o resultado.", "destaque": ["resultado."], "kanji": "勝", "impacto": true}
+  ],
+  "assinatura": "@pvedicoes"
+}
