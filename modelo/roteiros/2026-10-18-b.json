@@ -1,0 +1,33 @@
+{
+  "musica": "banco/13GECM2hXHmt0jVIXa564VgmZax8lVyiW.mp3",
+  "inicioMusica": 0.0,
+  "cta": "Segue o PV Edições.",
+  "cenas": [
+    {
+      "texto": "Você não tem inimigos.",
+      "destaque": [
+        "inimigos."
+      ],
+      "imagem": "banco/1NrRIeKiRyW_erRqYB1bSzxRBQxONQ7Zv.jpg"
+    },
+    {
+      "texto": "Você tem preguiça,",
+      "destaque": [],
+      "imagem": "banco/18C1eNwcOOM_AvibEDalLfb8ZYN6SM6Cp.jpg"
+    },
+    {
+      "texto": "medo e desculpas.",
+      "destaque": [],
+      "imagem": "banco/15ZO6lxuuoZbZT7EsR76sEyzp4biyVsXM.jpg"
+    },
+    {
+      "texto": "Vença os três.",
+      "destaque": [
+        "três."
+      ],
+      "imagem": "banco/1Eodrt1rzS8V-vjWCsgWbYrDSVUzlsDo7.jpg",
+      "impacto": true
+    }
+  ],
+  "assinatura": "@pvedicoes"
+}

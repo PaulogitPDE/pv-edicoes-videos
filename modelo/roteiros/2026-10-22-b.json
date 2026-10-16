@@ -1,0 +1,30 @@
+{
+  "musica": "banco/10DU8VMN3sl_4EbpoxmfoDMwehX8ErjHb.mp3",
+  "inicioMusica": 0.0,
+  "cta": "Segue o PV Edições.",
+  "cenas": [
+    {
+      "texto": "Se ninguém acredita,",
+      "destaque": [
+        "ninguém"
+      ],
+      "imagem": "banco/1D7gCeYJY3BkikouD5oZdIc69gIj_IC1l.jpg"
+    },
+    {
+      "texto": "acredita você.",
+      "destaque": [
+        "você."
+      ],
+      "imagem": "banco/167hYmmtHy7jOit5Asd4TLCBBqDC7CXZW.jpg"
+    },
+    {
+      "texto": "Já basta.",
+      "destaque": [
+        "basta."
+      ],
+      "imagem": "banco/1vENsvLfpdrYjkFCCjT-TtYWCWhCf-69y.jpg",
+      "impacto": true
+    }
+  ],
+  "assinatura": "@pvedicoes"
+}

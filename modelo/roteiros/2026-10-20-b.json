@@ -1,0 +1,28 @@
+{
+  "musica": "banco/13mszfCZ03f7pAGz7qkNKEPHXOWjCfDau.mp3",
+  "inicioMusica": 15.0,
+  "cta": "Segue o PV Edições.",
+  "cenas": [
+    {
+      "texto": "Cansado?",
+      "destaque": [
+        "Cansado?"
+      ],
+      "imagem": "banco/13AwKr2HpH9MwVXV3SwaIUrR6huPI1ZVl.jpg"
+    },
+    {
+      "texto": "Descansa.",
+      "destaque": [],
+      "imagem": "banco/1Kh0cWCEEz9y1n87O_tPKXKdcar6OJNUs.jpg"
+    },
+    {
+      "texto": "Mas não desiste.",
+      "destaque": [
+        "desiste."
+      ],
+      "imagem": "banco/1CIvsjbVuMvlws6lN5ZWAr5P-slxzQcO0.jpg",
+      "impacto": true
+    }
+  ],
+  "assinatura": "@pvedicoes"
+}

@@ -1,0 +1,28 @@
+{
+  "musica": "banco/12ZYwkV-budqol6WWCHs08dOly6FgkD86.mp3",
+  "inicioMusica": 10.0,
+  "cta": "Segue o PV Edições.",
+  "cenas": [
+    {
+      "texto": "A dor de hoje",
+      "destaque": [
+        "dor"
+      ],
+      "imagem": "banco/1YyQMy0ku0gs3-jtivOjeJQHWVNP8y9S9.jpg"
+    },
+    {
+      "texto": "é a força",
+      "destaque": [
+        "força"
+      ],
+      "imagem": "banco/18A2Rzhb20LdJkNOrY8ETAf5415s7ZLFv.jpg"
+    },
+    {
+      "texto": "de amanhã.",
+      "destaque": [],
+      "imagem": "banco/1sEVBmbLPIp1XcCVmBzrzWT1-hxtzZUqG.jpg",
+      "impacto": true
+    }
+  ],
+  "assinatura": "@pvedicoes"
+}

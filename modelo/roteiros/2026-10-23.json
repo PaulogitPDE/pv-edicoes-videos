@@ -1,0 +1,33 @@
+{
+  "musica": "banco/13mszfCZ03f7pAGz7qkNKEPHXOWjCfDau.mp3",
+  "inicioMusica": 15.0,
+  "cta": "Segue o PV Edições.",
+  "cenas": [
+    {
+      "texto": "Caiu?",
+      "destaque": [
+        "Caiu?"
+      ],
+      "imagem": "banco/1BQueVnueXkw1RrJkiC3w30iWuo5pHIZb.jpg"
+    },
+    {
+      "texto": "Levanta.",
+      "destaque": [
+        "Levanta."
+      ],
+      "imagem": "banco/1rMfEuLLalENXX8piQ35e-nz-b08juvsp.jpg"
+    },
+    {
+      "texto": "Quantas vezes",
+      "destaque": [],
+      "imagem": "banco/1x8gw4OYELnDpje41vhsoi9szYSNgTTEx.jpg"
+    },
+    {
+      "texto": "precisar.",
+      "destaque": [],
+      "imagem": "banco/1yaAmbW_a19ZInzHDh-CW703V5pW7z_80.jpg",
+      "impacto": true
+    }
+  ],
+  "assinatura": "@pvedicoes"
+}

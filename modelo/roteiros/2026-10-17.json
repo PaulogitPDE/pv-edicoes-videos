@@ -1,0 +1,35 @@
+{
+  "musica": "banco/12ZYwkV-budqol6WWCHs08dOly6FgkD86.mp3",
+  "inicioMusica": 10.0,
+  "cta": "Segue o PV Edições.",
+  "cenas": [
+    {
+      "texto": "Não desista.",
+      "destaque": [
+        "desista."
+      ],
+      "imagem": "banco/1sEVBmbLPIp1XcCVmBzrzWT1-hxtzZUqG.jpg"
+    },
+    {
+      "texto": "Ninguém viu suas noites.",
+      "destaque": [
+        "noites."
+      ],
+      "imagem": "banco/1D7gCeYJY3BkikouD5oZdIc69gIj_IC1l.jpg"
+    },
+    {
+      "texto": "Mas todos vão ver",
+      "destaque": [],
+      "imagem": "banco/167hYmmtHy7jOit5Asd4TLCBBqDC7CXZW.jpg"
+    },
+    {
+      "texto": "o seu resultado.",
+      "destaque": [
+        "resultado."
+      ],
+      "imagem": "banco/1vENsvLfpdrYjkFCCjT-TtYWCWhCf-69y.jpg",
+      "impacto": true
+    }
+  ],
+  "assinatura": "@pvedicoes"
+}

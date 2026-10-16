@@ -1,0 +1,30 @@
+{
+  "musica": "banco/12ZYwkV-budqol6WWCHs08dOly6FgkD86.mp3",
+  "inicioMusica": 10.0,
+  "cta": "Segue o PV Edições.",
+  "cenas": [
+    {
+      "texto": "Talento te faz começar.",
+      "destaque": [
+        "começar."
+      ],
+      "imagem": "banco/1Pw17x0evtNQbSUfT0lJeqU3afKmf0NYC.jpg"
+    },
+    {
+      "texto": "Disciplina",
+      "destaque": [
+        "Disciplina"
+      ],
+      "imagem": "banco/1DaR2grQVtbKlSOBBmD-f-hKCvBr8vGW8.jpg"
+    },
+    {
+      "texto": "te faz terminar.",
+      "destaque": [
+        "terminar."
+      ],
+      "imagem": "banco/1FZYoijxjfk-ptXi-Bp6crp9f2rMOtGJ5.jpg",
+      "impacto": true
+    }
+  ],
+  "assinatura": "@pvedicoes"
+}

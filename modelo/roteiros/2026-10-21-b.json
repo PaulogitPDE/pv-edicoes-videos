@@ -1,0 +1,28 @@
+{
+  "musica": "banco/1OibxoEKPBxa55L8pzacsYf5MTAUnudbG.mp3",
+  "inicioMusica": 0.0,
+  "cta": "Segue o PV Edições.",
+  "cenas": [
+    {
+      "texto": "Para de se comparar.",
+      "destaque": [
+        "comparar."
+      ],
+      "imagem": "banco/1D0Ko3otTQRhP9iBu5ccehZ9Y6Q_B1oyS.jpg"
+    },
+    {
+      "texto": "Cada um tem",
+      "destaque": [],
+      "imagem": "banco/1-J3EiM3u2g45WAqyr2ZHGhjop2hSnigh.jpg"
+    },
+    {
+      "texto": "o seu tempo.",
+      "destaque": [
+        "tempo."
+      ],
+      "imagem": "banco/1FXoUTrn-lhlo05882GRqdM34xbu4OOOj.jpg",
+      "impacto": true
+    }
+  ],
+  "assinatura": "@pvedicoes"
+}

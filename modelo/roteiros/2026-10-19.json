@@ -1,0 +1,35 @@
+{
+  "musica": "banco/1OibxoEKPBxa55L8pzacsYf5MTAUnudbG.mp3",
+  "inicioMusica": 0.0,
+  "cta": "Segue o PV Edições.",
+  "cenas": [
+    {
+      "texto": "Sem pais ricos.",
+      "destaque": [
+        "ricos."
+      ],
+      "imagem": "banco/1hU_4xVq0pIoPnjwRBVlLkHxeXH8q8KFE.jpg"
+    },
+    {
+      "texto": "Sem plano B.",
+      "destaque": [
+        "B."
+      ],
+      "imagem": "banco/1Px_sB3f9oNXvCRFAwbJHrsvFoe_3zcF6.jpg"
+    },
+    {
+      "texto": "Sem desculpa.",
+      "destaque": [],
+      "imagem": "banco/1VudlgjafWx42UQ5biLN_wNGik8UkSF1_.jpg"
+    },
+    {
+      "texto": "Só você e o trabalho.",
+      "destaque": [
+        "trabalho."
+      ],
+      "imagem": "banco/11EMJvzN4HJHueDGBKAAtvCmwFky2kuft.jpg",
+      "impacto": true
+    }
+  ],
+  "assinatura": "@pvedicoes"
+}

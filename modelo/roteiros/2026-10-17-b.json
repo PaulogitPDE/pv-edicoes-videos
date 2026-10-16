@@ -1,0 +1,33 @@
+{
+  "musica": "banco/10DU8VMN3sl_4EbpoxmfoDMwehX8ErjHb.mp3",
+  "inicioMusica": 0.0,
+  "cta": "Segue o PV Edições.",
+  "cenas": [
+    {
+      "texto": "Você acha que é sorte?",
+      "destaque": [
+        "sorte?"
+      ],
+      "imagem": "banco/1BQueVnueXkw1RrJkiC3w30iWuo5pHIZb.jpg"
+    },
+    {
+      "texto": "Não é.",
+      "destaque": [],
+      "imagem": "banco/1rMfEuLLalENXX8piQ35e-nz-b08juvsp.jpg"
+    },
+    {
+      "texto": "São anos treinando",
+      "destaque": [
+        "anos"
+      ],
+      "imagem": "banco/1x8gw4OYELnDpje41vhsoi9szYSNgTTEx.jpg"
+    },
+    {
+      "texto": "quando ninguém via.",
+      "destaque": [],
+      "imagem": "banco/1yaAmbW_a19ZInzHDh-CW703V5pW7z_80.jpg",
+      "impacto": true
+    }
+  ],
+  "assinatura": "@pvedicoes"
+}

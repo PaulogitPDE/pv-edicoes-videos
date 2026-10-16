@@ -1,0 +1,28 @@
+{
+  "musica": "banco/10DU8VMN3sl_4EbpoxmfoDMwehX8ErjHb.mp3",
+  "inicioMusica": 0.0,
+  "cta": "Segue o PV Edições.",
+  "cenas": [
+    {
+      "texto": "Treina em silêncio.",
+      "destaque": [
+        "silêncio."
+      ],
+      "imagem": "banco/12tqVaNWniC_y_Y5xCL7yxnbeJBTOQOcb.jpg"
+    },
+    {
+      "texto": "Deixa o resultado",
+      "destaque": [],
+      "imagem": "banco/1ILR0UCkLkPw8vfRdgr5esAbRv9Odac_y.jpg"
+    },
+    {
+      "texto": "fazer barulho.",
+      "destaque": [
+        "barulho."
+      ],
+      "imagem": "banco/1Veax9nRherKjGVYn4b6PPPL1SFkYHwfl.jpg",
+      "impacto": true
+    }
+  ],
+  "assinatura": "@pvedicoes"
+}

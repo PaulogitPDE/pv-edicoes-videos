@@ -1,0 +1,35 @@
+{
+  "musica": "banco/13mszfCZ03f7pAGz7qkNKEPHXOWjCfDau.mp3",
+  "inicioMusica": 15.0,
+  "cta": "Segue o PV Edições.",
+  "cenas": [
+    {
+      "texto": "Supere seus limites.",
+      "destaque": [
+        "limites."
+      ],
+      "imagem": "banco/1wL3jxuFE1rIV7ZqhMhThIRjklJFDqzrf.jpg"
+    },
+    {
+      "texto": "Eles só existem",
+      "destaque": [],
+      "imagem": "banco/1S8Wm80pXZdR7adwdiIbMoOEQfJZpa6mp.jpg"
+    },
+    {
+      "texto": "na sua cabeça.",
+      "destaque": [
+        "cabeça."
+      ],
+      "imagem": "banco/1vIW3LzCh-JjynfW41VgHr18y5akniBn-.jpg"
+    },
+    {
+      "texto": "Vai além.",
+      "destaque": [
+        "além."
+      ],
+      "imagem": "banco/1Zan5ZnIvE95P2lRAdyO7XYgRUatnU1SP.jpg",
+      "impacto": true
+    }
+  ],
+  "assinatura": "@pvedicoes"
+}

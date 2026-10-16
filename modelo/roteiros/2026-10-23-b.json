@@ -1,0 +1,28 @@
+{
+  "musica": "banco/13GECM2hXHmt0jVIXa564VgmZax8lVyiW.mp3",
+  "inicioMusica": 0.0,
+  "cta": "Segue o PV Edições.",
+  "cenas": [
+    {
+      "texto": "Falta pouco.",
+      "destaque": [
+        "pouco."
+      ],
+      "imagem": "banco/1wL3jxuFE1rIV7ZqhMhThIRjklJFDqzrf.jpg"
+    },
+    {
+      "texto": "Você não chegou até aqui",
+      "destaque": [],
+      "imagem": "banco/1S8Wm80pXZdR7adwdiIbMoOEQfJZpa6mp.jpg"
+    },
+    {
+      "texto": "pra parar agora.",
+      "destaque": [
+        "agora."
+      ],
+      "imagem": "banco/1vIW3LzCh-JjynfW41VgHr18y5akniBn-.jpg",
+      "impacto": true
+    }
+  ],
+  "assinatura": "@pvedicoes"
+}

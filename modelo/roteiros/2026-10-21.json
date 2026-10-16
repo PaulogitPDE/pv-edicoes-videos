@@ -1,0 +1,29 @@
+{
+  "musica": "banco/13GECM2hXHmt0jVIXa564VgmZax8lVyiW.mp3",
+  "inicioMusica": 0.0,
+  "cta": "Segue o PV Edições.",
+  "cenas": [
+    {
+      "texto": "Ninguém vem te salvar.",
+      "destaque": [
+        "salvar."
+      ],
+      "imagem": "banco/1ryMROEhcecLmdcwJPY7qNykwRA-YvcdK.jpg"
+    },
+    {
+      "texto": "Por isso",
+      "destaque": [],
+      "imagem": "banco/1Mq3w39C0tHt18Gt219DSjMoqlGWgcaD1.jpg"
+    },
+    {
+      "texto": "você vai se salvar.",
+      "destaque": [
+        "salvar.",
+        "você"
+      ],
+      "imagem": "banco/1-evnHXpNAc-zVLa-R11ynN9mctqTC00u.jpg",
+      "impacto": true
+    }
+  ],
+  "assinatura": "@pvedicoes"
+}
