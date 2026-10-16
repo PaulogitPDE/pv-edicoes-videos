@@ -1,0 +1,77 @@
+{
+  "musica": "banco/phonk-gym.mp3",
+  "inicioMusica": 7.2,
+  "cta": "Segue o PV Edições.",
+  "cenas": [
+    {
+      "texto": "Desistir custa um sonho.",
+      "destaque": [
+        "sonho."
+      ],
+      "imagem": "banco/15ZO6lxuuoZbZT7EsR76sEyzp4biyVsXM.jpg",
+      "tempos": [
+        0,
+        26,
+        38,
+        44
+      ],
+      "duracao": 74
+    },
+    {
+      "texto": "O cansaço passa.",
+      "destaque": [
+        "passa."
+      ],
+      "imagem": "banco/1FZYoijxjfk-ptXi-Bp6crp9f2rMOtGJ5.jpg",
+      "tempos": [
+        0,
+        5,
+        24
+      ],
+      "duracao": 52
+    },
+    {
+      "texto": "O arrependimento fica.",
+      "destaque": [
+        "arrependimento"
+      ],
+      "imagem": "banco/1Pw17x0evtNQbSUfT0lJeqU3afKmf0NYC.jpg",
+      "tempos": [
+        0,
+        4,
+        27
+      ],
+      "duracao": 57
+    },
+    {
+      "texto": "Então levanta.",
+      "destaque": [
+        "levanta."
+      ],
+      "imagem": "banco/13AwKr2HpH9MwVXV3SwaIUrR6huPI1ZVl.jpg",
+      "impacto": true,
+      "tempos": [
+        0,
+        32
+      ],
+      "duracao": 68
+    },
+    {
+      "texto": "Mais uma vez.",
+      "destaque": [
+        "vez."
+      ],
+      "imagem": "banco/1x8gw4OYELnDpje41vhsoi9szYSNgTTEx.jpg",
+      "impacto": true,
+      "tempos": [
+        0,
+        14,
+        21
+      ],
+      "duracao": 49
+    }
+  ],
+  "assinatura": "@pvedicoes",
+  "narracao": "narr-2026-10-16-b.mp3",
+  "duracaoFinal": 102
+}

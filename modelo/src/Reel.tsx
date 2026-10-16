@@ -6,8 +6,8 @@ const fonte = 'Inter';
 [700, 800].forEach((w) => loadFont({family: fonte, url: staticFile(`inter-latin-${w}-normal.woff2`), weight: String(w)}));
 const fonteKanji = "'WenQuanYi Zen Hei', 'Noto Sans CJK JP', sans-serif";
 
-export type Cena = {texto: string; destaque?: string[]; kanji?: string; impacto?: boolean; imagem?: string; foco?: string};
-export type Roteiro = {cenas: Cena[]; musica?: string; inicioMusica?: number; vozFinal?: string; assinatura?: string};
+export type Cena = {texto: string; destaque?: string[]; kanji?: string; impacto?: boolean; imagem?: string; foco?: string; tempos?: number[]; duracao?: number};
+export type Roteiro = {cenas: Cena[]; musica?: string; inicioMusica?: number; vozFinal?: string; narracao?: string; duracaoFinal?: number; cta?: string; voz?: string; assinatura?: string};
 
 // Ritmo: 1 palavra a cada meio tempo (120 bpm = 15 frames por tempo).
 const POR_PALAVRA = 8;
@@ -16,8 +16,8 @@ const FINAL = 60;
 const VERMELHO = '#E5192E';
 const BRANCO = '#F4F1EA';
 
-const duracaoCena = (c: Cena) => c.texto.split(' ').length * POR_PALAVRA + SEGURA + (c.impacto ? 14 : 0);
-const duracaoFinal = (r: Roteiro) => (r.vozFinal ? 135 : FINAL);
+const duracaoCena = (c: Cena) => c.duracao ?? c.texto.split(' ').length * POR_PALAVRA + SEGURA + (c.impacto ? 14 : 0);
+const duracaoFinal = (r: Roteiro) => r.duracaoFinal ?? (r.vozFinal ? 135 : FINAL);
 export const duracaoTotal = (r: Roteiro) => r.cenas.reduce((a, c) => a + duracaoCena(c), 0) + duracaoFinal(r);
 
 const clamp = {extrapolateLeft: 'clamp' as const, extrapolateRight: 'clamp' as const};
@@ -67,10 +67,10 @@ const FrameManga: React.FC<{src: string; foco?: string; dur: number; palavras: n
   );
 };
 
-const Palavra: React.FC<{t: string; i: number; vermelha: boolean}> = ({t, i, vermelha}) => {
+const Palavra: React.FC<{t: string; i: number; vermelha: boolean; ini?: number}> = ({t, i, vermelha, ini: iniDado}) => {
   const f = useCurrentFrame();
   const {fps} = useVideoConfig();
-  const ini = i * POR_PALAVRA;
+  const ini = iniDado ?? i * POR_PALAVRA;
   const s = spring({frame: f - ini, fps, config: {damping: 11, mass: 0.6, stiffness: 180}});
   const tremor = f - ini < 6 && f >= ini ? (random(`t${i}-${f}`) - 0.5) * 18 : 0;
   return (
@@ -102,7 +102,7 @@ const CenaView: React.FC<{c: Cena; n: number; dur: number}> = ({c, n, dur}) => {
       <div style={{position: 'absolute', inset: 36, border: `5px solid ${BRANCO}`, outline: '14px solid #000', borderRadius: 6, opacity: 0.85}} />
       <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', padding: '0 90px'}}>
         <div style={{fontFamily: fonte, fontWeight: 800, fontSize: tamanho, lineHeight: 1.08, letterSpacing: -2, textAlign: 'center', textTransform: 'uppercase'}}>
-          {palavras.map((p, i) => <Palavra key={i} t={p} i={i} vermelha={(c.destaque || []).includes(p)} />)}
+          {palavras.map((p, i) => <Palavra key={i} t={p} i={i} ini={c.tempos?.[i]} vermelha={(c.destaque || []).includes(p)} />)}
         </div>
       </AbsoluteFill>
       <AbsoluteFill style={{background: '#fff', opacity: flash}} />
@@ -128,7 +128,8 @@ export const Reel: React.FC<Roteiro> = (r) => {
   const total = duracaoTotal(r);
   return (
     <AbsoluteFill style={{background: '#000'}}>
-      {r.musica && <Audio src={staticFile(r.musica)} startFrom={Math.round((r.inicioMusica || 0) * 30)} volume={(f) => interpolate(f, [0, 8, total - duracaoFinal(r), total - duracaoFinal(r) + 10, total - 15, total], [0, 1, 1, r.vozFinal ? 0.35 : 1, r.vozFinal ? 0.35 : 1, 0], clamp)} />}
+      {r.narracao && <Audio src={staticFile(r.narracao)} volume={1} />}
+      {r.musica && <Audio src={staticFile(r.musica)} startFrom={Math.round((r.inicioMusica || 0) * 30)} volume={(f) => (r.narracao ? 0.3 : 1) * interpolate(f, [0, 8, total - duracaoFinal(r), total - duracaoFinal(r) + 10, total - 15, total], [0, 1, 1, r.vozFinal ? 0.35 : 1, r.vozFinal ? 0.35 : 1, 0], clamp)} />}
       {r.cenas.map((c, n) => {
         const d = duracaoCena(c);
         const el = (
