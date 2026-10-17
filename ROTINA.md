@@ -8,7 +8,7 @@
 
 ## Regras fixas (Sr Pv, 16/10/2026)
 - **2 reels por dia** (11h46 e 18h46). Cada disparo posta 1, só se o `log.md` tiver menos de 2 postagens hoje.
-- **Narração masculina da ElevenLabs em TODO vídeo**: `python3 modelo/scripts/narrar.py modelo/roteiros/<arquivo>.json` (voz padrão Adam pNInz6obpgDQGcFmaJgB; alternativa Eric cjVigY5qzO86Huf0OWal). O script sincroniza as palavras com a fala e põe o CTA (campo `cta`) no cartão final.
+- **Narração masculina da ElevenLabs em TODO vídeo**: `cd modelo && python3 scripts/narrar.py roteiros/<arquivo>.json` (rodar DENTRO de modelo/) (voz padrão Adam pNInz6obpgDQGcFmaJgB; alternativa Eric cjVigY5qzO86Huf0OWal). O script sincroniza as palavras com a fala e põe o CTA (campo `cta`) no cartão final.
 - Orçamento ElevenLabs grátis: 10 mil caracteres/mês para ~60 vídeos → **máximo ~110 caracteres por vídeo, CTA incluso**. Conferir saldo em GET /v1/user/subscription antes; se faltar, avisar na thread.
 - Frases de abertura sugeridas por ele (usar e variar): "Não desista", "Supere seus limites", "Você não tem inimigos", "Desistir custa um sonho" (já usada em 16/10).
 - Frases curtas, 4 a 6 cenas, uma imagem do banco por cena, sem repetir imagens do dia anterior.

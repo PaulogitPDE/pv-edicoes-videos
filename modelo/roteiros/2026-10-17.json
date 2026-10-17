@@ -8,19 +8,38 @@
       "destaque": [
         "desista."
       ],
-      "imagem": "banco/1sEVBmbLPIp1XcCVmBzrzWT1-hxtzZUqG.jpg"
+      "imagem": "banco/1sEVBmbLPIp1XcCVmBzrzWT1-hxtzZUqG.jpg",
+      "tempos": [
+        0,
+        8
+      ],
+      "duracao": 44
     },
     {
       "texto": "Ninguém viu suas noites.",
       "destaque": [
         "noites."
       ],
-      "imagem": "banco/1D7gCeYJY3BkikouD5oZdIc69gIj_IC1l.jpg"
+      "imagem": "banco/1D7gCeYJY3BkikouD5oZdIc69gIj_IC1l.jpg",
+      "tempos": [
+        0,
+        19,
+        26,
+        36
+      ],
+      "duracao": 61
     },
     {
       "texto": "Mas todos vão ver",
       "destaque": [],
-      "imagem": "banco/167hYmmtHy7jOit5Asd4TLCBBqDC7CXZW.jpg"
+      "imagem": "banco/167hYmmtHy7jOit5Asd4TLCBBqDC7CXZW.jpg",
+      "tempos": [
+        0,
+        10,
+        24,
+        30
+      ],
+      "duracao": 42
     },
     {
       "texto": "o seu resultado.",
@@ -28,8 +47,16 @@
         "resultado."
       ],
       "imagem": "banco/1vENsvLfpdrYjkFCCjT-TtYWCWhCf-69y.jpg",
-      "impacto": true
+      "impacto": true,
+      "tempos": [
+        0,
+        2,
+        7
+      ],
+      "duracao": 43
     }
   ],
-  "assinatura": "@pvedicoes"
+  "assinatura": "@pvedicoes",
+  "narracao": "narr-2026-10-17.mp3",
+  "duracaoFinal": 98
 }
