@@ -8,19 +8,37 @@
       "destaque": [
         "limites."
       ],
-      "imagem": "banco/1wL3jxuFE1rIV7ZqhMhThIRjklJFDqzrf.jpg"
+      "imagem": "banco/1wL3jxuFE1rIV7ZqhMhThIRjklJFDqzrf.jpg",
+      "tempos": [
+        0,
+        19,
+        28
+      ],
+      "duracao": 52
     },
     {
       "texto": "Eles só existem",
       "destaque": [],
-      "imagem": "banco/1S8Wm80pXZdR7adwdiIbMoOEQfJZpa6mp.jpg"
+      "imagem": "banco/1S8Wm80pXZdR7adwdiIbMoOEQfJZpa6mp.jpg",
+      "tempos": [
+        0,
+        9,
+        18
+      ],
+      "duracao": 34
     },
     {
       "texto": "na sua cabeça.",
       "destaque": [
         "cabeça."
       ],
-      "imagem": "banco/1vIW3LzCh-JjynfW41VgHr18y5akniBn-.jpg"
+      "imagem": "banco/1vIW3LzCh-JjynfW41VgHr18y5akniBn-.jpg",
+      "tempos": [
+        0,
+        4,
+        11
+      ],
+      "duracao": 42
     },
     {
       "texto": "Vai além.",
@@ -28,8 +46,15 @@
         "além."
       ],
       "imagem": "banco/1Zan5ZnIvE95P2lRAdyO7XYgRUatnU1SP.jpg",
-      "impacto": true
+      "impacto": true,
+      "tempos": [
+        0,
+        10
+      ],
+      "duracao": 36
     }
   ],
-  "assinatura": "@pvedicoes"
+  "assinatura": "@pvedicoes",
+  "narracao": "narr-2026-10-18.mp3",
+  "duracaoFinal": 90
 }
