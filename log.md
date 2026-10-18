@@ -6,3 +6,4 @@
 - 2026-10-17 · Não desista (narração Adam) · https://www.instagram.com/reel/DemXP9Fkrk9/
 - 2026-10-17 · Não é sorte (narração Adam) · https://www.instagram.com/reel/DenHERRE5_I/
 - 2026-10-18 · Supere seus limites (narração Adam) · https://www.instagram.com/reel/Deo7xcIiiuI/
+- 2026-10-18 · Você não tem inimigos (narração Adam) · https://www.instagram.com/reel/Depr6lTE3sH/
