@@ -8,17 +8,36 @@
       "destaque": [
         "inimigos."
       ],
-      "imagem": "banco/1NrRIeKiRyW_erRqYB1bSzxRBQxONQ7Zv.jpg"
+      "imagem": "banco/1NrRIeKiRyW_erRqYB1bSzxRBQxONQ7Zv.jpg",
+      "tempos": [
+        0,
+        10,
+        15,
+        22
+      ],
+      "duracao": 63
     },
     {
       "texto": "Você tem preguiça,",
       "destaque": [],
-      "imagem": "banco/18C1eNwcOOM_AvibEDalLfb8ZYN6SM6Cp.jpg"
+      "imagem": "banco/18C1eNwcOOM_AvibEDalLfb8ZYN6SM6Cp.jpg",
+      "tempos": [
+        0,
+        9,
+        14
+      ],
+      "duracao": 39
     },
     {
       "texto": "medo e desculpas.",
       "destaque": [],
-      "imagem": "banco/15ZO6lxuuoZbZT7EsR76sEyzp4biyVsXM.jpg"
+      "imagem": "banco/15ZO6lxuuoZbZT7EsR76sEyzp4biyVsXM.jpg",
+      "tempos": [
+        0,
+        15,
+        17
+      ],
+      "duracao": 52
     },
     {
       "texto": "Vença os três.",
@@ -26,8 +45,16 @@
         "três."
       ],
       "imagem": "banco/1Eodrt1rzS8V-vjWCsgWbYrDSVUzlsDo7.jpg",
-      "impacto": true
+      "impacto": true,
+      "tempos": [
+        0,
+        15,
+        20
+      ],
+      "duracao": 44
     }
   ],
-  "assinatura": "@pvedicoes"
+  "assinatura": "@pvedicoes",
+  "narracao": "narr-2026-10-18-b.mp3",
+  "duracaoFinal": 90
 }
