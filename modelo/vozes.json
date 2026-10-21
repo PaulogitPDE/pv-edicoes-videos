@@ -1,0 +1,14 @@
+{
+  "obs": "Rodízio de vozes masculinas premade (plano grátis só aceita premade). narrar.py usa 'proxima' e avança. Pedido do Sr Pv 21/10: trocar a voz a cada vídeo para comparar engajamento.",
+  "proxima": 1,
+  "lista": [
+    {"id": "pNInz6obpgDQGcFmaJgB", "nome": "Adam"},
+    {"id": "nPczCjzI2devNBz1zQrb", "nome": "Brian"},
+    {"id": "SOYHLrjzK2X1ezoPC6cr", "nome": "Harry"},
+    {"id": "JBFqnCBsd6RMkjVDRZzb", "nome": "George"},
+    {"id": "pqHfZKP75CvOlQylNhV4", "nome": "Bill"},
+    {"id": "IKne3meq5aSn9XLyUdCD", "nome": "Charlie"},
+    {"id": "CwhRBWXzGAHq8TQ4Fs17", "nome": "Roger"},
+    {"id": "cjVigY5qzO86Huf0OWal", "nome": "Eric"}
+  ]
+}

@@ -11,7 +11,14 @@ POR_PALAVRA, SEGURA = 8, 26
 caminho = sys.argv[1]
 r = json.load(open(caminho, encoding='utf-8'))
 nome = os.path.splitext(os.path.basename(caminho))[0]
-voz = r.get('voz', VOZ_PADRAO)
+# Rodízio (vozes.json): cada vídeo novo pega a próxima voz, a não ser que o roteiro já fixe "voz".
+if 'voz' not in r:
+    rod = json.load(open('vozes.json', encoding='utf-8'))
+    v = rod['lista'][rod['proxima'] % len(rod['lista'])]
+    r['voz'], r['vozNome'] = v['id'], v['nome']
+    rod['proxima'] = (rod['proxima'] + 1) % len(rod['lista'])
+    json.dump(rod, open('vozes.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
+voz = r['voz']
 total_chars = 0
 
 
@@ -56,4 +63,4 @@ for k in ('narracao', 'duracaoFinal', 'vozFinal', 'cta'):
     r.pop(k, None)
 json.dump(r, open(caminho, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
 seg = sum(c.get('duracao') or (round(len(c['texto'].split()) * POR_PALAVRA * (1.6 if c.get('impacto') else 1)) + SEGURA + (22 if c.get('impacto') else 0)) for c in r['cenas']) / FPS + 2
-print('ok', nome, f'~{seg:.1f} s de vídeo,', total_chars, 'caracteres narrados')
+print('ok', nome, 'voz', r.get('vozNome', voz), f'~{seg:.1f} s de vídeo,', total_chars, 'caracteres narrados')
