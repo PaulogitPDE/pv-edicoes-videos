@@ -58,7 +58,7 @@ JSON: `layout` (frase | data | chat | numero | lista | antes_depois), `headline`
 ## Trend (segunda, quarta e sexta, 10h27) — rotina à parte
 1. Pesquisar (WebSearch) o assunto que está bombando no Brasil **nesta semana** (futebol, novela, reality, meme, lançamento, celebridade, algo viral). Evitar tragédia, morte, doença grave, política partidária e religião.
 2. Fazer um post no estilo do **prefeito Manga de Sorocaba**: um gancho que puxa o assunto do momento, quase "nada a ver", e vira para o CRM que vende numa frase. Todo mundo sabe que não tem nada a ver, e é isso que engaja. Ex.: "Fulano fez X essa semana. Enquanto isso, sua paciente tá há 3 dias esperando resposta." Não precisa vender a oferta; basta a chamada de atenção + uma frase sobre o CRM que vende.
-3. Formato padrão: post de imagem `layout: frase` com `rotulo: "tá todo mundo falando"`. Se o assunto pedir, pode ser um reel curto (gancho + 1 cena + cta, ~10 s). Arquivos `<data>-trend.*`; CTA do cronograma.
+3. Formato padrão: post de imagem `layout: frase` (ou carrossel de 3 a 5 imagens, como o do debate em `crm/posts/2026-10-21-trend-*.json`; `publicar.py` aceita várias imagens) com `rotulo: "tá todo mundo falando"`. Se o assunto pedir, pode ser um reel curto (gancho + 1 cena + cta, ~10 s). Arquivos `<data>-trend.*`; CTA do cronograma.
 4. Publicar e anotar no log como `trend`, citando o assunto. Não usar imagem, logo ou foto de terceiros; só o nosso motor.
 
 ## Cronograma do mês (dia 25, 10h07)
