@@ -14,8 +14,8 @@
 - Orçamento ElevenLabs grátis: 10 mil caracteres/mês → ~70 caracteres narrados por vídeo. Conferir saldo em GET /v1/user/subscription antes; se faltar, avisar na thread.
 - Frases de abertura sugeridas por ele (usar e variar): "Não desista", "Supere seus limites", "Você não tem inimigos", "Desistir custa um sonho" (já usada em 16/10).
 - **Duração dobrada** (Sr Pv, 21/10): 7 a 9 cenas curtas, ~18–22 s no total (antes eram ~9 s). Uma imagem do banco por cena, sem repetir imagens do dia anterior.
-- **Motion nas frases de impacto** (Sr Pv, 21/10): marcar `"impacto": true` na frase forte (normalmente a última, às vezes a virada). O modelo faz a palavra bater na tela com desfoque, separação RGB, tremida, flash vermelho e risco embaixo.
-- **Motion só com código próprio** (Sr Pv, 21/10): efeitos feitos à mão no `Reel.tsx` com `interpolate`, `spring`, `random` do Remotion + CSS/SVG. Não instalar pacote extra de animação/efeitos (nada de @remotion/transitions, lottie, motion libs etc.). Dependências permitidas: remotion, @remotion/cli, @remotion/fonts (só carrega a fonte local), react.
+- **Motion nas frases de impacto** (Sr Pv, 21/10): marcar `"impacto": true` na frase forte (normalmente a última, às vezes a virada). O motor faz a palavra bater na tela com desfoque, separação RGB, tremida, flash vermelho e risco embaixo.
+- **Sem Remotion e sem biblioteca de motion** (Sr Pv, 21/10): o vídeo e a imagem são feitos pelo nosso próprio código em `motor/` (Python desenhando cada frame com Pillow/numpy, ffmpeg só codifica). Toda animação (zoom, tremida, pop das palavras, frase de impacto, linhas de velocidade, flash) é calculada à mão em `motor/reel.py`. Não instalar Remotion, nem pacotes de animação/efeitos.
 
 ## Todo dia (postagem)
 0. Se `log.md` já tem 2 postagens com a data de hoje (fuso America/Sao_Paulo), NÃO postar: só atualizar o status e parar. Nomes de arquivo: `<hoje>.json` para o 1º e `<hoje>-b.json` para o 2º.
@@ -24,7 +24,7 @@
    - Música: um phonk da pasta Músicas do Drive em `modelo/public/banco/`, com `inicioMusica` no drop (ponto onde o volume sobe). Na falta, usar `gerar_beat.py`.
    - Narração: rodar `scripts/narrar.py` (ver Regras fixas) antes do render. Se `postados/<arquivo>.mp4` já existe no git e o roteiro já tem `audio` nas cenas, pular narração e render (já foi preparado) e ir direto ao passo 5.
 2. (Só se não houver phonk do Drive) `python3 modelo/scripts/gerar_beat.py modelo/public/beat.wav 30 <AAAAMMDD>`.
-3. `cd modelo && npm i && npx remotion render src/index.ts Reel ../postados/<hoje>.mp4 --codec h264 --crf 24 --props=roteiros/<hoje>.json --browser-executable=/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell`
+3. `python3 motor/reel.py modelo/roteiros/<hoje>.json postados/<hoje>.mp4` (na raiz do repo; ~1–2 min). Conferir alguns frames com ffmpeg antes de postar.
 4. Commit + push do MP4 (o Instagram baixa pelo link raw).
 5. `python3 modelo/scripts/publicar.py postados/<hoje>.mp4 modelo/roteiros/<hoje>.txt`
 6. Anotar data, link e tema em `log.md`, commit + push.
@@ -35,6 +35,6 @@
 2. Escrever `modelo/posts/<arquivo>.json`: `imagem`, `headline` (curta e chamativa, em pt-BR, original), `destaque` (1 palavra exatamente como na headline, com pontuação, vira tarja vermelha), `sub` (linha aesthetic em minúsculas, serifa itálica), `pb` true para mangá P&B, `posicao` "topo" se o rosto/ação estiver embaixo, `foco` se precisar.
    - O texto faz uma crítica ligada ao que acontece no painel (o personagem, a cena) OU é uma frase filosófica original que faça pensar. Nada de frase famosa copiada, nada de motivação genérica de reel.
 3. Legenda `modelo/posts/<arquivo>.txt`: 2–4 linhas aesthetic (minúsculas, ritmo poético), uma pergunta que puxe comentário, e hashtags (#anime #manga #aesthetic #reflexão #pvedicoes + 2–3 do personagem/obra).
-4. `cd modelo && npx remotion still src/index.ts Post ../postados-img/<arquivo>.jpg --props=posts/<arquivo>.json --image-format=jpeg --jpeg-quality=92 --browser-executable=/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell`. Abrir o JPG e conferir (texto legível, não cobre o rosto).
+4. `python3 motor/post.py modelo/posts/<arquivo>.json postados-img/<arquivo>.jpg` (na raiz do repo). Abrir o JPG e conferir (texto legível, não cobre o rosto).
 5. Commit + push, depois `python3 modelo/scripts/publicar_imagem.py postados-img/<arquivo>.jpg modelo/posts/<arquivo>.txt`.
 6. Anotar em `log-imagens.md`: `- data · headline · imagem <id> · link`, commit + push. Sucesso: só atualizar o status da thread; reply só se falhar.
