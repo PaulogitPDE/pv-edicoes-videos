@@ -8,7 +8,15 @@
         "comparar."
       ],
       "imagem": "banco/1sMtOP-nbzCbm01WLgSMTdcMZLohdH-9r.jpg",
-      "narrar": true
+      "narrar": true,
+      "audio": "narr-2026-10-21-b-0.mp3",
+      "tempos": [
+        0,
+        9,
+        13,
+        17
+      ],
+      "duracao": 58
     },
     {
       "texto": "Ele começou antes.",
@@ -38,7 +46,17 @@
         "tempo."
       ],
       "imagem": "banco/1DP6EDXP1KOAwfOTQsGv78tDfauvCfayx.jpg",
-      "narrar": true
+      "narrar": true,
+      "audio": "narr-2026-10-21-b-5.mp3",
+      "tempos": [
+        0,
+        11,
+        16,
+        21,
+        23,
+        28
+      ],
+      "duracao": 74
     },
     {
       "texto": "Corre a sua corrida.",
@@ -54,8 +72,17 @@
       ],
       "imagem": "banco/1G82mhoCSEV8UsZ4U81NG0q1zLBi6hVG8.jpg",
       "narrar": true,
-      "impacto": true
+      "impacto": true,
+      "audio": "narr-2026-10-21-b-7.mp3",
+      "tempos": [
+        0,
+        6,
+        12
+      ],
+      "duracao": 86
     }
   ],
-  "assinatura": "@pvedicoes"
+  "assinatura": "@pvedicoes",
+  "voz": "nPczCjzI2devNBz1zQrb",
+  "vozNome": "Brian"
 }
