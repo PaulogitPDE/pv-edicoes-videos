@@ -1,0 +1,332 @@
+{
+ "mes": "2026-10",
+ "horarios_brt": {
+  "p1": "08:37",
+  "r1": "12:17",
+  "p2": "17:37",
+  "r2": "19:57",
+  "trend": "10:27"
+ },
+ "dias": [
+  {
+   "data": "2026-10-22",
+   "semana": "quinta",
+   "pilar": "Quinta da conta: quanto a clínica perde",
+   "data_comemorativa": null,
+   "p1": {
+    "hora": "08:37",
+    "tema": "3 faltas por semana custam mais do que você imagina",
+    "layout": "numero",
+    "cta": "direct"
+   },
+   "r1": {
+    "hora": "12:17",
+    "tema": "Ela disse \"vou pensar\" e sumiu (implante)",
+    "cenas": "gancho, chat, gancho, timeline, leads, cta",
+    "cta": "direct"
+   },
+   "p2": {
+    "hora": "17:37",
+    "tema": "Garantia: no ar em 7 dias úteis",
+    "layout": "frase",
+    "cta": "comenta"
+   },
+   "r2": {
+    "hora": "19:57",
+    "tema": "A licença do Kommo é à parte (sem pegadinha)",
+    "cenas": "gancho, lista, cta",
+    "cta": "direct"
+   }
+  },
+  {
+   "data": "2026-10-23",
+   "semana": "sexta",
+   "pilar": "Sextou: leve, com a oferta e as vagas de fundador",
+   "data_comemorativa": null,
+   "p1": {
+    "hora": "08:37",
+    "tema": "7 dias ou você não paga",
+    "layout": "frase",
+    "cta": "bio"
+   },
+   "r1": {
+    "hora": "12:17",
+    "tema": "Sextou com agenda cheia na segunda",
+    "cenas": "gancho, leads, numero, cta",
+    "cta": "comenta"
+   },
+   "p2": {
+    "hora": "17:37",
+    "tema": "Raio-x de 15 minutos: as 5 perguntas",
+    "layout": "lista",
+    "cta": "direct"
+   },
+   "r2": {
+    "hora": "19:57",
+    "tema": "Antes x depois do WhatsApp da clínica",
+    "cenas": "gancho, chat, leads, cta",
+    "cta": "bio"
+   },
+   "trend": {
+    "hora": "10:27",
+    "tema": "pesquisar no dia o assunto do momento e ligar ao CRM que vende (estilo gancho \"nada a ver\")",
+    "cta": "comenta"
+   }
+  },
+  {
+   "data": "2026-10-24",
+   "semana": "sábado",
+   "pilar": "Sábado de dica rápida",
+   "data_comemorativa": null,
+   "p1": {
+    "hora": "08:37",
+    "tema": "Responda em até 5 minutos",
+    "layout": "numero",
+    "cta": "comenta"
+   },
+   "r1": {
+    "hora": "12:17",
+    "tema": "Uma palavra fácil de responder: \"quero\"",
+    "cenas": "gancho, chat, cta",
+    "cta": "direct"
+   },
+   "p2": {
+    "hora": "17:37",
+    "tema": "Implante sem retorno",
+    "layout": "chat",
+    "cta": "bio"
+   },
+   "r2": {
+    "hora": "19:57",
+    "tema": "Toda paciente que disse \"vou pensar\" recebe 4 mensagens",
+    "cenas": "gancho, timeline, chat, cta",
+    "cta": "comenta"
+   }
+  },
+  {
+   "data": "2026-10-25",
+   "semana": "domingo",
+   "pilar": "Domingo de reflexão e planejamento da semana",
+   "data_comemorativa": "Dia do Dentista",
+   "p1": {
+    "hora": "08:37",
+    "tema": "Dia do Dentista: Parabéns a quem cuida do sorriso; o follow-up cuida do orçamento",
+    "layout": "data",
+    "cta": "direct"
+   },
+   "r1": {
+    "hora": "12:17",
+    "tema": "Dia do Dentista: Parabéns a quem cuida do sorriso; o follow-up cuida do orçamento",
+    "cenas": "data, gancho, (cena do tema), cta",
+    "cta": "bio"
+   },
+   "p2": {
+    "hora": "17:37",
+    "tema": "Lentes: a paciente que pede 3 orçamentos",
+    "layout": "chat",
+    "cta": "comenta"
+   },
+   "r2": {
+    "hora": "19:57",
+    "tema": "Orçamento que Volta: o que é, em 20 segundos",
+    "cenas": "gancho, timeline, leads, cta",
+    "cta": "direct"
+   }
+  },
+  {
+   "data": "2026-10-26",
+   "semana": "segunda",
+   "pilar": "Segunda da dor: o orçamento que some",
+   "data_comemorativa": null,
+   "p1": {
+    "hora": "08:37",
+    "tema": "\"Visto por último há 9 dias\"",
+    "layout": "chat",
+    "cta": "bio"
+   },
+   "r1": {
+    "hora": "12:17",
+    "tema": "A recepcionista faltou: com quem ela estava falando?",
+    "cenas": "gancho, chat, lista, cta",
+    "cta": "comenta"
+   },
+   "p2": {
+    "hora": "17:37",
+    "tema": "Botox: o \"depois eu vejo\"",
+    "layout": "chat",
+    "cta": "direct"
+   },
+   "r2": {
+    "hora": "19:57",
+    "tema": "Garantia: no ar em 7 dias úteis ou você não paga",
+    "cenas": "gancho, timeline, numero, cta",
+    "cta": "bio"
+   },
+   "trend": {
+    "hora": "10:27",
+    "tema": "pesquisar no dia o assunto do momento e ligar ao CRM que vende (estilo gancho \"nada a ver\")",
+    "cta": "comenta"
+   }
+  },
+  {
+   "data": "2026-10-27",
+   "semana": "terça",
+   "pilar": "Terça de bastidor: o funil e as automações no Kommo",
+   "data_comemorativa": null,
+   "p1": {
+    "hora": "08:37",
+    "tema": "Funil de orçamentos: 4 colunas que organizam tudo",
+    "layout": "lista",
+    "cta": "comenta"
+   },
+   "r1": {
+    "hora": "12:17",
+    "tema": "Como fica o funil de orçamentos no Kommo",
+    "cenas": "gancho, leads, timeline, cta",
+    "cta": "direct"
+   },
+   "p2": {
+    "hora": "17:37",
+    "tema": "O que entra no Orçamento que Volta",
+    "layout": "lista",
+    "cta": "bio"
+   },
+   "r2": {
+    "hora": "19:57",
+    "tema": "3 vagas de fundador a R$ 997",
+    "cenas": "gancho, numero, lista, cta",
+    "cta": "comenta"
+   }
+  },
+  {
+   "data": "2026-10-28",
+   "semana": "quarta",
+   "pilar": "Quarta de objeção: mito x verdade",
+   "data_comemorativa": null,
+   "p1": {
+    "hora": "08:37",
+    "tema": "CRM não é pra empresa grande. É pra quem manda orçamento.",
+    "layout": "frase",
+    "cta": "direct"
+   },
+   "r1": {
+    "hora": "12:17",
+    "tema": "\"Minha recepcionista já faz isso\"",
+    "cenas": "gancho, lista, timeline, cta",
+    "cta": "bio"
+   },
+   "p2": {
+    "hora": "17:37",
+    "tema": "Antes x depois do follow-up",
+    "layout": "antes_depois",
+    "cta": "comenta"
+   },
+   "r2": {
+    "hora": "19:57",
+    "tema": "O kit de 4 mensagens grátis (manda FUNIL)",
+    "cenas": "gancho, timeline, cta direct",
+    "cta": "direct"
+   },
+   "trend": {
+    "hora": "10:27",
+    "tema": "pesquisar no dia o assunto do momento e ligar ao CRM que vende (estilo gancho \"nada a ver\")",
+    "cta": "bio"
+   }
+  },
+  {
+   "data": "2026-10-29",
+   "semana": "quinta",
+   "pilar": "Quinta da conta: quanto a clínica perde",
+   "data_comemorativa": null,
+   "p1": {
+    "hora": "08:37",
+    "tema": "Quanto vale um implante que voltou",
+    "layout": "numero",
+    "cta": "bio"
+   },
+   "r1": {
+    "hora": "12:17",
+    "tema": "Quanto vale 1 orçamento recuperado por semana",
+    "cenas": "gancho, numero, desenho grafico, cta",
+    "cta": "comenta"
+   },
+   "p2": {
+    "hora": "17:37",
+    "tema": "A regra de ouro: cada mensagem tem um motivo novo",
+    "layout": "frase",
+    "cta": "direct"
+   },
+   "r2": {
+    "hora": "19:57",
+    "tema": "Raio-x de 15 minutos dos seus orçamentos parados",
+    "cenas": "gancho, lista, numero, cta bio",
+    "cta": "bio"
+   }
+  },
+  {
+   "data": "2026-10-30",
+   "semana": "sexta",
+   "pilar": "Sextou: leve, com a oferta e as vagas de fundador",
+   "data_comemorativa": null,
+   "p1": {
+    "hora": "08:37",
+    "tema": "Sextou com a agenda da segunda já cheia",
+    "layout": "frase",
+    "cta": "comenta"
+   },
+   "r1": {
+    "hora": "12:17",
+    "tema": "Sextou e o WhatsApp continua trabalhando",
+    "cenas": "gancho, leads, timeline, cta",
+    "cta": "direct"
+   },
+   "p2": {
+    "hora": "17:37",
+    "tema": "A última mensagem é a que mais traz resposta",
+    "layout": "chat",
+    "cta": "bio"
+   },
+   "r2": {
+    "hora": "19:57",
+    "tema": "Implante: o orçamento mais caro de perder",
+    "cenas": "gancho, chat, leads, cta",
+    "cta": "comenta"
+   },
+   "trend": {
+    "hora": "10:27",
+    "tema": "pesquisar no dia o assunto do momento e ligar ao CRM que vende (estilo gancho \"nada a ver\")",
+    "cta": "direct"
+   }
+  },
+  {
+   "data": "2026-10-31",
+   "semana": "sábado",
+   "pilar": "Sábado de dica rápida",
+   "data_comemorativa": "Halloween",
+   "p1": {
+    "hora": "08:37",
+    "tema": "Halloween: O terror da clínica: o orçamento fantasma que nunca respondeu",
+    "layout": "data",
+    "cta": "direct"
+   },
+   "r1": {
+    "hora": "12:17",
+    "tema": "Halloween: O terror da clínica: o orçamento fantasma que nunca respondeu",
+    "cenas": "data, gancho, (cena do tema), cta",
+    "cta": "bio"
+   },
+   "p2": {
+    "hora": "17:37",
+    "tema": "Kommo + WhatsApp: o que muda na recepção",
+    "layout": "antes_depois",
+    "cta": "comenta"
+   },
+   "r2": {
+    "hora": "19:57",
+    "tema": "Lentes de contato dental: a paciente que compara preço",
+    "cenas": "gancho, chat, timeline, cta",
+    "cta": "direct"
+   }
+  }
+ ]
+}
