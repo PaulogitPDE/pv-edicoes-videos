@@ -20,7 +20,7 @@
 ## Todo dia (postagem)
 0. Se `log.md` já tem 2 postagens com a data de hoje (fuso America/Sao_Paulo), NÃO postar: só atualizar o status e parar. Nomes de arquivo: `<hoje>.json` para o 1º e `<hoje>-b.json` para o 2º.
 1. Pegar `modelo/roteiros/<hoje>.json`. Se não existir, criar um na hora no mesmo estilo.
-   - Formato preferido: frames de mangá (`imagem` em cada cena) das pastas boas do Drive "PV Edições – banco" (Mangá - ação e shōnen, Mangá - emocional e aesthetic, Aesthetic colorido; ver "LEIA - Índice do banco.txt" e `banco/drive-pastas.json`). Baixar com o conector do Drive para `modelo/public/banco/<id>.jpg` (não vai pro git). Não repetir as mesmas imagens de dias seguidos.
+   - Formato preferido: frames de mangá (`imagem` em cada cena) das pastas boas do Drive "PV Edições – banco" (Mangá - ação e shōnen, Mangá - emocional e aesthetic, Aesthetic colorido; ver "LEIA - Índice do banco.txt", "LEIA - Índice do banco (21-10).txt", `banco/novas-2026-10-21.json` com 132 imagens novas e `banco/drive-pastas.json`). Dar preferência às imagens novas até todas serem usadas. Baixar com o conector do Drive para `modelo/public/banco/<id>.jpg` (não vai pro git). Não repetir as mesmas imagens de dias seguidos.
    - Música: um phonk da pasta Músicas do Drive em `modelo/public/banco/`, com `inicioMusica` no drop (ponto onde o volume sobe). Na falta, usar `gerar_beat.py`.
    - Narração: rodar `scripts/narrar.py` (ver Regras fixas) antes do render. Se `postados/<arquivo>.mp4` já existe no git e o roteiro já tem `audio` nas cenas, pular narração e render (já foi preparado) e ir direto ao passo 5.
 2. (Só se não houver phonk do Drive) `python3 modelo/scripts/gerar_beat.py modelo/public/beat.wav 30 <AAAAMMDD>`.
