@@ -1,28 +1,49 @@
 {
   "musica": "banco/12ZYwkV-budqol6WWCHs08dOly6FgkD86.mp3",
   "inicioMusica": 10.0,
-  "cta": "Segue o PV Edições.",
   "cenas": [
     {
       "texto": "Talento te faz começar.",
       "destaque": [
         "começar."
       ],
-      "imagem": "banco/1Pw17x0evtNQbSUfT0lJeqU3afKmf0NYC.jpg"
+      "imagem": "banco/13AwKr2HpH9MwVXV3SwaIUrR6huPI1ZVl.jpg",
+      "narrar": true
     },
     {
-      "texto": "Disciplina",
+      "texto": "Mas talento cansa.",
+      "destaque": [],
+      "imagem": "banco/1-J3EiM3u2g45WAqyr2ZHGhjop2hSnigh.jpg"
+    },
+    {
+      "texto": "Talento desiste.",
+      "destaque": [],
+      "imagem": "banco/1-evnHXpNAc-zVLa-R11ynN9mctqTC00u.jpg"
+    },
+    {
+      "texto": "Talento espera vontade.",
+      "destaque": [],
+      "imagem": "banco/11EMJvzN4HJHueDGBKAAtvCmwFky2kuft.jpg"
+    },
+    {
+      "texto": "Disciplina não espera.",
       "destaque": [
         "Disciplina"
       ],
-      "imagem": "banco/1DaR2grQVtbKlSOBBmD-f-hKCvBr8vGW8.jpg"
+      "imagem": "banco/1D7gCeYJY3BkikouD5oZdIc69gIj_IC1l.jpg"
     },
     {
-      "texto": "te faz terminar.",
+      "texto": "Ela aparece todo dia.",
+      "destaque": [],
+      "imagem": "banco/1sEVBmbLPIp1XcCVmBzrzWT1-hxtzZUqG.jpg"
+    },
+    {
+      "texto": "Disciplina te faz terminar.",
       "destaque": [
         "terminar."
       ],
-      "imagem": "banco/1FZYoijxjfk-ptXi-Bp6crp9f2rMOtGJ5.jpg",
+      "imagem": "banco/1yaAmbW_a19ZInzHDh-CW703V5pW7z_80.jpg",
+      "narrar": true,
       "impacto": true
     }
   ],

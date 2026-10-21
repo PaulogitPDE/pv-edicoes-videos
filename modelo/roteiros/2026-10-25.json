@@ -1,26 +1,56 @@
 {
   "musica": "banco/10DU8VMN3sl_4EbpoxmfoDMwehX8ErjHb.mp3",
   "inicioMusica": 0.0,
-  "cta": "Segue o PV Edições.",
   "cenas": [
     {
       "texto": "Treina em silêncio.",
       "destaque": [
         "silêncio."
       ],
-      "imagem": "banco/12tqVaNWniC_y_Y5xCL7yxnbeJBTOQOcb.jpg"
+      "imagem": "banco/1rMfEuLLalENXX8piQ35e-nz-b08juvsp.jpg",
+      "narrar": true
     },
     {
-      "texto": "Deixa o resultado",
+      "texto": "Sem post.",
       "destaque": [],
-      "imagem": "banco/1ILR0UCkLkPw8vfRdgr5esAbRv9Odac_y.jpg"
+      "imagem": "banco/1vIW3LzCh-JjynfW41VgHr18y5akniBn-.jpg"
+    },
+    {
+      "texto": "Sem anúncio.",
+      "destaque": [],
+      "imagem": "banco/18A2Rzhb20LdJkNOrY8ETAf5415s7ZLFv.jpg"
+    },
+    {
+      "texto": "Sem plateia.",
+      "destaque": [],
+      "imagem": "banco/1CIvsjbVuMvlws6lN5ZWAr5P-slxzQcO0.jpg"
+    },
+    {
+      "texto": "Só trabalho.",
+      "destaque": [
+        "trabalho."
+      ],
+      "imagem": "banco/1vENsvLfpdrYjkFCCjT-TtYWCWhCf-69y.jpg"
+    },
+    {
+      "texto": "Quando chegar a hora",
+      "destaque": [],
+      "imagem": "banco/1Mq3w39C0tHt18Gt219DSjMoqlGWgcaD1.jpg"
+    },
+    {
+      "texto": "deixa o resultado",
+      "destaque": [
+        "resultado"
+      ],
+      "imagem": "banco/1Kh0cWCEEz9y1n87O_tPKXKdcar6OJNUs.jpg"
     },
     {
       "texto": "fazer barulho.",
       "destaque": [
         "barulho."
       ],
-      "imagem": "banco/1Veax9nRherKjGVYn4b6PPPL1SFkYHwfl.jpg",
+      "imagem": "banco/1x8gw4OYELnDpje41vhsoi9szYSNgTTEx.jpg",
+      "narrar": true,
       "impacto": true
     }
   ],

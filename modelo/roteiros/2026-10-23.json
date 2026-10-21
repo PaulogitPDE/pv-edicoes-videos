@@ -1,31 +1,59 @@
 {
   "musica": "banco/13mszfCZ03f7pAGz7qkNKEPHXOWjCfDau.mp3",
   "inicioMusica": 15.0,
-  "cta": "Segue o PV Edições.",
   "cenas": [
     {
       "texto": "Caiu?",
       "destaque": [
         "Caiu?"
       ],
-      "imagem": "banco/1BQueVnueXkw1RrJkiC3w30iWuo5pHIZb.jpg"
+      "imagem": "banco/1D0Ko3otTQRhP9iBu5ccehZ9Y6Q_B1oyS.jpg",
+      "narrar": true
     },
     {
       "texto": "Levanta.",
       "destaque": [
         "Levanta."
       ],
-      "imagem": "banco/1rMfEuLLalENXX8piQ35e-nz-b08juvsp.jpg"
+      "imagem": "banco/167hYmmtHy7jOit5Asd4TLCBBqDC7CXZW.jpg",
+      "narrar": true
     },
     {
-      "texto": "Quantas vezes",
+      "texto": "Caiu de novo?",
       "destaque": [],
-      "imagem": "banco/1x8gw4OYELnDpje41vhsoi9szYSNgTTEx.jpg"
+      "imagem": "banco/1VudlgjafWx42UQ5biLN_wNGik8UkSF1_.jpg"
     },
     {
-      "texto": "precisar.",
+      "texto": "Levanta de novo.",
+      "destaque": [
+        "novo."
+      ],
+      "imagem": "banco/1FXoUTrn-lhlo05882GRqdM34xbu4OOOj.jpg"
+    },
+    {
+      "texto": "Ninguém lembra das quedas.",
       "destaque": [],
-      "imagem": "banco/1yaAmbW_a19ZInzHDh-CW703V5pW7z_80.jpg",
+      "imagem": "banco/18A2Rzhb20LdJkNOrY8ETAf5415s7ZLFv.jpg"
+    },
+    {
+      "texto": "Todo mundo lembra",
+      "destaque": [],
+      "imagem": "banco/1DaR2grQVtbKlSOBBmD-f-hKCvBr8vGW8.jpg"
+    },
+    {
+      "texto": "de quem não ficou no chão.",
+      "destaque": [
+        "chão."
+      ],
+      "imagem": "banco/1BQueVnueXkw1RrJkiC3w30iWuo5pHIZb.jpg",
+      "narrar": true
+    },
+    {
+      "texto": "Quantas vezes precisar.",
+      "destaque": [
+        "precisar."
+      ],
+      "imagem": "banco/1Mq3w39C0tHt18Gt219DSjMoqlGWgcaD1.jpg",
       "impacto": true
     }
   ],

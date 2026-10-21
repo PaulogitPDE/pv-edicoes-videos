@@ -1,33 +1,59 @@
 {
   "musica": "banco/1OibxoEKPBxa55L8pzacsYf5MTAUnudbG.mp3",
   "inicioMusica": 0.0,
-  "cta": "Segue o PV Edições.",
   "cenas": [
     {
       "texto": "Sem pais ricos.",
       "destaque": [
         "ricos."
       ],
-      "imagem": "banco/1hU_4xVq0pIoPnjwRBVlLkHxeXH8q8KFE.jpg"
+      "imagem": "banco/1FZYoijxjfk-ptXi-Bp6crp9f2rMOtGJ5.jpg",
+      "narrar": true
+    },
+    {
+      "texto": "Sem contatos.",
+      "destaque": [],
+      "imagem": "banco/1Px_sB3f9oNXvCRFAwbJHrsvFoe_3zcF6.jpg"
     },
     {
       "texto": "Sem plano B.",
       "destaque": [
         "B."
       ],
-      "imagem": "banco/1Px_sB3f9oNXvCRFAwbJHrsvFoe_3zcF6.jpg"
+      "imagem": "banco/1Zan5ZnIvE95P2lRAdyO7XYgRUatnU1SP.jpg",
+      "narrar": true
     },
     {
       "texto": "Sem desculpa.",
-      "destaque": [],
-      "imagem": "banco/1VudlgjafWx42UQ5biLN_wNGik8UkSF1_.jpg"
+      "destaque": [
+        "desculpa."
+      ],
+      "imagem": "banco/1ryMROEhcecLmdcwJPY7qNykwRA-YvcdK.jpg"
     },
     {
-      "texto": "Só você e o trabalho.",
+      "texto": "Só você",
+      "destaque": [],
+      "imagem": "banco/1Veax9nRherKjGVYn4b6PPPL1SFkYHwfl.jpg"
+    },
+    {
+      "texto": "e o trabalho.",
       "destaque": [
         "trabalho."
       ],
-      "imagem": "banco/11EMJvzN4HJHueDGBKAAtvCmwFky2kuft.jpg",
+      "imagem": "banco/1ILR0UCkLkPw8vfRdgr5esAbRv9Odac_y.jpg"
+    },
+    {
+      "texto": "Todo santo dia.",
+      "destaque": [],
+      "imagem": "banco/1hU_4xVq0pIoPnjwRBVlLkHxeXH8q8KFE.jpg"
+    },
+    {
+      "texto": "E é o suficiente.",
+      "destaque": [
+        "suficiente."
+      ],
+      "imagem": "banco/18C1eNwcOOM_AvibEDalLfb8ZYN6SM6Cp.jpg",
+      "narrar": true,
       "impacto": true
     }
   ],

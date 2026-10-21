@@ -1,26 +1,57 @@
 {
   "musica": "banco/12ZYwkV-budqol6WWCHs08dOly6FgkD86.mp3",
   "inicioMusica": 10.0,
-  "cta": "Segue o PV Edições.",
   "cenas": [
     {
       "texto": "A dor de hoje",
       "destaque": [
         "dor"
       ],
-      "imagem": "banco/1YyQMy0ku0gs3-jtivOjeJQHWVNP8y9S9.jpg"
+      "imagem": "banco/1vIW3LzCh-JjynfW41VgHr18y5akniBn-.jpg",
+      "narrar": true
     },
     {
-      "texto": "é a força",
+      "texto": "é a força de amanhã.",
       "destaque": [
         "força"
       ],
-      "imagem": "banco/18A2Rzhb20LdJkNOrY8ETAf5415s7ZLFv.jpg"
+      "imagem": "banco/1YyQMy0ku0gs3-jtivOjeJQHWVNP8y9S9.jpg",
+      "narrar": true
     },
     {
-      "texto": "de amanhã.",
+      "texto": "Cada treino pesado",
       "destaque": [],
-      "imagem": "banco/1sEVBmbLPIp1XcCVmBzrzWT1-hxtzZUqG.jpg",
+      "imagem": "banco/11EMJvzN4HJHueDGBKAAtvCmwFky2kuft.jpg"
+    },
+    {
+      "texto": "cada noite sem dormir",
+      "destaque": [],
+      "imagem": "banco/1ILR0UCkLkPw8vfRdgr5esAbRv9Odac_y.jpg"
+    },
+    {
+      "texto": "cada não que você ouviu",
+      "destaque": [],
+      "imagem": "banco/1Zan5ZnIvE95P2lRAdyO7XYgRUatnU1SP.jpg"
+    },
+    {
+      "texto": "está te moldando.",
+      "destaque": [
+        "moldando."
+      ],
+      "imagem": "banco/13AwKr2HpH9MwVXV3SwaIUrR6huPI1ZVl.jpg"
+    },
+    {
+      "texto": "Não foge da dor.",
+      "destaque": [],
+      "imagem": "banco/1ryMROEhcecLmdcwJPY7qNykwRA-YvcdK.jpg"
+    },
+    {
+      "texto": "Usa ela.",
+      "destaque": [
+        "Usa"
+      ],
+      "imagem": "banco/18C1eNwcOOM_AvibEDalLfb8ZYN6SM6Cp.jpg",
+      "narrar": true,
       "impacto": true
     }
   ],

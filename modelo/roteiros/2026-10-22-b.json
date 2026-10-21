@@ -1,28 +1,57 @@
 {
   "musica": "banco/10DU8VMN3sl_4EbpoxmfoDMwehX8ErjHb.mp3",
   "inicioMusica": 0.0,
-  "cta": "Segue o PV Edições.",
   "cenas": [
     {
       "texto": "Se ninguém acredita,",
       "destaque": [
         "ninguém"
       ],
-      "imagem": "banco/1D7gCeYJY3BkikouD5oZdIc69gIj_IC1l.jpg"
+      "imagem": "banco/1-evnHXpNAc-zVLa-R11ynN9mctqTC00u.jpg",
+      "narrar": true
     },
     {
       "texto": "acredita você.",
       "destaque": [
         "você."
       ],
-      "imagem": "banco/167hYmmtHy7jOit5Asd4TLCBBqDC7CXZW.jpg"
+      "imagem": "banco/12tqVaNWniC_y_Y5xCL7yxnbeJBTOQOcb.jpg",
+      "narrar": true
+    },
+    {
+      "texto": "Eles riram dos seus planos.",
+      "destaque": [],
+      "imagem": "banco/1sEVBmbLPIp1XcCVmBzrzWT1-hxtzZUqG.jpg"
+    },
+    {
+      "texto": "Duvidaram do seu esforço.",
+      "destaque": [],
+      "imagem": "banco/1wL3jxuFE1rIV7ZqhMhThIRjklJFDqzrf.jpg"
+    },
+    {
+      "texto": "Tudo bem.",
+      "destaque": [],
+      "imagem": "banco/1Px_sB3f9oNXvCRFAwbJHrsvFoe_3zcF6.jpg"
+    },
+    {
+      "texto": "Eles não precisam entender.",
+      "destaque": [],
+      "imagem": "banco/1D7gCeYJY3BkikouD5oZdIc69gIj_IC1l.jpg"
+    },
+    {
+      "texto": "Basta você não parar.",
+      "destaque": [
+        "parar."
+      ],
+      "imagem": "banco/1Eodrt1rzS8V-vjWCsgWbYrDSVUzlsDo7.jpg"
     },
     {
       "texto": "Já basta.",
       "destaque": [
         "basta."
       ],
-      "imagem": "banco/1vENsvLfpdrYjkFCCjT-TtYWCWhCf-69y.jpg",
+      "imagem": "banco/15ZO6lxuuoZbZT7EsR76sEyzp4biyVsXM.jpg",
+      "narrar": true,
       "impacto": true
     }
   ],

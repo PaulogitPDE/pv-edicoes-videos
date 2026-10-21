@@ -1,26 +1,50 @@
 {
   "musica": "banco/13mszfCZ03f7pAGz7qkNKEPHXOWjCfDau.mp3",
   "inicioMusica": 15.0,
-  "cta": "Segue o PV Edições.",
   "cenas": [
     {
       "texto": "Cansado?",
       "destaque": [
         "Cansado?"
       ],
-      "imagem": "banco/13AwKr2HpH9MwVXV3SwaIUrR6huPI1ZVl.jpg"
+      "imagem": "banco/1NrRIeKiRyW_erRqYB1bSzxRBQxONQ7Zv.jpg",
+      "narrar": true
+    },
+    {
+      "texto": "Normal.",
+      "destaque": [],
+      "imagem": "banco/1FXoUTrn-lhlo05882GRqdM34xbu4OOOj.jpg"
+    },
+    {
+      "texto": "Quem luta cansa.",
+      "destaque": [],
+      "imagem": "banco/1BQueVnueXkw1RrJkiC3w30iWuo5pHIZb.jpg"
     },
     {
       "texto": "Descansa.",
+      "destaque": [
+        "Descansa."
+      ],
+      "imagem": "banco/1wL3jxuFE1rIV7ZqhMhThIRjklJFDqzrf.jpg",
+      "narrar": true
+    },
+    {
+      "texto": "Respira.",
       "destaque": [],
-      "imagem": "banco/1Kh0cWCEEz9y1n87O_tPKXKdcar6OJNUs.jpg"
+      "imagem": "banco/15ZO6lxuuoZbZT7EsR76sEyzp4biyVsXM.jpg"
+    },
+    {
+      "texto": "Recupera.",
+      "destaque": [],
+      "imagem": "banco/167hYmmtHy7jOit5Asd4TLCBBqDC7CXZW.jpg"
     },
     {
       "texto": "Mas não desiste.",
       "destaque": [
         "desiste."
       ],
-      "imagem": "banco/1CIvsjbVuMvlws6lN5ZWAr5P-slxzQcO0.jpg",
+      "imagem": "banco/1Pw17x0evtNQbSUfT0lJeqU3afKmf0NYC.jpg",
+      "narrar": true,
       "impacto": true
     }
   ],

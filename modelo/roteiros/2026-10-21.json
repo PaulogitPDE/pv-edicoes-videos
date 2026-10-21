@@ -1,28 +1,85 @@
 {
   "musica": "banco/13GECM2hXHmt0jVIXa564VgmZax8lVyiW.mp3",
   "inicioMusica": 0.0,
-  "cta": "Segue o PV Edições.",
   "cenas": [
     {
       "texto": "Ninguém vem te salvar.",
       "destaque": [
         "salvar."
       ],
-      "imagem": "banco/1ryMROEhcecLmdcwJPY7qNykwRA-YvcdK.jpg"
-    },
-    {
-      "texto": "Por isso",
-      "destaque": [],
-      "imagem": "banco/1Mq3w39C0tHt18Gt219DSjMoqlGWgcaD1.jpg"
-    },
-    {
-      "texto": "você vai se salvar.",
-      "destaque": [
-        "salvar.",
-        "você"
+      "imagem": "banco/167hYmmtHy7jOit5Asd4TLCBBqDC7CXZW.jpg",
+      "narrar": true,
+      "audio": "narr-2026-10-21-0.mp3",
+      "tempos": [
+        0,
+        15,
+        21,
+        25
       ],
-      "imagem": "banco/1-evnHXpNAc-zVLa-R11ynN9mctqTC00u.jpg",
-      "impacto": true
+      "duracao": 67
+    },
+    {
+      "texto": "Nem amigo.",
+      "destaque": [],
+      "imagem": "banco/1FZYoijxjfk-ptXi-Bp6crp9f2rMOtGJ5.jpg"
+    },
+    {
+      "texto": "Nem sorte.",
+      "destaque": [],
+      "imagem": "banco/1hU_4xVq0pIoPnjwRBVlLkHxeXH8q8KFE.jpg"
+    },
+    {
+      "texto": "Nem a motivação de amanhã.",
+      "destaque": [
+        "amanhã."
+      ],
+      "imagem": "banco/1x8gw4OYELnDpje41vhsoi9szYSNgTTEx.jpg"
+    },
+    {
+      "texto": "O que te tira do buraco",
+      "destaque": [],
+      "imagem": "banco/1VudlgjafWx42UQ5biLN_wNGik8UkSF1_.jpg"
+    },
+    {
+      "texto": "é a decisão de hoje.",
+      "destaque": [
+        "hoje."
+      ],
+      "imagem": "banco/1D0Ko3otTQRhP9iBu5ccehZ9Y6Q_B1oyS.jpg",
+      "narrar": true,
+      "audio": "narr-2026-10-21-5.mp3",
+      "tempos": [
+        0,
+        4,
+        7,
+        21,
+        25
+      ],
+      "duracao": 66
+    },
+    {
+      "texto": "Levanta. Treina. Repete.",
+      "destaque": [
+        "Repete."
+      ],
+      "imagem": "banco/1Kh0cWCEEz9y1n87O_tPKXKdcar6OJNUs.jpg"
+    },
+    {
+      "texto": "Você vai se salvar.",
+      "destaque": [
+        "salvar."
+      ],
+      "imagem": "banco/18A2Rzhb20LdJkNOrY8ETAf5415s7ZLFv.jpg",
+      "narrar": true,
+      "impacto": true,
+      "audio": "narr-2026-10-21-7.mp3",
+      "tempos": [
+        0,
+        10,
+        14,
+        18
+      ],
+      "duracao": 99
     }
   ],
   "assinatura": "@pvedicoes"

@@ -6,7 +6,7 @@ const fonte = 'Inter';
 [700, 800].forEach((w) => loadFont({family: fonte, url: staticFile(`inter-latin-${w}-normal.woff2`), weight: String(w)}));
 const fonteKanji = "'WenQuanYi Zen Hei', 'Noto Sans CJK JP', sans-serif";
 
-export type Cena = {texto: string; destaque?: string[]; kanji?: string; impacto?: boolean; imagem?: string; foco?: string; tempos?: number[]; duracao?: number};
+export type Cena = {texto: string; destaque?: string[]; kanji?: string; impacto?: boolean; imagem?: string; foco?: string; tempos?: number[]; duracao?: number; narrar?: boolean; audio?: string};
 export type Roteiro = {cenas: Cena[]; musica?: string; inicioMusica?: number; vozFinal?: string; narracao?: string; duracaoFinal?: number; cta?: string; voz?: string; assinatura?: string};
 
 // Ritmo: 1 palavra a cada meio tempo (120 bpm = 15 frames por tempo).
@@ -16,7 +16,7 @@ const FINAL = 60;
 const VERMELHO = '#E5192E';
 const BRANCO = '#F4F1EA';
 
-const duracaoCena = (c: Cena) => c.duracao ?? c.texto.split(' ').length * POR_PALAVRA + SEGURA + (c.impacto ? 14 : 0);
+const duracaoCena = (c: Cena) => c.duracao ?? Math.round(c.texto.split(' ').length * POR_PALAVRA * (c.impacto ? 1.6 : 1)) + SEGURA + (c.impacto ? 22 : 0);
 const duracaoFinal = (r: Roteiro) => r.duracaoFinal ?? (r.vozFinal ? 135 : FINAL);
 export const duracaoTotal = (r: Roteiro) => r.cenas.reduce((a, c) => a + duracaoCena(c), 0) + duracaoFinal(r);
 
@@ -80,6 +80,27 @@ const Palavra: React.FC<{t: string; i: number; vermelha: boolean; ini?: number}>
   );
 };
 
+// Frase de impacto em motion: palavra "bate" na tela com desfoque, separação RGB e tremida
+const PalavraImpacto: React.FC<{t: string; i: number; vermelha: boolean; ini: number}> = ({t, i, vermelha, ini}) => {
+  const f = useCurrentFrame();
+  const {fps} = useVideoConfig();
+  const d = f - ini;
+  const s = spring({frame: d, fps, config: {damping: 9, mass: 0.5, stiffness: 220}});
+  const escala = interpolate(s, [0, 1], [2.8, 1]);
+  const blur = interpolate(d, [0, 6], [14, 0], clamp);
+  const rgb = interpolate(d, [0, 10], [18, 0], clamp) + (d >= 0 ? Math.sin(f / 3) * 1.5 : 0);
+  const tremor = d >= 0 && d < 8 ? (random(`ti${i}-${f}`) - 0.5) * 26 : 0;
+  const cor = vermelha ? VERMELHO : BRANCO;
+  const base: React.CSSProperties = {position: 'absolute', left: 0, top: 0};
+  return (
+    <span style={{position: 'relative', display: 'inline-block', margin: '0 0.16em', opacity: d >= 0 ? 1 : 0, transform: `translate(${tremor}px, ${tremor * 0.5}px) scale(${escala}) rotate(${interpolate(d, [0, 8], [i % 2 ? 6 : -6, 0], clamp)}deg)`, filter: `blur(${blur}px)`}}>
+      <span style={{...base, color: '#ff2b3a', transform: `translate(${-rgb}px, 0)`, mixBlendMode: 'screen', opacity: 0.8}}>{t}</span>
+      <span style={{...base, color: '#22e5ff', transform: `translate(${rgb}px, 0)`, mixBlendMode: 'screen', opacity: 0.6}}>{t}</span>
+      <span style={{position: 'relative', color: cor, textShadow: vermelha ? `0 0 50px ${VERMELHO}, 5px 5px 0 #000` : `5px 5px 0 #000, 0 0 30px rgba(0,0,0,0.9)`}}>{t}</span>
+    </span>
+  );
+};
+
 const CenaView: React.FC<{c: Cena; n: number; dur: number}> = ({c, n, dur}) => {
   const f = useCurrentFrame();
   const palavras = c.texto.split(' ');
@@ -88,8 +109,10 @@ const CenaView: React.FC<{c: Cena; n: number; dur: number}> = ({c, n, dur}) => {
   const forca = interpolate(f, [0, 10], [1, 0], clamp) + (c.impacto ? interpolate(f, [palavras.length * POR_PALAVRA, palavras.length * POR_PALAVRA + 12], [1, 0.3], clamp) : 0);
   const sai = interpolate(f, [dur - 5, dur], [1, 0], clamp);
   const tamanho = palavras.length <= 2 ? 150 : palavras.length <= 4 ? 118 : 100;
+  const ultima = c.tempos?.[palavras.length - 1] ?? (palavras.length - 1) * POR_PALAVRA * (c.impacto ? 1.6 : 1);
+  const sacode = c.impacto && f >= ultima && f < ultima + 10 ? (random(`s${n}-${f}`) - 0.5) * 30 : 0;
   return (
-    <AbsoluteFill style={{transform: `scale(${zoom})`, opacity: sai}}>
+    <AbsoluteFill style={{transform: `translate(${sacode}px, ${sacode * 0.6}px) scale(${zoom})`, opacity: sai}}>
       <Fundo seed={n} />
       {c.imagem && <FrameManga src={c.imagem} foco={c.foco} dur={dur} palavras={palavras.length} />}
       <Linhas seed={n} forca={Math.min(forca, 1) * (c.imagem ? 0.6 : 1)} />
@@ -100,11 +123,16 @@ const CenaView: React.FC<{c: Cena; n: number; dur: number}> = ({c, n, dur}) => {
       )}
       {/* moldura de painel */}
       <div style={{position: 'absolute', inset: 36, border: `5px solid ${BRANCO}`, outline: '14px solid #000', borderRadius: 6, opacity: 0.85}} />
-      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', padding: '0 90px'}}>
+      <AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', flexDirection: 'column', padding: '0 90px'}}>
         <div style={{fontFamily: fonte, fontWeight: 800, fontSize: tamanho, lineHeight: 1.08, letterSpacing: -2, textAlign: 'center', textTransform: 'uppercase'}}>
-          {palavras.map((p, i) => <Palavra key={i} t={p} i={i} ini={c.tempos?.[i]} vermelha={(c.destaque || []).includes(p)} />)}
+          {palavras.map((p, i) => c.impacto
+            ? <PalavraImpacto key={i} t={p} i={i} ini={c.tempos?.[i] ?? i * POR_PALAVRA * 1.6} vermelha={(c.destaque || []).includes(p)} />
+            : <Palavra key={i} t={p} i={i} ini={c.tempos?.[i]} vermelha={(c.destaque || []).includes(p)} />)}
         </div>
+        {c.impacto && <div style={{height: 14, marginTop: 30, background: VERMELHO, boxShadow: `0 0 30px ${VERMELHO}`, width: `${interpolate(f, [ultima + 4, ultima + 14], [0, 70], {...clamp, easing: Easing.out(Easing.cubic)})}%`, transform: 'skewX(-20deg)'}} />}
       </AbsoluteFill>
+      {c.audio && <Audio src={staticFile(c.audio)} volume={1} />}
+      {c.impacto && <AbsoluteFill style={{background: VERMELHO, mixBlendMode: 'multiply', opacity: interpolate(f, [ultima, ultima + 3, ultima + 12], [0, 0.55, 0], clamp)}} />}
       <AbsoluteFill style={{background: '#fff', opacity: flash}} />
     </AbsoluteFill>
   );
@@ -126,10 +154,14 @@ const Final: React.FC<{assinatura: string}> = ({assinatura}) => {
 export const Reel: React.FC<Roteiro> = (r) => {
   let ini = 0;
   const total = duracaoTotal(r);
+  // música abaixa nas cenas narradas (rampa de 6 frames)
+  const janelas: [number, number][] = [];
+  r.cenas.reduce((a, c) => { const d = duracaoCena(c); if (c.audio) janelas.push([a, a + d]); return a + d; }, 0);
+  const abaixa = (f: number) => r.narracao ? 0.3 : Math.min(1, ...janelas.map(([a, b]) => interpolate(f, [a - 6, a, b - 4, b + 2], [1, 0.32, 0.32, 1], clamp)));
   return (
     <AbsoluteFill style={{background: '#000'}}>
       {r.narracao && <Audio src={staticFile(r.narracao)} volume={1} />}
-      {r.musica && <Audio src={staticFile(r.musica)} startFrom={Math.round((r.inicioMusica || 0) * 30)} volume={(f) => (r.narracao ? 0.3 : 1) * interpolate(f, [0, 8, total - duracaoFinal(r), total - duracaoFinal(r) + 10, total - 15, total], [0, 1, 1, r.vozFinal ? 0.35 : 1, r.vozFinal ? 0.35 : 1, 0], clamp)} />}
+      {r.musica && <Audio src={staticFile(r.musica)} startFrom={Math.round((r.inicioMusica || 0) * 30)} volume={(f) => abaixa(f) * interpolate(f, [0, 8, total - duracaoFinal(r), total - duracaoFinal(r) + 10, total - 15, total], [0, 1, 1, r.vozFinal ? 0.35 : 1, r.vozFinal ? 0.35 : 1, 0], clamp)} />}
       {r.cenas.map((c, n) => {
         const d = duracaoCena(c);
         const el = (

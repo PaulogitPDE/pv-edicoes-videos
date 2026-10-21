@@ -1,26 +1,59 @@
 {
   "musica": "banco/1OibxoEKPBxa55L8pzacsYf5MTAUnudbG.mp3",
   "inicioMusica": 0.0,
-  "cta": "Segue o PV Edições.",
   "cenas": [
     {
       "texto": "Para de se comparar.",
       "destaque": [
         "comparar."
       ],
-      "imagem": "banco/1D0Ko3otTQRhP9iBu5ccehZ9Y6Q_B1oyS.jpg"
+      "imagem": "banco/1vENsvLfpdrYjkFCCjT-TtYWCWhCf-69y.jpg",
+      "narrar": true
     },
     {
-      "texto": "Cada um tem",
+      "texto": "Ele começou antes.",
       "destaque": [],
-      "imagem": "banco/1-J3EiM3u2g45WAqyr2ZHGhjop2hSnigh.jpg"
+      "imagem": "banco/1Mq3w39C0tHt18Gt219DSjMoqlGWgcaD1.jpg"
     },
     {
-      "texto": "o seu tempo.",
+      "texto": "Ela teve outra ajuda.",
+      "destaque": [],
+      "imagem": "banco/1yaAmbW_a19ZInzHDh-CW703V5pW7z_80.jpg"
+    },
+    {
+      "texto": "Você só vê o palco.",
+      "destaque": [
+        "palco."
+      ],
+      "imagem": "banco/1Veax9nRherKjGVYn4b6PPPL1SFkYHwfl.jpg"
+    },
+    {
+      "texto": "Não vê os bastidores.",
+      "destaque": [],
+      "imagem": "banco/1Pw17x0evtNQbSUfT0lJeqU3afKmf0NYC.jpg"
+    },
+    {
+      "texto": "Cada um tem o seu tempo.",
       "destaque": [
         "tempo."
       ],
-      "imagem": "banco/1FXoUTrn-lhlo05882GRqdM34xbu4OOOj.jpg",
+      "imagem": "banco/1BQueVnueXkw1RrJkiC3w30iWuo5pHIZb.jpg",
+      "narrar": true
+    },
+    {
+      "texto": "Corre a sua corrida.",
+      "destaque": [
+        "sua"
+      ],
+      "imagem": "banco/1FXoUTrn-lhlo05882GRqdM34xbu4OOOj.jpg"
+    },
+    {
+      "texto": "No seu ritmo.",
+      "destaque": [
+        "ritmo."
+      ],
+      "imagem": "banco/1-J3EiM3u2g45WAqyr2ZHGhjop2hSnigh.jpg",
+      "narrar": true,
       "impacto": true
     }
   ],
