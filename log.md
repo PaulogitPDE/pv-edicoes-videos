@@ -8,3 +8,4 @@
 - 2026-10-18 · Supere seus limites (narração Adam) · https://www.instagram.com/reel/Deo7xcIiiuI/
 - 2026-10-18 · Você não tem inimigos (narração Adam) · https://www.instagram.com/reel/Depr6lTE3sH/
 - 2026-10-21 · Ninguém vem te salvar (voz Adam) · https://www.instagram.com/reel/DewqJ8uiFaV/
+- 2026-10-21 · Para de se comparar (voz Brian, motor novo) · https://www.instagram.com/reel/DexaVTigBZg/
