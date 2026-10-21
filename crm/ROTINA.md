@@ -1,6 +1,6 @@
 # Rotina @crmquevende
 
-Conta: Instagram **@crmquevende** (id `17841477784714532`, Página "CRM  Que Vende" `1053653491172442`), publicada pela API oficial do Instagram com o mesmo token do app "Eugencia API" (permissão `instagram_content_publish`). Tudo fica na pasta `crm/` deste repositório.
+Conta: Instagram **@crmquevende** (id `17841477784714532`, Página "CRM  Que Vende" `1053653491172442`), publicada pela API oficial do Instagram com o mesmo token do app "Eugencia API" (permissão `instagram_content_publish`). Tudo fica na pasta `crm/` deste repositório, na branch `claude/project-thread-j72f39` (o PV Edições usa a `main`; não misturar).
 
 ## Regras fixas (Sr Pv, 21/10/2026)
 - **Todo dia, sem exceção: 2 reels + 2 posts de imagem.** Horários (Brasília): post 1 às **08h37**, reel 1 às **12h17**, post 2 às **17h37**, reel 2 às **19h57**.
@@ -25,7 +25,7 @@ Conta: Instagram **@crmquevende** (id `17841477784714532`, Página "CRM  Que Ven
 - Números: não inventar estatística como se fosse dado real. Contas de exemplo ("20 orçamentos × R$ 480") são ok quando ficam claras como exemplo; dado de mercado só com fonte.
 
 ## Arquivos
-- `crm/calendario/AAAA-MM.json`: o cronograma do mês (tema, layout/cenas e CTA de cada peça). Página para o Sr Pv ver: artefato "Cronograma CRM que vende" (republicar quando o mês mudar).
+- `crm/calendario/AAAA-MM.json`: o cronograma do mês (tema, layout/cenas e CTA de cada peça). Página para o Sr Pv ver: artefato "Cronograma CRM que vende" https://claude.ai/artifact/BejguxivJhrExok5M4h3aq (gerar com `python3 crm/scripts/pagina_cronograma.py` e republicar nesse mesmo link, passando `url`, quando o mês mudar).
 - Reels: roteiro `crm/roteiros/<data>-r1.json` / `-r2.json`, legenda `crm/roteiros/<data>-r1.txt`, vídeo `crm/postados/<data>-r1.mp4`.
 - Posts: `crm/posts/<data>-p1.json` / `-p2.json` (e `-trend`), legenda `.txt` ao lado, imagem `crm/postados-img/<data>-p1.jpg`.
 - `crm/log.md`: uma linha por publicação: `- AAAA-MM-DD · r1 · tema · CTA · link`.
@@ -48,7 +48,7 @@ JSON: `layout` (frase | data | chat | numero | lista | antes_depois), `headline`
 - Render: `python3 crm/motor/post.py crm/posts/<arq>.json crm/postados-img/<arq>.jpg` e **abrir o JPG para conferir**.
 
 ## Cada disparo (post ou reel)
-0. `git pull`. Descobrir hoje (America/Sao_Paulo) e a peça do disparo (o agendamento diz qual: p1, r1, p2 ou r2). Se `crm/log.md` já tem essa peça de hoje, não fazer nada. Se uma peça anterior de hoje ficou faltando (falha), fazer ela também, para fechar o dia sem exceção.
+0. `git pull`. Se hoje ainda não está no cronograma (a rotina começa em 22/10/2026), não postar nada. Descobrir hoje (America/Sao_Paulo) e a peça do disparo (o agendamento diz qual: p1, r1, p2 ou r2). Se `crm/log.md` já tem essa peça de hoje, não fazer nada. Se uma peça anterior de hoje ficou faltando (falha), fazer ela também, para fechar o dia sem exceção.
 1. Ler o item de hoje em `crm/calendario/AAAA-MM.json` (tema, layout/cenas, CTA). Se o arquivo do mês não existir, rodar `python3 crm/scripts/cronograma.py AAAA-MM` antes.
 2. Escrever o roteiro/post e a legenda (se ainda não existirem), renderizar e conferir.
 3. `git add` + commit + `git push` (o Instagram baixa pelo link raw do commit).
