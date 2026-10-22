@@ -8,7 +8,15 @@
         "dor"
       ],
       "imagem": "banco/184h7uZkHtl5F_BGg8joWT6-FQqSIdoek.jpg",
-      "narrar": true
+      "narrar": true,
+      "audio": "narr-2026-10-22-0.mp3",
+      "tempos": [
+        0,
+        6,
+        14,
+        17
+      ],
+      "duracao": 58
     },
     {
       "texto": "é a força de amanhã.",
@@ -16,7 +24,16 @@
         "força"
       ],
       "imagem": "banco/1xbe94UO1MRMWNSNBo_4LUpW4LEJzdI4L.jpg",
-      "narrar": true
+      "narrar": true,
+      "audio": "narr-2026-10-22-1.mp3",
+      "tempos": [
+        0,
+        5,
+        8,
+        18,
+        21
+      ],
+      "duracao": 66
     },
     {
       "texto": "Cada treino pesado",
@@ -52,8 +69,16 @@
       ],
       "imagem": "banco/16far6Zs6WvpmNYY_MXdO_XmB_Mzpz0Y0.jpg",
       "narrar": true,
-      "impacto": true
+      "impacto": true,
+      "audio": "narr-2026-10-22-7.mp3",
+      "tempos": [
+        0,
+        13
+      ],
+      "duracao": 74
     }
   ],
-  "assinatura": "@pvedicoes"
+  "assinatura": "@pvedicoes",
+  "voz": "SOYHLrjzK2X1ezoPC6cr",
+  "vozNome": "Harry"
 }

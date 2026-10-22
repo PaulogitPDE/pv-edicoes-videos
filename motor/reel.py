@@ -99,6 +99,9 @@ def sprite_palavra(t, tam, cor, impacto=False):
     fonte = ImageFont.truetype(F_BLACK if impacto else F_BOLD, tam)
     t = t.upper()
     bb = fonte.getbbox(t)
+    # altura fixa pela métrica da fonte: todas as palavras ficam na mesma linha de base (acentos não descem a palavra)
+    asc, desc = fonte.getmetrics()
+    bb = (bb[0], 0, bb[2], asc + desc)
     w, h = bb[2] - bb[0] + 60, bb[3] - bb[1] + 60
     im = Image.new('RGBA', (w, h), (0, 0, 0, 0))
     sombra = Image.new('L', (w, h), 0)
