@@ -4,3 +4,4 @@
 - 2026-10-22 · p1 · 3 faltas por semana × R$ 250 (numero) · direct · https://www.instagram.com/p/Dey5QZyFyyo/
 - 2026-10-22 · r1 · Ela disse "vou pensar" e sumiu (implante) · direct · https://www.instagram.com/reel/DezTGWDj4tp/
 - 2026-10-22 · p2 · Garantia: no ar em 7 dias úteis (frase) · comenta · https://www.instagram.com/p/Dez3DlumHfi/
+- 2026-10-22 · r2 · A licença do Kommo é à parte (sem pegadinha) · bio · gancho: "Tem pegadinha nesse preço?" · https://www.instagram.com/reel/De0HMv1gUS4/
