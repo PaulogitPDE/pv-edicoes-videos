@@ -1,18 +1,28 @@
 # Rotina PV Edições
 
 ## Sexta (pesquisa da semana)
-1. vidIQ `vidiq_instagram_tiktok_outlier_search`, no máximo 4 buscas (5 créditos cada; plano grátis = 150/mês). Nicho: anime + motivação/disciplina/mentalidade, últimos 7 dias. Complementar com `vidiq_youtube_search`/`vidiq_trending_videos` se sobrar crédito.
-2. Gravar `plano/AAAA-MM-DD.md` (data do sábado): top virais (link, views, gancho, formato, personagem) e 7 dias (sáb→sex), cada um com tema viral de base e o roteiro.
-3. Para cada dia, gravar `modelo/roteiros/AAAA-MM-DD.json` (formato de `exemplo.json`) e `modelo/roteiros/AAAA-MM-DD.txt` (legenda com hashtags). Frases ORIGINAIS em pt-BR inspiradas no tema, nunca copiar fala/legenda de outro criador. 7 a 9 cenas, ~18–22 s (ver Regras fixas de 21/10).
+1. Puxar os insights da semana (reach, views, ig_reels_avg_watch_time, shares, saved, comments) de cada post e comparar por obra/personagem e por voz. vidIQ `vidiq_instagram_tiktok_outlier_search` só se tiver crédito (zerado até 13/11); senão WebSearch: animes/mangás em alta na semana (lançamentos, episódios novos, capítulos que viralizaram).
+2. Gravar `plano/AAAA-MM-DD.md` (data do sábado): o que funcionou, obras em alta e 7 dias (sáb→sex) com 2 personagens/histórias por dia (ver "Estratégia 22/10").
+3. Para cada dia, gravar `modelo/roteiros/AAAA-MM-DD.json` (formato de `exemplo.json`) e `modelo/roteiros/AAAA-MM-DD.txt` (legenda com hashtags). Texto ORIGINAL em pt-BR contando a história do personagem (pode citar a fala real da obra traduzida), nunca copiar legenda de outro criador. Sempre com `serie`, `gancho` e `pergunta`. 7 a 9 cenas, ~18–22 s (ver Regras fixas de 21/10).
    - Se já existir roteiro para alguma data (ex.: reels que não saíram e foram remarcados), NÃO sobrescrever: planejar só as datas livres.
 4. Commit + push.
+
+## Estratégia 22/10 (Sr Pv: "está saindo muito genérico")
+Dados de 22/10: reels com ~100–150 de alcance e só 3–5 s de tempo médio em vídeos de ~18 s (gente arrasta no começo), 0 compartilhamentos, 0 comentários; posts de imagem únicos com alcance 2–3. Causa: frase motivacional genérica sobre painel aleatório, sem dizer de quem é a história.
+- **Todo reel é a história de UM personagem real** (arco, fala ou momento verdadeiro da obra): Thorfinn, Musashi, Guts, Eren, Rock Lee, Tanjiro, Saitama, Asta, Killua... Fatos corretos (conferir na web se tiver dúvida). A lição vem DA história, no fim, nunca no lugar dela.
+- **Campos novos no roteiro**: `serie` ("OBRA · PERSONAGEM", etiqueta vermelha), `gancho` (frase que fica fixa no topo desde o frame 0 e cria curiosidade: "Venceu todas as lutas. E perguntou se merecia viver.") e `pergunta` (fecha o vídeo no cartão final e puxa comentário: opinião, "certo ou errado?", "qual personagem eu conto no próximo?").
+- Cena 1 já conta a história (nada de "Não desista"). Imagens do próprio personagem/obra em pelo menos 3 cenas; o resto, painéis que combinem com o momento. Se o banco não tiver imagem do personagem, escolher outro personagem.
+- Legenda: 1ª linha começa com o nome da obra + o resumo do momento (busca do IG lê isso), uma pergunta, "manda pra alguém que..." (envio por DM é o sinal que mais distribui) e hashtags da obra/personagem (#vinlandsaga #thorfinn), não genéricas.
+- Não repetir personagem em menos de 7 dias. Bom repertório: Vinland Saga, Vagabond, Berserk, AoT, Naruto, Demon Slayer, OPM, Black Clover, HxH, Bleach, Blue Lock, Hajime no Ippo, Tokyo Revengers, JJK.
+- Posts viram **carrossel** (ver seção "Posts (carrossel)").
+- Sexta: a análise compara tempo médio de visualização, compartilhamentos, salvamentos e comentários por personagem/obra e por voz; dobrar nas obras que seguram mais.
 
 ## Regras fixas (Sr Pv, 16/10/2026)
 - **2 reels por dia** (11h46 e 18h46). Cada disparo posta 1, só se o `log.md` tiver menos de 2 postagens hoje.
 - **Narração masculina da ElevenLabs só nos pontos importantes** (Sr Pv, 21/10): marcar `"narrar": true` em 2 a 3 cenas-chave (abertura, virada, frase final). Nem todo texto da tela é narrado e o **CTA NÃO é falado**. Rodar `cd modelo && python3 scripts/narrar.py roteiros/<arquivo>.json` (DENTRO de modelo/). Voz padrão Adam pNInz6obpgDQGcFmaJgB; alternativa Eric cjVigY5qzO86Huf0OWal. A música abaixa sozinha nas cenas narradas.
 - **Rodízio de vozes** (Sr Pv, 21/10): a voz muda a cada vídeo para testar engajamento. `narrar.py` pega a próxima de `modelo/vozes.json` (8 vozes masculinas premade: Adam, Brian, Harry, George, Bill, Charlie, Roger, Eric; vozes da biblioteca, como as brasileiras, exigem plano pago) e grava `vozNome` no roteiro. No `log.md`, sempre anotar a voz: `- data · tema (voz Nome) · link`. A análise semanal compara engajamento por voz.
 - Orçamento ElevenLabs grátis: 10 mil caracteres/mês → ~70 caracteres narrados por vídeo. Conferir saldo em GET /v1/user/subscription antes; se faltar, avisar na thread.
-- Frases de abertura sugeridas por ele (usar e variar): "Não desista", "Supere seus limites", "Você não tem inimigos", "Desistir custa um sonho" (já usada em 16/10).
+- Frases sugeridas por ele ("Não desista", "Supere seus limites", "Você não tem inimigos", "Desistir custa um sonho") entram como LIÇÃO no fim de uma história de personagem, não como abertura ("Você não tem inimigos" = Thors, Vinland Saga, usado em 22/10).
 - **Duração dobrada** (Sr Pv, 21/10): 7 a 9 cenas curtas, ~18–22 s no total (antes eram ~9 s). Uma imagem do banco por cena, sem repetir imagens do dia anterior.
 - **Motion nas frases de impacto** (Sr Pv, 21/10): marcar `"impacto": true` na frase forte (normalmente a última, às vezes a virada). O motor faz a palavra bater na tela com desfoque, separação RGB, tremida, flash vermelho e risco embaixo.
 - **Sem Remotion e sem biblioteca de motion** (Sr Pv, 21/10): o vídeo e a imagem são feitos pelo nosso próprio código em `motor/` (Python desenhando cada frame com Pillow/numpy, ffmpeg só codifica). Toda animação (zoom, tremida, pop das palavras, frase de impacto, linhas de velocidade, flash) é calculada à mão em `motor/reel.py`. Não instalar Remotion, nem pacotes de animação/efeitos.
@@ -29,12 +39,11 @@
 5. `python3 modelo/scripts/publicar.py postados/<hoje>.mp4 modelo/roteiros/<hoje>.txt`
 6. Anotar data, link e tema em `log.md`, commit + push.
 
-## Posts de imagem (2 por dia, 9h16 e 21h16) – Sr Pv, 21/10
-0. Se `log-imagens.md` já tem 2 posts com a data de hoje, NÃO postar. Arquivos: `<hoje>.jpg`/`<hoje>-b.jpg`.
-1. Escolher uma imagem do banco (`modelo/public/banco/`, incluindo as novas de `banco/novas-*.json`) que não foi usada em post de imagem antes (ver `log-imagens.md`) e de preferência não usada nos reels do dia. OLHAR a imagem antes de escrever.
-2. Escrever `modelo/posts/<arquivo>.json`: `imagem`, `headline` (curta e chamativa, em pt-BR, original), `destaque` (1 palavra exatamente como na headline, com pontuação, vira tarja vermelha), `sub` (linha aesthetic em minúsculas, serifa itálica), `pb` true para mangá P&B, `posicao` "topo" se o rosto/ação estiver embaixo, `foco` se precisar.
-   - O texto faz uma crítica ligada ao que acontece no painel (o personagem, a cena) OU é uma frase filosófica original que faça pensar. Nada de frase famosa copiada, nada de motivação genérica de reel.
-3. Legenda `modelo/posts/<arquivo>.txt`: 2–4 linhas aesthetic (minúsculas, ritmo poético), uma pergunta que puxe comentário, e hashtags (#anime #manga #aesthetic #reflexão #pvedicoes + 2–3 do personagem/obra).
-4. `python3 motor/post.py modelo/posts/<arquivo>.json postados-img/<arquivo>.jpg` (na raiz do repo). Abrir o JPG e conferir (texto legível, não cobre o rosto).
-5. Commit + push, depois `python3 modelo/scripts/publicar_imagem.py postados-img/<arquivo>.jpg modelo/posts/<arquivo>.txt`.
-6. Anotar em `log-imagens.md`: `- data · headline · imagem <id> · link`, commit + push. Sucesso: só atualizar o status da thread; reply só se falhar.
+## Posts (carrossel) – 2 por dia, 9h16 e 21h16 (Sr Pv 21/10; virou carrossel na estratégia de 22/10)
+0. Se `log-imagens.md` já tem 2 posts com a data de hoje, NÃO postar. Arquivos: `<hoje>.json` / `<hoje>-b.json`.
+1. Formatos (alternar): **lista** ("5 personagens que perderam tudo", "4 vilões que tinham razão", "3 mestres que ensinaram sem falar"); **história em slides** (um personagem, um momento, 4–6 slides contando em ordem); **fala real** (a fala da obra traduzida + o contexto + o que ela ensina). Personagens com fatos corretos, nada de motivação genérica.
+2. `modelo/posts/<arquivo>.json`: `{"serie": "etiqueta curta", "slides": [{imagem, headline, destaque, sub, pb, posicao, foco}, ...]}` com 5–7 slides. Slide 1 = capa com promessa ("arrasta. o último dói mais."); último = pergunta pra comentar ("qual deles é você?"). Imagens do banco não usadas em post antes (ver `log-imagens.md`). OLHAR as imagens antes de escrever. `destaque` = 1 palavra exatamente como na headline (com pontuação).
+3. Legenda `modelo/posts/<arquivo>.txt`: 2–4 linhas aesthetic em minúsculas, a pergunta, "salva pra..." e hashtags das obras + #anime #manga #pvedicoes.
+4. `python3 motor/post.py modelo/posts/<arquivo>.json postados-img/<arquivo>.jpg` gera `<arquivo>-1.jpg`, `-2.jpg`... Conferir todos (texto legível, não cobre o rosto).
+5. Commit + push, depois `python3 modelo/scripts/publicar_carrossel.py modelo/posts/<arquivo>.txt postados-img/<arquivo>-1.jpg postados-img/<arquivo>-2.jpg ...` (post único continua possível com `publicar_imagem.py`).
+6. Anotar em `log-imagens.md`: `- data · carrossel: tema · imagens <ids> · link`, commit + push. Sucesso: só atualizar o status da thread; reply só se falhar.

@@ -1,59 +1,104 @@
 {
   "musica": "banco/10DU8VMN3sl_4EbpoxmfoDMwehX8ErjHb.mp3",
   "inicioMusica": 0.0,
+  "serie": "Vinland Saga · Thorfinn",
+  "gancho": "O pai dele deu a resposta. Ele levou 10 anos pra entender.",
+  "pergunta": "Qual personagem eu conto no próximo?",
   "cenas": [
     {
-      "texto": "Se ninguém acredita,",
+      "texto": "O pai dele disse uma frase.",
       "destaque": [
-        "ninguém"
+        "frase."
       ],
-      "imagem": "banco/1H_gkgsSXGVnXc7FPURyLUK0NR3ItXF1T.jpg",
-      "narrar": true
+      "imagem": "banco/1ka0U9UyKHevlhZdXCEgZg3kUMRRb_Fz5.jpg",
+      "narrar": true,
+      "audio": "narr-2026-10-22-b-0.mp3",
+      "tempos": [
+        0,
+        5,
+        11,
+        22,
+        29,
+        34
+      ],
+      "duracao": 76
     },
     {
-      "texto": "acredita você.",
+      "texto": "Ele não escutou.",
       "destaque": [
-        "você."
+        "não"
       ],
-      "imagem": "banco/1JO3lx5zEQjiJETBh1ZzyTHHs4lWTF9iE.jpg",
-      "narrar": true
+      "imagem": "banco/17bxm-X_GuJzfn8WVw3rR7M-7y_e4NkcI.jpg"
     },
     {
-      "texto": "Eles riram dos seus planos.",
-      "destaque": [],
-      "imagem": "banco/1Kt-1i_Wegw_1e1qSHG8P5NQ9SnDCOCYl.jpg"
+      "texto": "Viu o pai morrer na frente dele.",
+      "destaque": [
+        "morrer"
+      ],
+      "imagem": "banco/1VpoR97PSYxCqEQN1Vbrfk3GntaDZTnbq.jpg"
     },
     {
-      "texto": "Duvidaram do seu esforço.",
-      "destaque": [],
-      "imagem": "banco/1ErF_OS3ktZFAnFvyrQPkVXM9tmKUOmoG.jpg"
-    },
-    {
-      "texto": "Tudo bem.",
-      "destaque": [],
-      "imagem": "banco/1VJ7hgztYwxAYylEaAWkTIJvejkjif91O.jpg"
-    },
-    {
-      "texto": "Eles não precisam entender.",
-      "destaque": [],
+      "texto": "E passou a infância caçando vingança.",
+      "destaque": [
+        "vingança."
+      ],
       "imagem": "banco/1Amqoh_CFzA93SVSjvsQj5MwhrBRiC_Uy.jpg"
     },
     {
-      "texto": "Basta você não parar.",
-      "destaque": [
-        "parar."
-      ],
-      "imagem": "banco/1CTmbVFvEjBBHiqFshR4jOY5eBZYNBix1.jpg"
+      "texto": "Quando finalmente chegou a hora...",
+      "destaque": [],
+      "imagem": "banco/1ePllskYg49NT6mHCZEknXm10zMgaKsvF.jpg"
     },
     {
-      "texto": "Já basta.",
+      "texto": "outro tirou a vingança das mãos dele.",
       "destaque": [
-        "basta."
+        "tirou"
       ],
-      "imagem": "banco/1moZK-aGEQWd2X6l0ZwtbG226XO_j3fey.jpg",
+      "imagem": "banco/1n3mF2Xxaz_vmiB5lOP3X_M9--vwz0aHd.jpg",
       "narrar": true,
-      "impacto": true
+      "audio": "narr-2026-10-22-b-5.mp3",
+      "tempos": [
+        0,
+        13,
+        23,
+        25,
+        41,
+        46,
+        53
+      ],
+      "duracao": 92
+    },
+    {
+      "texto": "Ficou vazio. Sem motivo pra viver.",
+      "destaque": [
+        "vazio."
+      ],
+      "imagem": "banco/1niEf81QDMHxfLVKQKtUYEqT7JiBJO6vF.jpg"
+    },
+    {
+      "texto": "Aí entendeu o pai:",
+      "destaque": [],
+      "imagem": "banco/1gKCPfOrN0dP6Pglck_TGqKUAsxkuJFaM.jpg"
+    },
+    {
+      "texto": "Você não tem inimigos.",
+      "destaque": [
+        "inimigos."
+      ],
+      "imagem": "banco/1ka0U9UyKHevlhZdXCEgZg3kUMRRb_Fz5.jpg",
+      "narrar": true,
+      "impacto": true,
+      "audio": "narr-2026-10-22-b-8.mp3",
+      "tempos": [
+        0,
+        11,
+        16,
+        21
+      ],
+      "duracao": 99
     }
   ],
-  "assinatura": "@pvedicoes"
+  "assinatura": "@pvedicoes",
+  "voz": "JBFqnCBsd6RMkjVDRZzb",
+  "vozNome": "George"
 }

@@ -1,58 +1,63 @@
 {
   "musica": "banco/1OibxoEKPBxa55L8pzacsYf5MTAUnudbG.mp3",
   "inicioMusica": 0.0,
+  "serie": "Attack on Titan · Eren",
+  "gancho": "Sonharam a vida inteira em ver o mar. Olha o que ele disse quando viu.",
+  "pergunta": "Eren estava certo ou errado?",
   "cenas": [
     {
-      "texto": "Sem pais ricos.",
+      "texto": "Três crianças presas atrás de muros.",
       "destaque": [
-        "ricos."
+        "muros."
       ],
-      "imagem": "banco/1tJ_AWksHncwRhEbxbVTvscddZCThadEk.jpg",
+      "imagem": "banco/1mefdr9XwzHZQlLdDruIBO0kD3OJHgdlI.jpg"
+    },
+    {
+      "texto": "Um sonho: ver o mar.",
+      "destaque": [
+        "mar."
+      ],
+      "imagem": "banco/1VJ7hgztYwxAYylEaAWkTIJvejkjif91O.jpg",
       "narrar": true
     },
     {
-      "texto": "Sem contatos.",
-      "destaque": [],
-      "imagem": "banco/1fz4Ww-qiutKRSc2iN_D_KILPXaaF6Lg_.jpg"
+      "texto": "Perderam a mãe.",
+      "destaque": [
+        "mãe."
+      ],
+      "imagem": "banco/1dSKYkl9zneQ8pzzNz395at2GXzyKJKrR.jpg"
     },
     {
-      "texto": "Sem plano B.",
+      "texto": "Perderam os amigos.",
+      "destaque": [],
+      "imagem": "banco/1OmhRxiFdJye_wMuxgremsXcP-qNcZnpJ.jpg"
+    },
+    {
+      "texto": "Anos depois, chegaram no mar.",
       "destaque": [
-        "B."
+        "mar."
       ],
-      "imagem": "banco/1acE3-mXxvtjifS7-nvViCLZYKezz85TU.jpg",
+      "imagem": "banco/1sMtOP-nbzCbm01WLgSMTdcMZLohdH-9r.jpg"
+    },
+    {
+      "texto": "E o Eren perguntou:",
+      "destaque": [],
+      "imagem": "banco/1T3seWZHBNPBQCMKkEPMVM896NK0dn5TP.jpg"
+    },
+    {
+      "texto": "Se matarmos todos lá do outro lado...",
+      "destaque": [
+        "matarmos"
+      ],
+      "imagem": "banco/1Xlm98h2MrM_qdXvgetjYZW7zc-4HOxkt.jpg",
       "narrar": true
     },
     {
-      "texto": "Sem desculpa.",
+      "texto": "seremos livres?",
       "destaque": [
-        "desculpa."
+        "livres?"
       ],
-      "imagem": "banco/19-iBB2DCT9_7gm8By9ZEp_7jdQ1EMN8b.jpg"
-    },
-    {
-      "texto": "Só você",
-      "destaque": [],
-      "imagem": "banco/1Cjw48b9SlJZ7cmmNhLq4iUH38xV6XBn5.jpg"
-    },
-    {
-      "texto": "e o trabalho.",
-      "destaque": [
-        "trabalho."
-      ],
-      "imagem": "banco/1ki-FOO-8Dnh745UMWBWQrYLVMSHzppSz.jpg"
-    },
-    {
-      "texto": "Todo santo dia.",
-      "destaque": [],
-      "imagem": "banco/1_05igUp1huny8Mut2LIUFbRJU0hWncpL.jpg"
-    },
-    {
-      "texto": "E é o suficiente.",
-      "destaque": [
-        "suficiente."
-      ],
-      "imagem": "banco/1DTMtrH73b7MJWDhAII94Ox5pgSW1Tsp3.jpg",
+      "imagem": "banco/1mefdr9XwzHZQlLdDruIBO0kD3OJHgdlI.jpg",
       "narrar": true,
       "impacto": true
     }

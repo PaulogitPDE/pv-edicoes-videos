@@ -1,49 +1,63 @@
 {
   "musica": "banco/13mszfCZ03f7pAGz7qkNKEPHXOWjCfDau.mp3",
   "inicioMusica": 15.0,
+  "serie": "One Punch Man · Saitama",
+  "gancho": "Ficou tão forte que perdeu a graça de viver.",
+  "pergunta": "Você prefere ser forte ou sentir que está vivo?",
   "cenas": [
     {
-      "texto": "Cansado?",
+      "texto": "Treinou todo dia, por três anos.",
       "destaque": [
-        "Cansado?"
+        "três"
       ],
-      "imagem": "banco/1WFJ_c4EJbg13KzU8QI27-NTnrEvI4hPJ.jpg",
+      "imagem": "banco/1IvRJmPhR3zQ31iyw2_vfYtbdaRa77cjh.jpg"
+    },
+    {
+      "texto": "Ficou careca.",
+      "destaque": [
+        "careca."
+      ],
+      "imagem": "banco/1CbI9kF6_7qB7vusrKM067Hblmcypae8A.jpg"
+    },
+    {
+      "texto": "Virou o mais forte do mundo.",
+      "destaque": [
+        "forte"
+      ],
+      "imagem": "banco/1U7snbO8AwNMi7fmrpqHnGklghOoAkZly.jpg",
       "narrar": true
     },
     {
-      "texto": "Normal.",
-      "destaque": [],
-      "imagem": "banco/1oQNlQynl4V_2CivMayu7xKsdBEEjdq3f.jpg"
-    },
-    {
-      "texto": "Quem luta cansa.",
-      "destaque": [],
-      "imagem": "banco/1eEOa6AxS-q5_JW-3MuR6e9jeA4xeHDja.jpg"
-    },
-    {
-      "texto": "Descansa.",
+      "texto": "Um soco. Qualquer inimigo.",
       "destaque": [
-        "Descansa."
+        "soco."
       ],
-      "imagem": "banco/1CafjTj8Ksb5adG6vZ6VxDD4wwZWS8EoM.jpg",
+      "imagem": "banco/1G82mhoCSEV8UsZ4U81NG0q1zLBi6hVG8.jpg"
+    },
+    {
+      "texto": "E não sentiu nada.",
+      "destaque": [
+        "nada."
+      ],
+      "imagem": "banco/1CbI9kF6_7qB7vusrKM067Hblmcypae8A.jpg",
       "narrar": true
     },
     {
-      "texto": "Respira.",
+      "texto": "Sem luta, não tem emoção.",
       "destaque": [],
-      "imagem": "banco/1D2DcgI3blmuzsJLL1hOaNQKH-h2Zs5W6.jpg"
+      "imagem": "banco/1k82fj7C7LgyH0IP_EBaQiMM2rniVZTCn.jpg"
     },
     {
-      "texto": "Recupera.",
+      "texto": "A dificuldade nunca foi o problema.",
       "destaque": [],
-      "imagem": "banco/1LDujIMLleFG_lrSdZW9seaDQJrkoKdNk.jpg"
+      "imagem": "banco/1nw8VcO3hcEkdtj7vkJBQn4y0auaqRTDE.jpg"
     },
     {
-      "texto": "Mas não desiste.",
+      "texto": "É ela que te faz sentir vivo.",
       "destaque": [
-        "desiste."
+        "vivo."
       ],
-      "imagem": "banco/15ySw4sgA_x_R30ImR-C1LzOZiPnm8tIG.jpg",
+      "imagem": "banco/1G82mhoCSEV8UsZ4U81NG0q1zLBi6hVG8.jpg",
       "narrar": true,
       "impacto": true
     }

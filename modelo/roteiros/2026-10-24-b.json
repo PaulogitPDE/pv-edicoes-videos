@@ -1,48 +1,63 @@
 {
   "musica": "banco/12ZYwkV-budqol6WWCHs08dOly6FgkD86.mp3",
   "inicioMusica": 10.0,
+  "serie": "Naruto · Rock Lee",
+  "gancho": "Num mundo de ninjas, ele não sabia usar nenhum jutsu.",
+  "pergunta": "Esforço vence talento? Comenta.",
   "cenas": [
     {
-      "texto": "Talento te faz começar.",
+      "texto": "Todo mundo nasceu com um dom.",
       "destaque": [
-        "começar."
+        "dom."
       ],
-      "imagem": "banco/1H2ocCQsxBfgEnr7yMnxnoktidu3Gv5dX.jpg",
+      "imagem": "banco/1x5Dys7EadXQG7VT3g1kZMn68c3gaETvA.jpg"
+    },
+    {
+      "texto": "Ele não tinha nenhum.",
+      "destaque": [
+        "nenhum."
+      ],
+      "imagem": "banco/1xbe94UO1MRMWNSNBo_4LUpW4LEJzdI4L.jpg",
       "narrar": true
     },
     {
-      "texto": "Mas talento cansa.",
-      "destaque": [],
-      "imagem": "banco/1897dS-yheyNBpsZBqfBaj4KhlTKvKH7H.jpg"
-    },
-    {
-      "texto": "Talento desiste.",
-      "destaque": [],
-      "imagem": "banco/1niEf81QDMHxfLVKQKtUYEqT7JiBJO6vF.jpg"
-    },
-    {
-      "texto": "Talento espera vontade.",
-      "destaque": [],
-      "imagem": "banco/1JSPkWA4DdU_LFfpqAaC81bCPdUQQcRQ7.jpg"
-    },
-    {
-      "texto": "Disciplina não espera.",
+      "texto": "Riram dele.",
       "destaque": [
-        "Disciplina"
+        "Riram"
       ],
-      "imagem": "banco/1_o2PiSP67RuTZeMINwdCqrTm6x5xYzqA.jpg"
+      "imagem": "banco/1H_gkgsSXGVnXc7FPURyLUK0NR3ItXF1T.jpg"
     },
     {
-      "texto": "Ela aparece todo dia.",
-      "destaque": [],
-      "imagem": "banco/1EwgiLTQ4WrUyS771uXFPRVZTD5riylOl.jpg"
-    },
-    {
-      "texto": "Disciplina te faz terminar.",
+      "texto": "Então ele treinou.",
       "destaque": [
-        "terminar."
+        "treinou."
       ],
-      "imagem": "banco/1yPlxawnfBrkwibK__T0Vi4UOSsxzd8-9.jpg",
+      "imagem": "banco/16far6Zs6WvpmNYY_MXdO_XmB_Mzpz0Y0.jpg"
+    },
+    {
+      "texto": "Até o corpo não aguentar.",
+      "destaque": [],
+      "imagem": "banco/1IO6uRDQKGqkM1ccorvL3YkWKob6j0sTb.jpg"
+    },
+    {
+      "texto": "Na frente do estádio inteiro...",
+      "destaque": [],
+      "imagem": "banco/1acE3-mXxvtjifS7-nvViCLZYKezz85TU.jpg"
+    },
+    {
+      "texto": "fez o gênio sangrar.",
+      "destaque": [
+        "sangrar."
+      ],
+      "imagem": "banco/1xbe94UO1MRMWNSNBo_4LUpW4LEJzdI4L.jpg",
+      "narrar": true
+    },
+    {
+      "texto": "Esforço também é um dom.",
+      "destaque": [
+        "dom."
+      ],
+      "imagem": "banco/16far6Zs6WvpmNYY_MXdO_XmB_Mzpz0Y0.jpg",
       "narrar": true,
       "impacto": true
     }

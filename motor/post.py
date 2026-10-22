@@ -1,7 +1,9 @@
 """Motor próprio dos posts de imagem do PV Edições (sem Remotion): headline editada direto na foto, 1080x1350.
 Uso (na raiz do repo): python3 motor/post.py modelo/posts/AAAA-MM-DD.json postados-img/AAAA-MM-DD.jpg
 JSON: imagem, headline, destaque (palavras da headline que viram tarja vermelha), sub (linha aesthetic),
-pb (true = preto e branco), posicao ("baixo" padrão | "topo"), foco ("top"/"bottom" para enquadrar)."""
+pb (true = preto e branco), posicao ("baixo" padrão | "topo"), foco ("top"/"bottom" para enquadrar).
+Carrossel (estratégia 22/10): JSON com "serie" (ex.: "VAGABOND · MUSASHI") e "slides": [ {mesmos campos}, ... ].
+Saída vira ARQUIVO-1.jpg, ARQUIVO-2.jpg... (passe postados-img/AAAA-MM-DD.jpg). Slide 1 ganha "ARRASTA →", todos ganham n/total."""
 import json, os, sys
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps
@@ -14,8 +16,7 @@ F_BOLD = '/usr/share/fonts/opentype/inter/Inter-Bold.otf'
 F_SERIFA = '/usr/share/fonts/truetype/freefont/FreeSerifItalic.ttf'
 
 
-def main():
-    p = json.load(open(sys.argv[1], encoding='utf-8'))
+def render(p, saida, idx=0, total=1, serie=None):
     topo = p.get('posicao') == 'topo'
     im = Image.open(os.path.join(PUBLIC, p['imagem'])).convert('RGB')
     centro = {'top': (0.5, 0.15), 'bottom': (0.5, 0.85)}.get(p.get('foco'), (0.5, 0.5))
@@ -41,7 +42,7 @@ def main():
     dr = ImageDraw.Draw(base)
     dr.rectangle([28, 28, W - 29, H - 29], outline=CREME + (90,), width=2)
 
-    headline = p['headline'].upper()
+    headline = p.get('headline', '').upper()
     destaque = [x.upper() for x in p.get('destaque', [])]
     tam = 112 if len(headline) <= 22 else 92 if len(headline) <= 40 else 76
     fonte = ImageFont.truetype(F_BLACK, tam)
@@ -103,8 +104,29 @@ def main():
     for ch in marca:
         ImageDraw.Draw(base).text((mx, my), ch, font=fa, fill=CREME + (205,))
         mx += fa.getlength(ch) + 4
-    base.convert('RGB').save(sys.argv[2], quality=92)
-    print('ok', sys.argv[2])
+    if total > 1 or serie:
+        dr = ImageDraw.Draw(base)
+        fr = ImageFont.truetype(F_BOLD, 28)
+        y = (H - 64 - 30) if topo else 64
+        if serie:
+            t = serie.upper()
+            dr.rectangle([72, y - 8, 72 + fr.getlength(t) + 28, y + 40], fill=VERMELHO + (255,))
+            dr.text((86, y - 2), t, font=fr, fill=CREME)
+        if total > 1:
+            t = ('ARRASTA  →  ' if idx == 0 else '') + f'{idx + 1}/{total}'
+            yb = 64 if topo else H - 64 - 30
+            dr.text((W - 72 - fr.getlength(t), yb), t, font=fr, fill=CREME + (220,))
+    base.convert('RGB').save(saida, quality=92)
+    print('ok', saida)
+
+
+def main():
+    p = json.load(open(sys.argv[1], encoding='utf-8'))
+    if 'slides' not in p:
+        return render(p, sys.argv[2])
+    raiz, ext = os.path.splitext(sys.argv[2])
+    for i, sl in enumerate(p['slides']):
+        render(sl, f'{raiz}-{i + 1}{ext}', i, len(p['slides']), p.get('serie'))
 
 
 if __name__ == '__main__':

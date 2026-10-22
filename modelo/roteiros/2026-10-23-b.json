@@ -1,48 +1,65 @@
 {
   "musica": "banco/13GECM2hXHmt0jVIXa564VgmZax8lVyiW.mp3",
   "inicioMusica": 0.0,
+  "serie": "Berserk · Guts",
+  "gancho": "Nasceu do corpo de uma enforcada. E nunca parou de lutar.",
+  "pergunta": "Você continuaria no lugar dele?",
   "cenas": [
     {
-      "texto": "Falta pouco.",
+      "texto": "Nasceu do corpo de uma enforcada.",
       "destaque": [
-        "pouco."
+        "enforcada."
+      ],
+      "imagem": "banco/1SCl_kK0yxQs274Q2KpDiHScqsCz2Amve.jpg"
+    },
+    {
+      "texto": "Foi vendido ainda criança.",
+      "destaque": [
+        "vendido"
+      ],
+      "imagem": "banco/1t9lnwqS5A6Hrrlq4RxvFHpm2IsqIveyc.jpg"
+    },
+    {
+      "texto": "Achou um amigo.",
+      "destaque": [
+        "amigo."
+      ],
+      "imagem": "banco/18PvaU15ymeWv9p0_A2KxsnjNGS7ANNji.jpg",
+      "narrar": true
+    },
+    {
+      "texto": "O amigo sacrificou todos que ele amava.",
+      "destaque": [
+        "sacrificou"
       ],
       "imagem": "banco/1m3PJaEwIRWlAV9AAQ4G0o4z2_fRRMPMd.jpg",
       "narrar": true
     },
     {
-      "texto": "Lembra de onde você saiu.",
-      "destaque": [],
-      "imagem": "banco/1O4O8QPTaduFvRWlUy2FpByqvuUzZ1RtM.jpg"
-    },
-    {
-      "texto": "Lembra das noites difíceis.",
-      "destaque": [],
-      "imagem": "banco/1gKCPfOrN0dP6Pglck_TGqKUAsxkuJFaM.jpg"
-    },
-    {
-      "texto": "Do medo. Do cansaço.",
-      "destaque": [],
-      "imagem": "banco/1an150sBNuUQZXmkemlL_p5CE_DD6V9sR.jpg"
-    },
-    {
-      "texto": "Você aguentou tudo isso.",
+      "texto": "Qualquer um teria desistido.",
       "destaque": [
-        "tudo"
+        "desistido."
       ],
-      "imagem": "banco/1O6_QC6IxeFh-1EzcOqQhFPkG3h8KqTal.jpg"
+      "imagem": "banco/1jk4HhWvv61UYJoNQgERuDGubQpmioz2E.jpg"
     },
     {
-      "texto": "Não chegou até aqui",
-      "destaque": [],
-      "imagem": "banco/1ePllskYg49NT6mHCZEknXm10zMgaKsvF.jpg"
-    },
-    {
-      "texto": "pra parar agora.",
+      "texto": "Ele pegou a espada.",
       "destaque": [
-        "agora."
+        "espada."
       ],
-      "imagem": "banco/1bnUSY36xc2CilqfrP9yyyfYVvAxKqdBY.jpg",
+      "imagem": "banco/1TKFE0WfNsC2LAHhUmh_0ygzsSskD3dsB.jpg"
+    },
+    {
+      "texto": "E seguiu andando.",
+      "destaque": [],
+      "imagem": "banco/1fz4Ww-qiutKRSc2iN_D_KILPXaaF6Lg_.jpg"
+    },
+    {
+      "texto": "Ainda está lutando.",
+      "destaque": [
+        "lutando."
+      ],
+      "imagem": "banco/1TKFE0WfNsC2LAHhUmh_0ygzsSskD3dsB.jpg",
       "narrar": true,
       "impacto": true
     }

@@ -1,13 +1,15 @@
 """Motor próprio de reels do PV Edições (sem Remotion): desenha cada frame com Pillow/numpy e codifica com ffmpeg.
 Uso (na raiz do repo): python3 motor/reel.py modelo/roteiros/AAAA-MM-DD.json postados/AAAA-MM-DD.mp4
 Lê o mesmo JSON de roteiro (cenas, destaque, impacto, imagem, tempos, duracao, audio, musica, inicioMusica, assinatura).
+Estratégia 22/10: "serie" + "gancho" ficam fixos no topo desde o frame 0 (o espectador sabe na hora de quem é a história);
+"pergunta" fecha o vídeo no cartão final (puxa comentário). Sem flash branco no frame 0.
 Toda a animação (zoom, tremida, pop das palavras, frase de impacto, linhas de velocidade) é calculada aqui, à mão."""
 import json, math, os, subprocess, sys, tempfile
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps
 
 W, H, FPS = 1080, 1920, 30
-POR_PALAVRA, SEGURA, FINAL = 8, 26, 60
+POR_PALAVRA, SEGURA, FINAL = 8, 26, 45
 VERMELHO, BRANCO = (229, 25, 46), (244, 241, 234)
 PUBLIC = os.path.join(os.path.dirname(__file__), '..', 'modelo', 'public')
 F_BOLD = '/usr/share/fonts/opentype/inter/Inter-ExtraBold.otf'
@@ -138,6 +140,36 @@ def layout(c):
     return palavras, sprites, pos, y0 + alt * len(linhas_)
 
 
+def faixa_topo(serie, gancho):
+    """Título fixo no topo: rótulo vermelho (anime · personagem) + gancho em caixa preta. Fica fora da área da UI do IG."""
+    fs, fg = ImageFont.truetype(F_MED, 34), ImageFont.truetype(F_BLACK, 60)
+    linhas_g, atual = [], ''
+    for w in (gancho or '').upper().split():
+        if atual and fg.getlength(atual + ' ' + w) > W - 200:
+            linhas_g.append(atual); atual = w
+        else:
+            atual = (atual + ' ' + w).strip()
+    if atual:
+        linhas_g.append(atual)
+    im = Image.new('RGBA', (W, 120 + 72 * len(linhas_g)), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    y = 0
+    if serie:
+        t = serie.upper()
+        larg = sum(fs.getlength(ch) + 5 for ch in t)
+        x = W / 2 - larg / 2
+        d.rectangle([x - 18, 0, x + larg + 12, 52], fill=VERMELHO + (255,))
+        for ch in t:
+            d.text((x, 6), ch, font=fs, fill=BRANCO + (255,)); x += fs.getlength(ch) + 5
+        y = 70
+    if linhas_g:
+        larg = max(fg.getlength(l) for l in linhas_g)
+        d.rectangle([W / 2 - larg / 2 - 28, y, W / 2 + larg / 2 + 28, y + 30 + 72 * len(linhas_g)], fill=(0, 0, 0, 215))
+        for i, l in enumerate(linhas_g):
+            d.text((W / 2 - fg.getlength(l) / 2, y + 12 + i * 72), l, font=fg, fill=BRANCO + (255,))
+    return im
+
+
 def colar_escala(base, sp, cx, cy, esc, alpha=1.0):
     if esc <= 0.01 or alpha <= 0:
         return
@@ -148,7 +180,7 @@ def colar_escala(base, sp, cx, cy, esc, alpha=1.0):
     base.alpha_composite(s, (round(cx - w / 2), round(cy - h / 2)))
 
 
-def frame_cena(c, n, f, dur, lay):
+def frame_cena(c, n, f, dur, lay, topo=None):
     palavras, sprites, pos, base_y = lay
     imp = c.get('impacto')
     tempos = c.get('tempos') or [round(i * POR_PALAVRA * (1.6 if imp else 1)) for i in range(len(palavras))]
@@ -210,6 +242,8 @@ def frame_cena(c, n, f, dur, lay):
             y = base_y + 30
             x0 = W / 2 - larg / 2
             dr.polygon([(x0 + 5, y), (x0 + larg + 5, y), (x0 + larg - 5, y + 14), (x0 - 5, y + 14)], fill=VERMELHO + (255,))
+    if topo is not None:
+        base.alpha_composite(topo, (0, 210))
     # moldura de painel
     dr.rectangle([22, 22, W - 23, H - 23], outline=(0, 0, 0, 255), width=14)
     dr.rectangle([36, 36, W - 37, H - 37], outline=BRANCO + (217,), width=5)
@@ -224,7 +258,7 @@ def frame_cena(c, n, f, dur, lay):
     if zoom_c != 1 or sac:
         cw, ch = W / zoom_c, H / zoom_c
         out = out.resize((W, H), Image.BILINEAR, box=(W / 2 - cw / 2 - sac, H / 2 - ch / 2 - sac * 0.6, W / 2 + cw / 2 - sac, H / 2 + ch / 2 - sac * 0.6))
-    flash = lerp(f, 0, 4, 0.85, 0)
+    flash = lerp(f, 0, 4, 0.85, 0) if n > 0 else 0
     if flash > 0:
         out = Image.blend(out, Image.new('RGB', (W, H), (255, 255, 255)), flash)
     sai = lerp(f, dur - 5, dur, 1, 0)
@@ -240,7 +274,8 @@ def frame_final(f, assinatura, sprites):
     base = quadro.convert('RGBA')
     s = mola(f, 14, 1, 100)
     colar_escala(base, sprites[0], W / 2, H / 2 - 30, 0.6 + s * 0.4, clamp01(s))
-    colar_escala(base, sprites[1], W / 2, H / 2 + 70, 1, lerp(f, 10, 20, 0, 1))
+    for i, sp in enumerate(sprites[1:]):
+        colar_escala(base, sp, W / 2, H / 2 + 80 + i * 66, 1, lerp(f, 6 + i * 3, 14 + i * 3, 0, 1))
     return base.convert('RGB')
 
 
@@ -292,15 +327,23 @@ def main():
     enc = subprocess.Popen(['ffmpeg', '-v', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
                             '-i', wav, '-c:v', 'libx264', '-preset', 'medium', '-crf', '24', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '192k',
                             '-movflags', '+faststart', '-shortest', saida], stdin=subprocess.PIPE)
+    topo = faixa_topo(r.get('serie'), r.get('gancho')) if (r.get('serie') or r.get('gancho')) else None
     for n, (c, d) in enumerate(zip(cenas, durs)):
         lay = layout(c)
         for f in range(d):
-            enc.stdin.write(frame_cena(c, n, f, d, lay).tobytes())
+            enc.stdin.write(frame_cena(c, n, f, d, lay, topo).tobytes())
         print(f'cena {n + 1}/{len(cenas)} ok', flush=True)
     ass = sprite_palavra(r.get('assinatura', '@pvedicoes'), 96, BRANCO)[0]
-    cta = sprite_palavra('SALVA E MANDA PRA QUEM PRECISA', 44, VERMELHO)[0]
+    linhas_p, atual = [], ''
+    for w in (r.get('pergunta') or 'SALVA E MANDA PRA QUEM PRECISA').split():
+        if atual and len(atual) + len(w) > 24:
+            linhas_p.append(atual); atual = w
+        else:
+            atual = (atual + ' ' + w).strip()
+    linhas_p.append(atual)
+    cta = [sprite_palavra(l, 44, VERMELHO)[0] for l in linhas_p]
     for f in range(FINAL):
-        enc.stdin.write(frame_final(f, None, [ass, cta]).tobytes())
+        enc.stdin.write(frame_final(f, None, [ass] + cta).tobytes())
     enc.stdin.close()
     enc.wait()
     print('ok', saida, f'{total / FPS:.1f} s')

@@ -1,55 +1,61 @@
 {
   "musica": "banco/10DU8VMN3sl_4EbpoxmfoDMwehX8ErjHb.mp3",
   "inicioMusica": 0.0,
+  "serie": "Demon Slayer · Tanjiro",
+  "gancho": "Voltou pra casa e a família inteira estava morta. Menos uma.",
+  "pergunta": "Você salvaria ela também?",
   "cenas": [
     {
-      "texto": "Treina em silêncio.",
+      "texto": "Saiu pra vender carvão.",
+      "destaque": [],
+      "imagem": "banco/1SInOeYUKDJl7xKYQE0ClG0NxWLnPs9YF.jpg"
+    },
+    {
+      "texto": "Voltou e achou a família morta.",
       "destaque": [
-        "silêncio."
+        "morta."
       ],
-      "imagem": "banco/16_yrn83hnumSQDClzDCCG3t3DgwhM7QO.jpg",
+      "imagem": "banco/1sMtOP-nbzCbm01WLgSMTdcMZLohdH-9r.jpg",
       "narrar": true
     },
     {
-      "texto": "Sem post.",
+      "texto": "A irmã sobreviveu.",
       "destaque": [],
+      "imagem": "banco/1AAWSzyt6AYwmZMM_ZRlmePUgJmU4ZK-f.jpg"
+    },
+    {
+      "texto": "Como demônio.",
+      "destaque": [
+        "demônio."
+      ],
       "imagem": "banco/1tRB2LXEHmo92JqQyN_8ET9GE0PDpCug6.jpg"
     },
     {
-      "texto": "Sem anúncio.",
-      "destaque": [],
-      "imagem": "banco/1NLWsx5stOQWvbNzXLpGtg39sjmOINb3V.jpg"
-    },
-    {
-      "texto": "Sem plateia.",
-      "destaque": [],
-      "imagem": "banco/1vslsfkMPsHjV1zFUczKtvnoUDY47tnGE.jpg"
-    },
-    {
-      "texto": "Só trabalho.",
+      "texto": "Mandaram ele matar ela.",
       "destaque": [
-        "trabalho."
+        "matar"
       ],
-      "imagem": "banco/1k82fj7C7LgyH0IP_EBaQiMM2rniVZTCn.jpg"
+      "imagem": "banco/1hOOW-NyjblBcgYXjajYdWYJCgtBCqsHO.jpg"
     },
     {
-      "texto": "Quando chegar a hora",
+      "texto": "Ele escolheu proteger.",
+      "destaque": [
+        "proteger."
+      ],
+      "imagem": "banco/1761FNeS23_gZykvSW8YMXXIJVWfeV8PP.jpg",
+      "narrar": true
+    },
+    {
+      "texto": "Nada traz de volta quem se foi.",
       "destaque": [],
-      "imagem": "banco/1mefdr9XwzHZQlLdDruIBO0kD3OJHgdlI.jpg"
+      "imagem": "banco/1hOOW-NyjblBcgYXjajYdWYJCgtBCqsHO.jpg"
     },
     {
-      "texto": "deixa o resultado",
+      "texto": "Mas dá pra salvar quem ficou.",
       "destaque": [
-        "resultado"
+        "salvar"
       ],
-      "imagem": "banco/1NociLy0HzAjyBojPy3zakQEznddj7mje.jpg"
-    },
-    {
-      "texto": "fazer barulho.",
-      "destaque": [
-        "barulho."
-      ],
-      "imagem": "banco/1PABW-v8VXlgHelkte7sSjrCMTEuts-I2.jpg",
+      "imagem": "banco/1761FNeS23_gZykvSW8YMXXIJVWfeV8PP.jpg",
       "narrar": true,
       "impacto": true
     }

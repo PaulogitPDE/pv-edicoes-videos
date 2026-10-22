@@ -1,59 +1,62 @@
 {
   "musica": "banco/13mszfCZ03f7pAGz7qkNKEPHXOWjCfDau.mp3",
   "inicioMusica": 15.0,
+  "serie": "Vagabond · Musashi",
+  "gancho": "Venceu todas as lutas. E perguntou se merecia viver.",
+  "pergunta": "Você já ganhou e se sentiu vazio?",
   "cenas": [
     {
-      "texto": "Caiu?",
+      "texto": "Ele queria ser o mais forte do Japão.",
       "destaque": [
-        "Caiu?"
+        "forte"
       ],
-      "imagem": "banco/1NNU79ocPVn5hZvL6PPmIu3_kcoI1IgJJ.jpg",
+      "imagem": "banco/1Ovn9Hcwp2rxqFdiGq2EKt8X5it7fUro5.jpg",
       "narrar": true
     },
     {
-      "texto": "Levanta.",
+      "texto": "Duelou com quem aparecesse.",
+      "destaque": [],
+      "imagem": "banco/1oQNlQynl4V_2CivMayu7xKsdBEEjdq3f.jpg"
+    },
+    {
+      "texto": "Ganhou.",
       "destaque": [
-        "Levanta."
+        "Ganhou."
       ],
-      "imagem": "banco/10qoqywydV74Gc065NZZqL7V-X5_lGsR3.jpg",
+      "imagem": "banco/1n3mF2Xxaz_vmiB5lOP3X_M9--vwz0aHd.jpg"
+    },
+    {
+      "texto": "Ganhou de novo.",
+      "destaque": [],
+      "imagem": "banco/1mLtScQ3omDxbZ9QAritZTrE34TTl2Wub.jpg"
+    },
+    {
+      "texto": "E cada vitória pesava mais.",
+      "destaque": [
+        "pesava"
+      ],
+      "imagem": "banco/1QYPFwJzXZjR3UjJe0wbwXnS-I64tFGUQ.jpg"
+    },
+    {
+      "texto": "Até perguntar: eu mereço viver?",
+      "destaque": [
+        "viver?"
+      ],
+      "imagem": "banco/1woQHyRiwoNwbzeO2g3D-OfewG6Jml7lq.jpg",
       "narrar": true
     },
     {
-      "texto": "Caiu de novo?",
+      "texto": "O mestre respondeu:",
       "destaque": [],
-      "imagem": "banco/156oyYnLcYUDeXcf6gZpPFpz069qtFUTN.jpg"
+      "imagem": "banco/1ki-FOO-8Dnh745UMWBWQrYLVMSHzppSz.jpg"
     },
     {
-      "texto": "Levanta de novo.",
+      "texto": "Quem é forte de verdade é gentil.",
       "destaque": [
-        "novo."
+        "gentil."
       ],
-      "imagem": "banco/1_HpruRzXB0ZLg-hXVQT28aWLC0wns0hR.jpg"
-    },
-    {
-      "texto": "Ninguém lembra das quedas.",
-      "destaque": [],
-      "imagem": "banco/1BiPtcnDJ9Z7IYeBn1ARTpZd0e-iy5xXu.jpg"
-    },
-    {
-      "texto": "Todo mundo lembra",
-      "destaque": [],
-      "imagem": "banco/17bxm-X_GuJzfn8WVw3rR7M-7y_e4NkcI.jpg"
-    },
-    {
-      "texto": "de quem não ficou no chão.",
-      "destaque": [
-        "chão."
-      ],
-      "imagem": "banco/1Xlm98h2MrM_qdXvgetjYZW7zc-4HOxkt.jpg",
-      "narrar": true
-    },
-    {
-      "texto": "Quantas vezes precisar.",
-      "destaque": [
-        "precisar."
-      ],
-      "imagem": "banco/1433mo1XvJekLHwV4Iscl2p0gP66AfjDc.jpg",
+      "imagem": "banco/1ki-FOO-8Dnh745UMWBWQrYLVMSHzppSz.jpg",
+      "narrar": true,
       "impacto": true
     }
   ],
