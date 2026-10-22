@@ -2,7 +2,8 @@
 e o ffmpeg só codifica. Uso (na raiz do repo): python3 crm/motor/reel.py crm/roteiros/AAAA-MM-DD-r1.json crm/postados/AAAA-MM-DD-r1.mp4
 
 Roteiro JSON: {"tarja": "...", "semente": 3, "cenas": [{"tipo": ..., "legenda": "...", "dur": 3.0, ...}]}
-Tipos de cena: gancho, chat, leads, timeline, numero, desenho (funil|grafico), lista, cta (direct|bio|comenta), data.
+Tipos de cena: gancho, chat, leads, timeline, numero, desenho (funil|grafico), lista, cta (direct|bio|comenta), data, virada.
+Cada cena tem um humor (dor = halo e fundo vermelhos, solucao = lime), forçável com 'humor'. Padrão criativo: crm/DIRETOR.md.
 Texto entre <sinais> vira destaque lime com brilho. Tudo é animado aqui, à mão: câmera (push, pan, giro, tremida),
 transições (whip com motion blur, zoom com flash, glitch RGB), bolinhas neon piscando, traços sendo desenhados,
 pop-ups de lead pulando na tela, contadores, digitação, ondas de toque e explosões de partículas."""
@@ -913,9 +914,43 @@ def _calendario(dia, mes):
     return im
 
 
+class Virada(Cena):
+    """Virada da dor para a solução: riser, flash branco, halo e fundo passando de vermelho para lime, pergunta batendo."""
+    dur_padrao = 2.2
+
+    def __init__(self, *a):
+        super().__init__(*a)
+        self.t = Texto(self.c['texto'], self.c.get('tam', 104), max_w=940)
+        self.som(-24, 'riser', 0.9)
+        self.som(2, 'slam', 1)
+        self.tremer(2, 0.8)
+        for i in range(self.t.n):
+            self.som(8 + i * 3, 'pop', 0.4)
+
+    def draw(self, base, f):
+        q = sai(f / 10)
+        colar(base, anel(LIME, int(260 + 140 * q), 10), W / 2, 900, 1 + 0.03 * math.sin(f / 3), 0.5 + 0.5 * q)
+        explosao(base, W / 2, 900, f - 2, 61, LIME, 28, 480, 26)
+        self.t.draw(base, W / 2, 900, f, 8, 'slam', 3)
+
+
 TIPOS = {'gancho': Gancho, 'chat': Chat, 'leads': Leads, 'timeline': Timeline, 'numero': Numero,
-         'desenho': Desenho, 'lista': Lista, 'cta': Cta, 'data': Data}
+         'desenho': Desenho, 'lista': Lista, 'cta': Cta, 'data': Data, 'virada': Virada}
 MOVS = ['push', 'esq', 'pull', 'gira', 'dir', 'push2']
+HUMOR = {'gancho': 'dor', 'chat': 'dor', 'numero': 'dor', 'data': 'solucao', 'leads': 'solucao', 'timeline': 'solucao',
+         'lista': 'solucao', 'cta': 'solucao', 'desenho': 'solucao', 'virada': 'solucao'}
+
+
+def _tinta(cor):
+    y, x = np.mgrid[0:H // 4, 0:W // 4]
+    d = np.sqrt(((x - W / 8) / (W / 4 * 0.7)) ** 2 + ((y - H / 8) / (H / 4 * 0.45)) ** 2)
+    a = Image.fromarray((np.clip(1 - d, 0, 1) * 70).astype(np.uint8)).resize((W, H), Image.BILINEAR)
+    im = Image.new('RGBA', (W, H), cor + (0,))
+    im.putalpha(a)
+    return im
+
+
+TINTA = {'dor': _tinta(VERMELHO), 'solucao': _tinta(LIME)}
 TRANS = ['whip', 'zoom', 'glitch']
 
 
@@ -967,8 +1002,13 @@ def main():
         cena.mov = c.get('camera', MOVS[i % len(MOVS)])
         cena.trans = c.get('transicao', TRANS[i % len(TRANS)])
         cena.leg = Texto(c['legenda'], 56, max_w=900) if c.get('legenda') else None
+        cena.humor = c.get('humor') or ('dor' if c['tipo'] == 'desenho' and c.get('vazando') else HUMOR[c['tipo']])
+        if c['tipo'] == 'virada':
+            cena.trans = 'zoom'
         if i:
             ev.append((t0 - 3, 'whoosh', 0.6))
+            if cena.trans == 'glitch':
+                ev.append((t0 - 4, 'glitch', 0.8))
         cenas.append(cena)
         t0 += cena.dur
     total = t0
@@ -997,6 +1037,10 @@ def main():
         for f in range(cena.dur):
             F = cena.t0 + f
             base = fundo(F)
+            base.alpha_composite(TINTA[cena.humor])
+            # halo: anel de luz recorrente, vermelho na dor e lime na solução
+            if cena.c['tipo'] != 'virada':
+                colar(base, anel(VERMELHO if cena.humor == 'dor' else LIME, 430, 8), W / 2, 900, 1 + 0.02 * math.sin(F / 9), 0.16 + 0.06 * math.sin(F / 7))
             cena.draw(base, f)
             img = base.convert('RGB')
             z, rot, px, py = mov_cena(cena.mov, f / max(1, cena.dur - 1))
@@ -1015,7 +1059,7 @@ def main():
                 if cena.trans == 'whip':
                     px += (1 - q) ** 2 * 900; borrao = 2 * (1 - q) * 900 / TR
                 elif cena.trans == 'zoom':
-                    z *= 1 + (1 - q) ** 2 * 0.6; flash = (1 - q) ** 2 * 0.35
+                    z *= 1 + (1 - q) ** 2 * 0.6; flash = (1 - q) * 0.9 if cena.c['tipo'] == 'virada' else (1 - q) ** 2 * 0.35
                 else:
                     gl = 1 - q
             if prox and f >= cena.dur - TR:
@@ -1039,8 +1083,8 @@ def main():
                 s = mola(F, 12, 0.6, 160)
                 colar(top, tarja, W / 2, 230 - (1 - s) * 300)
             if cena.leg:
-                cena.leg.draw(top, W / 2, 1480 + cena.leg.alt / 2 - 30, f, 4, 'pop', 3, fundo=True)
-            colar(top, marca, 60, 1620, alpha=0.75, canto=True)
+                cena.leg.draw(top, W / 2, 1400 + cena.leg.alt / 2 - 30, f, 4, 'pop', 3, fundo=True)  # área segura: acima dos ~420 px de baixo
+            colar(top, marca, 80, 1530, alpha=0.75, canto=True)
             ImageDraw.Draw(top).rectangle([0, 0, int(W * (F + 1) / total), 7], fill=LIME + (255,))
             img = top.convert('RGB')
             if flash > 0:

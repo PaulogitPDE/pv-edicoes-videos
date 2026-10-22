@@ -28,7 +28,10 @@ Conta: Instagram **@crmquevende** (id `17841477784714532`, Página "CRM  Que Ven
 - `crm/calendario/AAAA-MM.json`: o cronograma do mês (tema, layout/cenas e CTA de cada peça). Página para o Sr Pv ver: artefato "Cronograma CRM que vende" https://claude.ai/artifact/BejguxivJhrExok5M4h3aq (gerar com `python3 crm/scripts/pagina_cronograma.py` e republicar nesse mesmo link, passando `url`, quando o mês mudar).
 - Reels: roteiro `crm/roteiros/<data>-r1.json` / `-r2.json`, legenda `crm/roteiros/<data>-r1.txt`, vídeo `crm/postados/<data>-r1.mp4`.
 - Posts: `crm/posts/<data>-p1.json` / `-p2.json` (e `-trend`), legenda `.txt` ao lado, imagem `crm/postados-img/<data>-p1.jpg`.
-- `crm/log.md`: uma linha por publicação: `- AAAA-MM-DD · r1 · tema · CTA · link`.
+- `crm/log.md`: uma linha por publicação: `- AAAA-MM-DD · r1 · tema · CTA · gancho: "..." · link` (gancho só nos reels).
+
+## Padrão criativo
+Antes de criar qualquer reel, post ou carrossel, seguir **`crm/DIRETOR.md`** (marca, roteiro de cor dor→virada→solução, estrutura gancho/agitação/virada/solução/CTA, área segura, som, checklist e teste A/B de gancho).
 
 ## Como escrever o roteiro do reel (`crm/motor/reel.py`)
 JSON: `{"tarja": "...", "semente": <número do dia>, "tema": "...", "cenas": [...]}`. Exemplo completo: `crm/roteiros/2026-10-22-r1.json`; todas as cenas juntas: `crm/roteiros/teste-todas.json`.
@@ -36,7 +39,8 @@ JSON: `{"tarja": "...", "semente": <número do dia>, "tema": "...", "cenas": [..
 - **Tarja** fixa no topo em todo reel, no estilo "Eu faço o WhatsApp da sua clínica <chamar a paciente de volta> sozinho" (variar a frase).
 - Texto entre `<sinais>` vira destaque lime com brilho. Toda cena tem `legenda` curta (é ela que conta a história, já que não há narração). Sem emoji (a fonte não tem).
 - Usar **sempre** pelo menos uma cena "de CRM" com pop-ups (`leads`, `timeline` ou `chat`) e uma com desenho (`desenho`, ou `rabisco` no gancho). Variar a ordem e a `semente` todo dia para a câmera e a música mudarem.
-- Cenas: `gancho` (texto batendo, `rotulo`, `rabisco`: sublinha|circulo|x), `chat` (conversa de WhatsApp com digitando..., `carimbo`), `leads` (pop-ups de "Novo lead" pulando e indo para o funil do Kommo, cards andando até "Agendado", `total` com `{valor}`), `timeline` (+2h, +1 dia... desenhada, com `resposta` da paciente e notificação), `numero` (contador com anel desenhado, `riscar`), `desenho` (`forma`: funil com bolinhas caindo, `vazando`: 0.4; ou grafico subindo com `valor`), `lista` (checklist com ✓/✗ desenhados), `cta` (direct: digitando FUNIL e resposta; bio: perfil + toque no link + card do WhatsApp; comenta: comentário com coração), `data` (calendário virando + confete, para datas comemorativas). Campo opcional `dur` em segundos.
+- Cenas: `gancho` (texto batendo, `rotulo`, `rabisco`: sublinha|circulo|x), `chat` (conversa de WhatsApp com digitando..., `carimbo`), `leads` (pop-ups de "Novo lead" pulando e indo para o funil do Kommo, cards andando até "Agendado", `total` com `{valor}`), `timeline` (+2h, +1 dia... desenhada, com `resposta` da paciente e notificação), `numero` (contador com anel desenhado, `riscar`), `desenho` (`forma`: funil com bolinhas caindo, `vazando`: 0.4; ou grafico subindo com `valor`), `lista` (checklist com ✓/✗ desenhados), `cta` (direct: digitando FUNIL e resposta; bio: perfil + toque no link + card do WhatsApp; comenta: comentário com coração), `data` (calendário virando + confete, para datas comemorativas), `virada` (riser, flash branco, anel lime crescendo e a frase de esperança batendo; vai entre a dor e a solução). Campo opcional `dur` em segundos; `humor` (`dor`/`solucao`) troca a cor do halo e do fundo se o automático não servir.
+- **Gancho A/B:** guardar 2 ou 3 variações em `"ganchos_ab": ["...", "..."]` no roteiro; usar uma no `gancho` e, no log, anotar qual foi ao ar (`gancho: "..."`). O r1 e o r2 do dia não repetem o mesmo tipo de gancho.
 - Render (na raiz do repo, ~1,5 min): `python3 crm/motor/reel.py crm/roteiros/<arq>.json crm/postados/<arq>.mp4`
 - **Conferir antes de postar**: `ffmpeg -i crm/postados/<arq>.mp4 -vf "select='not(mod(n\,60))',scale=270:480,tile=6x2" -frames:v 1 -vsync 0 /tmp/conferir.png` e olhar a imagem (texto legível, nada cortado, nada sobreposto). Corrigir e renderizar de novo se precisar.
 

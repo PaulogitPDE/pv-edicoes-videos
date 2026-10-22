@@ -1,5 +1,5 @@
 """Trilha e efeitos sonoros do @crmquevende, 100% sintetizados em numpy (sem direitos autorais, sem ElevenLabs).
-trilha(): batida tech/lo-fi com acordes e baixo. efeito(): pop, ding, whoosh, tick, slam, riser, check, risco."""
+trilha(): batida tech/lo-fi com acordes e baixo. efeito(): pop, ding, whoosh, tick, slam, riser, check, risco, glitch."""
 import numpy as np
 
 SR = 44100
@@ -131,4 +131,9 @@ def efeito(nome, seed=0):
         L = int(0.4 * SR)
         r = _suave(_ruido(L, 50 + seed), 3)
         return r * (0.5 + 0.5 * np.sin(np.arange(L) / SR * 2 * np.pi * 18)) * _env(L, 0.02, 0.2) * 0.12
+    if nome == 'glitch':
+        L = int(0.3 * SR)
+        r = _ruido(L, 60 + seed)
+        corte = (np.floor(np.arange(L) / (SR * 0.018)) % 2).astype(float)
+        return (r - _suave(r, 2)) * corte * _env(L, 0.001, 0.12) * 0.35
     raise ValueError(nome)
