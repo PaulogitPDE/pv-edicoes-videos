@@ -10,3 +10,4 @@
 - 2026-10-21 · Ninguém vem te salvar (voz Adam) · https://www.instagram.com/reel/DewqJ8uiFaV/
 - 2026-10-21 · Para de se comparar (voz Brian, motor novo) · https://www.instagram.com/reel/DexaVTigBZg/
 - 2026-10-22 · A dor de hoje (voz Harry) · https://www.instagram.com/reel/DezPXF6j86o/
+- 2026-10-22 · Vinland Saga, Thorfinn: Você não tem inimigos (voz George, estratégia nova) · https://www.instagram.com/reel/Dez-6vWicYM/
