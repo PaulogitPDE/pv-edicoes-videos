@@ -49,7 +49,7 @@ def rnd(*k):
 def limpa(t):
     """Tira emoji (as fontes não têm) e espaços duplos."""
     t = re.sub(r'[\U00010000-\U0010ffff☀-➿️‍]', '', t)
-    return re.sub(r'\s+', ' ', t).strip()
+    return re.sub(r'[^\S\u00a0]+', ' ', t).strip()
 
 
 def corpo(peso, tam):
@@ -167,7 +167,7 @@ def runs(txt):
         elif parte == '>':
             dest = False
         else:
-            for w in parte.split():
+            for w in [w for w in re.split(r"[ \t\n]+", parte) if w]:
                 if out and re.fullmatch(r'[.,!?:;…]+', w):
                     out.append((w, False, True))  # pontuação colada na palavra anterior
                 else:
@@ -280,7 +280,7 @@ def texto_simples(txt, tam, peso='semi', cor=TXT, max_w=None, centro=False):
     linhas = []
     for par in txt.split('\n'):
         atual = ''
-        for w in par.split():
+        for w in [w for w in par.split(" ") if w]:
             if max_w and atual and f.getlength(atual + ' ' + w) > max_w:
                 linhas.append(atual); atual = w
             else:
