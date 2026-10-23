@@ -25,7 +25,14 @@
         "amigo."
       ],
       "imagem": "banco/18PvaU15ymeWv9p0_A2KxsnjNGS7ANNji.jpg",
-      "narrar": true
+      "narrar": true,
+      "audio": "narr-2026-10-23-b-2.mp3",
+      "tempos": [
+        0,
+        9,
+        14
+      ],
+      "duracao": 54
     },
     {
       "texto": "O amigo sacrificou todos que ele amava.",
@@ -33,7 +40,18 @@
         "sacrificou"
       ],
       "imagem": "banco/1m3PJaEwIRWlAV9AAQ4G0o4z2_fRRMPMd.jpg",
-      "narrar": true
+      "narrar": true,
+      "audio": "narr-2026-10-23-b-3.mp3",
+      "tempos": [
+        0,
+        6,
+        14,
+        31,
+        42,
+        45,
+        48
+      ],
+      "duracao": 88
     },
     {
       "texto": "Qualquer um teria desistido.",
@@ -61,8 +79,17 @@
       ],
       "imagem": "banco/1TKFE0WfNsC2LAHhUmh_0ygzsSskD3dsB.jpg",
       "narrar": true,
-      "impacto": true
+      "impacto": true,
+      "audio": "narr-2026-10-23-b-7.mp3",
+      "tempos": [
+        0,
+        9,
+        16
+      ],
+      "duracao": 86
     }
   ],
-  "assinatura": "@pvedicoes"
+  "assinatura": "@pvedicoes",
+  "voz": "IKne3meq5aSn9XLyUdCD",
+  "vozNome": "Charlie"
 }
