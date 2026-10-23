@@ -1,0 +1,68 @@
+{
+  "musica": "banco/12ZYwkV-budqol6WWCHs08dOly6FgkD86.mp3",
+  "inicioMusica": 10.0,
+  "serie": "Hunter x Hunter · Killua",
+  "gancho": "O irmão enfiou uma agulha na cabeça dele. Pra ele sempre fugir.",
+  "pergunta": "Quem colocou o seu medo aí?",
+  "cenas": [
+    {
+      "texto": "Nasceu numa família de assassinos.",
+      "destaque": [
+        "assassinos."
+      ],
+      "imagem": "banco/1PABW-v8VXlgHelkte7sSjrCMTEuts-I2.jpg",
+      "narrar": true
+    },
+    {
+      "texto": "Matar era a lição de casa.",
+      "destaque": [
+        "Matar"
+      ],
+      "imagem": "banco/1zXk8o6C_t_AjlgDRWoVrGaPmRz6sVvx8.jpg"
+    },
+    {
+      "texto": "O irmão colocou uma agulha na cabeça dele.",
+      "destaque": [
+        "agulha"
+      ],
+      "imagem": "banco/1eEOa6AxS-q5_JW-3MuR6e9jeA4xeHDja.jpg"
+    },
+    {
+      "texto": "Toda luta difícil, ele fugia.",
+      "destaque": [
+        "fugia."
+      ],
+      "imagem": "banco/184h7uZkHtl5F_BGg8joWT6-FQqSIdoek.jpg"
+    },
+    {
+      "texto": "Achava que era covarde.",
+      "destaque": [
+        "covarde."
+      ],
+      "imagem": "banco/184h7uZkHtl5F_BGg8joWT6-FQqSIdoek.jpg",
+      "narrar": true
+    },
+    {
+      "texto": "Um dia, arrancou a agulha.",
+      "destaque": [
+        "arrancou"
+      ],
+      "imagem": "banco/1LDujIMLleFG_lrSdZW9seaDQJrkoKdNk.jpg"
+    },
+    {
+      "texto": "E não fugiu mais.",
+      "destaque": [],
+      "imagem": "banco/1Jwv_ahpEhpD-aMAKh7YkoTFHJKaR0YG0.jpg"
+    },
+    {
+      "texto": "Às vezes o seu medo foi colocado por alguém.",
+      "destaque": [
+        "alguém."
+      ],
+      "imagem": "banco/184h7uZkHtl5F_BGg8joWT6-FQqSIdoek.jpg",
+      "narrar": true,
+      "impacto": true
+    }
+  ],
+  "assinatura": "@pvedicoes"
+}

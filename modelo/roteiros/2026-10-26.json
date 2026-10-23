@@ -1,0 +1,68 @@
+{
+  "musica": "banco/10DU8VMN3sl_4EbpoxmfoDMwehX8ErjHb.mp3",
+  "inicioMusica": 0.0,
+  "serie": "Tokyo Revengers · Mikey",
+  "gancho": "Dois amigos tentaram roubar um presente pra ele. E mataram o irmão dele.",
+  "pergunta": "Você perdoaria?",
+  "cenas": [
+    {
+      "texto": "O irmão era o herói dele.",
+      "destaque": [
+        "herói"
+      ],
+      "imagem": "banco/1BA1h95VM2kks6GWkkdKf3CZP64TXzlYa.jpg",
+      "narrar": true
+    },
+    {
+      "texto": "No aniversário, dois amigos quiseram dar uma moto.",
+      "destaque": [
+        "moto."
+      ],
+      "imagem": "banco/1JLzJL3jVHNYcfHr9-f3yzq3Z-9FgChwU.jpg"
+    },
+    {
+      "texto": "Foram roubar a loja.",
+      "destaque": [
+        "roubar"
+      ],
+      "imagem": "banco/1eEOa6AxS-q5_JW-3MuR6e9jeA4xeHDja.jpg"
+    },
+    {
+      "texto": "A loja era do irmão.",
+      "destaque": [
+        "irmão."
+      ],
+      "imagem": "banco/1D2DcgI3blmuzsJLL1hOaNQKH-h2Zs5W6.jpg",
+      "narrar": true
+    },
+    {
+      "texto": "Ele morreu ali.",
+      "destaque": [
+        "morreu"
+      ],
+      "imagem": "banco/1JLzJL3jVHNYcfHr9-f3yzq3Z-9FgChwU.jpg"
+    },
+    {
+      "texto": "O Mikey sorriu pra todo mundo.",
+      "destaque": [
+        "sorriu"
+      ],
+      "imagem": "banco/1LMgh3nlIAL2WzLW3xwJppBm6mlvywWwf.jpg"
+    },
+    {
+      "texto": "E guardou o resto lá dentro.",
+      "destaque": [],
+      "imagem": "banco/1othNuTO9XJrbYSlW_Y0ykJnb2AEUVQ4W.jpg"
+    },
+    {
+      "texto": "A dor que você esconde não some.",
+      "destaque": [
+        "esconde"
+      ],
+      "imagem": "banco/1BA1h95VM2kks6GWkkdKf3CZP64TXzlYa.jpg",
+      "narrar": true,
+      "impacto": true
+    }
+  ],
+  "assinatura": "@pvedicoes"
+}

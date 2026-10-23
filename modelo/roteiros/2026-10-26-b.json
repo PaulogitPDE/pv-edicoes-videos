@@ -1,0 +1,68 @@
+{
+  "musica": "banco/12ZYwkV-budqol6WWCHs08dOly6FgkD86.mp3",
+  "inicioMusica": 10.0,
+  "serie": "Black Clover · Asta",
+  "gancho": "Nasceu sem um pingo de magia. Num mundo onde até criança tem.",
+  "pergunta": "Qual foi o dom que te disseram que você não tinha?",
+  "cenas": [
+    {
+      "texto": "Todo mundo nasce com magia.",
+      "destaque": [
+        "magia."
+      ],
+      "imagem": "banco/1an150sBNuUQZXmkemlL_p5CE_DD6V9sR.jpg"
+    },
+    {
+      "texto": "Ele nasceu sem nada.",
+      "destaque": [
+        "nada."
+      ],
+      "imagem": "banco/1EwgiLTQ4WrUyS771uXFPRVZTD5riylOl.jpg",
+      "narrar": true
+    },
+    {
+      "texto": "Riram quando disse que seria o Rei Mago.",
+      "destaque": [
+        "Riram"
+      ],
+      "imagem": "banco/1H_gkgsSXGVnXc7FPURyLUK0NR3ItXF1T.jpg"
+    },
+    {
+      "texto": "Então treinou o corpo.",
+      "destaque": [
+        "corpo."
+      ],
+      "imagem": "banco/16far6Zs6WvpmNYY_MXdO_XmB_Mzpz0Y0.jpg"
+    },
+    {
+      "texto": "Todo dia. Sem descanso.",
+      "destaque": [],
+      "imagem": "banco/1IO6uRDQKGqkM1ccorvL3YkWKob6j0sTb.jpg"
+    },
+    {
+      "texto": "E achou uma espada que apaga magia.",
+      "destaque": [
+        "apaga"
+      ],
+      "imagem": "banco/1EwgiLTQ4WrUyS771uXFPRVZTD5riylOl.jpg",
+      "narrar": true
+    },
+    {
+      "texto": "O que faltava nele virou a arma.",
+      "destaque": [
+        "arma."
+      ],
+      "imagem": "banco/1N7c3txOyvacBsPpCQ2nzkE_4JO3PGU6e.jpg"
+    },
+    {
+      "texto": "Nunca desistir é a minha magia.",
+      "destaque": [
+        "magia."
+      ],
+      "imagem": "banco/1EwgiLTQ4WrUyS771uXFPRVZTD5riylOl.jpg",
+      "narrar": true,
+      "impacto": true
+    }
+  ],
+  "assinatura": "@pvedicoes"
+}

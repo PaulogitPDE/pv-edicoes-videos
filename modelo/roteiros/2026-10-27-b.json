@@ -1,0 +1,66 @@
+{
+  "musica": "banco/13mszfCZ03f7pAGz7qkNKEPHXOWjCfDau.mp3",
+  "inicioMusica": 15.0,
+  "serie": "Jujutsu Kaisen · Toji",
+  "gancho": "Nasceu sem energia amaldiçoada. E quase matou o mais forte de todos.",
+  "pergunta": "Toji era vilão ou vítima?",
+  "cenas": [
+    {
+      "texto": "O clã dele vivia de energia amaldiçoada.",
+      "destaque": [
+        "amaldiçoada."
+      ],
+      "imagem": "banco/1Qo1QvgLA0CDPRSJHupCsLdeFFaiGRFww.jpg"
+    },
+    {
+      "texto": "Ele nasceu sem nenhuma.",
+      "destaque": [
+        "nenhuma."
+      ],
+      "imagem": "banco/1CafjTj8Ksb5adG6vZ6VxDD4wwZWS8EoM.jpg",
+      "narrar": true
+    },
+    {
+      "texto": "Foi tratado como lixo.",
+      "destaque": [
+        "lixo."
+      ],
+      "imagem": "banco/1eEOa6AxS-q5_JW-3MuR6e9jeA4xeHDja.jpg"
+    },
+    {
+      "texto": "Então virou o que eles temiam.",
+      "destaque": [
+        "temiam."
+      ],
+      "imagem": "banco/1_05igUp1huny8Mut2LIUFbRJU0hWncpL.jpg"
+    },
+    {
+      "texto": "Treinou o corpo além do humano.",
+      "destaque": [],
+      "imagem": "banco/1IO6uRDQKGqkM1ccorvL3YkWKob6j0sTb.jpg"
+    },
+    {
+      "texto": "E derrubou o jovem Gojo.",
+      "destaque": [
+        "Gojo."
+      ],
+      "imagem": "banco/1S26oKbrEz3xojngMrPnvomZzFwPIXXDT.jpg",
+      "narrar": true
+    },
+    {
+      "texto": "Ninguém acreditou nele.",
+      "destaque": [],
+      "imagem": "banco/1CafjTj8Ksb5adG6vZ6VxDD4wwZWS8EoM.jpg"
+    },
+    {
+      "texto": "Nem ele mesmo.",
+      "destaque": [
+        "mesmo."
+      ],
+      "imagem": "banco/1CafjTj8Ksb5adG6vZ6VxDD4wwZWS8EoM.jpg",
+      "narrar": true,
+      "impacto": true
+    }
+  ],
+  "assinatura": "@pvedicoes"
+}

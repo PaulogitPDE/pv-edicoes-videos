@@ -1,0 +1,68 @@
+{
+  "musica": "banco/1OibxoEKPBxa55L8pzacsYf5MTAUnudbG.mp3",
+  "inicioMusica": 0.0,
+  "serie": "Bleach · Ichigo",
+  "gancho": "O monstro que ele mais temia morava dentro dele.",
+  "pergunta": "Qual é o monstro que mora em você?",
+  "cenas": [
+    {
+      "texto": "Ele ganhou poder pra proteger.",
+      "destaque": [
+        "proteger."
+      ],
+      "imagem": "banco/1IIoA2etphRrzqA1EnbRZ1eqYnL1cYzrh.jpg",
+      "narrar": true
+    },
+    {
+      "texto": "Mas veio junto uma voz.",
+      "destaque": [
+        "voz."
+      ],
+      "imagem": "banco/156oyYnLcYUDeXcf6gZpPFpz069qtFUTN.jpg"
+    },
+    {
+      "texto": "Um monstro dentro dele.",
+      "destaque": [
+        "monstro"
+      ],
+      "imagem": "banco/156oyYnLcYUDeXcf6gZpPFpz069qtFUTN.jpg"
+    },
+    {
+      "texto": "Ele fugiu dela.",
+      "destaque": [
+        "fugiu"
+      ],
+      "imagem": "banco/1LDujIMLleFG_lrSdZW9seaDQJrkoKdNk.jpg"
+    },
+    {
+      "texto": "E perdeu.",
+      "destaque": [
+        "perdeu."
+      ],
+      "imagem": "banco/1G82mhoCSEV8UsZ4U81NG0q1zLBi6hVG8.jpg"
+    },
+    {
+      "texto": "Até parar de fugir.",
+      "destaque": [],
+      "imagem": "banco/1IIoA2etphRrzqA1EnbRZ1eqYnL1cYzrh.jpg",
+      "narrar": true
+    },
+    {
+      "texto": "E dominar o que temia.",
+      "destaque": [
+        "dominar"
+      ],
+      "imagem": "banco/156oyYnLcYUDeXcf6gZpPFpz069qtFUTN.jpg"
+    },
+    {
+      "texto": "Seu lado sombrio também é força.",
+      "destaque": [
+        "força."
+      ],
+      "imagem": "banco/1IIoA2etphRrzqA1EnbRZ1eqYnL1cYzrh.jpg",
+      "narrar": true,
+      "impacto": true
+    }
+  ],
+  "assinatura": "@pvedicoes"
+}

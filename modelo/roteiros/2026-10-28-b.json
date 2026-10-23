@@ -1,0 +1,66 @@
+{
+  "musica": "banco/10DU8VMN3sl_4EbpoxmfoDMwehX8ErjHb.mp3",
+  "inicioMusica": 0.0,
+  "serie": "Blue Lock · Isagi",
+  "gancho": "300 atacantes trancados num prédio. Só um podia sobrar.",
+  "pergunta": "Ser egoísta é errado?",
+  "cenas": [
+    {
+      "texto": "300 atacantes.",
+      "destaque": [
+        "300"
+      ],
+      "imagem": "banco/1JO3lx5zEQjiJETBh1ZzyTHHs4lWTF9iE.jpg",
+      "narrar": true
+    },
+    {
+      "texto": "Um só vira o melhor do mundo.",
+      "destaque": [
+        "melhor"
+      ],
+      "imagem": "banco/1GWmtGGtLe2tri1i80F_7a2mHxZmqMOLt.jpg"
+    },
+    {
+      "texto": "Ele era bom.",
+      "destaque": [],
+      "imagem": "banco/1PYTe77RyIoHk4MbzfATUEbjOMh8X3Mx2.jpg"
+    },
+    {
+      "texto": "Mas sempre passava a bola.",
+      "destaque": [
+        "passava"
+      ],
+      "imagem": "banco/1moZK-aGEQWd2X6l0ZwtbG226XO_j3fey.jpg"
+    },
+    {
+      "texto": "Ali dentro, isso te elimina.",
+      "destaque": [
+        "elimina."
+      ],
+      "imagem": "banco/1VpoR97PSYxCqEQN1Vbrfk3GntaDZTnbq.jpg"
+    },
+    {
+      "texto": "Ele aprendeu a querer o gol.",
+      "destaque": [
+        "querer"
+      ],
+      "imagem": "banco/1GWmtGGtLe2tri1i80F_7a2mHxZmqMOLt.jpg",
+      "narrar": true
+    },
+    {
+      "texto": "Só pra ele.",
+      "destaque": [],
+      "imagem": "banco/1PYTe77RyIoHk4MbzfATUEbjOMh8X3Mx2.jpg"
+    },
+    {
+      "texto": "Ninguém vence pedindo licença.",
+      "destaque": [
+        "licença."
+      ],
+      "imagem": "banco/1PYTe77RyIoHk4MbzfATUEbjOMh8X3Mx2.jpg",
+      "narrar": true,
+      "impacto": true
+    }
+  ],
+  "assinatura": "@pvedicoes"
+}
