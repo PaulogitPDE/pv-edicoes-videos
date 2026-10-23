@@ -1,0 +1,65 @@
+{
+ "serie": "Escolheram",
+ "slides": [
+  {
+   "imagem": "banco/1WFJ_c4EJbg13KzU8QI27-NTnrEvI4hPJ.jpg",
+   "headline": "4 personagens que escolheram quem iam ser.",
+   "destaque": [
+    "escolheram"
+   ],
+   "sub": "arrasta. o segundo esperou 3.700 anos.",
+   "pb": true,
+   "posicao": "baixo"
+  },
+  {
+   "imagem": "banco/1Vc4o2v9ksEErVxmORxgmwlnjh4jaaxaa.jpg",
+   "headline": "Fez uma promessa pra uma amiga morta. E nunca quebrou.",
+   "destaque": [
+    "nunca"
+   ],
+   "sub": "zoro. o maior espadachim do mundo, ou nada.",
+   "pb": true,
+   "posicao": "baixo"
+  },
+  {
+   "imagem": "banco/19-iBB2DCT9_7gm8By9ZEp_7jdQ1EMN8b.jpg",
+   "headline": "O mundo virou pedra. Ele contou cada segundo.",
+   "destaque": [
+    "segundo."
+   ],
+   "sub": "senku. e reconstruiu a civilização com ciência.",
+   "pb": true,
+   "posicao": "baixo"
+  },
+  {
+   "imagem": "banco/1O6_QC6IxeFh-1EzcOqQhFPkG3h8KqTal.jpg",
+   "headline": "Largou tudo pela vingança. E ela não bastou.",
+   "destaque": [
+    "bastou."
+   ],
+   "sub": "sasuke. o caminho errado também ensina.",
+   "pb": true,
+   "posicao": "baixo"
+  },
+  {
+   "imagem": "banco/1X1AYLxkADI2faPMucKP15DptDU_0Ar2Y.jpg",
+   "headline": "Acordou num ferro-velho sem lembrar quem era.",
+   "destaque": [
+    "ferro-velho"
+   ],
+   "sub": "alita. decidiu quem ia ser antes de lembrar.",
+   "pb": true,
+   "posicao": "baixo"
+  },
+  {
+   "imagem": "banco/1SW28b1bEt3gzgjqi-5FARvaYmxn7XwIg.jpg",
+   "headline": "E você? Escolheu ou deixou escolherem?",
+   "destaque": [
+    "Escolheu"
+   ],
+   "sub": "comenta: qual deles teve a escolha mais difícil?",
+   "pb": true,
+   "posicao": "baixo"
+  }
+ ]
+}
