@@ -8,3 +8,4 @@
 - 2026-10-23 · p1 · Sextou: só 3 vagas de fundador a R$ 997 (frase) · bio · https://www.instagram.com/p/De1eK98lws-/
 - 2026-10-23 · trend · 2º turno no domingo (todo mundo lembra de votar → quem lembra a paciente da consulta?), sem lado político · comenta · https://www.instagram.com/p/De1qoOKjDrH/
 - 2026-10-23 · r1 · Sextou com agenda cheia na segunda · comenta · gancho: "Sextou. E a agenda de segunda?" · https://www.instagram.com/reel/De130EZkW3P/
+- 2026-10-23 · p2 · Raio-x de 15 min: as 5 perguntas (lista) · direct · https://www.instagram.com/p/De2b3Pwl6wE/
