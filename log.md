@@ -11,3 +11,4 @@
 - 2026-10-21 · Para de se comparar (voz Brian, motor novo) · https://www.instagram.com/reel/DexaVTigBZg/
 - 2026-10-22 · A dor de hoje (voz Harry) · https://www.instagram.com/reel/DezPXF6j86o/
 - 2026-10-22 · Vinland Saga, Thorfinn: Você não tem inimigos (voz George, estratégia nova) · https://www.instagram.com/reel/Dez-6vWicYM/
+- 2026-10-23 · Vagabond, Musashi: quem é forte é gentil (voz Bill) · https://www.instagram.com/reel/De1z-XNiU4x/
