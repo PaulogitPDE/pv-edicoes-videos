@@ -1,0 +1,65 @@
+{
+ "serie": "Ninguém apostava",
+ "slides": [
+  {
+   "imagem": "banco/15ySw4sgA_x_R30ImR-C1LzOZiPnm8tIG.jpg",
+   "headline": "O defeito deles virou a maior arma.",
+   "destaque": [
+    "arma."
+   ],
+   "sub": "arrasta. 4 personagens que ninguém apostava.",
+   "pb": true,
+   "posicao": "baixo"
+  },
+  {
+   "imagem": "banco/1J4rDPyEu6UvupPefEAJjBq81K4wU78uX.jpg",
+   "headline": "Baixinho demais pro vôlei. Então aprendeu a voar.",
+   "destaque": [
+    "voar."
+   ],
+   "sub": "hinata, haikyuu. altura nunca foi o limite.",
+   "pb": true,
+   "posicao": "baixo"
+  },
+  {
+   "imagem": "banco/1moZK-aGEQWd2X6l0ZwtbG226XO_j3fey.jpg",
+   "headline": "Passou a vida correndo dos valentões.",
+   "destaque": [
+    "correndo"
+   ],
+   "sub": "sena, eyeshield 21. a fuga virou a velocidade mais rápida do campo.",
+   "pb": true,
+   "posicao": "baixo"
+  },
+  {
+   "imagem": "banco/1qEoC3f7ZEuiTxc6ct4DB5GJzc5Ll7AmC.jpg",
+   "headline": "Entregava tofu de madrugada. Todo dia.",
+   "destaque": [
+    "tofu"
+   ],
+   "sub": "takumi, initial d. a rotina chata fez o melhor piloto da montanha.",
+   "pb": true,
+   "posicao": "baixo"
+  },
+  {
+   "imagem": "banco/1WBW39HdvkJnP_gFF47-P8xw8K55DcTzd.jpg",
+   "headline": "Filho do homem mais forte do mundo.",
+   "destaque": [
+    "forte"
+   ],
+   "sub": "baki. treinou a vida inteira pra superar o próprio pai.",
+   "pb": true,
+   "posicao": "baixo"
+  },
+  {
+   "imagem": "banco/1_HpruRzXB0ZLg-hXVQT28aWLC0wns0hR.jpg",
+   "headline": "Qual é o seu defeito que pode virar arma?",
+   "destaque": [
+    "arma?"
+   ],
+   "sub": "comenta aqui embaixo.",
+   "pb": true,
+   "posicao": "baixo"
+  }
+ ]
+}
