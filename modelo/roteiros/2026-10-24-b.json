@@ -18,7 +18,15 @@
         "nenhum."
       ],
       "imagem": "banco/1xbe94UO1MRMWNSNBo_4LUpW4LEJzdI4L.jpg",
-      "narrar": true
+      "narrar": true,
+      "audio": "narr-2026-10-24-b-1.mp3",
+      "tempos": [
+        0,
+        7,
+        13,
+        20
+      ],
+      "duracao": 58
     },
     {
       "texto": "Riram dele.",
@@ -50,7 +58,15 @@
         "sangrar."
       ],
       "imagem": "banco/1xbe94UO1MRMWNSNBo_4LUpW4LEJzdI4L.jpg",
-      "narrar": true
+      "narrar": true,
+      "audio": "narr-2026-10-24-b-6.mp3",
+      "tempos": [
+        0,
+        9,
+        11,
+        19
+      ],
+      "duracao": 58
     },
     {
       "texto": "Esforço também é um dom.",
@@ -59,8 +75,19 @@
       ],
       "imagem": "banco/16far6Zs6WvpmNYY_MXdO_XmB_Mzpz0Y0.jpg",
       "narrar": true,
-      "impacto": true
+      "impacto": true,
+      "audio": "narr-2026-10-24-b-7.mp3",
+      "tempos": [
+        0,
+        14,
+        22,
+        24,
+        28
+      ],
+      "duracao": 112
     }
   ],
-  "assinatura": "@pvedicoes"
+  "assinatura": "@pvedicoes",
+  "voz": "cjVigY5qzO86Huf0OWal",
+  "vozNome": "Eric"
 }
