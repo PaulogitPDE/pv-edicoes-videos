@@ -1,0 +1,65 @@
+{
+ "serie": "Falas de mangá",
+ "slides": [
+  {
+   "imagem": "banco/1aEMTNibqmMGbdsTwCeaGj28aoeFo19D0.jpg",
+   "headline": "4 falas de mangá que acertam mais que conselho.",
+   "destaque": [
+    "acertam"
+   ],
+   "sub": "arrasta. a terceira é pra quem está cansado.",
+   "pb": true,
+   "posicao": "baixo"
+  },
+  {
+   "imagem": "banco/1iJ_lwo8ao6Ud4x3CD9oBxdPwsLl_3Vk7.jpg",
+   "headline": "\"Eu só queria viver uma vida normal.\"",
+   "destaque": [
+    "normal.\""
+   ],
+   "sub": "o desejo mais simples costuma ser o mais difícil.",
+   "pb": true,
+   "posicao": "baixo"
+  },
+  {
+   "imagem": "banco/1bnUSY36xc2CilqfrP9yyyfYVvAxKqdBY.jpg",
+   "headline": "\"O mundo é cruel. Então eu sou cruel.\"",
+   "destaque": [
+    "cruel.\""
+   ],
+   "sub": "quem machuca quase sempre foi machucado antes.",
+   "pb": true,
+   "posicao": "baixo"
+  },
+  {
+   "imagem": "banco/1ypJbf41BB6MyuZkicOvyFKxz0Gn1I9vo.jpg",
+   "headline": "\"Coragem.\"",
+   "destaque": [
+    "\"Coragem.\""
+   ],
+   "sub": "não é não ter medo. é ir mesmo com ele.",
+   "pb": true,
+   "posicao": "baixo"
+  },
+  {
+   "imagem": "banco/1WsF4RQbc66kpzmIjMTmFigfFGWj63E_I.jpg",
+   "headline": "\"Não vou deixar meus amigos morrerem.\"",
+   "destaque": [
+    "amigos"
+   ],
+   "sub": "tem gente que só fica forte quando é por alguém.",
+   "pb": true,
+   "posicao": "baixo"
+  },
+  {
+   "imagem": "banco/1MwZfCUFvQUFlZCdTomXYtWbTDjA-JuCD.jpg",
+   "headline": "Qual delas você precisava ouvir hoje?",
+   "destaque": [
+    "hoje?"
+   ],
+   "sub": "comenta o número. 1, 2, 3 ou 4.",
+   "pb": true,
+   "posicao": "baixo"
+  }
+ ]
+}
