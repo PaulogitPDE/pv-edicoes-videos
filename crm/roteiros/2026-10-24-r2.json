@@ -1,0 +1,13 @@
+{
+  "tarja": "Eu faço o WhatsApp da sua clínica <responder o vou pensar> sozinho",
+  "semente": 47,
+  "tema": "Toda paciente que disse vou pensar recebe 4 mensagens",
+  "ganchos_ab": ["\"Vou pensar\" não é <não>", "4 mensagens que <salvam> o orçamento", "O que mandar depois do <vou pensar>?"],
+  "cenas": [
+    {"tipo": "gancho", "rotulo": "o que fazer depois do vou pensar", "texto": "\"Vou pensar\" não é <não>", "rabisco": "x", "dur": 2.4, "legenda": "É um <ainda não>"},
+    {"tipo": "virada", "texto": "4 mensagens. <Sozinhas.>", "dur": 2.0},
+    {"tipo": "timeline", "nome": "Larissa", "passos": [{"quando": "+2h", "texto": "Ficou alguma dúvida?"}, {"quando": "+1 dia", "texto": "Dá pra parcelar ou começar pela avaliação"}, {"quando": "+3 dias", "texto": "Separei dois horários pra você"}, {"quando": "+7 dias", "texto": "Responde QUERO que eu reabro"}], "dur": 5.2, "legenda": "Cada uma no <tempo certo>"},
+    {"tipo": "chat", "nome": "Larissa", "status": "online", "humor": "solucao", "mensagens": [{"de": "eu", "texto": "Dá pra parcelar ou começar pela avaliação, sem compromisso", "meta": "+1 dia"}, {"de": "ela", "texto": "Começar pela avaliação é bom. Tem sábado?", "meta": "11:08"}], "dur": 3.8, "legenda": "Ela <voltou>"},
+    {"tipo": "cta", "modo": "comenta", "texto": "Quer as 4 <prontas>?", "palavra": "FUNIL", "dur": 4.4, "legenda": "Comenta <FUNIL>"}
+  ]
+}
