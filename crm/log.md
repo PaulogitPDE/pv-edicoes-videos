@@ -11,3 +11,4 @@
 - 2026-10-23 · p2 · Raio-x de 15 min: as 5 perguntas (lista) · direct · https://www.instagram.com/p/De2b3Pwl6wE/
 - 2026-10-23 · r2 · Antes x depois do WhatsApp da clínica · bio · gancho: "Mesma paciente. Dois finais." · https://www.instagram.com/reel/De2sQEgjiNx/
 - 2026-10-24 · p1 · Responda em até 5 minutos (numero) · comenta · https://www.instagram.com/p/De4C2KaFwUY/
+- 2026-10-24 · r1 · Uma palavra fácil de responder: quero · direct · gancho: "Sua mensagem dá trabalho pra responder?" · https://www.instagram.com/reel/De4cSMsFInB/
