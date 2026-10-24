@@ -14,3 +14,4 @@
 - 2026-10-23 · Vagabond, Musashi: quem é forte é gentil (voz Bill) · https://www.instagram.com/reel/De1z-XNiU4x/
 - 2026-10-23 · Berserk, Guts: ainda está lutando (voz Charlie) · https://www.instagram.com/reel/De2kFGtEeTG/
 - 2026-10-24 · Attack on Titan, Eren: seremos livres? (voz Roger) · https://www.instagram.com/reel/De4YktsCQZa/
+- 2026-10-24 · Naruto, Rock Lee: esforço também é um dom (voz Eric) · https://www.instagram.com/reel/De5Ip6xD4Cr/
