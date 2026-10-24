@@ -5,3 +5,4 @@
 - 2026-10-22 · carrossel: Eles perderam tudo (Asta, Killua, Ichigo, Ban, Mikey) · imagens 1niEf81QDMHx,1EwgiLTQ4WrU,184h7uZkHtl5,1IIoA2etphRr,16pKEokUEIAC,1BA1h95VM2kk,1sMtOP-nbzCb · https://www.instagram.com/p/De0QGKaF45A/
 - 2026-10-23 · carrossel: Escolheram quem iam ser (Zoro, Senku, Sasuke, Alita) · imagens 1WFJ_c4EJbg1,1Vc4o2v9ksEE,19-iBB2DCT9_,1O6_QC6IxeFh,1X1AYLxkADI2,1SW28b1bEt3g · https://www.instagram.com/p/De1jcTuF_S0/
 - 2026-10-23 · carrossel: 4 falas de mangá · imagens 1aEMTNibqmMG,1iJ_lwo8ao6U,1bnUSY36xc2C,1ypJbf41BB6M,1WsF4RQbc66k,1MwZfCUFvQUF · https://www.instagram.com/p/De209hqjKeP/
+- 2026-10-24 · carrossel: Ninguém apostava (Hinata, Sena, Takumi, Baki) · imagens 15ySw4sgA_x_,1J4rDPyEu6Uv,1moZK-aGEQWd,1qEoC3f7ZEui,1WBW39HdvkJn,1_HpruRzXB0Z · https://www.instagram.com/p/De4HVeSDavc/
