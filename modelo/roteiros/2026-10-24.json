@@ -18,7 +18,16 @@
         "mar."
       ],
       "imagem": "banco/1VJ7hgztYwxAYylEaAWkTIJvejkjif91O.jpg",
-      "narrar": true
+      "narrar": true,
+      "audio": "narr-2026-10-24-1.mp3",
+      "tempos": [
+        0,
+        7,
+        30,
+        36,
+        38
+      ],
+      "duracao": 72
     },
     {
       "texto": "Perderam a mãe.",
@@ -50,7 +59,18 @@
         "matarmos"
       ],
       "imagem": "banco/1Xlm98h2MrM_qdXvgetjYZW7zc-4HOxkt.jpg",
-      "narrar": true
+      "narrar": true,
+      "audio": "narr-2026-10-24-6.mp3",
+      "tempos": [
+        0,
+        6,
+        21,
+        33,
+        37,
+        40,
+        49
+      ],
+      "duracao": 85
     },
     {
       "texto": "seremos livres?",
@@ -59,8 +79,16 @@
       ],
       "imagem": "banco/1mefdr9XwzHZQlLdDruIBO0kD3OJHgdlI.jpg",
       "narrar": true,
-      "impacto": true
+      "impacto": true,
+      "audio": "narr-2026-10-24-7.mp3",
+      "tempos": [
+        0,
+        15
+      ],
+      "duracao": 74
     }
   ],
-  "assinatura": "@pvedicoes"
+  "assinatura": "@pvedicoes",
+  "voz": "CwhRBWXzGAHq8TQ4Fs17",
+  "vozNome": "Roger"
 }
