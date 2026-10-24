@@ -13,3 +13,4 @@
 - 2026-10-24 · p1 · Responda em até 5 minutos (numero) · comenta · https://www.instagram.com/p/De4C2KaFwUY/
 - 2026-10-24 · r1 · Uma palavra fácil de responder: quero · direct · gancho: "Sua mensagem dá trabalho pra responder?" · https://www.instagram.com/reel/De4cSMsFInB/
 - 2026-10-24 · p2 · Implante sem retorno (chat) · bio · https://www.instagram.com/p/De5AmZ3D3-s/
+- 2026-10-24 · r2 · Toda paciente que disse vou pensar recebe 4 mensagens · comenta · gancho: "\"Vou pensar\" não é não" · https://www.instagram.com/reel/De5QtR2CdQ9/
