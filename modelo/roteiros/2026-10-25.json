@@ -16,7 +16,17 @@
         "morta."
       ],
       "imagem": "banco/1sMtOP-nbzCbm01WLgSMTdcMZLohdH-9r.jpg",
-      "narrar": true
+      "narrar": true,
+      "audio": "narr-2026-10-25-1.mp3",
+      "tempos": [
+        0,
+        17,
+        21,
+        30,
+        32,
+        44
+      ],
+      "duracao": 86
     },
     {
       "texto": "A irmã sobreviveu.",
@@ -43,7 +53,14 @@
         "proteger."
       ],
       "imagem": "banco/1761FNeS23_gZykvSW8YMXXIJVWfeV8PP.jpg",
-      "narrar": true
+      "narrar": true,
+      "audio": "narr-2026-10-25-5.mp3",
+      "tempos": [
+        0,
+        7,
+        23
+      ],
+      "duracao": 68
     },
     {
       "texto": "Nada traz de volta quem se foi.",
@@ -57,8 +74,20 @@
       ],
       "imagem": "banco/1761FNeS23_gZykvSW8YMXXIJVWfeV8PP.jpg",
       "narrar": true,
-      "impacto": true
+      "impacto": true,
+      "audio": "narr-2026-10-25-7.mp3",
+      "tempos": [
+        0,
+        7,
+        12,
+        17,
+        29,
+        33
+      ],
+      "duracao": 125
     }
   ],
-  "assinatura": "@pvedicoes"
+  "assinatura": "@pvedicoes",
+  "voz": "pNInz6obpgDQGcFmaJgB",
+  "vozNome": "Adam"
 }
