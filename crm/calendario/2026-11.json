@@ -592,17 +592,17 @@
    "data": "2026-11-19",
    "semana": "quinta",
    "pilar": "Quinta da conta: quanto a clínica perde",
-   "data_comemorativa": null,
+   "data_comemorativa": "Dia do Empreendedorismo Feminino",
    "p1": {
     "hora": "08:37",
-    "tema": "Faça a conta: orçamentos parados × ticket médio",
-    "layout": "numero",
+    "tema": "Dia do Empreendedorismo Feminino: Homenagem às donas de clínica: quem empreende não pode ser a única memória do negócio",
+    "layout": "data",
     "cta": "bio"
    },
    "r1": {
     "hora": "12:17",
-    "tema": "1 implante recuperado paga o sistema",
-    "cenas": "gancho, numero, leads, cta",
+    "tema": "Dia do Empreendedorismo Feminino: Homenagem às donas de clínica: quem empreende não pode ser a única memória do negócio",
+    "cenas": "data, gancho, (cena do tema), cta",
     "cta": "comenta"
    },
    "p2": {

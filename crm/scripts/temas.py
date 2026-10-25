@@ -144,6 +144,7 @@ DATAS = {
     (1, 11): ('Começo do Novembro Azul', 'Cuidar da saúde começa com alguém que lembra; lembrete automático de consulta'),
     (14, 11): ('Dia Mundial do Diabetes', 'Paciente que precisa de retorno não pode depender de memória: lembretes e retornos'),
     (15, 11): ('Proclamação da República (feriado)', 'Feriado na clínica, o WhatsApp continua respondendo'),
+    (19, 11): ('Dia do Empreendedorismo Feminino', 'Homenagem às donas de clínica: quem empreende não pode ser a única memória do negócio'),
     (20, 11): ('Dia da Consciência Negra (feriado)', 'Feriado: mensagem respeitosa, sem venda pesada; o funil garante que ninguém fica sem retorno'),
     (27, 11): ('Black Friday', 'Promoção de clínica sem follow-up é dinheiro jogado fora; oferta de fundador como "Black" honesta'),
     (30, 11): ('Cyber Monday / último dia do mês', 'Fechamento do mês: quantos orçamentos ficaram pra trás?'),
