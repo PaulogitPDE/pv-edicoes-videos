@@ -15,3 +15,4 @@
 - 2026-10-24 · p2 · Implante sem retorno (chat) · bio · https://www.instagram.com/p/De5AmZ3D3-s/
 - 2026-10-24 · r2 · Toda paciente que disse vou pensar recebe 4 mensagens · comenta · gancho: "\"Vou pensar\" não é não" · https://www.instagram.com/reel/De5QtR2CdQ9/
 - 2026-10-25 · p1 · Dia do Dentista (data) · direct · https://www.instagram.com/p/De6nqX1Fztm/
+- 2026-10-25 · r1 · Dia do Dentista · bio · gancho: "Feliz Dia do Dentista" · https://www.instagram.com/reel/De7BCKAExuL/
