@@ -25,7 +25,17 @@
         "forte"
       ],
       "imagem": "banco/1U7snbO8AwNMi7fmrpqHnGklghOoAkZly.jpg",
-      "narrar": true
+      "narrar": true,
+      "audio": "narr-2026-10-25-b-2.mp3",
+      "tempos": [
+        0,
+        15,
+        19,
+        29,
+        38,
+        41
+      ],
+      "duracao": 76
     },
     {
       "texto": "Um soco. Qualquer inimigo.",
@@ -40,7 +50,15 @@
         "nada."
       ],
       "imagem": "banco/1CbI9kF6_7qB7vusrKM067Hblmcypae8A.jpg",
-      "narrar": true
+      "narrar": true,
+      "audio": "narr-2026-10-25-b-4.mp3",
+      "tempos": [
+        0,
+        5,
+        10,
+        21
+      ],
+      "duracao": 60
     },
     {
       "texto": "Sem luta, não tem emoção.",
@@ -59,8 +77,21 @@
       ],
       "imagem": "banco/1G82mhoCSEV8UsZ4U81NG0q1zLBi6hVG8.jpg",
       "narrar": true,
-      "impacto": true
+      "impacto": true,
+      "audio": "narr-2026-10-25-b-7.mp3",
+      "tempos": [
+        0,
+        4,
+        9,
+        12,
+        16,
+        22,
+        32
+      ],
+      "duracao": 138
     }
   ],
-  "assinatura": "@pvedicoes"
+  "assinatura": "@pvedicoes",
+  "voz": "nPczCjzI2devNBz1zQrb",
+  "vozNome": "Brian"
 }
