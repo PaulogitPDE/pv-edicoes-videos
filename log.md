@@ -17,3 +17,4 @@
 - 2026-10-24 · Naruto, Rock Lee: esforço também é um dom (voz Eric) · https://www.instagram.com/reel/De5Ip6xD4Cr/
 - 2026-10-25 · Demon Slayer, Tanjiro: salvar quem ficou (voz Adam) · https://www.instagram.com/reel/De69j_xCPE8/
 - 2026-10-25 · One Punch Man, Saitama: a dificuldade te faz vivo (voz Brian) · https://www.instagram.com/reel/De7thlUDNjz/
+- 2026-10-26 · Tokyo Revengers, Mikey: a dor escondida (voz Harry) · https://www.instagram.com/reel/De9iUOFlF4x/
