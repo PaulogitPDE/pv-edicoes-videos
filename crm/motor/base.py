@@ -168,7 +168,7 @@ def runs(txt):
             dest = False
         else:
             for w in [w for w in re.split(r"[ \t\n]+", parte) if w]:
-                if out and re.fullmatch(r'[.,!?:;…]+', w):
+                if out and re.fullmatch(r'[.,!?:;…"”)]+', w):
                     out.append((w, False, True))  # pontuação colada na palavra anterior
                 else:
                     out.append((w, dest, False))
