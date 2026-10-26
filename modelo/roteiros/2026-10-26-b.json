@@ -18,7 +18,15 @@
         "nada."
       ],
       "imagem": "banco/1EwgiLTQ4WrUyS771uXFPRVZTD5riylOl.jpg",
-      "narrar": true
+      "narrar": true,
+      "audio": "narr-2026-10-26-b-1.mp3",
+      "tempos": [
+        0,
+        8,
+        19,
+        24
+      ],
+      "duracao": 63
     },
     {
       "texto": "Riram quando disse que seria o Rei Mago.",
@@ -45,7 +53,18 @@
         "apaga"
       ],
       "imagem": "banco/1EwgiLTQ4WrUyS771uXFPRVZTD5riylOl.jpg",
-      "narrar": true
+      "narrar": true,
+      "audio": "narr-2026-10-26-b-5.mp3",
+      "tempos": [
+        0,
+        5,
+        11,
+        16,
+        30,
+        33,
+        44
+      ],
+      "duracao": 86
     },
     {
       "texto": "O que faltava nele virou a arma.",
@@ -61,8 +80,20 @@
       ],
       "imagem": "banco/1EwgiLTQ4WrUyS771uXFPRVZTD5riylOl.jpg",
       "narrar": true,
-      "impacto": true
+      "impacto": true,
+      "audio": "narr-2026-10-26-b-7.mp3",
+      "tempos": [
+        0,
+        11,
+        28,
+        30,
+        32,
+        39
+      ],
+      "duracao": 125
     }
   ],
-  "assinatura": "@pvedicoes"
+  "assinatura": "@pvedicoes",
+  "voz": "JBFqnCBsd6RMkjVDRZzb",
+  "vozNome": "George"
 }
