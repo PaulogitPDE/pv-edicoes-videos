@@ -18,3 +18,4 @@
 - 2026-10-25 · Demon Slayer, Tanjiro: salvar quem ficou (voz Adam) · https://www.instagram.com/reel/De69j_xCPE8/
 - 2026-10-25 · One Punch Man, Saitama: a dificuldade te faz vivo (voz Brian) · https://www.instagram.com/reel/De7thlUDNjz/
 - 2026-10-26 · Tokyo Revengers, Mikey: a dor escondida (voz Harry) · https://www.instagram.com/reel/De9iUOFlF4x/
+- 2026-10-26 · Black Clover, Asta: nunca desistir é a minha magia (voz George) · https://www.instagram.com/reel/De-SZaeDQsR/
