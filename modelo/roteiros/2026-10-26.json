@@ -11,7 +11,17 @@
         "herói"
       ],
       "imagem": "banco/1BA1h95VM2kks6GWkkdKf3CZP64TXzlYa.jpg",
-      "narrar": true
+      "narrar": true,
+      "audio": "narr-2026-10-26-0.mp3",
+      "tempos": [
+        0,
+        5,
+        16,
+        20,
+        22,
+        31
+      ],
+      "duracao": 74
     },
     {
       "texto": "No aniversário, dois amigos quiseram dar uma moto.",
@@ -33,7 +43,16 @@
         "irmão."
       ],
       "imagem": "banco/1D2DcgI3blmuzsJLL1hOaNQKH-h2Zs5W6.jpg",
-      "narrar": true
+      "narrar": true,
+      "audio": "narr-2026-10-26-3.mp3",
+      "tempos": [
+        0,
+        7,
+        16,
+        22,
+        26
+      ],
+      "duracao": 66
     },
     {
       "texto": "Ele morreu ali.",
@@ -61,8 +80,21 @@
       ],
       "imagem": "banco/1BA1h95VM2kks6GWkkdKf3CZP64TXzlYa.jpg",
       "narrar": true,
-      "impacto": true
+      "impacto": true,
+      "audio": "narr-2026-10-26-7.mp3",
+      "tempos": [
+        0,
+        6,
+        13,
+        17,
+        25,
+        40,
+        46
+      ],
+      "duracao": 138
     }
   ],
-  "assinatura": "@pvedicoes"
+  "assinatura": "@pvedicoes",
+  "voz": "SOYHLrjzK2X1ezoPC6cr",
+  "vozNome": "Harry"
 }
