@@ -21,3 +21,4 @@
 - 2026-10-26 · p1 · "Visto por último há 9 dias" (antes_depois) · bio · https://www.instagram.com/p/De9Md1fF-Kz/
 - 2026-10-26 · trend · apuração do 2º turno voto a voto (sem lado) → quantos orçamentos estão parados agora? · comenta · https://www.instagram.com/p/De9Zr9PF88b/
 - 2026-10-26 · r1 · A recepcionista faltou: com quem ela estava falando? · comenta · gancho: "A recepcionista faltou hoje." · https://www.instagram.com/reel/De9m4j-AABp/
+- 2026-10-26 · p2 · Botox: o "depois eu vejo" (chat) · direct · https://www.instagram.com/p/De-KQzmn5EI/
