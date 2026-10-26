@@ -18,3 +18,4 @@
 - 2026-10-25 · r1 · Dia do Dentista · bio · gancho: "Feliz Dia do Dentista" · https://www.instagram.com/reel/De7BCKAExuL/
 - 2026-10-25 · p2 · Lentes: a paciente que pede 3 orçamentos (chat) · comenta · https://www.instagram.com/p/De7ldtDjHIh/
 - 2026-10-25 · r2 · Orçamento que Volta: o que é, em 20 segundos · direct · gancho: "O que é o Orçamento que Volta?" · https://www.instagram.com/reel/De71ixfEn56/
+- 2026-10-26 · p1 · "Visto por último há 9 dias" (antes_depois) · bio · https://www.instagram.com/p/De9Md1fF-Kz/
