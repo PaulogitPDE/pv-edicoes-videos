@@ -9,3 +9,4 @@
 - 2026-10-24 · carrossel: Berserk, por que o Guts foi embora · imagens 18PvaU15ymeW,1n3mF2Xxaz_v,1eEOa6AxS-q5,1jk4HhWvv61U,1t9lnwqS5A6H,1TKFE0WfNsC2,1SCl_kK0yxQs · https://www.instagram.com/p/De5Zy_ujCtF/
 - 2026-10-25 · carrossel: Vinland Saga, a história do Thors · imagens 1ka0U9UyKHev,1Amqoh_CFzA9,1ePllskYg49N,17bxm-X_GuJz,1Rn7pCXgFian,1gKCPfOrN0dP · https://www.instagram.com/p/De6sQ53FDyS/
 - 2026-10-25 · carrossel: Attack on Titan, como o Eren virou o fim do mundo · imagens 1mefdr9XwzHZ,1dSKYkl9zneQ,1OmhRxiFdJye,1Xlm98h2MrM_,1ebdhXr1ElV2,1T3seWZHBNPB · https://www.instagram.com/p/De7-gApEaUB/
+- 2026-10-26 · carrossel: Vagabond, como o Musashi virou samurai · imagens 1Ovn9Hcwp2rx,1oQNlQynl4V_,1zXk8o6C_t_A,1CTmbVFvEjBB,1ki-FOO-8Dnh,1SInOeYUKDJl · https://www.instagram.com/p/De9TAnVF086/
