@@ -27,3 +27,4 @@
 - 2026-10-28 · trend · semana de memes feitos com IA (sem lado político) → WhatsApp da clínica ainda depende de alguém lembrar · bio · https://www.instagram.com/p/DfCj505lPIV/
 - 2026-10-28 · r1 · "Minha recepcionista já faz isso" (mito x verdade) · bio · gancho: "\"Minha recepcionista já faz isso\"" · https://www.instagram.com/reel/DfCwtBgCkvK/
 - 2026-10-28 · p2 · O mesmo orçamento, dois finais (antes_depois: retorno na memória x no funil) · comenta · https://www.instagram.com/p/DfDT4VIGNyD/
+- 2026-10-28 · r2 · Kit de 4 mensagens grátis (manda FUNIL) · direct · gancho: "4 mensagens que trazem a paciente de volta" · https://www.instagram.com/reel/DfDkKnggDvj/
