@@ -26,3 +26,4 @@
 - 2026-10-28 · p1 · CRM não é pra empresa grande, é pra quem manda orçamento (frase) · direct · https://www.instagram.com/p/DfCWNWEF9Oa/
 - 2026-10-28 · trend · semana de memes feitos com IA (sem lado político) → WhatsApp da clínica ainda depende de alguém lembrar · bio · https://www.instagram.com/p/DfCj505lPIV/
 - 2026-10-28 · r1 · "Minha recepcionista já faz isso" (mito x verdade) · bio · gancho: "\"Minha recepcionista já faz isso\"" · https://www.instagram.com/reel/DfCwtBgCkvK/
+- 2026-10-28 · p2 · O mesmo orçamento, dois finais (antes_depois: retorno na memória x no funil) · comenta · https://www.instagram.com/p/DfDT4VIGNyD/
