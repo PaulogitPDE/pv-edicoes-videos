@@ -19,3 +19,4 @@
 - 2026-10-25 · One Punch Man, Saitama: a dificuldade te faz vivo (voz Brian) · https://www.instagram.com/reel/De7thlUDNjz/
 - 2026-10-26 · Tokyo Revengers, Mikey: a dor escondida (voz Harry) · https://www.instagram.com/reel/De9iUOFlF4x/
 - 2026-10-26 · Black Clover, Asta: nunca desistir é a minha magia (voz George) · https://www.instagram.com/reel/De-SZaeDQsR/
+- 2026-10-28 · Hajime no Ippo, Ippo: ser forte é levantar (voz Bill) · https://www.instagram.com/reel/DfCr7hZgn5m/
