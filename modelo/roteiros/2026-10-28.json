@@ -11,7 +11,15 @@
         "apanhava"
       ],
       "imagem": "banco/1D2DcgI3blmuzsJLL1hOaNQKH-h2Zs5W6.jpg",
-      "narrar": true
+      "narrar": true,
+      "audio": "narr-2026-10-28-0.mp3",
+      "tempos": [
+        0,
+        8,
+        22,
+        25
+      ],
+      "duracao": 65
     },
     {
       "texto": "Todo dia.",
@@ -38,7 +46,16 @@
         "forte?"
       ],
       "imagem": "banco/1wiPt6dmF85sOjZFyD8SIkQ5bYBsqje_H.jpg",
-      "narrar": true
+      "narrar": true,
+      "audio": "narr-2026-10-28-4.mp3",
+      "tempos": [
+        0,
+        6,
+        11,
+        15,
+        22
+      ],
+      "duracao": 66
     },
     {
       "texto": "Treinou na peixaria da mãe.",
@@ -59,8 +76,21 @@
       ],
       "imagem": "banco/1BiPtcnDJ9Z7IYeBn1ARTpZd0e-iy5xXu.jpg",
       "narrar": true,
-      "impacto": true
+      "impacto": true,
+      "audio": "narr-2026-10-28-7.mp3",
+      "tempos": [
+        0,
+        9,
+        21,
+        24,
+        29,
+        41,
+        44
+      ],
+      "duracao": 138
     }
   ],
-  "assinatura": "@pvedicoes"
+  "assinatura": "@pvedicoes",
+  "voz": "pqHfZKP75CvOlQylNhV4",
+  "vozNome": "Bill"
 }
