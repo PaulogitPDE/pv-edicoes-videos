@@ -1,65 +1,63 @@
 {
-  "musica": "banco/1OibxoEKPBxa55L8pzacsYf5MTAUnudbG.mp3",
+  "musica": "banco/13GECM2hXHmt0jVIXa564VgmZax8lVyiW.mp3",
   "inicioMusica": 0.0,
-  "serie": "Bleach · Ichigo",
-  "gancho": "O monstro que ele mais temia morava dentro dele.",
-  "pergunta": "Qual é o monstro que mora em você?",
+  "serie": "Hajime no Ippo · Ippo",
+  "gancho": "Apanhava na escola todo dia. Virou campeão de boxe.",
+  "pergunta": "O que te fez parar de apanhar da vida?",
   "cenas": [
     {
-      "texto": "Ele ganhou poder pra proteger.",
+      "texto": "Ele apanhava na escola.",
       "destaque": [
-        "proteger."
+        "apanhava"
       ],
-      "imagem": "banco/1IIoA2etphRrzqA1EnbRZ1eqYnL1cYzrh.jpg",
+      "imagem": "banco/1D2DcgI3blmuzsJLL1hOaNQKH-h2Zs5W6.jpg",
       "narrar": true
     },
     {
-      "texto": "Mas veio junto uma voz.",
+      "texto": "Todo dia.",
       "destaque": [
-        "voz."
+        "dia."
       ],
-      "imagem": "banco/156oyYnLcYUDeXcf6gZpPFpz069qtFUTN.jpg"
+      "imagem": "banco/1NNU79ocPVn5hZvL6PPmIu3_kcoI1IgJJ.jpg"
     },
     {
-      "texto": "Um monstro dentro dele.",
+      "texto": "Um boxeador viu e salvou ele.",
       "destaque": [
-        "monstro"
+        "salvou"
       ],
-      "imagem": "banco/156oyYnLcYUDeXcf6gZpPFpz069qtFUTN.jpg"
+      "imagem": "banco/1HVAmQZJkwNOx29H2hr5BLc-5OYB-Rk5G.jpg"
     },
     {
-      "texto": "Ele fugiu dela.",
-      "destaque": [
-        "fugiu"
-      ],
-      "imagem": "banco/1LDujIMLleFG_lrSdZW9seaDQJrkoKdNk.jpg"
-    },
-    {
-      "texto": "E perdeu.",
-      "destaque": [
-        "perdeu."
-      ],
-      "imagem": "banco/1G82mhoCSEV8UsZ4U81NG0q1zLBi6hVG8.jpg"
-    },
-    {
-      "texto": "Até parar de fugir.",
+      "texto": "Ele quis saber uma coisa:",
       "destaque": [],
-      "imagem": "banco/1IIoA2etphRrzqA1EnbRZ1eqYnL1cYzrh.jpg",
+      "imagem": "banco/1wiPt6dmF85sOjZFyD8SIkQ5bYBsqje_H.jpg"
+    },
+    {
+      "texto": "o que é ser forte?",
+      "destaque": [
+        "forte?"
+      ],
+      "imagem": "banco/1wiPt6dmF85sOjZFyD8SIkQ5bYBsqje_H.jpg",
       "narrar": true
     },
     {
-      "texto": "E dominar o que temia.",
-      "destaque": [
-        "dominar"
-      ],
-      "imagem": "banco/156oyYnLcYUDeXcf6gZpPFpz069qtFUTN.jpg"
+      "texto": "Treinou na peixaria da mãe.",
+      "destaque": [],
+      "imagem": "banco/16far6Zs6WvpmNYY_MXdO_XmB_Mzpz0Y0.jpg"
     },
     {
-      "texto": "Seu lado sombrio também é força.",
+      "texto": "Subiu no ringue.",
       "destaque": [
-        "força."
+        "ringue."
       ],
-      "imagem": "banco/1IIoA2etphRrzqA1EnbRZ1eqYnL1cYzrh.jpg",
+      "imagem": "banco/1BiPtcnDJ9Z7IYeBn1ARTpZd0e-iy5xXu.jpg"
+    },
+    {
+      "texto": "Ser forte é não parar de levantar.",
+      "destaque": [
+        "levantar."
+      ],
+      "imagem": "banco/1BiPtcnDJ9Z7IYeBn1ARTpZd0e-iy5xXu.jpg",
       "narrar": true,
       "impacto": true
     }

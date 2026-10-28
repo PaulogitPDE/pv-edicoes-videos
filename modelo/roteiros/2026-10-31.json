@@ -1,0 +1,70 @@
+{
+  "musica": "banco/13mszfCZ03f7pAGz7qkNKEPHXOWjCfDau.mp3",
+  "inicioMusica": 15.0,
+  "serie": "Dr. Stone · Senku",
+  "gancho": "O mundo inteiro virou pedra. Ele contou cada segundo por 3.700 anos.",
+  "pergunta": "Você aguentaria esperar assim?",
+  "cenas": [
+    {
+      "texto": "Uma luz verde.",
+      "destaque": [
+        "verde."
+      ],
+      "imagem": "banco/1SInOeYUKDJl7xKYQE0ClG0NxWLnPs9YF.jpg"
+    },
+    {
+      "texto": "A humanidade inteira virou pedra.",
+      "destaque": [
+        "pedra."
+      ],
+      "imagem": "banco/1VJ7hgztYwxAYylEaAWkTIJvejkjif91O.jpg",
+      "narrar": true
+    },
+    {
+      "texto": "Ele ficou consciente.",
+      "destaque": [
+        "consciente."
+      ],
+      "imagem": "banco/19-iBB2DCT9_7gm8By9ZEp_7jdQ1EMN8b.jpg"
+    },
+    {
+      "texto": "E contou os segundos.",
+      "destaque": [
+        "segundos."
+      ],
+      "imagem": "banco/19-iBB2DCT9_7gm8By9ZEp_7jdQ1EMN8b.jpg"
+    },
+    {
+      "texto": "Por 3.700 anos.",
+      "destaque": [
+        "3.700"
+      ],
+      "imagem": "banco/1Kt-1i_Wegw_1e1qSHG8P5NQ9SnDCOCYl.jpg",
+      "narrar": true
+    },
+    {
+      "texto": "Acordou num mundo sem nada.",
+      "destaque": [
+        "nada."
+      ],
+      "imagem": "banco/1sMtOP-nbzCbm01WLgSMTdcMZLohdH-9r.jpg"
+    },
+    {
+      "texto": "E reconstruiu tudo do zero.",
+      "destaque": [
+        "zero."
+      ],
+      "imagem": "banco/1k82fj7C7LgyH0IP_EBaQiMM2rniVZTCn.jpg"
+    },
+    {
+      "texto": "Recomeçar é ciência, não sorte.",
+      "destaque": [
+        "ciência,"
+      ],
+      "imagem": "banco/19-iBB2DCT9_7gm8By9ZEp_7jdQ1EMN8b.jpg",
+      "narrar": true,
+      "impacto": true
+    }
+  ],
+  "assinatura": "@pvedicoes"
+}

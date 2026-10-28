@@ -1,65 +1,65 @@
 {
-  "musica": "banco/12ZYwkV-budqol6WWCHs08dOly6FgkD86.mp3",
-  "inicioMusica": 10.0,
-  "serie": "Hunter x Hunter · Killua",
-  "gancho": "O irmão enfiou uma agulha na cabeça dele. Pra ele sempre fugir.",
-  "pergunta": "Quem colocou o seu medo aí?",
+  "musica": "banco/1OibxoEKPBxa55L8pzacsYf5MTAUnudbG.mp3",
+  "inicioMusica": 0.0,
+  "serie": "Bleach · Ichigo",
+  "gancho": "O monstro que ele mais temia morava dentro dele.",
+  "pergunta": "Qual é o monstro que mora em você?",
   "cenas": [
     {
-      "texto": "Nasceu numa família de assassinos.",
+      "texto": "Ele ganhou poder pra proteger.",
       "destaque": [
-        "assassinos."
+        "proteger."
       ],
-      "imagem": "banco/1PABW-v8VXlgHelkte7sSjrCMTEuts-I2.jpg",
+      "imagem": "banco/1IIoA2etphRrzqA1EnbRZ1eqYnL1cYzrh.jpg",
       "narrar": true
     },
     {
-      "texto": "Matar era a lição de casa.",
+      "texto": "Mas veio junto uma voz.",
       "destaque": [
-        "Matar"
+        "voz."
       ],
-      "imagem": "banco/1zXk8o6C_t_AjlgDRWoVrGaPmRz6sVvx8.jpg"
+      "imagem": "banco/156oyYnLcYUDeXcf6gZpPFpz069qtFUTN.jpg"
     },
     {
-      "texto": "O irmão colocou uma agulha na cabeça dele.",
+      "texto": "Um monstro dentro dele.",
       "destaque": [
-        "agulha"
+        "monstro"
       ],
-      "imagem": "banco/1eEOa6AxS-q5_JW-3MuR6e9jeA4xeHDja.jpg"
+      "imagem": "banco/156oyYnLcYUDeXcf6gZpPFpz069qtFUTN.jpg"
     },
     {
-      "texto": "Toda luta difícil, ele fugia.",
+      "texto": "Ele fugiu dela.",
       "destaque": [
-        "fugia."
-      ],
-      "imagem": "banco/184h7uZkHtl5F_BGg8joWT6-FQqSIdoek.jpg"
-    },
-    {
-      "texto": "Achava que era covarde.",
-      "destaque": [
-        "covarde."
-      ],
-      "imagem": "banco/184h7uZkHtl5F_BGg8joWT6-FQqSIdoek.jpg",
-      "narrar": true
-    },
-    {
-      "texto": "Um dia, arrancou a agulha.",
-      "destaque": [
-        "arrancou"
+        "fugiu"
       ],
       "imagem": "banco/1LDujIMLleFG_lrSdZW9seaDQJrkoKdNk.jpg"
     },
     {
-      "texto": "E não fugiu mais.",
-      "destaque": [],
-      "imagem": "banco/1Jwv_ahpEhpD-aMAKh7YkoTFHJKaR0YG0.jpg"
+      "texto": "E perdeu.",
+      "destaque": [
+        "perdeu."
+      ],
+      "imagem": "banco/1G82mhoCSEV8UsZ4U81NG0q1zLBi6hVG8.jpg"
     },
     {
-      "texto": "Às vezes o seu medo foi colocado por alguém.",
+      "texto": "Até parar de fugir.",
+      "destaque": [],
+      "imagem": "banco/1IIoA2etphRrzqA1EnbRZ1eqYnL1cYzrh.jpg",
+      "narrar": true
+    },
+    {
+      "texto": "E dominar o que temia.",
       "destaque": [
-        "alguém."
+        "dominar"
       ],
-      "imagem": "banco/184h7uZkHtl5F_BGg8joWT6-FQqSIdoek.jpg",
+      "imagem": "banco/156oyYnLcYUDeXcf6gZpPFpz069qtFUTN.jpg"
+    },
+    {
+      "texto": "Seu lado sombrio também é força.",
+      "destaque": [
+        "força."
+      ],
+      "imagem": "banco/1IIoA2etphRrzqA1EnbRZ1eqYnL1cYzrh.jpg",
       "narrar": true,
       "impacto": true
     }

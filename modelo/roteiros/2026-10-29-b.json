@@ -1,63 +1,63 @@
 {
-  "musica": "banco/13GECM2hXHmt0jVIXa564VgmZax8lVyiW.mp3",
+  "musica": "banco/10DU8VMN3sl_4EbpoxmfoDMwehX8ErjHb.mp3",
   "inicioMusica": 0.0,
-  "serie": "One Piece · Zoro",
-  "gancho": "Levou toda a dor do capitão no lugar dele. E disse: nada aconteceu.",
-  "pergunta": "Quem faria isso por você?",
+  "serie": "Blue Lock · Isagi",
+  "gancho": "300 atacantes trancados num prédio. Só um podia sobrar.",
+  "pergunta": "Ser egoísta é errado?",
   "cenas": [
     {
-      "texto": "O capitão estava desacordado.",
+      "texto": "300 atacantes.",
       "destaque": [
-        "desacordado."
+        "300"
       ],
-      "imagem": "banco/1Rn7pCXgFianWFi1zj1taKAoFkkdiy8Ma.jpg"
-    },
-    {
-      "texto": "O inimigo queria a vida dele.",
-      "destaque": [
-        "vida"
-      ],
-      "imagem": "banco/1SCl_kK0yxQs274Q2KpDiHScqsCz2Amve.jpg"
-    },
-    {
-      "texto": "O Zoro ofereceu a dele.",
-      "destaque": [
-        "dele."
-      ],
-      "imagem": "banco/1Vc4o2v9ksEErVxmORxgmwlnjh4jaaxaa.jpg",
+      "imagem": "banco/1JO3lx5zEQjiJETBh1ZzyTHHs4lWTF9iE.jpg",
       "narrar": true
     },
     {
-      "texto": "E aguentou toda a dor do Luffy.",
+      "texto": "Um só vira o melhor do mundo.",
       "destaque": [
-        "dor"
+        "melhor"
+      ],
+      "imagem": "banco/1GWmtGGtLe2tri1i80F_7a2mHxZmqMOLt.jpg"
+    },
+    {
+      "texto": "Ele era bom.",
+      "destaque": [],
+      "imagem": "banco/1PYTe77RyIoHk4MbzfATUEbjOMh8X3Mx2.jpg"
+    },
+    {
+      "texto": "Mas sempre passava a bola.",
+      "destaque": [
+        "passava"
+      ],
+      "imagem": "banco/1moZK-aGEQWd2X6l0ZwtbG226XO_j3fey.jpg"
+    },
+    {
+      "texto": "Ali dentro, isso te elimina.",
+      "destaque": [
+        "elimina."
       ],
       "imagem": "banco/1VpoR97PSYxCqEQN1Vbrfk3GntaDZTnbq.jpg"
     },
     {
-      "texto": "Sozinho. Em pé.",
+      "texto": "Ele aprendeu a querer o gol.",
       "destaque": [
-        "Em",
-        "pé."
+        "querer"
       ],
-      "imagem": "banco/1Rn7pCXgFianWFi1zj1taKAoFkkdiy8Ma.jpg"
+      "imagem": "banco/1GWmtGGtLe2tri1i80F_7a2mHxZmqMOLt.jpg",
+      "narrar": true
     },
     {
-      "texto": "Quando perguntaram o que houve...",
+      "texto": "Só pra ele.",
       "destaque": [],
-      "imagem": "banco/1Vc4o2v9ksEErVxmORxgmwlnjh4jaaxaa.jpg"
+      "imagem": "banco/1PYTe77RyIoHk4MbzfATUEbjOMh8X3Mx2.jpg"
     },
     {
-      "texto": "ele disse:",
-      "destaque": [],
-      "imagem": "banco/1Vc4o2v9ksEErVxmORxgmwlnjh4jaaxaa.jpg"
-    },
-    {
-      "texto": "Nada aconteceu.",
+      "texto": "Ninguém vence pedindo licença.",
       "destaque": [
-        "Nada"
+        "licença."
       ],
-      "imagem": "banco/1Vc4o2v9ksEErVxmORxgmwlnjh4jaaxaa.jpg",
+      "imagem": "banco/1PYTe77RyIoHk4MbzfATUEbjOMh8X3Mx2.jpg",
       "narrar": true,
       "impacto": true
     }

@@ -1,67 +1,63 @@
 {
-  "musica": "banco/1OibxoEKPBxa55L8pzacsYf5MTAUnudbG.mp3",
+  "musica": "banco/13GECM2hXHmt0jVIXa564VgmZax8lVyiW.mp3",
   "inicioMusica": 0.0,
-  "serie": "Naruto · Sasuke",
-  "gancho": "Odiou o irmão a vida inteira. Depois descobriu a verdade.",
-  "pergunta": "Você já odiou alguém e descobriu que estava errado?",
+  "serie": "One Piece · Zoro",
+  "gancho": "Levou toda a dor do capitão no lugar dele. E disse: nada aconteceu.",
+  "pergunta": "Quem faria isso por você?",
   "cenas": [
     {
-      "texto": "Numa noite, o clã inteiro morreu.",
+      "texto": "O capitão estava desacordado.",
       "destaque": [
-        "morreu."
+        "desacordado."
       ],
-      "imagem": "banco/1eEOa6AxS-q5_JW-3MuR6e9jeA4xeHDja.jpg",
+      "imagem": "banco/1Rn7pCXgFianWFi1zj1taKAoFkkdiy8Ma.jpg"
+    },
+    {
+      "texto": "O inimigo queria a vida dele.",
+      "destaque": [
+        "vida"
+      ],
+      "imagem": "banco/1SCl_kK0yxQs274Q2KpDiHScqsCz2Amve.jpg"
+    },
+    {
+      "texto": "O Zoro ofereceu a dele.",
+      "destaque": [
+        "dele."
+      ],
+      "imagem": "banco/1Vc4o2v9ksEErVxmORxgmwlnjh4jaaxaa.jpg",
       "narrar": true
     },
     {
-      "texto": "O irmão dele fez aquilo.",
+      "texto": "E aguentou toda a dor do Luffy.",
       "destaque": [
-        "irmão"
+        "dor"
       ],
-      "imagem": "banco/1othNuTO9XJrbYSlW_Y0ykJnb2AEUVQ4W.jpg"
+      "imagem": "banco/1VpoR97PSYxCqEQN1Vbrfk3GntaDZTnbq.jpg"
     },
     {
-      "texto": "E deixou só ele vivo.",
+      "texto": "Sozinho. Em pé.",
       "destaque": [
-        "vivo."
+        "Em",
+        "pé."
       ],
-      "imagem": "banco/1O6_QC6IxeFh-1EzcOqQhFPkG3h8KqTal.jpg"
+      "imagem": "banco/1Rn7pCXgFianWFi1zj1taKAoFkkdiy8Ma.jpg"
     },
     {
-      "texto": "Ele viveu pra vingança.",
-      "destaque": [
-        "vingança."
-      ],
-      "imagem": "banco/1bnUSY36xc2CilqfrP9yyyfYVvAxKqdBY.jpg"
+      "texto": "Quando perguntaram o que houve...",
+      "destaque": [],
+      "imagem": "banco/1Vc4o2v9ksEErVxmORxgmwlnjh4jaaxaa.jpg"
     },
     {
-      "texto": "Largou amigos. Largou a vila.",
-      "destaque": [
-        "Largou"
-      ],
-      "imagem": "banco/19nZK1SxBN5oD7inskwwFYSFVKqbXiiO1.jpg"
+      "texto": "ele disse:",
+      "destaque": [],
+      "imagem": "banco/1Vc4o2v9ksEErVxmORxgmwlnjh4jaaxaa.jpg"
     },
     {
-      "texto": "Lutou com o irmão até o fim.",
+      "texto": "Nada aconteceu.",
       "destaque": [
-        "fim."
+        "Nada"
       ],
-      "imagem": "banco/1O6_QC6IxeFh-1EzcOqQhFPkG3h8KqTal.jpg",
-      "narrar": true
-    },
-    {
-      "texto": "E descobriu que tudo foi pra proteger ele.",
-      "destaque": [
-        "protegendo"
-      ],
-      "imagem": "banco/1othNuTO9XJrbYSlW_Y0ykJnb2AEUVQ4W.jpg"
-    },
-    {
-      "texto": "Nem todo vilão é o que parece.",
-      "destaque": [
-        "parece."
-      ],
-      "imagem": "banco/1O6_QC6IxeFh-1EzcOqQhFPkG3h8KqTal.jpg",
+      "imagem": "banco/1Vc4o2v9ksEErVxmORxgmwlnjh4jaaxaa.jpg",
       "narrar": true,
       "impacto": true
     }
