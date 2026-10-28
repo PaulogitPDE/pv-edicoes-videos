@@ -18,7 +18,15 @@
         "nenhuma."
       ],
       "imagem": "banco/1CafjTj8Ksb5adG6vZ6VxDD4wwZWS8EoM.jpg",
-      "narrar": true
+      "narrar": true,
+      "audio": "narr-2026-10-28-b-1.mp3",
+      "tempos": [
+        0,
+        7,
+        17,
+        22
+      ],
+      "duracao": 61
     },
     {
       "texto": "Foi tratado como lixo.",
@@ -45,7 +53,16 @@
         "Gojo."
       ],
       "imagem": "banco/1S26oKbrEz3xojngMrPnvomZzFwPIXXDT.jpg",
-      "narrar": true
+      "narrar": true,
+      "audio": "narr-2026-10-28-b-5.mp3",
+      "tempos": [
+        0,
+        5,
+        20,
+        22,
+        32
+      ],
+      "duracao": 70
     },
     {
       "texto": "Ninguém acreditou nele.",
@@ -59,8 +76,17 @@
       ],
       "imagem": "banco/1CafjTj8Ksb5adG6vZ6VxDD4wwZWS8EoM.jpg",
       "narrar": true,
-      "impacto": true
+      "impacto": true,
+      "audio": "narr-2026-10-28-b-7.mp3",
+      "tempos": [
+        0,
+        7,
+        12
+      ],
+      "duracao": 86
     }
   ],
-  "assinatura": "@pvedicoes"
+  "assinatura": "@pvedicoes",
+  "voz": "IKne3meq5aSn9XLyUdCD",
+  "vozNome": "Charlie"
 }
