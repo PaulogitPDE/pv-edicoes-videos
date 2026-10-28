@@ -10,3 +10,4 @@
 - 2026-10-25 · carrossel: Vinland Saga, a história do Thors · imagens 1ka0U9UyKHev,1Amqoh_CFzA9,1ePllskYg49N,17bxm-X_GuJz,1Rn7pCXgFian,1gKCPfOrN0dP · https://www.instagram.com/p/De6sQ53FDyS/
 - 2026-10-25 · carrossel: Attack on Titan, como o Eren virou o fim do mundo · imagens 1mefdr9XwzHZ,1dSKYkl9zneQ,1OmhRxiFdJye,1Xlm98h2MrM_,1ebdhXr1ElV2,1T3seWZHBNPB · https://www.instagram.com/p/De7-gApEaUB/
 - 2026-10-26 · carrossel: Vagabond, como o Musashi virou samurai · imagens 1Ovn9Hcwp2rx,1oQNlQynl4V_,1zXk8o6C_t_A,1CTmbVFvEjBB,1ki-FOO-8Dnh,1SInOeYUKDJl · https://www.instagram.com/p/De9TAnVF086/
+- 2026-10-28 · carrossel: Demon Slayer, todo demônio já foi humano · imagens 1hOOW-NyjblB,1AAWSzyt6AYw,1m3PJaEwIRWl,1761FNeS23_g,1Cjw48b9SlJZ,1tRB2LXEHmo9 · https://www.instagram.com/p/DfCdBeLlXui/
