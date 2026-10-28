@@ -23,3 +23,4 @@
 - 2026-10-26 · r1 · A recepcionista faltou: com quem ela estava falando? · comenta · gancho: "A recepcionista faltou hoje." · https://www.instagram.com/reel/De9m4j-AABp/
 - 2026-10-26 · p2 · Botox: o "depois eu vejo" (chat) · direct · https://www.instagram.com/p/De-KQzmn5EI/
 - 2026-10-26/27 · FALHA · a sessão caiu às 19h57 de 26/10 e só voltou de madrugada em 28/10: não saíram o r2 de 26/10 nem as 4 peças de 27/10. Não repostei de madrugada; a rotina segue normal a partir de 28/10.
+- 2026-10-28 · p1 · CRM não é pra empresa grande, é pra quem manda orçamento (frase) · direct · https://www.instagram.com/p/DfCWNWEF9Oa/
