@@ -1,0 +1,48 @@
+{
+ "tarja": "Só <1 por semana>. Faz a conta.",
+ "semente": 109,
+ "tema": "Quanto vale 1 orçamento recuperado por semana",
+ "ganchos_ab": [
+  "E se voltasse só <1 orçamento> por semana?",
+  "1 por semana parece <pouco>",
+  "Faz essa conta <comigo>"
+ ],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "rotulo": "quinta da conta",
+   "texto": "E se voltasse só <1 orçamento> por semana?",
+   "rabisco": "sublinha",
+   "dur": 2.6,
+   "legenda": "Parece pouco"
+  },
+  {
+   "tipo": "numero",
+   "rotulo": "exemplo: ticket de R$ 1.500",
+   "de": 0,
+   "ate": 6000,
+   "prefixo": "R$ ",
+   "cor": "lime",
+   "sub": "por <mês>, com 4 que voltaram",
+   "dur": 3.8,
+   "legenda": "Troca pelo <seu ticket>",
+   "humor": "solucao"
+  },
+  {
+   "tipo": "desenho",
+   "forma": "grafico",
+   "texto": "Em um ano: <52 pacientes>",
+   "valor": "52",
+   "dur": 3.6,
+   "legenda": "Que já tinham <pedido orçamento>"
+  },
+  {
+   "tipo": "cta",
+   "modo": "comenta",
+   "texto": "Quer o funil que <chama de volta>?",
+   "palavra": "FUNIL",
+   "dur": 4.2,
+   "legenda": "Comenta <FUNIL>"
+  }
+ ]
+}
