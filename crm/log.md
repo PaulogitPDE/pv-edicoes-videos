@@ -30,3 +30,4 @@
 - 2026-10-28 · r2 · Kit de 4 mensagens grátis (manda FUNIL) · direct · gancho: "4 mensagens que trazem a paciente de volta" · https://www.instagram.com/reel/DfDkKnggDvj/
 - 2026-10-29 · p1 · Quanto vale um implante que voltou (numero R$ 3.500, valor de exemplo) · bio · https://www.instagram.com/p/DfE62t4nBZs/
 - 2026-10-29 · r1 · Quanto vale 1 orçamento recuperado por semana (R$ 6.000/mês de exemplo, 52/ano) · comenta · gancho: "E se voltasse só 1 orçamento por semana?" · https://www.instagram.com/reel/DfFWSYykf6_/
+- 2026-10-29 · r2 · Raio-x de 15 minutos dos orçamentos parados · bio · gancho: "Quantos orçamentos estão parados no seu WhatsApp?" · https://www.instagram.com/reel/DfGI8ReAWuh/
