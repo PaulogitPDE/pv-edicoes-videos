@@ -1,0 +1,55 @@
+{
+ "serie": "O preço de ser o mais forte",
+ "slides": [
+  {
+   "imagem": "banco/1x5Dys7EadXQG7VT3g1kZMn68c3gaETvA.jpg",
+   "headline": "O mais forte quase sempre é o mais sozinho.",
+   "destaque": [
+    "sozinho."
+   ],
+   "sub": "arrasta. 4 provas no mangá.",
+   "pb": true,
+   "posicao": "baixo"
+  },
+  {
+   "imagem": "banco/1CbI9kF6_7qB7vusrKM067Hblmcypae8A.jpg",
+   "headline": "Saitama vence tudo com um soco. E não sente mais nada.",
+   "destaque": [
+    "nada."
+   ],
+   "sub": "one punch man: a força tirou a graça de lutar.",
+   "pb": true,
+   "posicao": "baixo"
+  },
+  {
+   "imagem": "banco/1xbe94UO1MRMWNSNBo_4LUpW4LEJzdI4L.jpg",
+   "headline": "Gaara era a arma da vila. E ninguém chegava perto dele.",
+   "destaque": [
+    "arma"
+   ],
+   "sub": "naruto: só mudou quando alguém entendeu a dor dele.",
+   "pb": true,
+   "posicao": "baixo"
+  },
+  {
+   "imagem": "banco/1iyuwtcTAloWFqMUpL9R6ByWENFjgmV3w.jpg",
+   "headline": "Alucard é imortal. E respeita quem aceita morrer.",
+   "destaque": [
+    "imortal."
+   ],
+   "sub": "hellsing: pra ele, só um humano vence um monstro.",
+   "pb": true,
+   "posicao": "baixo"
+  },
+  {
+   "imagem": "banco/1VJ7hgztYwxAYylEaAWkTIJvejkjif91O.jpg",
+   "headline": "Pain se chamava de deus. Por dentro, era um órfão de guerra.",
+   "destaque": [
+    "deus."
+   ],
+   "sub": "naruto: o nagato perdeu tudo e quis que o mundo sentisse dor também.",
+   "pb": true,
+   "posicao": "baixo"
+  }
+ ]
+}
