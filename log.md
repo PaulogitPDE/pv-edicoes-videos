@@ -22,3 +22,4 @@
 - 2026-10-28 · Hajime no Ippo, Ippo: ser forte é levantar (voz Bill) · https://www.instagram.com/reel/DfCr7hZgn5m/
 - 2026-10-28 · Jujutsu Kaisen, Toji: nem ele acreditava nele (voz Charlie) · https://www.instagram.com/reel/DfDcCYaiL9I/
 - 2026-10-29 · Bleach, Ichigo: o monstro dentro dele (voz Roger) · https://www.instagram.com/reel/DfFSZWZkfE2/
+- 2026-10-29 · Blue Lock, Isagi: aprendeu a querer o gol (voz Eric) · https://www.instagram.com/reel/DfGApZHkqxt/
