@@ -11,7 +11,16 @@
         "proteger."
       ],
       "imagem": "banco/1IIoA2etphRrzqA1EnbRZ1eqYnL1cYzrh.jpg",
-      "narrar": true
+      "narrar": true,
+      "audio": "narr-2026-10-29-0.mp3",
+      "tempos": [
+        0,
+        8,
+        18,
+        29,
+        34
+      ],
+      "duracao": 72
     },
     {
       "texto": "Mas veio junto uma voz.",
@@ -45,7 +54,15 @@
       "texto": "Até parar de fugir.",
       "destaque": [],
       "imagem": "banco/1IIoA2etphRrzqA1EnbRZ1eqYnL1cYzrh.jpg",
-      "narrar": true
+      "narrar": true,
+      "audio": "narr-2026-10-29-5.mp3",
+      "tempos": [
+        0,
+        11,
+        20,
+        23
+      ],
+      "duracao": 64
     },
     {
       "texto": "E dominar o que temia.",
@@ -61,8 +78,20 @@
       ],
       "imagem": "banco/1IIoA2etphRrzqA1EnbRZ1eqYnL1cYzrh.jpg",
       "narrar": true,
-      "impacto": true
+      "impacto": true,
+      "audio": "narr-2026-10-29-7.mp3",
+      "tempos": [
+        0,
+        8,
+        15,
+        29,
+        40,
+        42
+      ],
+      "duracao": 125
     }
   ],
-  "assinatura": "@pvedicoes"
+  "assinatura": "@pvedicoes",
+  "voz": "CwhRBWXzGAHq8TQ4Fs17",
+  "vozNome": "Roger"
 }
