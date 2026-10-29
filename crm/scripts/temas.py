@@ -13,6 +13,7 @@ PILARES = {
     6: 'Domingo de reflexão e planejamento da semana',
 }
 
+# REELS_DIA alimenta o reel 1, que desde 29/10/2026 é só conteúdo: sem preço, oferta ou CTA de venda.
 REELS_DIA = {
     0: [('Ela disse "vou pensar" e sumiu', 'gancho, chat, timeline, cta'),
         ('37 orçamentos sem resposta no mês', 'gancho, numero, leads, cta'),
@@ -35,12 +36,12 @@ REELS_DIA = {
     3: [('Quanto vale 1 orçamento recuperado por semana', 'gancho, numero, desenho grafico, cta'),
         ('20 orçamentos parados × ticket médio', 'gancho, numero, leads, cta'),
         ('3 faltas por semana: quanto isso dá no mês', 'gancho, numero, timeline lembrete, cta'),
-        ('1 implante recuperado paga o sistema', 'gancho, numero, leads, cta'),
+        ('O implante que ficou no "vou pensar"', 'gancho, chat, numero, cta'),
         ('Recuperar 1 em cada 20', 'gancho, desenho grafico, numero, cta'),
         ('A paciente que foi pro concorrente', 'gancho, chat, numero, cta')],
     4: [('Sextou e o WhatsApp continua trabalhando', 'gancho, leads, timeline, cta'),
-        ('Sextou: 3 vagas de fundador a R$ 997', 'gancho, numero, lista, cta'),
-        ('No ar em 7 dias, senão não paga', 'gancho, timeline (dia 1 a 7), numero, cta'),
+        ('Sextou: o que a recepção deixou pendente na semana', 'gancho, lista, numero, cta'),
+        ('Sextou: 3 mensagens pra mandar antes do fim de semana', 'gancho, chat, timeline, cta'),
         ('Sextou sem 40 conversas pendentes', 'gancho, chat, leads, cta'),
         ('Fim de semana: quem responde a paciente?', 'gancho, chat, timeline, cta'),
         ('Sextou com agenda cheia na segunda', 'gancho, leads, numero, cta')],

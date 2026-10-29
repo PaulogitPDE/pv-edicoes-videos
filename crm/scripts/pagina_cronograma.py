@@ -41,6 +41,7 @@ h1 em { font-style: normal; color: var(--lime); }
 .cta.direct { background: rgba(198,255,61,.14); color: var(--lime); }
 .cta.bio { background: rgba(61,224,255,.14); color: var(--cyan); }
 .cta.comenta { background: rgba(255,77,196,.15); color: var(--pink); }
+.cta.salva { background: rgba(255,255,255,.08); color: var(--muted, #9aa4b2); }
 .semana { display: grid; gap: 8px; }
 .semana h2 { font: 600 12px var(--f-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 10px 0 0; }
 .dia { display: grid; grid-template-columns: 150px 1fr; gap: 14px; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 14px; }
@@ -69,7 +70,7 @@ h1 em { font-style: normal; color: var(--lime); }
   <header>
     <div class="eyebrow"><span class="dot"></span>@crmquevende · no automático</div>
     <h1>Cronograma <em>CRM que vende</em></h1>
-    <p class="lede">Todo dia, sem exceção: 2 reels e 2 posts criados a partir do Orçamento que Volta. Nas datas comemorativas, o reel 1 e o post 1 são da data. Segunda, quarta e sexta tem um post extra puxando o assunto da semana. O tema de cada peça vira roteiro no próprio dia.</p>
+    <p class="lede">Todo dia, sem exceção: 2 reels e 1 post (desde 29/10). O reel 1 é só conteúdo, sem venda; o reel 2 leva a oferta Orçamento que Volta. Nas datas comemorativas, o reel 1 e o post 1 são da data. Segunda, quarta e sexta tem um carrossel extra com o assunto da semana na capa. O tema de cada peça vira roteiro no próprio dia.</p>
     <div class="regras">
       <span><b>08h37</b> post 1</span><span><b>10h27</b> trend (seg/qua/sex)</span><span><b>12h17</b> reel 1</span><span><b>17h37</b> post 2</span><span><b>19h57</b> reel 2</span>
     </div>
@@ -86,7 +87,7 @@ h1 em { font-style: normal; color: var(--lime); }
 <script>
 const MESES = __DADOS__;
 const NOMES = {'01':'Janeiro','02':'Fevereiro','03':'Março','04':'Abril','05':'Maio','06':'Junho','07':'Julho','08':'Agosto','09':'Setembro','10':'Outubro','11':'Novembro','12':'Dezembro'};
-const CTA = {direct: 'Direct', bio: 'Bio', comenta: 'Comenta'};
+const CTA = {direct: 'Direct', bio: 'Bio', comenta: 'Comenta', salva: 'Sem venda'};
 const LAYOUT = {frase: 'post de frase', data: 'post de data', chat: 'print de conversa', numero: 'post de número', lista: 'checklist', antes_depois: 'antes x depois'};
 const hoje = new Date(Date.now() - 3 * 3600e3).toISOString().slice(0, 10);
 const esc = s => String(s).replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
@@ -113,7 +114,7 @@ function render(i) {
     const esp = !!d.data_comemorativa, eh = d.data === hoje;
     const slots = [slot('p', 'post 1', d.p1, esp ? 'data-com' : '')];
     if (d.trend) slots.push(slot('t', 'trend', d.trend, 'trend'));
-    slots.push(slot('r', 'reel 1', d.r1, esp ? 'data-com' : ''), slot('p', 'post 2', d.p2), slot('r', 'reel 2', d.r2));
+    slots.push(slot('r', d.r1.conteudo ? 'reel 1 · conteúdo' + (d.r1.tarja === false ? ', sem tarja' : '') : 'reel 1', d.r1, esp ? 'data-com' : ''), ...(d.p2 ? [slot('p', 'post 2', d.p2)] : []), slot('r', 'reel 2', d.r2));
     html += `<article class="dia ${esp ? 'especial' : ''} ${eh ? 'hoje' : ''}" id="d${d.data}">
       <div class="data"><span class="num">${d.data.slice(8)}/${d.data.slice(5, 7)}</span><span class="sem">${d.semana}</span>
       <span class="pilar">${esc(d.pilar)}</span>${esp ? `<span class="badge">${esc(d.data_comemorativa)}</span>` : ''}${eh ? '<span class="badge hoje">hoje</span>' : ''}</div>

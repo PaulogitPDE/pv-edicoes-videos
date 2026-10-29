@@ -3,7 +3,6 @@
  "horarios_brt": {
   "p1": "08:37",
   "r1": "12:17",
-  "p2": "17:37",
   "r2": "19:57",
   "trend": "10:27"
  },
@@ -250,12 +249,6 @@
     "cenas": "gancho, numero, desenho grafico, cta",
     "cta": "comenta"
    },
-   "p2": {
-    "hora": "17:37",
-    "tema": "A regra de ouro: cada mensagem tem um motivo novo",
-    "layout": "frase",
-    "cta": "direct"
-   },
    "r2": {
     "hora": "19:57",
     "tema": "Raio-x de 15 minutos dos seus orçamentos parados",
@@ -277,25 +270,21 @@
    "r1": {
     "hora": "12:17",
     "tema": "Sextou e o WhatsApp continua trabalhando",
-    "cenas": "gancho, leads, timeline, cta",
-    "cta": "direct"
-   },
-   "p2": {
-    "hora": "17:37",
-    "tema": "A última mensagem é a que mais traz resposta",
-    "layout": "chat",
-    "cta": "bio"
+    "cenas": "gancho, leads, timeline, fecho com dica",
+    "cta": "salva",
+    "conteudo": true,
+    "tarja": false
    },
    "r2": {
     "hora": "19:57",
     "tema": "Implante: o orçamento mais caro de perder",
     "cenas": "gancho, chat, leads, cta",
-    "cta": "comenta"
+    "cta": "direct"
    },
    "trend": {
     "hora": "10:27",
-    "tema": "pesquisar no dia o assunto do momento e ligar ao CRM que vende (estilo gancho \"nada a ver\")",
-    "cta": "direct"
+    "tema": "carrossel: capa com nome + foto do assunto do momento, CRM que vende só no 2º slide (estilo gancho \"nada a ver\")",
+    "cta": "bio"
    }
   },
   {
@@ -312,20 +301,16 @@
    "r1": {
     "hora": "12:17",
     "tema": "Halloween: O terror da clínica: o orçamento fantasma que nunca respondeu",
-    "cenas": "data, gancho, (cena do tema), cta",
-    "cta": "bio"
-   },
-   "p2": {
-    "hora": "17:37",
-    "tema": "Kommo + WhatsApp: o que muda na recepção",
-    "layout": "antes_depois",
-    "cta": "comenta"
+    "cenas": "data, gancho, (cena do tema), fecho com dica",
+    "cta": "salva",
+    "conteudo": true,
+    "tarja": true
    },
    "r2": {
     "hora": "19:57",
     "tema": "Lentes de contato dental: a paciente que compara preço",
     "cenas": "gancho, chat, timeline, cta",
-    "cta": "direct"
+    "cta": "bio"
    }
   }
  ]

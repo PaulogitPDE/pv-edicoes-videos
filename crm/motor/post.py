@@ -2,8 +2,9 @@
 destaque lime com brilho, cartões de vidro e um rodapé com CTA.
 Uso (na raiz do repo): python3 crm/motor/post.py crm/posts/AAAA-MM-DD-p1.json crm/postados-img/AAAA-MM-DD-p1.jpg
 
-JSON: {"layout": "frase|data|chat|numero|lista|antes_depois", "rotulo": "...", "headline": "Texto com <destaque>",
-"sub": "...", "cta": "direct|bio|comenta", "palavra": "FUNIL", "rabisco": "sublinha|circulo", ...campos do layout}"""
+JSON: {"layout": "frase|data|chat|numero|lista|antes_depois|capa", "rotulo": "...", "headline": "Texto com <destaque>",
+"sub": "...", "cta": "direct|bio|comenta|arrasta", "palavra": "FUNIL", "rabisco": "sublinha|circulo", ...campos do layout}
+capa (1º slide do trend): "imagem" (foto do assunto, licença livre, em crm/assets/trend/), "credito" (autor/licença)."""
 import json, math, os, sys
 import numpy as np
 from PIL import Image, ImageDraw
@@ -36,7 +37,7 @@ def rodape(base, p):
     colar(base, rotulo('@crmquevende', 24, MUTED, 4), 70, H - 92, canto=True)
     cta = p.get('cta', 'direct')
     pal = limpa(p.get('palavra', 'FUNIL')).upper()
-    txt = {'direct': f'Manda {pal} no Direct', 'bio': 'Link na bio', 'comenta': f'Comenta {pal}'}.get(cta, cta)
+    txt = {'direct': f'Manda {pal} no Direct', 'bio': 'Link na bio', 'comenta': f'Comenta {pal}', 'arrasta': 'Arrasta pro lado'}.get(cta, cta)
     f = corpo('black', 30)
     t = limpa(txt).upper()
     w = int(f.getlength(t)) + 64
@@ -75,6 +76,25 @@ def l_frase(base, p):
     topo(base, p, 260)
     t = headline(base, p, 560)
     sub(base, p, 560 + t.alt / 2 + 70)
+
+
+def l_capa(base, p):
+    foto = Image.open(p['imagem']).convert('RGB')
+    k = max(W / foto.width, H / foto.height)
+    foto = foto.resize((math.ceil(foto.width * k), math.ceil(foto.height * k)), Image.LANCZOS)
+    x0, y0 = (foto.width - W) // 2, int((foto.height - H) * p.get('foco_y', 0.3))
+    arr = np.array(foto.crop((x0, y0, x0 + W, y0 + H)), np.float32)
+    y = np.linspace(0, 1, H)[:, None, None]
+    sombra = np.maximum(np.clip((y - 0.35) / 0.45, 0, 1) * 0.88 + 0.12, np.clip(1 - y / 0.08, 0, 1) * 0.6)
+    arr = arr * (1 - sombra) + np.array(BG, np.float32) * sombra
+    base.paste(Image.fromarray(arr.astype(np.uint8)).convert('RGBA'))
+    t = Texto(p['headline'], p.get('tam', 96), max_w=950)
+    cy = H - 250 - t.alt / 2
+    t.draw(base, W / 2, cy, 99, 0, 'fixo')
+    topo(base, p, cy - t.alt / 2 - 50)
+    if p.get('credito'):
+        cr = texto_simples(p['credito'], 20, 'semi', MUTED, 1000, centro=True)
+        colar(base, cr, W / 2, 30 + cr.height / 2)
 
 
 def l_data(base, p):
