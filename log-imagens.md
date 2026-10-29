@@ -12,3 +12,4 @@
 - 2026-10-26 · carrossel: Vagabond, como o Musashi virou samurai · imagens 1Ovn9Hcwp2rx,1oQNlQynl4V_,1zXk8o6C_t_A,1CTmbVFvEjBB,1ki-FOO-8Dnh,1SInOeYUKDJl · https://www.instagram.com/p/De9TAnVF086/
 - 2026-10-28 · carrossel: Demon Slayer, todo demônio já foi humano · imagens 1hOOW-NyjblB,1AAWSzyt6AYw,1m3PJaEwIRWl,1761FNeS23_g,1Cjw48b9SlJZ,1tRB2LXEHmo9 · https://www.instagram.com/p/DfCdBeLlXui/
 - 2026-10-28 · carrossel: O preço de ser o mais forte (Saitama, Gaara, Alucard, Pain) · imagens 1x5Dys7EadXQ,1CbI9kF6_7qB,1xbe94UO1MRM,1iyuwtcTAloW,1VJ7hgztYwxA · https://www.instagram.com/p/DfDtD4gmPdo/
+- 2026-10-29 · carrossel: Falas de luta (Toji, Kengan, boxe, Black Clover) · imagens 1epyaHV5qSxZ,1CafjTj8Ksb5,1HsHFNS-ZJil,1wiPt6dmF85s,1an150sBNuUQ · https://www.instagram.com/p/DfFA79mDX5B/
