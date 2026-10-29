@@ -11,7 +11,13 @@
         "300"
       ],
       "imagem": "banco/1JO3lx5zEQjiJETBh1ZzyTHHs4lWTF9iE.jpg",
-      "narrar": true
+      "narrar": true,
+      "audio": "narr-2026-10-29-b-0.mp3",
+      "tempos": [
+        0,
+        17
+      ],
+      "duracao": 57
     },
     {
       "texto": "Um só vira o melhor do mundo.",
@@ -45,7 +51,17 @@
         "querer"
       ],
       "imagem": "banco/1GWmtGGtLe2tri1i80F_7a2mHxZmqMOLt.jpg",
-      "narrar": true
+      "narrar": true,
+      "audio": "narr-2026-10-29-b-5.mp3",
+      "tempos": [
+        0,
+        7,
+        20,
+        22,
+        30,
+        32
+      ],
+      "duracao": 74
     },
     {
       "texto": "Só pra ele.",
@@ -59,8 +75,18 @@
       ],
       "imagem": "banco/1PYTe77RyIoHk4MbzfATUEbjOMh8X3Mx2.jpg",
       "narrar": true,
-      "impacto": true
+      "impacto": true,
+      "audio": "narr-2026-10-29-b-7.mp3",
+      "tempos": [
+        0,
+        13,
+        20,
+        31
+      ],
+      "duracao": 99
     }
   ],
-  "assinatura": "@pvedicoes"
+  "assinatura": "@pvedicoes",
+  "voz": "cjVigY5qzO86Huf0OWal",
+  "vozNome": "Eric"
 }
