@@ -33,3 +33,4 @@
 - 2026-10-29 · r2 · Raio-x de 15 minutos dos orçamentos parados · bio · gancho: "Quantos orçamentos estão parados no seu WhatsApp?" · https://www.instagram.com/reel/DfGI8ReAWuh/
 - 2026-10-30 · p1 · Sextou com a agenda da segunda já cheia (frase) · comenta · https://www.instagram.com/p/DfHfm7lF2tW/
 - 2026-10-30 · trend · A Fazenda 18, eliminação de Giovanna Gold (carrossel, capa só com o nome, sem foto livre) → paciente eliminada em silêncio · bio · https://www.instagram.com/p/DfHviUSjVs1/
+- 2026-10-30 · r1 · Conteúdo: checklist da sexta antes de fechar a clínica · salva (sem venda) · sem tarja · gancho: "Antes de fechar a clínica nesta sexta..." · https://www.instagram.com/reel/DfH_WYECQiW/
