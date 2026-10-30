@@ -24,6 +24,11 @@ Dados de 22/10: reels com ~100–150 de alcance e só 3–5 s de tempo médio em
 - Gancho no topo é PERGUNTA (análise 29/10), não spoiler. Temas que mais seguraram (29/10): monstro interno (Ichigo, 5,9 s e o 1º compartilhamento), "ninguém vem te salvar", "para de se comparar", "só um sobra" (Blue Lock).
 - Roteiros prontos esperando data ficam em `modelo/roteiros/fila/` (anim-comparar, anim-sobra; e os de anime onepiece-zoro, naruto-sasuke, que saíram das 18h46 de 30 e 31/10 e vão para as 11h46 a partir de 1/11). Ao montar a semana, mover da fila para a data com `git mv`.
 
+## Correções 30/10 (Sr Pv: "falas genéricas", "headline cobre o rosto", "efeito nas bordas")
+- Toda fala cita NOME e FATO concreto ("Naruto reprovou três vezes na academia", nunca "Nasceu numa família de assassinos" sem dizer quem). Narrar todas as falas.
+- Só usar imagens DO PRÓPRIO personagem/obra. Se o banco tem menos de 2 imagens dele, escolher outro personagem e deixar o roteiro em `modelo/roteiros/fila/` até chegarem imagens (Killua está lá esperando).
+- Visual: o quadro aparece inteiro sobre fundo desfocado (rosto visível), legenda embaixo, rótulo pequeno no topo e o gancho some depois de ~2,5 s. Sem moldura nem linhas fixas nas bordas.
+
 ## Regras fixas (Sr Pv, 16/10/2026)
 - **2 reels por dia** (11h46 e 18h46). Cada disparo posta 1, só se o `log.md` tiver menos de 2 postagens hoje.
 - **Narração em TODAS as falas** (Sr Pv, 30/10: "por que está gerando poucas falas?"; substitui a regra de 21/10 de narrar só 2-3 cenas): marcar `"narrar": true` em todas as cenas. O **CTA continua NÃO falado**. Visual 30/10: sem moldura de painel e sem linhas de velocidade fixas nas bordas. Rodar `cd modelo && python3 scripts/narrar.py roteiros/<arquivo>.json` (DENTRO de modelo/). Voz padrão Adam pNInz6obpgDQGcFmaJgB; alternativa Eric cjVigY5qzO86Huf0OWal. A música abaixa sozinha nas cenas narradas.
