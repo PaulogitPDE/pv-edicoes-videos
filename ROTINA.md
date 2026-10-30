@@ -17,6 +17,13 @@ Dados de 22/10: reels com ~100–150 de alcance e só 3–5 s de tempo médio em
 - Posts viram **carrossel** (ver seção "Posts (carrossel)").
 - Sexta: a análise compara tempo médio de visualização, compartilhamentos, salvamentos e comentários por personagem/obra e por voz; dobrar nas obras que seguram mais.
 
+## Animação 30/10 (Sr Pv: "vamos postar vídeos só de animação também")
+- Desde 30/10 o reel das **18h46 (`<hoje>-b.json`) é 100% animado**; o das 11h46 continua sendo história de personagem de anime com frames do banco.
+- Série própria "Animação · O Ronin": um samurai de tinta com cachecol vermelho, fundo claro de papel (primeiro frame claro, como sugeriu a análise de 29/10). Cada vídeo é um episódio ("o ronin, ep. N" na legenda).
+- No roteiro, cada cena usa `"anim": "<cena>"` em vez de `imagem`. Cenas prontas em `motor/anima.py`: sombra, chuva, levanta, escada, corrida, multidao, sol, espada, poste. Cena nova = nova função lá (Pillow puro, sem biblioteca extra, sem Remotion; a skill Hypit fica só para vídeo avulso, porque depende de geração paga).
+- Gancho no topo é PERGUNTA (análise 29/10), não spoiler. Temas que mais seguraram (29/10): monstro interno (Ichigo, 5,9 s e o 1º compartilhamento), "ninguém vem te salvar", "para de se comparar", "só um sobra" (Blue Lock).
+- Roteiros prontos esperando data ficam em `modelo/roteiros/fila/` (anim-comparar, anim-sobra; e os de anime onepiece-zoro, naruto-sasuke, que saíram das 18h46 de 30 e 31/10 e vão para as 11h46 a partir de 1/11). Ao montar a semana, mover da fila para a data com `git mv`.
+
 ## Regras fixas (Sr Pv, 16/10/2026)
 - **2 reels por dia** (11h46 e 18h46). Cada disparo posta 1, só se o `log.md` tiver menos de 2 postagens hoje.
 - **Narração masculina da ElevenLabs só nos pontos importantes** (Sr Pv, 21/10): marcar `"narrar": true` em 2 a 3 cenas-chave (abertura, virada, frase final). Nem todo texto da tela é narrado e o **CTA NÃO é falado**. Rodar `cd modelo && python3 scripts/narrar.py roteiros/<arquivo>.json` (DENTRO de modelo/). Voz padrão Adam pNInz6obpgDQGcFmaJgB; alternativa Eric cjVigY5qzO86Huf0OWal. A música abaixa sozinha nas cenas narradas.

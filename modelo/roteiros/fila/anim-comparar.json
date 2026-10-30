@@ -1,0 +1,61 @@
+{
+  "musica": "banco/12ZYwkV-budqol6WWCHs08dOly6FgkD86.mp3",
+  "inicioMusica": 0.0,
+  "serie": "Animação · O Ronin",
+  "gancho": "Por que ele andava na direção contrária?",
+  "pergunta": "Você tá correndo a corrida de quem?",
+  "cenas": [
+    {
+      "texto": "Para de se comparar.",
+      "destaque": [
+        "comparar."
+      ],
+      "anim": "multidao",
+      "narrar": true
+    },
+    {
+      "texto": "Todo mundo indo pro mesmo lado.",
+      "destaque": [
+        "mesmo"
+      ],
+      "anim": "multidao"
+    },
+    {
+      "texto": "Ele ia pro outro.",
+      "destaque": [
+        "outro."
+      ],
+      "anim": "corrida"
+    },
+    {
+      "texto": "Riram dele.",
+      "destaque": [
+        "Riram"
+      ],
+      "anim": "chuva"
+    },
+    {
+      "texto": "Ele continuou subindo.",
+      "destaque": [
+        "subindo."
+      ],
+      "anim": "escada"
+    },
+    {
+      "texto": "No tempo dele.",
+      "destaque": [
+        "tempo"
+      ],
+      "anim": "escada",
+      "impacto": true
+    },
+    {
+      "texto": "Cada um tem a sua estrada.",
+      "destaque": [
+        "sua"
+      ],
+      "anim": "sol",
+      "narrar": true
+    }
+  ]
+}

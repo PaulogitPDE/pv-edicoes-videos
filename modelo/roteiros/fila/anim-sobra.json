@@ -1,0 +1,62 @@
+{
+  "musica": "banco/13mszfCZ03f7pAGz7qkNKEPHXOWjCfDau.mp3",
+  "inicioMusica": 0.0,
+  "serie": "Animação · O Ronin",
+  "gancho": "O que sobra quando a vontade acaba?",
+  "pergunta": "Você treina com ou sem vontade?",
+  "cenas": [
+    {
+      "texto": "A vontade acaba no terceiro dia.",
+      "destaque": [
+        "acaba"
+      ],
+      "anim": "chuva",
+      "narrar": true
+    },
+    {
+      "texto": "A chuva não para.",
+      "destaque": [
+        "chuva"
+      ],
+      "anim": "chuva"
+    },
+    {
+      "texto": "O corpo pede pra sentar.",
+      "destaque": [
+        "sentar."
+      ],
+      "anim": "poste"
+    },
+    {
+      "texto": "Ele levanta.",
+      "destaque": [
+        "levanta."
+      ],
+      "anim": "levanta"
+    },
+    {
+      "texto": "Sem vontade nenhuma.",
+      "destaque": [
+        "nenhuma."
+      ],
+      "anim": "corrida"
+    },
+    {
+      "texto": "Disciplina.",
+      "destaque": [
+        "Disciplina."
+      ],
+      "anim": "espada",
+      "impacto": true,
+      "narrar": true
+    },
+    {
+      "texto": "É o que sobra.",
+      "destaque": [
+        "sobra."
+      ],
+      "anim": "sol",
+      "narrar": true
+    }
+  ]
+}

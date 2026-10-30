@@ -1,70 +1,62 @@
 {
-  "musica": "banco/1OibxoEKPBxa55L8pzacsYf5MTAUnudbG.mp3",
+  "musica": "banco/13GECM2hXHmt0jVIXa564VgmZax8lVyiW.mp3",
   "inicioMusica": 0.0,
-  "serie": "Naruto · Sasuke",
-  "gancho": "Odiou o irmão a vida inteira. Depois descobriu a verdade.",
-  "pergunta": "Você já odiou alguém e descobriu que estava errado?",
+  "serie": "Animação · O Ronin",
+  "gancho": "Quem vem te salvar quando ninguém vem?",
+  "pergunta": "Quem você tá esperando?",
   "cenas": [
     {
-      "texto": "Numa noite, o clã inteiro morreu.",
+      "texto": "Ninguém vem te salvar.",
       "destaque": [
-        "morreu."
+        "Ninguém"
       ],
-      "imagem": "banco/1eEOa6AxS-q5_JW-3MuR6e9jeA4xeHDja.jpg",
+      "anim": "poste",
       "narrar": true
     },
     {
-      "texto": "O irmão dele fez aquilo.",
+      "texto": "Ele esperou anos.",
       "destaque": [
-        "irmão"
+        "anos."
       ],
-      "imagem": "banco/1othNuTO9XJrbYSlW_Y0ykJnb2AEUVQ4W.jpg"
+      "anim": "poste"
     },
     {
-      "texto": "E deixou só ele vivo.",
+      "texto": "Todo mundo seguiu a vida.",
       "destaque": [
-        "vivo."
+        "seguiu"
       ],
-      "imagem": "banco/1O6_QC6IxeFh-1EzcOqQhFPkG3h8KqTal.jpg"
+      "anim": "multidao"
     },
     {
-      "texto": "Ele viveu pra vingança.",
+      "texto": "Então ele levantou.",
       "destaque": [
-        "vingança."
+        "levantou."
       ],
-      "imagem": "banco/1bnUSY36xc2CilqfrP9yyyfYVvAxKqdBY.jpg"
-    },
-    {
-      "texto": "Largou amigos. Largou a vila.",
-      "destaque": [
-        "Largou"
-      ],
-      "imagem": "banco/19nZK1SxBN5oD7inskwwFYSFVKqbXiiO1.jpg"
-    },
-    {
-      "texto": "Lutou com o irmão até o fim.",
-      "destaque": [
-        "fim."
-      ],
-      "imagem": "banco/1O6_QC6IxeFh-1EzcOqQhFPkG3h8KqTal.jpg",
+      "anim": "levanta",
       "narrar": true
     },
     {
-      "texto": "E descobriu que tudo foi pra proteger ele.",
+      "texto": "Sozinho.",
       "destaque": [
-        "protegendo"
+        "Sozinho."
       ],
-      "imagem": "banco/1othNuTO9XJrbYSlW_Y0ykJnb2AEUVQ4W.jpg"
-    },
-    {
-      "texto": "Nem todo vilão é o que parece.",
-      "destaque": [
-        "parece."
-      ],
-      "imagem": "banco/1O6_QC6IxeFh-1EzcOqQhFPkG3h8KqTal.jpg",
-      "narrar": true,
+      "anim": "corrida",
       "impacto": true
+    },
+    {
+      "texto": "Um degrau por dia.",
+      "destaque": [
+        "degrau"
+      ],
+      "anim": "escada"
+    },
+    {
+      "texto": "Ninguém veio. Ele foi.",
+      "destaque": [
+        "foi."
+      ],
+      "anim": "sol",
+      "narrar": true
     }
-  ],
-  "assinatura": "@pvedicoes"
+  ]
 }

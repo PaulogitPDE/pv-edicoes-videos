@@ -1,66 +1,95 @@
 {
-  "musica": "banco/13GECM2hXHmt0jVIXa564VgmZax8lVyiW.mp3",
+  "musica": "banco/10DU8VMN3sl_4EbpoxmfoDMwehX8ErjHb.mp3",
   "inicioMusica": 0.0,
-  "serie": "One Piece · Zoro",
-  "gancho": "Levou toda a dor do capitão no lugar dele. E disse: nada aconteceu.",
-  "pergunta": "Quem faria isso por você?",
+  "serie": "Animação · O Ronin",
+  "gancho": "E se o seu maior inimigo for você?",
+  "pergunta": "O que a sua sombra fala pra você?",
   "cenas": [
     {
-      "texto": "O capitão estava desacordado.",
+      "texto": "Todo mundo tem uma sombra.",
       "destaque": [
-        "desacordado."
+        "sombra."
       ],
-      "imagem": "banco/1Rn7pCXgFianWFi1zj1taKAoFkkdiy8Ma.jpg"
-    },
-    {
-      "texto": "O inimigo queria a vida dele.",
-      "destaque": [
-        "vida"
-      ],
-      "imagem": "banco/1SCl_kK0yxQs274Q2KpDiHScqsCz2Amve.jpg"
-    },
-    {
-      "texto": "O Zoro ofereceu a dele.",
-      "destaque": [
-        "dele."
-      ],
-      "imagem": "banco/1Vc4o2v9ksEErVxmORxgmwlnjh4jaaxaa.jpg",
-      "narrar": true
-    },
-    {
-      "texto": "E aguentou toda a dor do Luffy.",
-      "destaque": [
-        "dor"
-      ],
-      "imagem": "banco/1VpoR97PSYxCqEQN1Vbrfk3GntaDZTnbq.jpg"
-    },
-    {
-      "texto": "Sozinho. Em pé.",
-      "destaque": [
-        "Em",
-        "pé."
-      ],
-      "imagem": "banco/1Rn7pCXgFianWFi1zj1taKAoFkkdiy8Ma.jpg"
-    },
-    {
-      "texto": "Quando perguntaram o que houve...",
-      "destaque": [],
-      "imagem": "banco/1Vc4o2v9ksEErVxmORxgmwlnjh4jaaxaa.jpg"
-    },
-    {
-      "texto": "ele disse:",
-      "destaque": [],
-      "imagem": "banco/1Vc4o2v9ksEErVxmORxgmwlnjh4jaaxaa.jpg"
-    },
-    {
-      "texto": "Nada aconteceu.",
-      "destaque": [
-        "Nada"
-      ],
-      "imagem": "banco/1Vc4o2v9ksEErVxmORxgmwlnjh4jaaxaa.jpg",
+      "anim": "sombra",
       "narrar": true,
+      "audio": "narr-2026-10-30-b-0.mp3",
+      "tempos": [
+        0,
+        9,
+        16,
+        21,
+        26
+      ],
+      "duracao": 66
+    },
+    {
+      "texto": "Ela fala baixo.",
+      "destaque": [
+        "baixo."
+      ],
+      "anim": "sombra"
+    },
+    {
+      "texto": "Diz que você não consegue.",
+      "destaque": [
+        "não"
+      ],
+      "anim": "chuva"
+    },
+    {
+      "texto": "E você acredita.",
+      "destaque": [
+        "acredita."
+      ],
+      "anim": "chuva"
+    },
+    {
+      "texto": "Até o dia que levanta mesmo assim.",
+      "destaque": [
+        "levanta"
+      ],
+      "anim": "levanta",
+      "narrar": true,
+      "audio": "narr-2026-10-30-b-4.mp3",
+      "tempos": [
+        0,
+        10,
+        13,
+        22,
+        26,
+        41,
+        53
+      ],
+      "duracao": 92
+    },
+    {
+      "texto": "E corta a voz.",
+      "destaque": [
+        "corta"
+      ],
+      "anim": "espada",
       "impacto": true
+    },
+    {
+      "texto": "Ela nunca some. Só para de mandar.",
+      "destaque": [
+        "mandar."
+      ],
+      "anim": "sol",
+      "narrar": true,
+      "audio": "narr-2026-10-30-b-6.mp3",
+      "tempos": [
+        0,
+        9,
+        20,
+        58,
+        65,
+        72,
+        76
+      ],
+      "duracao": 116
     }
   ],
-  "assinatura": "@pvedicoes"
+  "voz": "pNInz6obpgDQGcFmaJgB",
+  "vozNome": "Adam"
 }

@@ -3,14 +3,18 @@ Uso (na raiz do repo): python3 motor/reel.py modelo/roteiros/AAAA-MM-DD.json pos
 Lê o mesmo JSON de roteiro (cenas, destaque, impacto, imagem, tempos, duracao, audio, musica, inicioMusica, assinatura).
 Estratégia 22/10: "serie" + "gancho" ficam fixos no topo desde o frame 0 (o espectador sabe na hora de quem é a história);
 "pergunta" fecha o vídeo no cartão final (puxa comentário). Sem flash branco no frame 0.
-Toda a animação (zoom, tremida, pop das palavras, frase de impacto, linhas de velocidade) é calculada aqui, à mão."""
+Toda a animação (zoom, tremida, pop das palavras, frase de impacto, linhas de velocidade) é calculada aqui, à mão.
+30/10: cena com "anim" (em vez de "imagem") é 100% animada (motor/anima.py, o Ronin): fundo claro, texto em tinta preta no alto."""
 import json, math, os, subprocess, sys, tempfile
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import anima
+
 W, H, FPS = 1080, 1920, 30
 POR_PALAVRA, SEGURA, FINAL = 8, 26, 45
-VERMELHO, BRANCO = (229, 25, 46), (244, 241, 234)
+VERMELHO, BRANCO, TINTA = (229, 25, 46), (244, 241, 234), (18, 16, 16)
 PUBLIC = os.path.join(os.path.dirname(__file__), '..', 'modelo', 'public')
 F_BOLD = '/usr/share/fonts/opentype/inter/Inter-ExtraBold.otf'
 F_BLACK = '/usr/share/fonts/opentype/inter/InterDisplay-Black.otf'
@@ -97,7 +101,7 @@ def linhas(seed, f, forca, cx=540, cy=960):
 
 
 # ---------- texto ----------
-def sprite_palavra(t, tam, cor, impacto=False):
+def sprite_palavra(t, tam, cor, impacto=False, claro=False):
     fonte = ImageFont.truetype(F_BLACK if impacto else F_BOLD, tam)
     t = t.upper()
     bb = fonte.getbbox(t)
@@ -109,10 +113,12 @@ def sprite_palavra(t, tam, cor, impacto=False):
     sombra = Image.new('L', (w, h), 0)
     ImageDraw.Draw(sombra).text((30 - bb[0] + 5, 30 - bb[1] + 5), t, font=fonte, fill=255)
     brilho = sombra.filter(ImageFilter.GaussianBlur(14))
-    im.paste((0, 0, 0, 255), (0, 0), brilho.point(lambda v: int(v * 0.8)))
-    if cor == VERMELHO:
+    fundo = (255, 255, 255, 255) if claro else (0, 0, 0, 255)
+    im.paste(fundo, (0, 0), brilho.point(lambda v: int(v * 0.8)))
+    if cor == VERMELHO and not claro:
         im.paste(VERMELHO + (255,), (0, 0), brilho.point(lambda v: int(v * 0.6)))
-    im.paste((0, 0, 0, 255), (0, 0), sombra)
+    if not claro:
+        im.paste((0, 0, 0, 255), (0, 0), sombra)
     ImageDraw.Draw(im).text((30 - bb[0], 30 - bb[1]), t, font=fonte, fill=cor + (255,))
     return im, fonte.getlength(t + ' ')
 
@@ -120,7 +126,8 @@ def sprite_palavra(t, tam, cor, impacto=False):
 def layout(c):
     palavras = c['texto'].split()
     tam = 150 if len(palavras) <= 2 else 118 if len(palavras) <= 4 else 100
-    sprites = [sprite_palavra(p, tam, VERMELHO if p in (c.get('destaque') or []) else BRANCO, c.get('impacto')) for p in palavras]
+    claro = bool(c.get('anim'))
+    sprites = [sprite_palavra(p, tam, VERMELHO if p in (c.get('destaque') or []) else (TINTA if claro else BRANCO), c.get('impacto'), claro) for p in palavras]
     sprites = [(sp, adv + tam * 0.1) for sp, adv in sprites]
     linhas_, atual, larg = [], [], 0
     for i, (sp, adv) in enumerate(sprites):
@@ -129,7 +136,7 @@ def layout(c):
         atual.append(i); larg += adv
     linhas_.append((atual, larg))
     alt = tam * 1.12
-    y0 = H / 2 - alt * len(linhas_) / 2
+    y0 = (730 if claro else H / 2) - alt * len(linhas_) / 2
     pos = {}
     espaco = ImageFont.truetype(F_BLACK if c.get('impacto') else F_BOLD, tam).getlength(' ') + tam * 0.1
     for li, (idx, larg) in enumerate(linhas_):
@@ -202,12 +209,16 @@ def frame_cena(c, n, f, dur, lay, topo=None):
             cy = ch / 2 + 10
         quadro = im.resize((W, H), Image.BILINEAR, box=(cx - cw / 2, cy - ch / 2, cx + cw / 2, cy + ch / 2))
         quadro = Image.composite(PRETO, quadro, ESC)
+    elif c.get('anim'):
+        quadro = anima.cena(c['anim'], f, dur)
     else:
         quadro = Image.new('RGB', (W, H), (5, 5, 5))
-    quadro = Image.composite(PRETO, quadro, VIN)
+    if not c.get('anim'):
+        quadro = Image.composite(PRETO, quadro, VIN)
     forca = lerp(f, 0, 10, 1, 0) + (lerp(f, len(palavras) * POR_PALAVRA, len(palavras) * POR_PALAVRA + 12, 1, 0.3) if imp else 0)
-    quadro.paste(BRANCO, (0, 0), linhas(n, f, min(forca, 1) * (0.6 if c.get('imagem') else 1)))
-    quadro.paste((255, 255, 255), (0, 0), GRAOS[f % 6])
+    quadro.paste(TINTA if c.get('anim') else BRANCO, (0, 0), linhas(n, f, min(forca, 1) * (0.6 if c.get('imagem') or c.get('anim') else 1)))
+    if not c.get('anim'):
+        quadro.paste((255, 255, 255), (0, 0), GRAOS[f % 6])
     base = quadro.convert('RGBA')
     # palavras
     for i, (sp, _) in enumerate(sprites):
