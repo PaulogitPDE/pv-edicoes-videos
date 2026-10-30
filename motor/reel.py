@@ -57,7 +57,7 @@ def rnd(*k):
 def vinheta():
     y, x = np.mgrid[0:H, 0:W]
     d = np.sqrt(((x - W / 2) / (W * 0.8)) ** 2 + ((y - H / 2) / (H * 0.6)) ** 2)
-    a = np.clip((d - 0.4) / 0.6, 0, 1) * 0.92
+    a = np.clip((d - 0.55) / 0.6, 0, 1) * 0.55
     return Image.fromarray((a * 255).astype(np.uint8))
 
 
@@ -65,7 +65,7 @@ def sobreposicao_texto():
     """Escurece a faixa central onde fica o texto (elipse 85% x 35%)."""
     y, x = np.mgrid[0:H, 0:W]
     d = np.sqrt(((x - W / 2) / (W * 0.85)) ** 2 + ((y - H / 2) / (H * 0.35)) ** 2)
-    a = np.where(d < 0.7, 0.85 - (0.45 * d / 0.7), np.clip(0.4 + (d - 0.7) / 0.3 * 0.25, 0, 0.65))
+    a = np.where(d < 0.7, 0.6 - (0.3 * d / 0.7), np.clip(0.4 + (d - 0.7) / 0.3 * 0.25, 0, 0.65))
     return Image.fromarray((a * 255).astype(np.uint8))
 
 
@@ -83,7 +83,7 @@ def imagem_pb(src):
         s = max(W * 1.25 / im.width, H * 1.25 / im.height)
         im = im.resize((round(im.width * s), round(im.height * s)), Image.LANCZOS)
         arr = np.asarray(im).astype(np.float32)
-        arr = np.clip((arr - 128) * 1.6 + 128, 0, 255) * 0.55  # contraste 1.6, brilho 0.55
+        arr = np.clip((arr - 128) * 1.5 + 128, 0, 255) * 0.8  # contraste 1.5, brilho 0.8 (30/10: mais claro)
         CACHE_IMG[src] = Image.fromarray(arr.astype(np.uint8)).convert('RGB')
     return CACHE_IMG[src]
 
@@ -215,8 +215,10 @@ def frame_cena(c, n, f, dur, lay, topo=None):
         quadro = Image.new('RGB', (W, H), (5, 5, 5))
     if not c.get('anim'):
         quadro = Image.composite(PRETO, quadro, VIN)
-    forca = lerp(f, 0, 10, 1, 0) + (lerp(f, len(palavras) * POR_PALAVRA, len(palavras) * POR_PALAVRA + 12, 1, 0.3) if imp else 0)
-    quadro.paste(TINTA if c.get('anim') else BRANCO, (0, 0), linhas(n, f, min(forca, 1) * (0.6 if c.get('imagem') or c.get('anim') else 1)))
+    # 30/10: linhas de velocidade só no golpe da frase de impacto (antes ficavam sempre nas bordas)
+    forca = lerp(f, ultima, ultima + 12, 1, 0) if imp and f >= ultima else 0
+    if forca > 0:
+        quadro.paste(BRANCO, (0, 0), linhas(n, f, forca))
     if not c.get('anim'):
         quadro.paste((255, 255, 255), (0, 0), GRAOS[f % 6])
     base = quadro.convert('RGBA')
@@ -255,9 +257,7 @@ def frame_cena(c, n, f, dur, lay, topo=None):
             dr.polygon([(x0 + 5, y), (x0 + larg + 5, y), (x0 + larg - 5, y + 14), (x0 - 5, y + 14)], fill=VERMELHO + (255,))
     if topo is not None:
         base.alpha_composite(topo, (0, 210))
-    # moldura de painel
-    dr.rectangle([22, 22, W - 23, H - 23], outline=(0, 0, 0, 255), width=14)
-    dr.rectangle([36, 36, W - 37, H - 37], outline=BRANCO + (217,), width=5)
+    # 30/10: sem moldura de painel (Sr Pv pediu para trocar o efeito das bordas)
     out = base.convert('RGB')
     if imp:
         fl = lerp(f, ultima, ultima + 3, 0, 0.55) if f < ultima + 3 else lerp(f, ultima + 3, ultima + 12, 0.55, 0)

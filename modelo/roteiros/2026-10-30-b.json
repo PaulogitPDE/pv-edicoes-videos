@@ -10,14 +10,16 @@
       "destaque": [
         "desacordado."
       ],
-      "imagem": "banco/1Rn7pCXgFianWFi1zj1taKAoFkkdiy8Ma.jpg"
+      "imagem": "banco/1Rn7pCXgFianWFi1zj1taKAoFkkdiy8Ma.jpg",
+      "narrar": true
     },
     {
       "texto": "O inimigo queria a vida dele.",
       "destaque": [
         "vida"
       ],
-      "imagem": "banco/1SCl_kK0yxQs274Q2KpDiHScqsCz2Amve.jpg"
+      "imagem": "banco/1SCl_kK0yxQs274Q2KpDiHScqsCz2Amve.jpg",
+      "narrar": true
     },
     {
       "texto": "O Zoro ofereceu a dele.",
@@ -32,7 +34,8 @@
       "destaque": [
         "dor"
       ],
-      "imagem": "banco/1VpoR97PSYxCqEQN1Vbrfk3GntaDZTnbq.jpg"
+      "imagem": "banco/1VpoR97PSYxCqEQN1Vbrfk3GntaDZTnbq.jpg",
+      "narrar": true
     },
     {
       "texto": "Sozinho. Em pé.",
@@ -40,17 +43,20 @@
         "Em",
         "pé."
       ],
-      "imagem": "banco/1Rn7pCXgFianWFi1zj1taKAoFkkdiy8Ma.jpg"
+      "imagem": "banco/1Rn7pCXgFianWFi1zj1taKAoFkkdiy8Ma.jpg",
+      "narrar": true
     },
     {
       "texto": "Quando perguntaram o que houve...",
       "destaque": [],
-      "imagem": "banco/1Vc4o2v9ksEErVxmORxgmwlnjh4jaaxaa.jpg"
+      "imagem": "banco/1Vc4o2v9ksEErVxmORxgmwlnjh4jaaxaa.jpg",
+      "narrar": true
     },
     {
       "texto": "ele disse:",
       "destaque": [],
-      "imagem": "banco/1Vc4o2v9ksEErVxmORxgmwlnjh4jaaxaa.jpg"
+      "imagem": "banco/1Vc4o2v9ksEErVxmORxgmwlnjh4jaaxaa.jpg",
+      "narrar": true
     },
     {
       "texto": "Nada aconteceu.",

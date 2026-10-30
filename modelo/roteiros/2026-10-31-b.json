@@ -18,28 +18,32 @@
       "destaque": [
         "irmão"
       ],
-      "imagem": "banco/1othNuTO9XJrbYSlW_Y0ykJnb2AEUVQ4W.jpg"
+      "imagem": "banco/1othNuTO9XJrbYSlW_Y0ykJnb2AEUVQ4W.jpg",
+      "narrar": true
     },
     {
       "texto": "E deixou só ele vivo.",
       "destaque": [
         "vivo."
       ],
-      "imagem": "banco/1O6_QC6IxeFh-1EzcOqQhFPkG3h8KqTal.jpg"
+      "imagem": "banco/1O6_QC6IxeFh-1EzcOqQhFPkG3h8KqTal.jpg",
+      "narrar": true
     },
     {
       "texto": "Ele viveu pra vingança.",
       "destaque": [
         "vingança."
       ],
-      "imagem": "banco/1bnUSY36xc2CilqfrP9yyyfYVvAxKqdBY.jpg"
+      "imagem": "banco/1bnUSY36xc2CilqfrP9yyyfYVvAxKqdBY.jpg",
+      "narrar": true
     },
     {
       "texto": "Largou amigos. Largou a vila.",
       "destaque": [
         "Largou"
       ],
-      "imagem": "banco/19nZK1SxBN5oD7inskwwFYSFVKqbXiiO1.jpg"
+      "imagem": "banco/19nZK1SxBN5oD7inskwwFYSFVKqbXiiO1.jpg",
+      "narrar": true
     },
     {
       "texto": "Lutou com o irmão até o fim.",
@@ -54,7 +58,8 @@
       "destaque": [
         "protegendo"
       ],
-      "imagem": "banco/1othNuTO9XJrbYSlW_Y0ykJnb2AEUVQ4W.jpg"
+      "imagem": "banco/1othNuTO9XJrbYSlW_Y0ykJnb2AEUVQ4W.jpg",
+      "narrar": true
     },
     {
       "texto": "Nem todo vilão é o que parece.",
