@@ -1,0 +1,55 @@
+{
+ "serie": "Mangás sem luta",
+ "slides": [
+  {
+   "imagem": "banco/1Zan5ZnIvE95P2lRAdyO7XYgRUatnU1SP.jpg",
+   "headline": "3 mangás sem luta que batem mais forte que qualquer soco.",
+   "destaque": [
+    "soco."
+   ],
+   "sub": "arrasta. o do meio é o mais pesado.",
+   "pb": true,
+   "posicao": "baixo"
+  },
+  {
+   "imagem": "banco/1hU_4xVq0pIoPnjwRBVlLkHxeXH8q8KFE.jpg",
+   "headline": "Haikyuu: o baixinho que todo mundo mandava desistir do vôlei.",
+   "destaque": [
+    "baixinho"
+   ],
+   "sub": "o hinata começou com 1,62 m. virou profissional mesmo assim.",
+   "pb": true,
+   "posicao": "baixo"
+  },
+  {
+   "imagem": "banco/1yaAmbW_a19ZInzHDh-CW703V5pW7z_80.jpg",
+   "headline": "A Silent Voice: ele fez bullying com uma menina surda. Depois virou o excluído.",
+   "destaque": [
+    "excluído."
+   ],
+   "sub": "o shoya passou anos tentando pedir perdão.",
+   "pb": true,
+   "posicao": "baixo"
+  },
+  {
+   "imagem": "banco/1D7gCeYJY3BkikouD5oZdIc69gIj_IC1l.jpg",
+   "headline": "Death Note: o melhor aluno do Japão achou um caderno que mata.",
+   "destaque": [
+    "mata."
+   ],
+   "sub": "o light decidiu que ia virar deus. e começou a escrever nomes.",
+   "pb": true,
+   "posicao": "baixo"
+  },
+  {
+   "imagem": "banco/1S8Wm80pXZdR7adwdiIbMoOEQfJZpa6mp.jpg",
+   "headline": "Nem toda batalha tem soco.",
+   "destaque": [
+    "soco."
+   ],
+   "sub": "algumas são com você mesmo. qual desses você já leu?",
+   "pb": true,
+   "posicao": "baixo"
+  }
+ ]
+}
