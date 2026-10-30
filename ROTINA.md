@@ -1,5 +1,7 @@
 # Rotina PV Edições
 
+> PAUSADO em 30/10/2026: o Sr Pv vai montar uma estratégia nova e mudar o intuito do Instagram. As 3 tarefas agendadas (reels, carrosséis, pesquisa de sexta) estão desligadas. Não postar nada até ele mandar a estratégia nova.
+
 ## Sexta (pesquisa da semana)
 1. Puxar os insights da semana (reach, views, ig_reels_avg_watch_time, shares, saved, comments) de cada post e comparar por obra/personagem e por voz. vidIQ `vidiq_instagram_tiktok_outlier_search` só se tiver crédito (zerado até 13/11); senão WebSearch: animes/mangás em alta na semana (lançamentos, episódios novos, capítulos que viralizaram).
 2. Gravar `plano/AAAA-MM-DD.md` (data do sábado): o que funcionou, obras em alta e 7 dias (sáb→sex) com 2 personagens/histórias por dia (ver "Estratégia 22/10").
