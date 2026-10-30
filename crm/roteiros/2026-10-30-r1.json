@@ -1,0 +1,55 @@
+{
+ "semente": 131,
+ "tema": "Sextou e o WhatsApp continua trabalhando (conteúdo, sem tarja)",
+ "ganchos_ab": [
+  "Antes de fechar a clínica <nesta sexta>...",
+  "3 coisas pra fazer <antes das 18h>",
+  "Segunda começa <hoje>"
+ ],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "rotulo": "sextou, 17h",
+   "texto": "Antes de fechar a clínica <nesta sexta>...",
+   "rabisco": "sublinha",
+   "dur": 2.5,
+   "legenda": "Faz isso aqui"
+  },
+  {
+   "tipo": "chat",
+   "nome": "Paciente · orçamento de terça",
+   "status": "online",
+   "mensagens": [
+    {"de": "eu", "texto": "Separei dois horários na segunda: 9h ou 14h. Qual fica melhor?", "meta": "sex 17:10"},
+    {"de": "ela", "texto": "14h!", "meta": "sex 17:22"}
+   ],
+   "carimbo": "Agendou",
+   "dur": 3.8,
+   "legenda": "Peça o <horário>, não a decisão",
+   "humor": "solucao"
+  },
+  {
+   "tipo": "timeline",
+   "nome": "Fim de semana",
+   "passos": [
+    {"quando": "sex 18h", "texto": "Mensagem de fora do horário ligada"},
+    {"quando": "sáb", "texto": "Quem pediu preço recebe o retorno"},
+    {"quando": "seg 8h", "texto": "Respostas esperando a recepção"}
+   ],
+   "resposta": "Vi agora, pode ser segunda?",
+   "dur": 4.6,
+   "legenda": "O WhatsApp <não fecha>"
+  },
+  {
+   "tipo": "lista",
+   "texto": "Checklist da <sexta>",
+   "itens": [
+    {"t": "Responder todo orçamento da semana", "ok": true},
+    {"t": "Oferecer 2 horários de segunda", "ok": true},
+    {"t": "Ligar a mensagem de ausência", "ok": true}
+   ],
+   "dur": 4.6,
+   "legenda": "Salva e manda pra <recepção>"
+  }
+ ]
+}
