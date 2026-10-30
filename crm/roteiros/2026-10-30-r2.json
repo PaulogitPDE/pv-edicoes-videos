@@ -1,0 +1,90 @@
+{
+ "tarja": "Implante no <vou pensar>?",
+ "semente": 143,
+ "tema": "Implante: o orçamento mais caro de perder",
+ "ganchos_ab": [
+  "O orçamento mais caro de <perder>",
+  "Ela pediu o implante e <sumiu>",
+  "Implante não se decide <em um dia>"
+ ],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "rotulo": "implante",
+   "texto": "O orçamento mais caro de <perder>",
+   "rabisco": "circulo",
+   "dur": 2.5,
+   "legenda": "E o que mais demora"
+  },
+  {
+   "tipo": "chat",
+   "nome": "Paciente · implante",
+   "status": "visto por último há 5 dias",
+   "mensagens": [
+    {
+     "de": "ela",
+     "texto": "Quanto fica o implante?",
+     "meta": "seg 19:40"
+    },
+    {
+     "de": "eu",
+     "texto": "Segue o orçamento completo",
+     "meta": "ter 09:05"
+    },
+    {
+     "de": "ela",
+     "texto": "Vou ver com meu marido",
+     "meta": "ter 12:30"
+    }
+   ],
+   "carimbo": "Esfriando",
+   "dur": 3.8,
+   "legenda": "Decisão grande leva <dias>",
+   "humor": "dor"
+  },
+  {
+   "tipo": "virada",
+   "texto": "Quem lembra dela <no dia 3>?",
+   "dur": 2.0
+  },
+  {
+   "tipo": "leads",
+   "titulo": "Funil de orçamentos",
+   "colunas": [
+    "Orçamento",
+    "Follow-up",
+    "Agendado"
+   ],
+   "leads": [
+    {
+     "nome": "Marta",
+     "proc": "Implante",
+     "valor": "R$ 4.200",
+     "vai": 2
+    },
+    {
+     "nome": "Paulo",
+     "proc": "Prótese",
+     "valor": "R$ 3.000",
+     "vai": 1
+    },
+    {
+     "nome": "Rosa",
+     "proc": "Implante",
+     "valor": "R$ 5.100",
+     "vai": 2
+    }
+   ],
+   "dur": 4.2,
+   "legenda": "O funil lembra <toda semana>"
+  },
+  {
+   "tipo": "cta",
+   "modo": "direct",
+   "texto": "Quer o <roteiro> do implante?",
+   "palavra": "FUNIL",
+   "dur": 4.2,
+   "legenda": "Manda <FUNIL> no Direct"
+  }
+ ]
+}
