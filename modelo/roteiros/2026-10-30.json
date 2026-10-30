@@ -1,153 +1,156 @@
 {
-  "musica": "banco/12ZYwkV-budqol6WWCHs08dOly6FgkD86.mp3",
-  "inicioMusica": 10.0,
-  "serie": "Hunter x Hunter · Killua",
-  "gancho": "O irmão enfiou uma agulha na cabeça dele. Pra ele sempre fugir.",
-  "pergunta": "Quem colocou o seu medo aí?",
+  "musica": "banco/13GECM2hXHmt0jVIXa564VgmZax8lVyiW.mp3",
+  "inicioMusica": 0.0,
+  "serie": "Naruto · Naruto Uzumaki",
+  "gancho": "Como o garoto que a vila odiava virou Hokage?",
+  "pergunta": "Quem foi o seu Iruka?",
   "cenas": [
     {
-      "texto": "Nasceu numa família de assassinos.",
+      "texto": "Naruto nasceu com a Raposa de Nove Caudas selada dentro dele.",
       "destaque": [
-        "assassinos."
+        "Raposa"
       ],
-      "imagem": "banco/1PABW-v8VXlgHelkte7sSjrCMTEuts-I2.jpg",
+      "imagem": "banco/1CIvsjbVuMvlws6lN5ZWAr5P-slxzQcO0.jpg",
       "narrar": true,
       "audio": "narr-2026-10-30-0.mp3",
       "tempos": [
         0,
-        15,
-        22,
-        32,
-        34
+        14,
+        25,
+        29,
+        31,
+        45,
+        48,
+        56,
+        68,
+        82,
+        91
       ],
-      "duracao": 78
+      "duracao": 127
     },
     {
-      "texto": "Matar era a lição de casa.",
+      "texto": "A vila inteira olhava pra ele como um monstro.",
       "destaque": [
-        "Matar"
+        "monstro."
       ],
-      "imagem": "banco/1zXk8o6C_t_AjlgDRWoVrGaPmRz6sVvx8.jpg",
+      "imagem": "banco/1ILR0UCkLkPw8vfRdgr5esAbRv9Odac_y.jpg",
       "narrar": true,
       "audio": "narr-2026-10-30-1.mp3",
       "tempos": [
         0,
-        15,
-        21,
-        24,
-        32,
-        35
+        5,
+        12,
+        23,
+        33,
+        40,
+        48,
+        55,
+        58
       ],
-      "duracao": 74
+      "duracao": 102
     },
     {
-      "texto": "O irmão colocou uma agulha na cabeça dele.",
+      "texto": "Reprovou três vezes na academia ninja.",
       "destaque": [
-        "agulha"
+        "três"
       ],
-      "imagem": "banco/1eEOa6AxS-q5_JW-3MuR6e9jeA4xeHDja.jpg",
+      "imagem": "banco/1ILR0UCkLkPw8vfRdgr5esAbRv9Odac_y.jpg",
       "narrar": true,
       "audio": "narr-2026-10-30-2.mp3",
       "tempos": [
         0,
-        4,
-        12,
-        21,
-        25,
-        32,
-        35,
-        47
+        18,
+        29,
+        40,
+        43,
+        58
       ],
-      "duracao": 90
+      "duracao": 96
     },
     {
-      "texto": "Toda luta difícil, ele fugia.",
+      "texto": "O Iruka foi o primeiro adulto a acreditar nele.",
       "destaque": [
-        "fugia."
+        "acreditar"
       ],
-      "imagem": "banco/184h7uZkHtl5F_BGg8joWT6-FQqSIdoek.jpg",
+      "imagem": "banco/1ILR0UCkLkPw8vfRdgr5esAbRv9Odac_y.jpg",
       "narrar": true,
       "audio": "narr-2026-10-30-3.mp3",
       "tempos": [
         0,
-        11,
-        19,
+        5,
+        18,
+        23,
+        25,
         39,
-        45
+        49,
+        54,
+        73
       ],
-      "duracao": 86
+      "duracao": 110
     },
     {
-      "texto": "Achava que era covarde.",
+      "texto": "No time 7, ganhou um rival: o Sasuke.",
       "destaque": [
-        "covarde."
+        "rival:"
       ],
-      "imagem": "banco/184h7uZkHtl5F_BGg8joWT6-FQqSIdoek.jpg",
+      "imagem": "banco/19nZK1SxBN5oD7inskwwFYSFVKqbXiiO1.jpg",
       "narrar": true,
       "audio": "narr-2026-10-30-4.mp3",
       "tempos": [
         0,
+        6,
         15,
-        24,
-        30
+        33,
+        43,
+        47,
+        68,
+        71
       ],
-      "duracao": 72
+      "duracao": 118
     },
     {
-      "texto": "Um dia, arrancou a agulha.",
+      "texto": "Anos depois, lutaram lado a lado contra o Madara.",
       "destaque": [
-        "arrancou"
+        "lado"
       ],
-      "imagem": "banco/1LDujIMLleFG_lrSdZW9seaDQJrkoKdNk.jpg",
+      "imagem": "banco/15ZO6lxuuoZbZT7EsR76sEyzp4biyVsXM.jpg",
       "narrar": true,
       "audio": "narr-2026-10-30-5.mp3",
       "tempos": [
         0,
-        6,
-        15,
-        30,
-        35
+        11,
+        34,
+        51,
+        61,
+        63,
+        72,
+        81,
+        83
       ],
-      "duracao": 75
+      "duracao": 124
     },
     {
-      "texto": "E não fugiu mais.",
-      "destaque": [],
-      "imagem": "banco/1Jwv_ahpEhpD-aMAKh7YkoTFHJKaR0YG0.jpg",
+      "texto": "O garoto que a vila odiava virou Hokage.",
+      "destaque": [
+        "Hokage."
+      ],
+      "imagem": "banco/15ZO6lxuuoZbZT7EsR76sEyzp4biyVsXM.jpg",
       "narrar": true,
+      "impacto": true,
       "audio": "narr-2026-10-30-6.mp3",
       "tempos": [
         0,
-        6,
-        10,
-        22
+        5,
+        18,
+        21,
+        23,
+        30,
+        51,
+        62
       ],
-      "duracao": 60
-    },
-    {
-      "texto": "Às vezes o seu medo foi colocado por alguém.",
-      "destaque": [
-        "alguém."
-      ],
-      "imagem": "banco/184h7uZkHtl5F_BGg8joWT6-FQqSIdoek.jpg",
-      "narrar": true,
-      "impacto": true,
-      "audio": "narr-2026-10-30-7.mp3",
-      "tempos": [
-        0,
-        8,
-        22,
-        24,
-        31,
-        39,
-        44,
-        58,
-        63
-      ],
-      "duracao": 163
+      "duracao": 150
     }
   ],
-  "assinatura": "@pvedicoes",
-  "voz": "nPczCjzI2devNBz1zQrb",
-  "vozNome": "Brian"
+  "voz": "SOYHLrjzK2X1ezoPC6cr",
+  "vozNome": "Harry"
 }

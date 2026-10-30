@@ -1,0 +1,153 @@
+{
+  "musica": "banco/12ZYwkV-budqol6WWCHs08dOly6FgkD86.mp3",
+  "inicioMusica": 10.0,
+  "serie": "Hunter x Hunter · Killua",
+  "gancho": "O irmão enfiou uma agulha na cabeça dele. Pra ele sempre fugir.",
+  "pergunta": "Quem colocou o seu medo aí?",
+  "cenas": [
+    {
+      "texto": "Nasceu numa família de assassinos.",
+      "destaque": [
+        "assassinos."
+      ],
+      "imagem": "banco/1PABW-v8VXlgHelkte7sSjrCMTEuts-I2.jpg",
+      "narrar": true,
+      "audio": "narr-2026-10-30-0.mp3",
+      "tempos": [
+        0,
+        15,
+        22,
+        32,
+        34
+      ],
+      "duracao": 78
+    },
+    {
+      "texto": "Matar era a lição de casa.",
+      "destaque": [
+        "Matar"
+      ],
+      "imagem": "banco/1zXk8o6C_t_AjlgDRWoVrGaPmRz6sVvx8.jpg",
+      "narrar": true,
+      "audio": "narr-2026-10-30-1.mp3",
+      "tempos": [
+        0,
+        15,
+        21,
+        24,
+        32,
+        35
+      ],
+      "duracao": 74
+    },
+    {
+      "texto": "O irmão colocou uma agulha na cabeça dele.",
+      "destaque": [
+        "agulha"
+      ],
+      "imagem": "banco/1eEOa6AxS-q5_JW-3MuR6e9jeA4xeHDja.jpg",
+      "narrar": true,
+      "audio": "narr-2026-10-30-2.mp3",
+      "tempos": [
+        0,
+        4,
+        12,
+        21,
+        25,
+        32,
+        35,
+        47
+      ],
+      "duracao": 90
+    },
+    {
+      "texto": "Toda luta difícil, ele fugia.",
+      "destaque": [
+        "fugia."
+      ],
+      "imagem": "banco/184h7uZkHtl5F_BGg8joWT6-FQqSIdoek.jpg",
+      "narrar": true,
+      "audio": "narr-2026-10-30-3.mp3",
+      "tempos": [
+        0,
+        11,
+        19,
+        39,
+        45
+      ],
+      "duracao": 86
+    },
+    {
+      "texto": "Achava que era covarde.",
+      "destaque": [
+        "covarde."
+      ],
+      "imagem": "banco/184h7uZkHtl5F_BGg8joWT6-FQqSIdoek.jpg",
+      "narrar": true,
+      "audio": "narr-2026-10-30-4.mp3",
+      "tempos": [
+        0,
+        15,
+        24,
+        30
+      ],
+      "duracao": 72
+    },
+    {
+      "texto": "Um dia, arrancou a agulha.",
+      "destaque": [
+        "arrancou"
+      ],
+      "imagem": "banco/1LDujIMLleFG_lrSdZW9seaDQJrkoKdNk.jpg",
+      "narrar": true,
+      "audio": "narr-2026-10-30-5.mp3",
+      "tempos": [
+        0,
+        6,
+        15,
+        30,
+        35
+      ],
+      "duracao": 75
+    },
+    {
+      "texto": "E não fugiu mais.",
+      "destaque": [],
+      "imagem": "banco/1Jwv_ahpEhpD-aMAKh7YkoTFHJKaR0YG0.jpg",
+      "narrar": true,
+      "audio": "narr-2026-10-30-6.mp3",
+      "tempos": [
+        0,
+        6,
+        10,
+        22
+      ],
+      "duracao": 60
+    },
+    {
+      "texto": "Às vezes o seu medo foi colocado por alguém.",
+      "destaque": [
+        "alguém."
+      ],
+      "imagem": "banco/184h7uZkHtl5F_BGg8joWT6-FQqSIdoek.jpg",
+      "narrar": true,
+      "impacto": true,
+      "audio": "narr-2026-10-30-7.mp3",
+      "tempos": [
+        0,
+        8,
+        22,
+        24,
+        31,
+        39,
+        44,
+        58,
+        63
+      ],
+      "duracao": 163
+    }
+  ],
+  "assinatura": "@pvedicoes",
+  "voz": "nPczCjzI2devNBz1zQrb",
+  "vozNome": "Brian"
+}

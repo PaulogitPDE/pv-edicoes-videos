@@ -72,19 +72,26 @@ def sobreposicao_texto():
 rng = np.random.default_rng(7)
 GRAOS = [Image.fromarray((rng.random((H // 2, W // 2)) * 255 * 0.12).astype(np.uint8)).resize((W, H)) for _ in range(6)]
 VIN, ESC = vinheta(), sobreposicao_texto()
+_yy = np.mgrid[0:H, 0:W][0]
+BASE = Image.fromarray((np.clip((_yy - 1180) / 380, 0, 1) * 0.88 * 255).astype(np.uint8))  # escurece só a faixa de baixo, onde fica a legenda
 PRETO = Image.new('RGB', (W, H), (0, 0, 0))
 CACHE_IMG = {}
 
 
 def imagem_pb(src):
+    """30/10: o quadro aparece INTEIRO (rosto visível), por cima de uma cópia desfocada que preenche a tela."""
     if src not in CACHE_IMG:
         im = Image.open(os.path.join(PUBLIC, src)).convert('L')
-        # cobrir 1080x1920 com folga de zoom 1.22
-        s = max(W * 1.25 / im.width, H * 1.25 / im.height)
-        im = im.resize((round(im.width * s), round(im.height * s)), Image.LANCZOS)
-        arr = np.asarray(im).astype(np.float32)
-        arr = np.clip((arr - 128) * 1.5 + 128, 0, 255) * 0.8  # contraste 1.5, brilho 0.8 (30/10: mais claro)
-        CACHE_IMG[src] = Image.fromarray(arr.astype(np.uint8)).convert('RGB')
+        cw, chh = round(W * 1.25), round(H * 1.25)
+        s = max(cw / im.width, chh / im.height)
+        fundo = im.resize((round(im.width * s), round(im.height * s)), Image.BILINEAR).crop((0, 0, cw, chh)).filter(ImageFilter.GaussianBlur(30))
+        fundo = Image.fromarray((np.asarray(fundo).astype(np.float32) * 0.35).astype(np.uint8))
+        s = min(cw * 0.8 / im.width, chh * 0.62 / im.height)
+        fr = im.resize((round(im.width * s), round(im.height * s)), Image.LANCZOS)
+        arr = np.clip((np.asarray(fr).astype(np.float32) - 128) * 1.3 + 128, 0, 255) * 0.95
+        fr = Image.fromarray(arr.astype(np.uint8))
+        fundo.paste(fr, ((cw - fr.width) // 2, round(chh * 0.45 - fr.height / 2)))
+        CACHE_IMG[src] = fundo.convert('RGB')
     return CACHE_IMG[src]
 
 
@@ -125,7 +132,7 @@ def sprite_palavra(t, tam, cor, impacto=False, claro=False):
 
 def layout(c):
     palavras = c['texto'].split()
-    tam = 150 if len(palavras) <= 2 else 118 if len(palavras) <= 4 else 100
+    tam = (110 if len(palavras) <= 3 else 92 if len(palavras) <= 6 else 80) if c.get('imagem') else 150 if len(palavras) <= 2 else 118 if len(palavras) <= 4 else 100
     claro = bool(c.get('anim'))
     sprites = [sprite_palavra(p, tam, VERMELHO if p in (c.get('destaque') or []) else (TINTA if claro else BRANCO), c.get('impacto'), claro) for p in palavras]
     sprites = [(sp, adv + tam * 0.1) for sp, adv in sprites]
@@ -136,7 +143,7 @@ def layout(c):
         atual.append(i); larg += adv
     linhas_.append((atual, larg))
     alt = tam * 1.12
-    y0 = (730 if claro else H / 2) - alt * len(linhas_) / 2
+    y0 = (730 if claro else 1500 if c.get('imagem') else H / 2) - alt * len(linhas_) / 2
     pos = {}
     espaco = ImageFont.truetype(F_BLACK if c.get('impacto') else F_BOLD, tam).getlength(' ') + tam * 0.1
     for li, (idx, larg) in enumerate(linhas_):
@@ -148,6 +155,36 @@ def layout(c):
 
 
 def faixa_topo(serie, gancho):
+    """30/10: rótulo pequeno fixo + gancho menor que some depois de ~2,5 s (Sr Pv: headline cobria o rosto)."""
+    fs, fg = ImageFont.truetype(F_MED, 30), ImageFont.truetype(F_BLACK, 46)
+    rot = gan = None
+    if serie:
+        t = serie.upper()
+        larg = sum(fs.getlength(ch) + 4 for ch in t)
+        rot = Image.new('RGBA', (W, 52), (0, 0, 0, 0))
+        d = ImageDraw.Draw(rot)
+        x = W / 2 - larg / 2
+        d.rectangle([x - 16, 0, x + larg + 10, 46], fill=VERMELHO + (255,))
+        for ch in t:
+            d.text((x, 5), ch, font=fs, fill=BRANCO + (255,)); x += fs.getlength(ch) + 4
+    if gancho:
+        linhas_g, atual = [], ''
+        for w in gancho.upper().split():
+            if atual and fg.getlength(atual + ' ' + w) > W - 220:
+                linhas_g.append(atual); atual = w
+            else:
+                atual = (atual + ' ' + w).strip()
+        linhas_g.append(atual)
+        gan = Image.new('RGBA', (W, 40 + 56 * len(linhas_g)), (0, 0, 0, 0))
+        d = ImageDraw.Draw(gan)
+        larg = max(fg.getlength(l) for l in linhas_g)
+        d.rectangle([W / 2 - larg / 2 - 24, 0, W / 2 + larg / 2 + 24, 24 + 56 * len(linhas_g)], fill=(0, 0, 0, 200))
+        for i, l in enumerate(linhas_g):
+            d.text((W / 2 - fg.getlength(l) / 2, 8 + i * 56), l, font=fg, fill=BRANCO + (255,))
+    return rot, gan
+
+
+def faixa_topo_antiga(serie, gancho):
     """Título fixo no topo: rótulo vermelho (anime · personagem) + gancho em caixa preta. Fica fora da área da UI do IG."""
     fs, fg = ImageFont.truetype(F_MED, 34), ImageFont.truetype(F_BLACK, 60)
     linhas_g, atual = [], ''
@@ -197,7 +234,7 @@ def frame_cena(c, n, f, dur, lay, topo=None):
     # fundo + imagem
     if c.get('imagem'):
         im = imagem_pb(c['imagem'])
-        z = lerp(f, 0, dur, 1.22, 1.06)
+        z = lerp(f, 0, dur, 1.3, 1.22)
         pulso = 1 if (f % POR_PALAVRA < 3 and f < len(palavras) * POR_PALAVRA) else 0
         z = z + pulso * 0.02
         tx = (rnd('x', f) - 0.5) * 22 * pulso
@@ -205,10 +242,8 @@ def frame_cena(c, n, f, dur, lay, topo=None):
         cw, ch = W / z, H / z
         cx = im.width / 2 - tx / z
         cy = im.height / 2 - ty / z
-        if c.get('foco') == 'top':
-            cy = ch / 2 + 10
         quadro = im.resize((W, H), Image.BILINEAR, box=(cx - cw / 2, cy - ch / 2, cx + cw / 2, cy + ch / 2))
-        quadro = Image.composite(PRETO, quadro, ESC)
+        quadro = Image.composite(PRETO, quadro, BASE)
     elif c.get('anim'):
         quadro = anima.cena(c['anim'], f, dur)
     else:
@@ -256,7 +291,15 @@ def frame_cena(c, n, f, dur, lay, topo=None):
             x0 = W / 2 - larg / 2
             dr.polygon([(x0 + 5, y), (x0 + larg + 5, y), (x0 + larg - 5, y + 14), (x0 - 5, y + 14)], fill=VERMELHO + (255,))
     if topo is not None:
-        base.alpha_composite(topo, (0, 210))
+        rot, gan, g = topo
+        if rot is not None:
+            base.alpha_composite(rot, (0, 170))
+        a = lerp(g, 66, 78, 1, 0)  # o gancho fica só ~2,5 s e some, para liberar o rosto
+        if gan is not None and a > 0:
+            gg = gan if a >= 1 else gan.copy()
+            if a < 1:
+                gg.putalpha(gg.getchannel('A').point(lambda v: int(v * a)))
+            base.alpha_composite(gg, (0, 240))
     # 30/10: sem moldura de painel (Sr Pv pediu para trocar o efeito das bordas)
     out = base.convert('RGB')
     if imp:
@@ -339,10 +382,12 @@ def main():
                             '-i', wav, '-c:v', 'libx264', '-preset', 'medium', '-crf', '24', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '192k',
                             '-movflags', '+faststart', '-shortest', saida], stdin=subprocess.PIPE)
     topo = faixa_topo(r.get('serie'), r.get('gancho')) if (r.get('serie') or r.get('gancho')) else None
+    g0 = 0
     for n, (c, d) in enumerate(zip(cenas, durs)):
         lay = layout(c)
         for f in range(d):
-            enc.stdin.write(frame_cena(c, n, f, d, lay, topo).tobytes())
+            enc.stdin.write(frame_cena(c, n, f, d, lay, topo + (g0 + f,) if topo else None).tobytes())
+        g0 += d
         print(f'cena {n + 1}/{len(cenas)} ok', flush=True)
     ass = sprite_palavra(r.get('assinatura', '@pvedicoes'), 96, BRANCO)[0]
     linhas_p, atual = [], ''
