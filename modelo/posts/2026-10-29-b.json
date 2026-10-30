@@ -1,0 +1,55 @@
+{
+ "serie": "Começaram perdendo",
+ "slides": [
+  {
+   "imagem": "banco/1Pw17x0evtNQbSUfT0lJeqU3afKmf0NYC.jpg",
+   "headline": "Todo protagonista começou perdendo alguma coisa.",
+   "destaque": [
+    "perdendo"
+   ],
+   "sub": "arrasta. o último dói mais.",
+   "pb": true,
+   "posicao": "baixo"
+  },
+  {
+   "imagem": "banco/13AwKr2HpH9MwVXV3SwaIUrR6huPI1ZVl.jpg",
+   "headline": "Edward deu o próprio braço pra salvar a alma do irmão.",
+   "destaque": [
+    "irmão."
+   ],
+   "sub": "fullmetal alchemist. a perna ele já tinha perdido na mesma noite.",
+   "pb": true,
+   "posicao": "baixo"
+  },
+  {
+   "imagem": "banco/1ILR0UCkLkPw8vfRdgr5esAbRv9Odac_y.jpg",
+   "headline": "Naruto cresceu sozinho, odiado pela própria vila.",
+   "destaque": [
+    "odiado"
+   ],
+   "sub": "naruto. só no capítulo 1 descobriu o porquê: a raposa dentro dele.",
+   "pb": true,
+   "posicao": "baixo"
+  },
+  {
+   "imagem": "banco/167hYmmtHy7jOit5Asd4TLCBBqDC7CXZW.jpg",
+   "headline": "Yuji perdeu o avô e engoliu um dedo do Sukuna no mesmo dia.",
+   "destaque": [
+    "dedo"
+   ],
+   "sub": "jujutsu kaisen. fez isso pra salvar os outros.",
+   "pb": true,
+   "posicao": "baixo"
+  },
+  {
+   "imagem": "banco/1vIW3LzCh-JjynfW41VgHr18y5akniBn-.jpg",
+   "headline": "Luffy viu o irmão morrer nos braços dele.",
+   "destaque": [
+    "irmão"
+   ],
+   "sub": "one piece. dois anos depois, voltou pra lutar mais forte.",
+   "pb": true,
+   "posicao": "baixo"
+  }
+ ]
+}
