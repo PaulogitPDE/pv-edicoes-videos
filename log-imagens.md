@@ -14,3 +14,4 @@
 - 2026-10-28 · carrossel: O preço de ser o mais forte (Saitama, Gaara, Alucard, Pain) · imagens 1x5Dys7EadXQ,1CbI9kF6_7qB,1xbe94UO1MRM,1iyuwtcTAloW,1VJ7hgztYwxA · https://www.instagram.com/p/DfDtD4gmPdo/
 - 2026-10-29 · carrossel: Falas de luta (Toji, Kengan, boxe, Black Clover) · imagens 1epyaHV5qSxZ,1CafjTj8Ksb5,1HsHFNS-ZJil,1wiPt6dmF85s,1an150sBNuUQ · https://www.instagram.com/p/DfFA79mDX5B/
 - 2026-10-29 · carrossel: Começaram perdendo (Edward, Naruto, Yuji, Luffy) · imagens 1Pw17x0evtNQ,13AwKr2HpH9M,1ILR0UCkLkPw,167hYmmtHy7j,1vIW3LzCh-Jj · https://www.instagram.com/p/DfGRxeGj94I/
+- 2026-10-30 · carrossel: Mangás sem luta (Haikyuu, A Silent Voice, Death Note) · imagens 1Zan5ZnIvE95,1hU_4xVq0pIo,1yaAmbW_a19Z,1D7gCeYJY3Bk,1S8Wm80pXZdR · https://www.instagram.com/p/DfHmewOFbZ8/
