@@ -1,0 +1,62 @@
+{
+  "musica": "banco/13GECM2hXHmt0jVIXa564VgmZax8lVyiW.mp3",
+  "inicioMusica": 0.0,
+  "serie": "Animação · O Ronin",
+  "gancho": "Quem vem te salvar quando ninguém vem?",
+  "pergunta": "Quem você tá esperando?",
+  "cenas": [
+    {
+      "texto": "Ninguém vem te salvar.",
+      "destaque": [
+        "Ninguém"
+      ],
+      "anim": "poste",
+      "narrar": true
+    },
+    {
+      "texto": "Ele esperou anos.",
+      "destaque": [
+        "anos."
+      ],
+      "anim": "poste"
+    },
+    {
+      "texto": "Todo mundo seguiu a vida.",
+      "destaque": [
+        "seguiu"
+      ],
+      "anim": "multidao"
+    },
+    {
+      "texto": "Então ele levantou.",
+      "destaque": [
+        "levantou."
+      ],
+      "anim": "levanta",
+      "narrar": true
+    },
+    {
+      "texto": "Sozinho.",
+      "destaque": [
+        "Sozinho."
+      ],
+      "anim": "corrida",
+      "impacto": true
+    },
+    {
+      "texto": "Um degrau por dia.",
+      "destaque": [
+        "degrau"
+      ],
+      "anim": "escada"
+    },
+    {
+      "texto": "Ninguém veio. Ele foi.",
+      "destaque": [
+        "foi."
+      ],
+      "anim": "sol",
+      "narrar": true
+    }
+  ]
+}

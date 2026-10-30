@@ -18,7 +18,7 @@ Dados de 22/10: reels com ~100–150 de alcance e só 3–5 s de tempo médio em
 - Sexta: a análise compara tempo médio de visualização, compartilhamentos, salvamentos e comentários por personagem/obra e por voz; dobrar nas obras que seguram mais.
 
 ## Animação 30/10 (Sr Pv: "vamos postar vídeos só de animação também")
-- Desde 30/10 o reel das **18h46 (`<hoje>-b.json`) é 100% animado**; o das 11h46 continua sendo história de personagem de anime com frames do banco.
+- SUSPENSO 30/10 (Sr Pv achou o Ronin horrível; reels das 18h46 voltaram a ser de personagem até definir o novo formato). Antes: o reel das **18h46 (`<hoje>-b.json`) era 100% animado**; o das 11h46 continua sendo história de personagem de anime com frames do banco.
 - Série própria "Animação · O Ronin": um samurai de tinta com cachecol vermelho, fundo claro de papel (primeiro frame claro, como sugeriu a análise de 29/10). Cada vídeo é um episódio ("o ronin, ep. N" na legenda).
 - No roteiro, cada cena usa `"anim": "<cena>"` em vez de `imagem`. Cenas prontas em `motor/anima.py`: sombra, chuva, levanta, escada, corrida, multidao, sol, espada, poste. Cena nova = nova função lá (Pillow puro, sem biblioteca extra, sem Remotion; a skill Hypit fica só para vídeo avulso, porque depende de geração paga).
 - Gancho no topo é PERGUNTA (análise 29/10), não spoiler. Temas que mais seguraram (29/10): monstro interno (Ichigo, 5,9 s e o 1º compartilhamento), "ninguém vem te salvar", "para de se comparar", "só um sobra" (Blue Lock).
