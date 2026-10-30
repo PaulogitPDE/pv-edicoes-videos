@@ -1,0 +1,59 @@
+{
+ "tarja": "Kit grátis: <4 mensagens>",
+ "semente": 97,
+ "tema": "O kit de 4 mensagens grátis (manda FUNIL)",
+ "ganchos_ab": [
+  "Vou te dar <de graça> o que eu cobro",
+  "<4 mensagens> que trazem a paciente de volta",
+  "Copia, cola e <manda hoje>"
+ ],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "rotulo": "kit grátis",
+   "texto": "<4 mensagens> que trazem a paciente de volta",
+   "rabisco": "circulo",
+   "dur": 2.6,
+   "legenda": "Copia e cola"
+  },
+  {
+   "tipo": "chat",
+   "nome": "Paciente · orçamento",
+   "status": "visto por último ontem",
+   "mensagens": [
+    {"de": "eu", "texto": "Segue seu orçamento 😊", "meta": "seg 10:02"},
+    {"de": "ela", "texto": "Vou pensar e te falo", "meta": "seg 10:15"}
+   ],
+   "carimbo": "E agora?",
+   "dur": 3.4,
+   "legenda": "O que mandar <depois disso>?",
+   "humor": "dor"
+  },
+  {
+   "tipo": "virada",
+   "texto": "Tem <roteiro> pra isso",
+   "dur": 2.0
+  },
+  {
+   "tipo": "timeline",
+   "nome": "Juliana",
+   "passos": [
+    {"quando": "+2h", "texto": "Conseguiu abrir direitinho?"},
+    {"quando": "+1 dia", "texto": "Quer que eu explique as etapas?"},
+    {"quando": "+3 dias", "texto": "Abriu agenda sábado, guardo pra você?"},
+    {"quando": "+7 dias", "texto": "Fecho seu orçamento ou mantenho?"}
+   ],
+   "resposta": "Mantém! Sábado dá",
+   "dur": 5.0,
+   "legenda": "As 4 do <kit>"
+  },
+  {
+   "tipo": "cta",
+   "modo": "direct",
+   "texto": "Quer o kit <de graça>?",
+   "palavra": "FUNIL",
+   "dur": 4.2,
+   "legenda": "Manda <FUNIL> no Direct"
+  }
+ ]
+}

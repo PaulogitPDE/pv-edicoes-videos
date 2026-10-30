@@ -1,0 +1,57 @@
+{
+ "tarja": "Ela faz. <Quando dá tempo.>",
+ "semente": 83,
+ "tema": "\"Minha recepcionista já faz isso\"",
+ "ganchos_ab": [
+  "\"Minha recepcionista <já faz isso>\"",
+  "Ela faz. <Quando lembra.>",
+  "Quantos retornos <ela esqueceu> ontem?"
+ ],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "rotulo": "mito x verdade",
+   "texto": "\"Minha recepcionista <já faz isso>\"",
+   "rabisco": "sublinha",
+   "dur": 2.6,
+   "legenda": "Será?"
+  },
+  {
+   "tipo": "lista",
+   "texto": "Na <mesma hora> ela...",
+   "itens": [
+    {"t": "Atende o telefone", "ok": true},
+    {"t": "Recebe quem chegou", "ok": true},
+    {"t": "Lembra do retorno de ontem", "ok": false}
+  ],
+   "dur": 4.2,
+   "legenda": "O retorno <fica pra depois>",
+   "humor": "dor"
+  },
+  {
+   "tipo": "virada",
+   "texto": "Ela não precisa <lembrar de tudo>",
+   "dur": 2.0
+  },
+  {
+   "tipo": "timeline",
+   "nome": "Renata",
+   "passos": [
+    {"quando": "+2h", "texto": "Conseguiu ver o orçamento?"},
+    {"quando": "+1 dia", "texto": "Ficou alguma dúvida? Te explico"},
+    {"quando": "+3 dias", "texto": "Tenho horário quinta, quer?"}
+   ],
+   "resposta": "Quero sim! Que horas?",
+   "dur": 4.6,
+   "legenda": "O funil lembra <por ela>"
+  },
+  {
+   "tipo": "cta",
+   "modo": "bio",
+   "texto": "Quer tirar isso das <costas dela>?",
+   "mensagem_wpp": "Quero o follow-up automático na minha clínica",
+   "dur": 4.4,
+   "legenda": "Link na <bio>"
+  }
+ ]
+}

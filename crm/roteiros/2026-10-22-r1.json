@@ -1,0 +1,13 @@
+{
+  "tarja": "Eu faço o WhatsApp da sua clínica <chamar a paciente de volta> sozinho",
+  "semente": 22,
+  "tema": "Orçamento de implante que some depois do vou pensar",
+  "cenas": [
+    {"tipo": "gancho", "rotulo": "orçamento de implante · R$ 4.800", "texto": "Ela disse <vou pensar>.", "rabisco": "circulo", "dur": 2.4, "legenda": "E nunca mais respondeu"},
+    {"tipo": "chat", "nome": "Fernanda", "status": "visto por último há 9 dias", "mensagens": [{"de": "eu", "texto": "Segue o orçamento do implante", "meta": "14:02"}, {"de": "ela", "texto": "Vou pensar e te aviso", "meta": "14:20"}], "carimbo": "Orçamento perdido", "dur": 3.6, "legenda": "Não foi o <preço>"},
+    {"tipo": "gancho", "texto": "Foi porque <ninguém> chamou de volta", "rabisco": "sublinha", "dur": 2.4},
+    {"tipo": "timeline", "nome": "Fernanda", "passos": [{"quando": "+2h", "texto": "Conseguiu abrir o orçamento?"}, {"quando": "+1 dia", "texto": "Dá pra parcelar e começar pela avaliação"}, {"quando": "+3 dias", "texto": "Separei dois horários pra você"}], "resposta": "Pode ser quinta às 15h?", "dur": 4.6, "legenda": "O WhatsApp chama <sozinho>"},
+    {"tipo": "leads", "titulo": "Funil de orçamentos", "colunas": ["Orçamento", "Follow-up", "Agendado"], "leads": [{"nome": "Fernanda", "proc": "Implante", "valor": "R$ 4.800", "vai": 2}, {"nome": "Diego", "proc": "Lentes", "valor": "R$ 6.200", "vai": 2}, {"nome": "Júlia", "proc": "Clareamento", "valor": "R$ 900", "vai": 1}], "total": "{valor} <de volta>", "dur": 4.4, "legenda": "Nenhum orçamento esquecido"},
+    {"tipo": "cta", "modo": "direct", "texto": "Quer as 4 mensagens <prontas>?", "palavra": "FUNIL", "resposta": "Opa! Te mandei o kit. Você tem clínica?", "dur": 4.2, "legenda": "Manda <FUNIL> no Direct"}
+  ]
+}

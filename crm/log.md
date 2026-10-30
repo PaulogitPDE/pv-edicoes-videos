@@ -1,0 +1,34 @@
+# Log @crmquevende
+
+- 2026-10-21 · trend extra (pedido do Sr Pv) · debate Lula x Flávio Bolsonaro → réplica/tréplica do follow-up · carrossel 4 imagens · direct · https://www.instagram.com/p/DexbM0iDx29/
+- 2026-10-22 · p1 · 3 faltas por semana × R$ 250 (numero) · direct · https://www.instagram.com/p/Dey5QZyFyyo/
+- 2026-10-22 · r1 · Ela disse "vou pensar" e sumiu (implante) · direct · https://www.instagram.com/reel/DezTGWDj4tp/
+- 2026-10-22 · p2 · Garantia: no ar em 7 dias úteis (frase) · comenta · https://www.instagram.com/p/Dez3DlumHfi/
+- 2026-10-22 · r2 · A licença do Kommo é à parte (sem pegadinha) · bio · gancho: "Tem pegadinha nesse preço?" · https://www.instagram.com/reel/De0HMv1gUS4/
+- 2026-10-23 · p1 · Sextou: só 3 vagas de fundador a R$ 997 (frase) · bio · https://www.instagram.com/p/De1eK98lws-/
+- 2026-10-23 · trend · 2º turno no domingo (todo mundo lembra de votar → quem lembra a paciente da consulta?), sem lado político · comenta · https://www.instagram.com/p/De1qoOKjDrH/
+- 2026-10-23 · r1 · Sextou com agenda cheia na segunda · comenta · gancho: "Sextou. E a agenda de segunda?" · https://www.instagram.com/reel/De130EZkW3P/
+- 2026-10-23 · p2 · Raio-x de 15 min: as 5 perguntas (lista) · direct · https://www.instagram.com/p/De2b3Pwl6wE/
+- 2026-10-23 · r2 · Antes x depois do WhatsApp da clínica · bio · gancho: "Mesma paciente. Dois finais." · https://www.instagram.com/reel/De2sQEgjiNx/
+- 2026-10-24 · p1 · Responda em até 5 minutos (numero) · comenta · https://www.instagram.com/p/De4C2KaFwUY/
+- 2026-10-24 · r1 · Uma palavra fácil de responder: quero · direct · gancho: "Sua mensagem dá trabalho pra responder?" · https://www.instagram.com/reel/De4cSMsFInB/
+- 2026-10-24 · p2 · Implante sem retorno (chat) · bio · https://www.instagram.com/p/De5AmZ3D3-s/
+- 2026-10-24 · r2 · Toda paciente que disse vou pensar recebe 4 mensagens · comenta · gancho: "\"Vou pensar\" não é não" · https://www.instagram.com/reel/De5QtR2CdQ9/
+- 2026-10-25 · p1 · Dia do Dentista (data) · direct · https://www.instagram.com/p/De6nqX1Fztm/
+- 2026-10-25 · r1 · Dia do Dentista · bio · gancho: "Feliz Dia do Dentista" · https://www.instagram.com/reel/De7BCKAExuL/
+- 2026-10-25 · p2 · Lentes: a paciente que pede 3 orçamentos (chat) · comenta · https://www.instagram.com/p/De7ldtDjHIh/
+- 2026-10-25 · r2 · Orçamento que Volta: o que é, em 20 segundos · direct · gancho: "O que é o Orçamento que Volta?" · https://www.instagram.com/reel/De71ixfEn56/
+- 2026-10-26 · p1 · "Visto por último há 9 dias" (antes_depois) · bio · https://www.instagram.com/p/De9Md1fF-Kz/
+- 2026-10-26 · trend · apuração do 2º turno voto a voto (sem lado) → quantos orçamentos estão parados agora? · comenta · https://www.instagram.com/p/De9Zr9PF88b/
+- 2026-10-26 · r1 · A recepcionista faltou: com quem ela estava falando? · comenta · gancho: "A recepcionista faltou hoje." · https://www.instagram.com/reel/De9m4j-AABp/
+- 2026-10-26 · p2 · Botox: o "depois eu vejo" (chat) · direct · https://www.instagram.com/p/De-KQzmn5EI/
+- 2026-10-26/27 · FALHA · a sessão caiu às 19h57 de 26/10 e só voltou de madrugada em 28/10: não saíram o r2 de 26/10 nem as 4 peças de 27/10. Não repostei de madrugada; a rotina segue normal a partir de 28/10.
+- 2026-10-28 · p1 · CRM não é pra empresa grande, é pra quem manda orçamento (frase) · direct · https://www.instagram.com/p/DfCWNWEF9Oa/
+- 2026-10-28 · trend · semana de memes feitos com IA (sem lado político) → WhatsApp da clínica ainda depende de alguém lembrar · bio · https://www.instagram.com/p/DfCj505lPIV/
+- 2026-10-28 · r1 · "Minha recepcionista já faz isso" (mito x verdade) · bio · gancho: "\"Minha recepcionista já faz isso\"" · https://www.instagram.com/reel/DfCwtBgCkvK/
+- 2026-10-28 · p2 · O mesmo orçamento, dois finais (antes_depois: retorno na memória x no funil) · comenta · https://www.instagram.com/p/DfDT4VIGNyD/
+- 2026-10-28 · r2 · Kit de 4 mensagens grátis (manda FUNIL) · direct · gancho: "4 mensagens que trazem a paciente de volta" · https://www.instagram.com/reel/DfDkKnggDvj/
+- 2026-10-29 · p1 · Quanto vale um implante que voltou (numero R$ 3.500, valor de exemplo) · bio · https://www.instagram.com/p/DfE62t4nBZs/
+- 2026-10-29 · r1 · Quanto vale 1 orçamento recuperado por semana (R$ 6.000/mês de exemplo, 52/ano) · comenta · gancho: "E se voltasse só 1 orçamento por semana?" · https://www.instagram.com/reel/DfFWSYykf6_/
+- 2026-10-29 · r2 · Raio-x de 15 minutos dos orçamentos parados · bio · gancho: "Quantos orçamentos estão parados no seu WhatsApp?" · https://www.instagram.com/reel/DfGI8ReAWuh/
+- 2026-10-30 · p1 · Sextou com a agenda da segunda já cheia (frase) · comenta · https://www.instagram.com/p/DfHfm7lF2tW/

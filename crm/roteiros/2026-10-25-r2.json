@@ -1,0 +1,13 @@
+{
+  "tarja": "<Orçamento que Volta> em 20 segundos",
+  "semente": 59,
+  "tema": "Orçamento que Volta: o que é, em 20 segundos",
+  "ganchos_ab": ["O que é o <Orçamento que Volta>?", "20 segundos pra entender <tudo>", "Seu orçamento <volta>. Assim:"],
+  "cenas": [
+    {"tipo": "gancho", "rotulo": "em 20 segundos", "texto": "O que é o <Orçamento que Volta>?", "rabisco": "circulo", "dur": 2.4, "legenda": "Presta atenção"},
+    {"tipo": "timeline", "nome": "Paciente", "passos": [{"quando": "+2h", "texto": "Ficou alguma dúvida?"}, {"quando": "+1 dia", "texto": "Dá pra parcelar"}, {"quando": "+3 dias", "texto": "Dois horários pra você"}, {"quando": "+7 dias", "texto": "Responde QUERO que eu reabro"}], "resposta": "Pode ser o de sábado?", "dur": 5.0, "legenda": "<4 mensagens> sozinhas"},
+    {"tipo": "leads", "titulo": "Funil de orçamentos no Kommo", "colunas": ["Orçamento", "Follow-up", "Agendado"], "leads": [{"nome": "Ana", "proc": "Implante", "valor": "R$ 4.800", "vai": 2}, {"nome": "Pedro", "proc": "Lentes", "valor": "R$ 6.000", "vai": 1}, {"nome": "Sofia", "proc": "Botox", "valor": "R$ 1.200", "vai": 2}], "dur": 4.2, "legenda": "Todo orçamento <à vista>"},
+    {"tipo": "lista", "texto": "O que <vem junto>", "itens": [{"t": "Lembrete 1 dia e 1 hora antes", "ok": true}, {"t": "Recepção treinada", "ok": true}, {"t": "No ar em 7 dias úteis ou não paga", "ok": true}], "dur": 4.0, "legenda": "R$ 1.497 <ou 3x R$ 550>"},
+    {"tipo": "cta", "modo": "direct", "texto": "Quer ver na <sua clínica>?", "palavra": "FUNIL", "resposta": "Opa! Te mandei o kit. Você tem clínica?", "dur": 4.2, "legenda": "Manda <FUNIL> no Direct"}
+  ]
+}

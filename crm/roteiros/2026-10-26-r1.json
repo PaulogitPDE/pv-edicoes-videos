@@ -1,0 +1,105 @@
+{
+ "tarja": "Se a recepção falta, <o WhatsApp> não falta",
+ "semente": 61,
+ "tema": "A recepcionista faltou: com quem ela estava falando?",
+ "ganchos_ab": [
+  "A recepcionista <faltou> hoje.",
+  "Com quem ela <estava falando>?",
+  "O celular da recepção <sabe demais>"
+ ],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "rotulo": "segunda, 8h",
+   "texto": "A recepcionista <faltou> hoje.",
+   "rabisco": "sublinha",
+   "dur": 2.4,
+   "legenda": "E agora?"
+  },
+  {
+   "tipo": "chat",
+   "nome": "WhatsApp da recepção",
+   "status": "bloqueado",
+   "mensagens": [
+    {
+     "de": "ela",
+     "texto": "Oi, e o meu orçamento?",
+     "meta": "08:12"
+    },
+    {
+     "de": "ela",
+     "texto": "Alguém aí?",
+     "meta": "09:40"
+    }
+   ],
+   "carimbo": "Ninguém sabe",
+   "dur": 3.6,
+   "legenda": "Com quem ela <estava falando>?"
+  },
+  {
+   "tipo": "lista",
+   "texto": "Só ela <sabia>",
+   "itens": [
+    {
+     "t": "Quem pediu orçamento",
+     "ok": false
+    },
+    {
+     "t": "Quem disse vou pensar",
+     "ok": false
+    },
+    {
+     "t": "Quem tem retorno marcado",
+     "ok": false
+    }
+   ],
+   "dur": 4.0,
+   "legenda": "Tudo na <cabeça> dela",
+   "humor": "dor"
+  },
+  {
+   "tipo": "virada",
+   "texto": "E se estivesse tudo <no funil>?",
+   "dur": 2.0
+  },
+  {
+   "tipo": "leads",
+   "titulo": "Funil da clínica no Kommo",
+   "colunas": [
+    "Orçamento",
+    "Follow-up",
+    "Agendado"
+   ],
+   "leads": [
+    {
+     "nome": "Beatriz",
+     "proc": "Clareamento",
+     "valor": "R$ 900",
+     "vai": 1
+    },
+    {
+     "nome": "Caio",
+     "proc": "Implante",
+     "valor": "R$ 4.500",
+     "vai": 2
+    },
+    {
+     "nome": "Lúcia",
+     "proc": "Botox",
+     "valor": "R$ 1.200",
+     "vai": 2
+    }
+   ],
+   "dur": 4.2,
+   "legenda": "Qualquer um <continua>"
+  },
+  {
+   "tipo": "cta",
+   "modo": "comenta",
+   "texto": "Quer o <funil> na sua clínica?",
+   "palavra": "FUNIL",
+   "dur": 4.2,
+   "legenda": "Comenta <FUNIL>"
+  }
+ ]
+}
