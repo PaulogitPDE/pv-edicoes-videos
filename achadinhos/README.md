@@ -4,7 +4,7 @@
    (ver topo do arquivo) e grava `achadinhos/dia/AAAA-MM-DD-tema.json` com preço, vendedor, fotos e link de afiliado.
    Temas: casa, cozinha, tech, setup, beleza, carro.
 2. Claude escolhe 5 dos aprovados (os mais "uau", sem produto de consumo comum tipo sabão) e escreve
-   `achadinhos/roteiros/AAAA-MM-DD-tema.json` (nome curto, benefício, texto da pílula, foto do anúncio).
+   `achadinhos/roteiros/AAAA-MM-DD-tema.json` (nome curto, benefício, foto do anúncio).
 3. `python3 achadinhos/carrossel.py achadinhos/roteiros/....json pasta/` gera os slides (capa + produtos + CTA QUERO).
 
 Limites da API com token de app (31/10): avaliações e nº de vendidos do anúncio dão 403, então a nota NÃO é checada;

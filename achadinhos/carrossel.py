@@ -1,6 +1,6 @@
 """Carrossel de achadinhos, 1080x1350 (estratégia 30/10): capa com gancho, 1 produto por slide, slide final com CTA QUERO.
 Uso (na raiz do repo): python3 achadinhos/carrossel.py achadinhos/roteiros/AAAA-MM-DD-tema.json SAIDA/pasta
-Roteiro JSON: dia (arquivo de achadinhos/dia), capa {linha1, linha2, sub}, produtos [{id, nome, beneficio, pilula, foto}],
+Roteiro JSON: dia (arquivo de achadinhos/dia), capa {linha1, linha2, sub}, produtos [{id, nome, beneficio, foto}],
 cta {titulo, sub}. "foto" = índice da foto do anúncio (0-3). As fotos são baixadas para achadinhos/cache/ (fora do git).
 Saída: SAIDA/1.jpg, 2.jpg..."""
 import json, os, sys, urllib.request
@@ -16,7 +16,7 @@ TINTA = (24, 22, 28)
 AMARELO = (255, 214, 10)
 # fundos quentes que se alternam entre os slides de produto
 FUNDOS = [(255, 236, 214), (226, 240, 230), (232, 228, 250), (255, 226, 226), (222, 236, 250), (250, 240, 205)]
-PERFIL = '@pvedicoes'
+ASSINATURA = 'Achadinhos do PV'
 
 
 def fonte(caminho, tam):
@@ -56,19 +56,6 @@ def cartao(im, lado, raio=44):
     out = Image.composite(Image.new('RGBA', out.size, (40, 30, 30, 255)), Image.new('RGBA', out.size, (0, 0, 0, 0)), out.getchannel('A'))
     out.paste(im, (pad, pad), mask)
     return out, pad
-
-
-def pilula(dr, x, y, texto):
-    """Sticker de link estilo Instagram: ícone de corrente + 'link | Produto'."""
-    f = fonte(F_BOLD, 36)
-    larg = int(f.getlength(texto)) + 120
-    dr.rounded_rectangle([x, y, x + larg, y + 74], 37, fill=(255, 255, 255), outline=(0, 0, 0, 40), width=2)
-    # corrente simples
-    cx, cy = x + 44, y + 37
-    for dx in (-9, 9):
-        dr.rounded_rectangle([cx + dx - 13, cy - 7, cx + dx + 13, cy + 7], 7, outline=(0, 120, 255), width=5)
-    dr.text((x + 80, y + 37), texto, font=f, fill=(0, 120, 255), anchor='lm')
-    return larg
 
 
 def topo(dr, rotulo, n=None):
@@ -126,10 +113,9 @@ def slide_produto(p, cfg, i, total, rotulo):
     y += 20
     fb = fonte(F_MED, 36)
     y += 4
-    for l in quebra(cfg['beneficio'], fb, W - 140)[:2]:
+    for l in quebra(cfg['beneficio'], fb, W - 140)[:3]:
         dr.text((70, y), l, font=fb, fill=(60, 56, 66))
         y += 46
-    pilula(dr, 70, max(y + 18, 1200), 'link | ' + cfg['pilula'])
     return base
 
 
@@ -147,8 +133,8 @@ def slide_cta(r):
     dr.rounded_rectangle([70, y, W - 70, y + 190], 50, fill=(255, 255, 255))
     dr.polygon([(150, y + 185), (130, y + 250), (230, y + 185)], fill=(255, 255, 255))
     dr.ellipse([110, y + 45, 210, y + 145], fill=AMARELO)
-    dr.text((160, y + 95), 'PV', font=fonte(F_BLACK, 40), fill=TINTA, anchor='mm')
-    dr.text((245, y + 72), PERFIL[1:], font=fonte(F_BOLD, 30), fill=(120, 116, 126), anchor='lm')
+    dr.text((160, y + 95), 'V', font=fonte(F_BLACK, 40), fill=TINTA, anchor='mm')
+    dr.text((245, y + 72), 'você', font=fonte(F_BOLD, 30), fill=(120, 116, 126), anchor='lm')
     dr.text((245, y + 122), 'QUERO', font=fonte(F_BLACK, 62), fill=TINTA, anchor='lm')
     dr.text((W - 120, y + 95), '♥', font=fonte('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', 48), fill=(230, 40, 70), anchor='mm')
     fs = fonte(F_MED, 40)
@@ -156,7 +142,7 @@ def slide_cta(r):
     for l in quebra(r['cta']['sub'], fs, W - 140):
         dr.text((70, y), l, font=fs, fill=(220, 216, 226))
         y += 54
-    dr.text((70, H - 90), PERFIL, font=fonte(F_BOLD, 34), fill=AMARELO, anchor='lm')
+    dr.text((70, H - 90), ASSINATURA, font=fonte(F_BOLD, 34), fill=AMARELO, anchor='lm')
     return base
 
 
