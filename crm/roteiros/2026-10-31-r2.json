@@ -1,0 +1,71 @@
+{
+ "tarja": "Lentes: quem <acompanha> fecha",
+ "semente": 163,
+ "tema": "Lentes de contato dental: a paciente que compara preço",
+ "ganchos_ab": [
+  "Ela pediu orçamento de lentes em <3 clínicas>",
+  "Quem ganha a paciente que <compara preço>?",
+  "Não é o mais barato que <fecha>"
+ ],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "rotulo": "lentes de contato dental",
+   "texto": "Ela pediu orçamento em <3 clínicas>",
+   "rabisco": "sublinha",
+   "dur": 2.5,
+   "legenda": "Quem ganha?"
+  },
+  {
+   "tipo": "chat",
+   "nome": "Paciente · lentes",
+   "status": "online",
+   "mensagens": [
+    {
+     "de": "ela",
+     "texto": "Oi, quanto fica 10 lentes?",
+     "meta": "qua 20:14"
+    },
+    {
+     "de": "eu",
+     "texto": "Te mando o orçamento amanhã",
+     "meta": "qui 11:30"
+    }
+   ],
+   "carimbo": "Demorou",
+   "dur": 3.6,
+   "legenda": "Ela já está <comparando>",
+   "humor": "dor"
+  },
+  {
+   "tipo": "timeline",
+   "nome": "Juliana",
+   "passos": [
+    {
+     "quando": "+2h",
+     "texto": "Quer ver fotos de casos parecidos?"
+    },
+    {
+     "quando": "+1 dia",
+     "texto": "Dá pra parcelar e fazer em etapas"
+    },
+    {
+     "quando": "+3 dias",
+     "texto": "Avaliação sábado 10h, guardo pra você?"
+    }
+   ],
+   "resposta": "Pode guardar!",
+   "dur": 4.8,
+   "legenda": "Fecha quem <acompanha>",
+   "humor": "solucao"
+  },
+  {
+   "tipo": "cta",
+   "modo": "bio",
+   "texto": "Quer isso no seu <WhatsApp>?",
+   "mensagem_wpp": "Quero o follow-up de lentes na minha clínica",
+   "dur": 4.4,
+   "legenda": "Link na <bio>"
+  }
+ ]
+}
