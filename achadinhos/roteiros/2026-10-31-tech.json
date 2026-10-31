@@ -1,0 +1,13 @@
+{
+ "dia": "2026-10-31-tech.json",
+ "pilula": false,
+ "capa": {"titulo": "Ferramentas úteis que me dei de presente", "versao": "versão tech barato"},
+ "produtos": [
+  {"id": "MLB24028629", "nome": "Fone Soundcore by Anker", "texto": "Fone bom sem pagar preço de marca cara. 30 horas de bateria com o estojo.", "pos": "sup_dir", "seta": [540, 720]},
+  {"id": "MLB46202402", "nome": "Huawei Band 10", "texto": "Mede sono, passos e treino. Tão fininha que você esquece no braço.", "pos": "sup_esq", "seta": [540, 720]},
+  {"id": "MLB65541449", "nome": "Headphone JBL Tune 530BT", "texto": "Até 76 horas de bateria. Esquece o carregador por semanas.", "pos": "sup_dir", "seta": [540, 720]},
+  {"id": "MLB16139512", "nome": "Mouse sem fio Logitech", "texto": "Liga e usa, sem instalar nada. Esse é top e barato.", "pos": "sup_esq", "seta": [540, 720]},
+  {"id": "MLB23263416", "nome": "Cabo Baseus 100W", "texto": "USB-C dos dois lados e carrega até notebook. Um cabo pra tudo.", "pos": "sup_dir", "seta": [540, 720]}
+ ],
+ "cta": {"titulo": "Quer receber o link de todos eles?", "sub": "Comenta QUERO que te mando."}
+}
