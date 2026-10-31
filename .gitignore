@@ -3,3 +3,4 @@ out/
 *.log
 modelo/public/banco/
 modelo/public/narr-*.mp3
+achadinhos/cache/

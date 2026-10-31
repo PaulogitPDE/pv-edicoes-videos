@@ -1,0 +1,13 @@
+{
+ "dia": "2026-10-31-casa.json",
+ "rotulo": "achadinhos pra casa",
+ "capa": {"linha1": "5 achadinhos", "linha2": "pra deixar a casa mais bonita", "sub": "Mais vendidos, de loja oficial e frete grátis"},
+ "produtos": [
+  {"id": "MLB64256647", "foto": 1, "nome": "Cortina de LED 3x3m", "beneficio": "300 luzes, 8 modos e liga no USB. O Natal tá chegando.", "pilula": "Cortina LED"},
+  {"id": "MLB75732433", "foto": 0, "nome": "Escorredor inox 2 andares", "beneficio": "A água escorre direto pra pia e a bancada fica seca.", "pilula": "Escorredor"},
+  {"id": "MLB53222689", "foto": 0, "nome": "Kit 10 potes de vidro", "beneficio": "Vai do freezer ao forno. Marmita da semana resolvida.", "pilula": "Potes de vidro"},
+  {"id": "MLB29473724", "foto": 0, "nome": "Cortina blackout 4x2,8m", "beneficio": "Quarto escuro de verdade, até de dia.", "pilula": "Cortina blackout"},
+  {"id": "MLB48810551", "foto": 0, "nome": "Toalhas Buddemeyer", "beneficio": "Jogo de 4, extra macias. Cara de hotel.", "pilula": "Toalhas"}
+ ],
+ "cta": {"titulo": "Quer o link de todos?", "sub": "Comenta QUERO aqui embaixo que eu te mando no Direct, junto com o grupo de promoções."}
+}
