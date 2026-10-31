@@ -35,3 +35,4 @@
 - 2026-10-30 · trend · A Fazenda 18, eliminação de Giovanna Gold (carrossel, capa só com o nome, sem foto livre) → paciente eliminada em silêncio · bio · https://www.instagram.com/p/DfHviUSjVs1/
 - 2026-10-30 · r1 · Conteúdo: checklist da sexta antes de fechar a clínica · salva (sem venda) · sem tarja · gancho: "Antes de fechar a clínica nesta sexta..." · https://www.instagram.com/reel/DfH_WYECQiW/
 - 2026-10-30 · r2 · Implante: o orçamento mais caro de perder · direct · gancho: "O orçamento mais caro de perder" · https://www.instagram.com/reel/DfItr32E-CN/
+- 2026-10-31 · p1 · Halloween: o orçamento fantasma (data) · direct · https://www.instagram.com/p/DfKEbOQFsW6/
