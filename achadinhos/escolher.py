@@ -27,7 +27,7 @@ TEMAS = {
     'casa': ['MLB1618', 'MLB436414', 'MLB264051', 'MLB1613', 'MLB1631'],
     'cozinha': ['MLB1618', 'MLB438284'],
     'tech': ['MLB3813', 'MLB454379', 'MLB430918', 'MLB417704'],
-    'setup': ['MLB447778', 'MLB454379', 'MLB14370', 'MLB1582'],
+    'setup': ['MLB447778', 'MLB454379', 'MLB430687', 'MLB417704'],
     'beleza': ['MLB1263', 'MLB199407', 'MLB1248', 'MLB439347'],
     'carro': ['MLB5672'],
 }
@@ -37,7 +37,7 @@ RISCO = ['SUPPLEMENT', 'MEDICINE', 'DRUG', 'VITAMIN', 'PROTEIN', 'CREATINE', 'WE
 PALAVRAS_RISCO = ['réplica', 'replica', 'primeira linha', 'inspired', 'similar', 'tv box', 'desbloqueado',
                   'emagrec', 'remédio', 'suplemento', 'cbd']
 MARCA_RUIM = {'', 'genérica', 'generica', 'genérico', 'generico', 'sem marca', 'outros', 'outra', 'nenhuma', 'n/a'}
-ELETRONICOS = set(TEMAS['tech'] + TEMAS['setup']) - {'MLB1582'}
+ELETRONICOS = set(TEMAS['tech'] + TEMAS['setup'])
 # eletrônico só de marca conhecida (evita clone de smartwatch/fone de marca própria de importador)
 MARCAS_ELETRONICOS = {'logitech', 'huawei', 'xiaomi', 'redmi', 'samsung', 'jbl', 'philips', 'multilaser', 'baseus',
                       'anker', 'ugreen', 'redragon', 'havit', 'intelbras', 'positivo', 'amazfit', 'edifier', 'qcy',
