@@ -1,0 +1,114 @@
+{
+ "tarja": "O WhatsApp da sua clínica <antes e depois> do follow-up",
+ "semente": 37,
+ "tema": "Antes x depois do WhatsApp da clínica",
+ "ganchos_ab": [
+  "O WhatsApp da sua clínica <antes>...",
+  "Mesma paciente. <Dois finais.>",
+  "Antes x <depois>: só mudou uma coisa"
+ ],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "rotulo": "antes",
+   "texto": "Mesma paciente. <Dois finais.>",
+   "rabisco": "sublinha",
+   "dur": 2.4,
+   "legenda": "Primeiro, o antes"
+  },
+  {
+   "tipo": "chat",
+   "nome": "Patrícia",
+   "status": "visto por último ontem",
+   "mensagens": [
+    {
+     "de": "ela",
+     "texto": "Quanto fica a lente de resina?",
+     "meta": "21:14"
+    },
+    {
+     "de": "eu",
+     "texto": "Bom dia! Segue o valor",
+     "meta": "09:40"
+    },
+    {
+     "de": "ela",
+     "texto": "Vou pensar",
+     "meta": "09:52"
+    }
+   ],
+   "carimbo": "Nunca mais voltou",
+   "dur": 3.8,
+   "legenda": "Ninguém chamou de <volta>"
+  },
+  {
+   "tipo": "virada",
+   "texto": "Agora o <depois>",
+   "dur": 2.0
+  },
+  {
+   "tipo": "chat",
+   "nome": "Patrícia",
+   "status": "online",
+   "mensagens": [
+    {
+     "de": "eu",
+     "texto": "Conseguiu ver o orçamento? Fico à disposição",
+     "meta": "+2h"
+    },
+    {
+     "de": "eu",
+     "texto": "Separei quinta 15h ou sábado 9h",
+     "meta": "+3 dias"
+    },
+    {
+     "de": "ela",
+     "texto": "Sábado 9h!",
+     "meta": "10:03"
+    }
+   ],
+   "dur": 3.8,
+   "legenda": "O WhatsApp chamou <sozinho>",
+   "humor": "solucao"
+  },
+  {
+   "tipo": "leads",
+   "titulo": "Funil de orçamentos",
+   "colunas": [
+    "Orçamento",
+    "Follow-up",
+    "Agendado"
+   ],
+   "leads": [
+    {
+     "nome": "Patrícia",
+     "proc": "Lentes",
+     "valor": "R$ 3.600",
+     "vai": 2
+    },
+    {
+     "nome": "Marcos",
+     "proc": "Implante",
+     "valor": "R$ 4.200",
+     "vai": 1
+    },
+    {
+     "nome": "Luana",
+     "proc": "Harmonização",
+     "valor": "R$ 1.800",
+     "vai": 2
+    }
+   ],
+   "dur": 4.2,
+   "legenda": "Nenhum orçamento <esquecido>"
+  },
+  {
+   "tipo": "cta",
+   "modo": "bio",
+   "texto": "Quer o <depois> na sua clínica?",
+   "mensagem_wpp": "Quero o depois na minha clínica",
+   "dur": 4.4,
+   "legenda": "Link na <bio>"
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "tarja": "Eu faço o WhatsApp da sua clínica <confirmar a agenda> sozinho",
+ "semente": 31,
+ "tema": "Sextou com agenda cheia na segunda",
+ "ganchos_ab": [
+  "Sextou. E a agenda de <segunda>?",
+  "Você vai curtir o fim de semana. <Sua agenda> não.",
+  "Segunda às 8h: <cadê a paciente>?"
+ ],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "rotulo": "sexta, 18h",
+   "texto": "Sextou. E a agenda de <segunda>?",
+   "rabisco": "circulo",
+   "dur": 2.4,
+   "legenda": "Ninguém confirmou nada"
+  },
+  {
+   "tipo": "numero",
+   "rotulo": "exemplo: pacientes sem confirmar",
+   "de": 0,
+   "ate": 7,
+   "sufixo": "",
+   "cor": "vermelho",
+   "sub": "esperando alguém <lembrar>",
+   "dur": 3.4,
+   "legenda": "A recepção já foi embora"
+  },
+  {
+   "tipo": "virada",
+   "texto": "E se o WhatsApp <confirmasse> no domingo?",
+   "dur": 2.2
+  },
+  {
+   "tipo": "leads",
+   "titulo": "Agenda de segunda",
+   "colunas": [
+    "Lembrete",
+    "Respondeu",
+    "Confirmado"
+   ],
+   "leads": [
+    {
+     "nome": "Carla",
+     "proc": "Avaliação · 8h",
+     "valor": "R$ 250",
+     "vai": 2
+    },
+    {
+     "nome": "Rafael",
+     "proc": "Clareamento · 10h",
+     "valor": "R$ 900",
+     "vai": 2
+    },
+    {
+     "nome": "Bianca",
+     "proc": "Botox · 14h",
+     "valor": "R$ 1.200",
+     "vai": 2
+    }
+   ],
+   "total": "{valor} <confirmados>",
+   "dur": 4.6,
+   "legenda": "Confirmou <sozinho>"
+  },
+  {
+   "tipo": "cta",
+   "modo": "comenta",
+   "texto": "Quer a mensagem de <lembrete>?",
+   "palavra": "FUNIL",
+   "dur": 4.4,
+   "legenda": "Comenta <FUNIL>"
+  }
+ ]
+}

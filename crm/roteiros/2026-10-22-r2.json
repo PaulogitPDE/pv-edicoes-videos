@@ -1,0 +1,14 @@
+{
+  "tarja": "Eu monto o follow-up da sua clínica <sem letra miúda>",
+  "semente": 23,
+  "tema": "A licença do Kommo é à parte (sem pegadinha)",
+  "ganchos_ab": ["Tem <pegadinha> nesse preço?", "O que ninguém te conta no <orçamento>", "R$ 1.497 e <só isso>?"],
+  "cenas": [
+    {"tipo": "gancho", "rotulo": "pergunta que eu mais recebo", "texto": "Tem <pegadinha> nesse preço?", "rabisco": "circulo", "dur": 2.4, "legenda": "Vou abrir o jogo"},
+    {"tipo": "lista", "texto": "O que eu <monto> pra você", "itens": [{"t": "4 mensagens de follow-up", "ok": true}, {"t": "Lembrete 1 dia e 1 hora antes", "ok": true}, {"t": "Funil de orçamentos no Kommo", "ok": true}, {"t": "Treino da recepção", "ok": true}], "dur": 4.6, "legenda": "Tudo isso por <R$ 1.497>"},
+    {"tipo": "gancho", "texto": "A licença do Kommo é <à parte>", "rabisco": "sublinha", "dur": 2.6, "legenda": "Paga direto pra Kommo"},
+    {"tipo": "lista", "texto": "Por que <à parte>?", "itens": [{"t": "A conta fica no nome da clínica", "ok": true}, {"t": "Você não depende de mim", "ok": true}, {"t": "Taxa escondida na mensalidade", "ok": false}], "dur": 4.2, "legenda": "Sem <letra miúda>"},
+    {"tipo": "virada", "texto": "No ar em <7 dias úteis> ou não paga", "dur": 2.2},
+    {"tipo": "cta", "modo": "bio", "texto": "Quer saber o <custo total>?", "mensagem_wpp": "Quero saber o custo total pra minha clínica", "dur": 4.4, "legenda": "Link na <bio>"}
+  ]
+}

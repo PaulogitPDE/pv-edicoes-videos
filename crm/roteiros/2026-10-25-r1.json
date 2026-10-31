@@ -1,0 +1,61 @@
+{
+ "tarja": "Hoje é o <Dia do Dentista>",
+ "semente": 53,
+ "tema": "Dia do Dentista: você cuida do sorriso, o follow-up cuida do orçamento",
+ "ganchos_ab": [
+  "Feliz <Dia do Dentista>",
+  "Quem cuida de quem <cuida do sorriso>?",
+  "Dentista também <esquece>. E tudo bem."
+ ],
+ "cenas": [
+  {
+   "tipo": "data",
+   "dia": "25",
+   "mes": "outubro",
+   "titulo": "Feliz <Dia do Dentista>",
+   "dur": 3.2,
+   "legenda": "Pra quem cuida do <sorriso> de todo mundo"
+  },
+  {
+   "tipo": "gancho",
+   "rotulo": "a vida real",
+   "texto": "Consulta, retorno e <WhatsApp> no intervalo",
+   "rabisco": "sublinha",
+   "dur": 2.6,
+   "legenda": "E ainda lembrar de <todo orçamento>?"
+  },
+  {
+   "tipo": "lista",
+   "texto": "O que você <não precisa> lembrar",
+   "itens": [
+    {
+     "t": "Quem disse vou pensar",
+     "ok": true
+    },
+    {
+     "t": "Quem tem consulta amanhã",
+     "ok": true
+    },
+    {
+     "t": "Quem sumiu há 7 dias",
+     "ok": true
+    }
+   ],
+   "dur": 4.2,
+   "legenda": "O WhatsApp lembra <sozinho>"
+  },
+  {
+   "tipo": "virada",
+   "texto": "Você cuida do <sorriso>",
+   "dur": 2.0
+  },
+  {
+   "tipo": "cta",
+   "modo": "bio",
+   "texto": "A gente cuida do <orçamento>",
+   "mensagem_wpp": "Quero o follow-up na minha clínica",
+   "dur": 4.4,
+   "legenda": "Link na <bio>"
+  }
+ ]
+}

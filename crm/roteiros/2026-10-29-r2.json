@@ -1,0 +1,64 @@
+{
+ "tarja": "Raio-x <grátis> de 15 minutos",
+ "semente": 121,
+ "tema": "Raio-x de 15 minutos dos seus orçamentos parados",
+ "ganchos_ab": [
+  "Quantos orçamentos estão <parados> no seu WhatsApp?",
+  "15 minutos pra achar o <dinheiro parado>",
+  "Você sabe <quem disse vou pensar> esse mês?"
+ ],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "rotulo": "pergunta rápida",
+   "texto": "Quantos orçamentos estão <parados> no seu WhatsApp?",
+   "rabisco": "circulo",
+   "dur": 2.6,
+   "legenda": "Chuta um número"
+  },
+  {
+   "tipo": "lista",
+   "texto": "No raio-x a gente <olha>",
+   "itens": [
+    {
+     "t": "Quem pediu e não fechou",
+     "ok": true
+    },
+    {
+     "t": "Há quanto tempo está parado",
+     "ok": true
+    },
+    {
+     "t": "O que mandar pra cada um",
+     "ok": true
+    }
+   ],
+   "dur": 4.2,
+   "legenda": "Pelo seu <WhatsApp> mesmo"
+  },
+  {
+   "tipo": "numero",
+   "rotulo": "duração da conversa",
+   "de": 0,
+   "ate": 15,
+   "cor": "lime",
+   "sub": "minutos, <sem compromisso>",
+   "dur": 3.4,
+   "legenda": "E você sai com a lista",
+   "humor": "solucao"
+  },
+  {
+   "tipo": "virada",
+   "texto": "Orçamento parado <ainda volta>",
+   "dur": 2.0
+  },
+  {
+   "tipo": "cta",
+   "modo": "bio",
+   "texto": "Quer o <raio-x> da sua clínica?",
+   "mensagem_wpp": "Quero o raio-x dos orçamentos da minha clínica",
+   "dur": 4.4,
+   "legenda": "Link na <bio>"
+  }
+ ]
+}

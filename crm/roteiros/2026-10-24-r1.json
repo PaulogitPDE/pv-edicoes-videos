@@ -1,0 +1,13 @@
+{
+  "tarja": "Dica de sábado: <uma palavra> traz a paciente de volta",
+  "semente": 41,
+  "tema": "Uma palavra fácil de responder: quero",
+  "ganchos_ab": ["Sua mensagem dá <trabalho> pra responder?", "A paciente não some. Ela <cansa>.", "Uma palavra que <reabre> o orçamento"],
+  "cenas": [
+    {"tipo": "gancho", "rotulo": "dica rápida", "texto": "Sua mensagem dá <trabalho> pra responder?", "rabisco": "circulo", "dur": 2.5, "legenda": "Olha esse follow-up"},
+    {"tipo": "chat", "nome": "Renata", "status": "visto por último há 4 dias", "mensagens": [{"de": "eu", "texto": "Oi Renata! Sobre o orçamento: qual dia e horário fica melhor e qual forma de pagamento prefere?", "meta": "10:12"}], "carimbo": "Sem resposta", "dur": 3.6, "legenda": "Pergunta demais, <resposta zero>"},
+    {"tipo": "virada", "texto": "Peça <uma palavra> só", "dur": 2.0},
+    {"tipo": "chat", "nome": "Renata", "status": "online", "humor": "solucao", "mensagens": [{"de": "eu", "texto": "Não vou mais te incomodar. Se quiser retomar, responde QUERO que eu reabro", "meta": "+7 dias"}, {"de": "ela", "texto": "quero", "meta": "10:31"}], "dur": 3.8, "legenda": "Fácil de responder = <responde>"},
+    {"tipo": "cta", "modo": "direct", "texto": "Quer as 4 mensagens <prontas>?", "palavra": "FUNIL", "resposta": "Opa! Te mandei o kit. Você tem clínica?", "dur": 4.2, "legenda": "Manda <FUNIL> no Direct"}
+  ]
+}

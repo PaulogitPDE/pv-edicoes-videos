@@ -1,0 +1,53 @@
+{
+ "tarja": "Como trazer o <fantasma> de volta",
+ "semente": 151,
+ "tema": "Halloween: o orçamento fantasma (conteúdo, sem venda)",
+ "ganchos_ab": [
+  "Sua clínica tem <fantasma>?",
+  "Visualizou e <sumiu>",
+  "O terror da recepção: <visto às 19h>"
+ ],
+ "cenas": [
+  {
+   "tipo": "data",
+   "dia": "31",
+   "mes": "outubro",
+   "titulo": "Feliz <Halloween>",
+   "dur": 2.6,
+   "legenda": "Dia de falar de <fantasma>"
+  },
+  {
+   "tipo": "chat",
+   "nome": "Paciente · clareamento",
+   "status": "visto por último ontem",
+   "mensagens": [
+    {"de": "ela", "texto": "Quanto fica o clareamento?", "meta": "qui 19:02"},
+    {"de": "eu", "texto": "Fica R$ 900, dá pra parcelar", "meta": "qui 19:10"}
+   ],
+   "carimbo": "Fantasma",
+   "dur": 3.6,
+   "legenda": "Visualizou e <sumiu>",
+   "humor": "dor"
+  },
+  {
+   "tipo": "gancho",
+   "rotulo": "o que não mandar",
+   "texto": "E aí, <pensou>?",
+   "rabisco": "x",
+   "dur": 2.4,
+   "legenda": "Isso espanta de vez"
+  },
+  {
+   "tipo": "lista",
+   "texto": "Manda <isso> no lugar",
+   "itens": [
+    {"t": "Ficou alguma dúvida do valor?", "ok": true},
+    {"t": "Dá pra começar pela avaliação", "ok": true},
+    {"t": "Tenho sábado 10h ou 15h, quer?", "ok": true}
+   ],
+   "dur": 4.8,
+   "legenda": "Cada mensagem com <um motivo novo>",
+   "humor": "solucao"
+  }
+ ]
+}

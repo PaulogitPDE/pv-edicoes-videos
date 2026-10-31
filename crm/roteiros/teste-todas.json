@@ -1,0 +1,18 @@
+{
+  "tarja": "Eu faço o WhatsApp da sua clínica <chamar a paciente de volta> sozinho",
+  "semente": 3,
+  "cenas": [
+    {"tipo": "data", "dia": "25", "mes": "out", "titulo": "Dia do <Dentista>", "sub": "Parabéns a quem cuida de sorriso o dia inteiro", "legenda": "Hoje é o seu dia"},
+    {"tipo": "gancho", "rotulo": "orçamento de implante", "texto": "Ela disse <vou pensar>... e sumiu", "rabisco": "circulo", "legenda": "Isso te parece familiar?"},
+    {"tipo": "chat", "nome": "Fernanda", "status": "visto por último há 9 dias", "mensagens": [{"de": "eu", "texto": "Segue o orçamento do implante", "meta": "14:02"}, {"de": "ela", "texto": "Vou pensar e te aviso", "meta": "14:20"}], "carimbo": "Orçamento perdido", "legenda": "Ninguém chamou de volta"},
+    {"tipo": "numero", "rotulo": "orçamentos sem retorno", "ate": 37, "cor": "vermelho", "sub": "todo mês, numa clínica <média>", "legenda": "Dinheiro parado no WhatsApp"},
+    {"tipo": "leads", "titulo": "Funil de orçamentos", "leads": [{"nome": "Carla", "proc": "Implante", "valor": "R$ 4.800", "vai": 3}, {"nome": "Diego", "proc": "Lentes", "valor": "R$ 6.200", "vai": 2}, {"nome": "Júlia", "proc": "Botox", "valor": "R$ 1.300", "vai": 3}, {"nome": "Marcos", "proc": "Clareamento", "valor": "R$ 900"}], "total": "{valor} <agendados>", "legenda": "Cada lead no lugar certo"},
+    {"tipo": "timeline", "nome": "Fernanda", "passos": [{"quando": "+2h", "texto": "Conseguiu abrir o orçamento?"}, {"quando": "+1 dia", "texto": "Dá pra parcelar e começar pela avaliação"}, {"quando": "+3 dias", "texto": "Separei dois horários pra você"}], "resposta": "Pode ser quinta às 15h?", "legenda": "O funil chama <sozinho>"},
+    {"tipo": "desenho", "forma": "funil", "texto": "Seu funil está <vazando>?", "vazando": 0.4, "legenda": "Sem follow-up, o lead escapa"},
+    {"tipo": "desenho", "forma": "grafico", "texto": "Agendamentos com follow-up", "valor": "+38%", "legenda": "Número ilustrativo"},
+    {"tipo": "lista", "texto": "Seu WhatsApp perde <orçamento>?", "itens": [{"t": "Sabe quantos orçamentos mandou este mês?", "ok": false}, {"t": "Alguém chama de volta quem disse vou pensar?", "ok": false}, {"t": "A paciente recebe lembrete da consulta?", "ok": true}]},
+    {"tipo": "cta", "modo": "direct", "texto": "Quer as 4 mensagens <prontas>?", "palavra": "FUNIL", "legenda": "Manda <FUNIL> no Direct"},
+    {"tipo": "cta", "modo": "bio", "texto": "Fala comigo no <WhatsApp>", "legenda": "Link na bio"},
+    {"tipo": "cta", "modo": "comenta", "texto": "Comenta <FUNIL>", "palavra": "FUNIL", "legenda": "Te mando no Direct"}
+  ]
+}
