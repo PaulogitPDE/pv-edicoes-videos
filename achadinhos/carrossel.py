@@ -1,27 +1,21 @@
-"""Carrossel de achadinhos no estilo das referências (BRIEFING-visual.md, 31/10), 1080x1350.
-Foto POV sangrando a tela toda, texto branco por cima (nome bold + frase light), seta desenhada à mão.
+"""Carrossel de achadinhos, 1080x1350 (estratégia 30/10): capa com gancho, 1 produto por slide, slide final com CTA QUERO.
 Uso (na raiz do repo): python3 achadinhos/carrossel.py achadinhos/roteiros/AAAA-MM-DD-tema.json SAIDA/pasta
-Roteiro JSON:
-  dia: arquivo de achadinhos/dia (produtos, fotos do anúncio)
-  capa: {titulo, versao, fotos: [4 caminhos]}  (colagem 2x2; sem foto usa a dos produtos)
-  produtos: [{id, nome, texto, foto, pos, seta}]
-    foto = caminho de uma foto POV (gerada por IA etc.); sem ela, monta uma provisória com a foto limpa do anúncio
-    pos = "sup_dir" | "sup_esq" | "inf" (onde a foto tem respiro); seta = [x, y] para onde a seta aponta
-  cta: {titulo, sub, foto}
-  pilula: false (pílula "link | Nome" desligada a pedido do usuário em 31/10)
+Roteiro JSON: dia (arquivo de achadinhos/dia), capa {linha1, linha2, sub}, produtos [{id, nome, beneficio, foto}],
+cta {titulo, sub}. "foto" = índice da foto do anúncio (0-3). As fotos são baixadas para achadinhos/cache/ (fora do git).
 Saída: SAIDA/1.jpg, 2.jpg..."""
-import json, math, os, sys, urllib.request
-import numpy as np
+import json, os, sys, urllib.request
 from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps
 
 W, H = 1080, 1350
 AQUI = os.path.dirname(os.path.abspath(__file__))
-RAIZ = os.path.dirname(AQUI)
 CACHE = os.path.join(AQUI, 'cache')
-F_BOLD = '/usr/share/fonts/opentype/inter/InterDisplay-Bold.otf'
-F_LIGHT = '/usr/share/fonts/opentype/inter/InterDisplay-Light.otf'
-F_REG = '/usr/share/fonts/opentype/inter/Inter-Regular.otf'
-BRANCO = (255, 255, 255)
+F_BLACK = '/usr/share/fonts/opentype/inter/InterDisplay-Black.otf'
+F_BOLD = '/usr/share/fonts/opentype/inter/Inter-Bold.otf'
+F_MED = '/usr/share/fonts/opentype/inter/Inter-Medium.otf'
+TINTA = (24, 22, 28)
+AMARELO = (255, 214, 10)
+# fundos quentes que se alternam entre os slides de produto
+FUNDOS = [(255, 236, 214), (226, 240, 230), (232, 228, 250), (255, 226, 226), (222, 236, 250), (250, 240, 205)]
 ASSINATURA = 'Achadinhos do PV'
 
 
@@ -29,61 +23,13 @@ def fonte(caminho, tam):
     return ImageFont.truetype(caminho, tam)
 
 
-def foto_anuncio(produto, idx=0):
+def foto(produto, idx):
     os.makedirs(CACHE, exist_ok=True)
     idx = min(idx, len(produto['fotos']) - 1)
     destino = os.path.join(CACHE, f"{produto['id']}-{idx}.jpg")
     if not os.path.exists(destino):
         urllib.request.urlretrieve(produto['fotos'][idx], destino)
     return Image.open(destino).convert('RGB')
-
-
-def mesa(seed=0):
-    """Fundo provisório: mesa de madeira quente desfocada com bokeh (só até as fotos POV chegarem)."""
-    rng = np.random.default_rng(seed)
-    y, x = np.mgrid[0:H, 0:W].astype(np.float32)
-    veio = np.sin(x / 9 + np.sin(y / 140) * 3) * 0.5 + 0.5
-    base = np.stack([120 + 40 * veio, 78 + 25 * veio, 48 + 14 * veio], -1)
-    luz = np.exp(-(((x - W * 0.8) / 700) ** 2 + ((y - 0) / 600) ** 2))[..., None]
-    arr = base * (0.55 + 0.7 * luz)
-    im = Image.fromarray(np.clip(arr, 0, 255).astype(np.uint8))
-    dr = ImageDraw.Draw(im, 'RGBA')
-    for _ in range(14):
-        cx, cy, r = rng.uniform(0, W), rng.uniform(0, H * 0.4), rng.uniform(30, 90)
-        dr.ellipse([cx - r, cy - r, cx + r, cy + r], fill=(255, 220, 170, int(rng.uniform(25, 60))))
-    return im.filter(ImageFilter.GaussianBlur(18))
-
-
-def provisoria(produto, seed):
-    """Produto recortado do fundo branco do anúncio, grande e levemente inclinado, sobre a mesa."""
-    fundo = mesa(seed)
-    p = foto_anuncio(produto, 0)
-    arr = np.asarray(p).astype(np.int16)
-    alfa = (255 - np.clip((arr.min(-1) - 225) * 9, 0, 255)).astype(np.uint8)
-    rec = p.convert('RGBA')
-    rec.putalpha(Image.fromarray(alfa).filter(ImageFilter.GaussianBlur(1.2)))
-    rec = rec.crop(rec.getbbox())
-    esc = min(760 / rec.width, 680 / rec.height)
-    rec = rec.resize((int(rec.width * esc), int(rec.height * esc)), Image.LANCZOS).rotate(-8, Image.BICUBIC, expand=True)
-    x, y = (W - rec.width) // 2 - 40, H - rec.height - 90
-    sombra = Image.new('RGBA', fundo.size, (0, 0, 0, 0))
-    sombra.paste((0, 0, 0, 150), (x + 30, y + 40), rec.getchannel('A'))
-    fundo = Image.alpha_composite(fundo.convert('RGBA'), sombra.filter(ImageFilter.GaussianBlur(30)))
-    fundo.alpha_composite(rec, (x, y))
-    return fundo.convert('RGB')
-
-
-def abrir(caminho):
-    return ImageOps.fit(Image.open(os.path.join(RAIZ, caminho)).convert('RGB'), (W, H), Image.LANCZOS)
-
-
-def escurecer(im, caixa, forca=0.5):
-    """Escurecimento local e suave atrás do texto (sem caixa visível)."""
-    x0, y0, x1, y1 = caixa
-    m = Image.new('L', (W, H), 0)
-    ImageDraw.Draw(m).ellipse([x0 - 160, y0 - 140, x1 + 160, y1 + 140], fill=int(255 * forca))
-    m = m.filter(ImageFilter.GaussianBlur(110))
-    return Image.composite(Image.new('RGB', (W, H), (0, 0, 0)), im, m)
 
 
 def quebra(texto, f, largura):
@@ -97,119 +43,107 @@ def quebra(texto, f, largura):
     return linhas + [atual]
 
 
-def texto_centro(dr, cx, y, linhas, f, entre, sombra=None):
-    for l in linhas:
-        if sombra is not None:
-            sombra.text((cx, y), l, font=f, fill=150, anchor='ma')
-        dr.text((cx, y), l, font=f, fill=BRANCO, anchor='ma')
-        y += entre
-    return y
+def cartao(im, lado, raio=44):
+    """Foto do anúncio num cartão branco arredondado, com sombra suave."""
+    im = ImageOps.fit(im, (lado, lado), Image.LANCZOS)
+    mask = Image.new('L', (lado, lado), 0)
+    ImageDraw.Draw(mask).rounded_rectangle([0, 0, lado - 1, lado - 1], raio, fill=255)
+    pad = 60
+    out = Image.new('RGBA', (lado + pad * 2, lado + pad * 2), (0, 0, 0, 0))
+    sombra = Image.new('L', out.size, 0)
+    ImageDraw.Draw(sombra).rounded_rectangle([pad, pad + 18, pad + lado, pad + lado + 18], raio, fill=90)
+    out.putalpha(sombra.filter(ImageFilter.GaussianBlur(26)))
+    out = Image.composite(Image.new('RGBA', out.size, (40, 30, 30, 255)), Image.new('RGBA', out.size, (0, 0, 0, 0)), out.getchannel('A'))
+    out.paste(im, (pad, pad), mask)
+    return out, pad
 
 
-def seta(dr, de, para):
-    """Seta fina desenhada à mão: curva quadrática + ponta aberta."""
-    (x0, y0), (x1, y1) = de, para
-    mx, my = (x0 + x1) / 2, (y0 + y1) / 2
-    nx, ny = -(y1 - y0), (x1 - x0)
-    n = math.hypot(nx, ny) or 1
-    cx, cy = mx + nx / n * 70, my + ny / n * 70
-    pts = [((1 - t) ** 2 * x0 + 2 * (1 - t) * t * cx + t * t * x1, (1 - t) ** 2 * y0 + 2 * (1 - t) * t * cy + t * t * y1)
-           for t in np.linspace(0, 1, 40)]
-    dr.line(pts, fill=BRANCO, width=5, joint='curve')
-    ang = math.atan2(y1 - pts[-4][1], x1 - pts[-4][0])
-    for d in (2.5, -2.5):
-        dr.line([(x1, y1), (x1 - 34 * math.cos(ang + d / 6), y1 - 34 * math.sin(ang + d / 6))], fill=BRANCO, width=5)
-
-
-def cantos(dr, esq=ASSINATURA, dir_baixo=None):
-    f = fonte(F_LIGHT, 30)
-    dr.text((60, 60), esq, font=f, fill=BRANCO, anchor='lm')
-    if dir_baixo:
-        dr.text((W - 60, H - 64), dir_baixo, font=f, fill=BRANCO, anchor='rm')
-
-
-def pilula(dr, cx, y, texto):
-    f = fonte(F_REG, 30)
-    larg = f.getlength(texto) + 96
-    x = cx - larg / 2
-    dr.rounded_rectangle([x, y, x + larg, y + 60], 30, fill=(237, 232, 226))
-    for dx in (-7, 7):
-        dr.rounded_rectangle([x + 38 + dx - 10, y + 25, x + 38 + dx + 10, y + 35], 5, outline=(60, 60, 60), width=3)
-    dr.text((x + 66, y + 30), texto, font=f, fill=(60, 60, 60), anchor='lm')
-
-
-def com_sombra(base, desenhar):
-    """Desenha o texto com uma sombra bem suave por baixo."""
-    sombra = Image.new('L', (W, H), 0)
-    camada = Image.new('RGBA', (W, H), (0, 0, 0, 0))
-    desenhar(ImageDraw.Draw(camada), ImageDraw.Draw(sombra))
-    s = sombra.filter(ImageFilter.GaussianBlur(10))
-    base = Image.composite(Image.new('RGB', (W, H), (0, 0, 0)), base, s.point(lambda v: v * 0.6))
-    base.paste(camada, (0, 0), camada)
-    return base
+def topo(dr, rotulo, n=None):
+    f = fonte(F_BOLD, 30)
+    dr.text((70, 74), rotulo.upper(), font=f, fill=TINTA, anchor='lm')
+    if n:
+        dr.text((W - 70, 74), n, font=f, fill=TINTA, anchor='rm')
 
 
 def slide_capa(r, produtos):
-    fotos = r['capa'].get('fotos') or []
-    meio = Image.new('RGB', (W, H))
-    for k in range(4):
-        if k < len(fotos):
-            im = Image.open(os.path.join(RAIZ, fotos[k])).convert('RGB')
-        else:
-            p, c = produtos[k % len(produtos)]
-            im = abrir(c['foto']) if c.get('foto') else provisoria(p, k)
-        meio.paste(ImageOps.fit(im, (W // 2, H // 2), Image.LANCZOS), ((k % 2) * W // 2, (k // 2) * H // 2))
-    base = escurecer(meio, (100, 380, W - 100, 900), 0.55)
-    fb, fl = fonte(F_BOLD, 118), fonte(F_LIGHT, 74)
+    base = Image.new('RGB', (W, H), AMARELO)
+    dr = ImageDraw.Draw(base, 'RGBA')
+    f1 = fonte(F_BLACK, 100)
+    y = 120
+    for linha in (r['capa']['linha1'], r['capa']['linha2']):
+        for l in quebra(linha.upper(), f1, W - 140):
+            dr.text((70, y), l, font=f1, fill=TINTA)
+            y += 100
+    if r['capa'].get('sub'):
+        dr.text((72, y + 24), r['capa']['sub'], font=fonte(F_MED, 40), fill=TINTA)
+        y += 80
+    # três fotos inclinadas abaixo do texto
+    y0 = max(y + 60, 560)
+    for k, (ang, x, dy) in enumerate([(-9, -40, 40), (7, 600, 0), (-3, 270, 170)]):
+        if k >= len(produtos):
+            break
+        p, cfg = produtos[k]
+        c, pad = cartao(foto(p, cfg.get('foto', 0)), 500, 36)
+        c = c.rotate(ang, Image.BICUBIC, expand=True)
+        base.paste(c, (x - pad, y0 + dy - pad), c)
+    dr = ImageDraw.Draw(base, 'RGBA')
+    # selo "arrasta"
+    fa = fonte(F_BOLD, 34)
+    dr.rounded_rectangle([W - 330, H - 130, W - 60, H - 60], 35, fill=TINTA)
+    dr.text((W - 195, H - 95), 'ARRASTA  →', font=fa, fill=AMARELO, anchor='mm')
+    return base
 
-    def desenha(dr, ds):
-        linhas = quebra(r['capa']['titulo'], fb, W - 120)
-        y = 640 - len(linhas) * 112 // 2 - 40
-        y = texto_centro(dr, W // 2, y, linhas, fb, 112, ds)
-        texto_centro(dr, W // 2, y + 6, [f"({r['capa']['versao']})"], fl, 80, ds)
-        cantos(dr, ASSINATURA, 'arrasta pro lado  →')
-    return com_sombra(base, desenha)
 
-
-POS = {'sup_dir': (W * 0.7, 200), 'sup_esq': (W * 0.3, 200), 'inf': (W * 0.5, 900)}
-
-
-def slide_produto(p, c, i, usar_pilula):
-    base = abrir(c['foto']) if c.get('foto') else provisoria(p, i)
-    cx, y0 = POS[c.get('pos', 'sup_dir')]
-    cx = int(cx)
-    fb, fl = fonte(F_BOLD, 66), fonte(F_LIGHT, 44)
-    larg = 560 if c.get('pos', 'sup_dir') != 'inf' else 820
-    nome, txt = quebra(c['nome'], fb, larg)[:2], quebra(c['texto'], fl, larg)[:4]
-    alt = len(nome) * 64 + 16 + len(txt) * 48 + (80 if usar_pilula else 0)
-    base = escurecer(base, (cx - larg // 2, y0, cx + larg // 2, y0 + alt), 0.45)
-
-    def desenha(dr, ds):
-        y = texto_centro(dr, cx, y0, nome, fb, 64, ds) + 16
-        y = texto_centro(dr, cx, y, txt, fl, 48, ds)
-        if usar_pilula:
-            pilula(dr, cx, y + 18, 'link | ' + c['nome'])
-        if c.get('seta'):
-            alvo = tuple(c['seta'])
-            de = (cx - larg // 2 + 20, y0 + 30) if alvo[0] < cx else (cx + larg // 2 - 20, y0 + 30)
-            if alvo[1] > y:
-                de = (cx + (-80 if alvo[0] < cx else 80), y + 30)
-            seta(dr, de, alvo)
-        cantos(dr)
-    return com_sombra(base, desenha)
+def slide_produto(p, cfg, i, total, rotulo):
+    base = Image.new('RGB', (W, H), FUNDOS[(i - 1) % len(FUNDOS)])
+    dr = ImageDraw.Draw(base, 'RGBA')
+    topo(dr, rotulo, f'{i}/{total}')
+    c, pad = cartao(foto(p, cfg.get('foto', 0)), 800)
+    base.paste(c, ((W - 800) // 2 - pad, 120 - pad), c)
+    dr = ImageDraw.Draw(base, 'RGBA')
+    # número grande sobre o cartão
+    fn = fonte(F_BLACK, 70)
+    dr.ellipse([70, 960, 190, 1080], fill=TINTA)
+    dr.text((130, 1020), str(i), font=fn, fill=AMARELO, anchor='mm')
+    fnome = fonte(F_BLACK, 62)
+    y = 1044
+    for l in quebra(cfg['nome'], fnome, W - 260)[:2]:
+        dr.text((215, y), l, font=fnome, fill=TINTA, anchor='ls')
+        y += 66
+    y += 20
+    fb = fonte(F_MED, 36)
+    y += 4
+    for l in quebra(cfg['beneficio'], fb, W - 140)[:3]:
+        dr.text((70, y), l, font=fb, fill=(60, 56, 66))
+        y += 46
+    return base
 
 
 def slide_cta(r):
-    c = r['cta']
-    base = abrir(c['foto']) if c.get('foto') else mesa(99)
-    base = escurecer(base, (140, 880, W - 140, 1160), 0.55)
-    fb, fl = fonte(F_BOLD, 80), fonte(F_LIGHT, 60)
-
-    def desenha(dr, ds):
-        y = texto_centro(dr, W // 2, 880, quebra(c['titulo'], fb, W - 200), fb, 80, ds) + 40
-        texto_centro(dr, W // 2, y, quebra(c['sub'], fl, W - 260), fl, 64, ds)
-        cantos(dr)
-    return com_sombra(base, desenha)
+    base = Image.new('RGB', (W, H), TINTA)
+    dr = ImageDraw.Draw(base, 'RGBA')
+    topo(dr, '', None)
+    f = fonte(F_BLACK, 100)
+    y = 300
+    for l in quebra(r['cta']['titulo'].upper(), f, W - 140):
+        dr.text((70, y), l, font=f, fill=(255, 255, 255))
+        y += 104
+    # balão de comentário com QUERO
+    y += 70
+    dr.rounded_rectangle([70, y, W - 70, y + 190], 50, fill=(255, 255, 255))
+    dr.polygon([(150, y + 185), (130, y + 250), (230, y + 185)], fill=(255, 255, 255))
+    dr.ellipse([110, y + 45, 210, y + 145], fill=AMARELO)
+    dr.text((160, y + 95), 'V', font=fonte(F_BLACK, 40), fill=TINTA, anchor='mm')
+    dr.text((245, y + 72), 'você', font=fonte(F_BOLD, 30), fill=(120, 116, 126), anchor='lm')
+    dr.text((245, y + 122), 'QUERO', font=fonte(F_BLACK, 62), fill=TINTA, anchor='lm')
+    dr.text((W - 120, y + 95), '♥', font=fonte('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', 48), fill=(230, 40, 70), anchor='mm')
+    fs = fonte(F_MED, 40)
+    y += 320
+    for l in quebra(r['cta']['sub'], fs, W - 140):
+        dr.text((70, y), l, font=fs, fill=(220, 216, 226))
+        y += 54
+    dr.text((70, H - 90), ASSINATURA, font=fonte(F_BOLD, 34), fill=AMARELO, anchor='lm')
+    return base
 
 
 def main():
@@ -220,7 +154,7 @@ def main():
     produtos = [(por_id[c['id']], c) for c in r['produtos']]
     os.makedirs(pasta, exist_ok=True)
     slides = [slide_capa(r, produtos)]
-    slides += [slide_produto(p, c, i + 1, r.get('pilula', False)) for i, (p, c) in enumerate(produtos)]
+    slides += [slide_produto(p, c, i + 1, len(produtos), r.get('rotulo', 'achadinhos')) for i, (p, c) in enumerate(produtos)]
     slides.append(slide_cta(r))
     for k, s in enumerate(slides, 1):
         s.save(os.path.join(pasta, f'{k}.jpg'), quality=92)
