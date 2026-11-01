@@ -40,3 +40,4 @@
 - 2026-10-31 · r2 · Lentes: a paciente que compara preço · bio · gancho: "Ela pediu orçamento em 3 clínicas" · https://www.instagram.com/reel/DfLSaQnDjzo/
 - 2026-11-01 · p1 · Novembro Azul: cuidar também é lembrar (data) · bio · https://www.instagram.com/p/DfMpPbAlD-K/
 - 2026-11-01 · r1 · Conteúdo Novembro Azul: lembrete de consulta que funciona · salva (sem venda) · sem tarja · gancho: "Ele não faltou por descaso" · https://www.instagram.com/reel/DfNCcZcDYxn/
+- 2026-11-01 · r2 · Harmonização e botox: o "depois eu vejo" · comenta · gancho: "Ela quer. Só não agora." · https://www.instagram.com/reel/DfN3OsygZ1g/
