@@ -1,0 +1,53 @@
+{
+ "semente": 173,
+ "tema": "Novembro Azul: cuidar começa com alguém que lembra (conteúdo, sem tarja)",
+ "ganchos_ab": [
+  "O paciente não falta por <descaso>",
+  "Ele <esqueceu>. Só isso.",
+  "O lembrete que o paciente <responde>"
+ ],
+ "cenas": [
+  {
+   "tipo": "data",
+   "dia": "1",
+   "mes": "novembro",
+   "titulo": "<Novembro Azul>",
+   "dur": 2.6,
+   "legenda": "Mês de cuidar da <saúde do homem>"
+  },
+  {
+   "tipo": "gancho",
+   "rotulo": "na clínica",
+   "texto": "Ele não faltou por <descaso>",
+   "rabisco": "sublinha",
+   "dur": 2.5,
+   "legenda": "Ele <esqueceu>",
+   "humor": "dor"
+  },
+  {
+   "tipo": "chat",
+   "nome": "Carlos · retorno",
+   "status": "online",
+   "mensagens": [
+    {"de": "eu", "texto": "Oi Carlos! Amanhã 15h é sua revisão com a Dra. Ana. Confirma com 1?", "meta": "seg 10:00"},
+    {"de": "ela", "texto": "1", "meta": "seg 10:04"}
+   ],
+   "carimbo": "Confirmou",
+   "dur": 3.8,
+   "legenda": "Nome, horário e <um número>",
+   "humor": "solucao"
+  },
+  {
+   "tipo": "lista",
+   "texto": "Lembrete que <funciona>",
+   "itens": [
+    {"t": "Um dia antes, com nome e horário", "ok": true},
+    {"t": "Pede uma resposta fácil: 1", "ok": true},
+    {"t": "Outro lembrete 1 hora antes", "ok": true}
+   ],
+   "dur": 4.8,
+   "legenda": "Cuidar também é <lembrar>",
+   "humor": "solucao"
+  }
+ ]
+}
