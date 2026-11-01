@@ -91,9 +91,12 @@ async function executarComando(sock, c) {
       if (c.imagem) await sock.sendMessage(g, { image: await baixarImagem(c.imagem), caption: c.texto })
       else await sock.sendMessage(g, { text: c.texto })
       return 'ok'
+    case 'trava_dados': await sock.groupSettingUpdate(g, 'locked'); return 'ok'
+    case 'atualizar': setTimeout(() => process.exit(0), 3000); return 'reiniciando com a versao nova'
     case 'info': {
       const m = await sock.groupMetadata(g)
-      return { nome: m.subject, descricao: m.desc || '', participantes: m.participants.length }
+      return { nome: m.subject, descricao: m.desc || '', participantes: m.participants.length,
+        so_admins_falam: !!m.announce, so_admins_editam: !!m.restrict }
     }
     default: throw new Error(`tipo desconhecido: ${c.tipo}`)
   }
