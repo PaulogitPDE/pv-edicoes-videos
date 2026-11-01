@@ -84,6 +84,8 @@ async function executarComando(sock, c) {
     case 'nome': await sock.groupUpdateSubject(g, c.valor); return 'ok'
     case 'descricao': await sock.groupUpdateDescription(g, c.valor); return 'ok'
     case 'foto': await sock.updateProfilePicture(g, await baixarImagem(c.url)); return 'ok'
+    case 'so_admins': await sock.groupSettingUpdate(g, 'announcement'); return 'ok'
+    case 'todos': await sock.groupSettingUpdate(g, 'not_announcement'); return 'ok'
     case 'link': return 'https://chat.whatsapp.com/' + await sock.groupInviteCode(g)
     case 'mensagem':
       if (c.imagem) await sock.sendMessage(g, { image: await baixarImagem(c.imagem), caption: c.texto })

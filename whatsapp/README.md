@@ -42,12 +42,14 @@ A cada minuto o programa também lê os comandos e executa cada `id` novo uma ve
   {"id": "2026-11-01-c", "tipo": "foto", "url": "https://.../foto.jpg"},
   {"id": "2026-11-01-d", "tipo": "link"},
   {"id": "2026-11-01-e", "tipo": "info"},
+  {"id": "2026-11-01-g", "tipo": "so_admins"},
+  {"id": "2026-11-01-h", "tipo": "todos"},
   {"id": "2026-11-01-f", "tipo": "mensagem", "texto": "Bom dia!", "imagem": "https://... (opcional)"}
 ]}
 ```
 O resultado vai para `whatsapp/status.json`. Se esta pasta estiver dentro de um clone do repo com o git logado,
 o programa faz commit e push do status sozinho, e a nuvem lê o resultado. Nome, descrição e foto exigem que o
-número do chip seja admin do grupo. Depois de atualizar este arquivo, feche e abra o `iniciar.bat` de novo.
+número do chip seja admin do grupo (vale também para `so_admins`, que deixa só os admins mandarem mensagem, e `todos`, que libera de novo). Depois de atualizar este arquivo, feche e abra o `iniciar.bat` de novo.
 
 ## Cuidados
 - Usar um número só para o grupo, nunca o pessoal: a conexão não é oficial e o WhatsApp pode banir números que mandam demais.
