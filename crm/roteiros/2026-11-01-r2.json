@@ -1,0 +1,54 @@
+{
+ "tarja": "O <depois eu vejo> tem volta",
+ "semente": 181,
+ "tema": "Harmonização e botox: o \"depois eu vejo\"",
+ "ganchos_ab": [
+  "\"Depois eu <vejo>\"",
+  "Botox: a paciente que <adia>",
+  "Ela quer. Só <não agora>."
+ ],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "rotulo": "harmonização e botox",
+   "texto": "Ela quer. Só <não agora>.",
+   "rabisco": "sublinha",
+   "dur": 2.5,
+   "legenda": "O famoso \"depois eu vejo\""
+  },
+  {
+   "tipo": "chat",
+   "nome": "Paciente · botox",
+   "status": "visto por último há 6 dias",
+   "mensagens": [
+    {"de": "eu", "texto": "Segue o valor do botox 3 regiões", "meta": "qua 14:20"},
+    {"de": "ela", "texto": "Amei! Depois eu vejo direitinho", "meta": "qua 14:41"}
+   ],
+   "carimbo": "Adiou",
+   "dur": 3.6,
+   "legenda": "E o depois <nunca chega>",
+   "humor": "dor"
+  },
+  {
+   "tipo": "timeline",
+   "nome": "Camila",
+   "passos": [
+    {"quando": "+1 dia", "texto": "Ficou alguma dúvida do procedimento?"},
+    {"quando": "+3 dias", "texto": "Tenho horário na quinta, quer?"},
+    {"quando": "+7 dias", "texto": "Quer que eu guarde seu orçamento?"}
+   ],
+   "resposta": "Quinta dá! Que horas?",
+   "dur": 4.8,
+   "legenda": "O depois vira <data>",
+   "humor": "solucao"
+  },
+  {
+   "tipo": "cta",
+   "modo": "comenta",
+   "texto": "Quer as mensagens <prontas>?",
+   "palavra": "FUNIL",
+   "dur": 4.2,
+   "legenda": "Comenta <FUNIL>"
+  }
+ ]
+}
