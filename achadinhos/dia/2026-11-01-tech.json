@@ -20,7 +20,7 @@
     "https://http2.mlstatic.com/D_NQ_NP_630815-MLA108425390697_032026-F.jpg",
     "https://http2.mlstatic.com/D_NQ_NP_833230-MLA108425748445_032026-F.jpg"
    ],
-   "preco": 204.25,
+   "preco": 208.55,
    "preco_de": null,
    "desconto_pct": null,
    "desconto_verificado": false,
@@ -28,7 +28,7 @@
    "vendedor": "CONNECTLIVIN",
    "loja_oficial": true,
    "mercadolider": "platinum",
-   "vendas_vendedor": 54712,
+   "vendas_vendedor": 54736,
    "ofertas_no_catalogo": 28,
    "link": "https://www.mercadolivre.com.br/p/MLB46202402?matt_word=paulovitorlemes&matt_tool=37931087"
   },
@@ -59,7 +59,7 @@
    "vendedor": "GV20260616085701",
    "loja_oficial": true,
    "mercadolider": "platinum",
-   "vendas_vendedor": 3973,
+   "vendas_vendedor": 3977,
    "ofertas_no_catalogo": 100,
    "link": "https://www.mercadolivre.com.br/p/MLB43319779?matt_word=paulovitorlemes&matt_tool=37931087"
   },
@@ -83,14 +83,14 @@
     "https://http2.mlstatic.com/D_NQ_NP_846372-MLA87504162329_072025-F.jpg"
    ],
    "preco": 153.9,
-   "preco_de": null,
-   "desconto_pct": null,
+   "preco_de": 299,
+   "desconto_pct": 49,
    "desconto_verificado": false,
    "frete": "Full",
    "vendedor": "ANKER_BR",
    "loja_oficial": true,
    "mercadolider": "platinum",
-   "vendas_vendedor": 378028,
+   "vendas_vendedor": 377853,
    "ofertas_no_catalogo": 1,
    "link": "https://www.mercadolivre.com.br/p/MLB24028629?matt_word=paulovitorlemes&matt_tool=37931087"
   },
@@ -114,16 +114,169 @@
     "https://http2.mlstatic.com/D_NQ_NP_706358-MLA118747940443_102026-F.jpg"
    ],
    "preco": 199.97,
-   "preco_de": null,
-   "desconto_pct": null,
+   "preco_de": 259,
+   "desconto_pct": 23,
    "desconto_verificado": false,
    "frete": "Full",
    "vendedor": "Mercado Livre Eletronicos",
    "loja_oficial": true,
    "mercadolider": "platinum",
-   "vendas_vendedor": 25458848,
+   "vendas_vendedor": 25423745,
    "ofertas_no_catalogo": 100,
    "link": "https://www.mercadolivre.com.br/p/MLB65541449?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB42520227",
+   "posicao_mais_vendidos": 7,
+   "categoria": "MLB417704",
+   "nome": "Smartwatch Xiaomi Redmi Watch 5 Lite 1.96 Preto",
+   "marca": "Xiaomi",
+   "modelo": "5 Lite",
+   "destaques": [
+    "18 dias de duração da bateria.",
+    "Resistente à água.",
+    "Com GPS integrado.",
+    "Com tela AMOLED de 410x502."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_748690-MLA109857707572_042026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_779006-MLA119924571115_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_625071-MLA99989591849_112025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_827372-MLA82429593723_022025-F.jpg"
+   ],
+   "preco": 330,
+   "preco_de": null,
+   "desconto_pct": null,
+   "desconto_verificado": false,
+   "frete": "grátis",
+   "vendedor": "GV20260616085701",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 3977,
+   "ofertas_no_catalogo": 100,
+   "link": "https://www.mercadolivre.com.br/p/MLB42520227?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB16139512",
+   "posicao_mais_vendidos": 9,
+   "categoria": "MLB454379",
+   "nome": "Mouse sem fio Logitech M190 com Pilha Inclusa - Vermelho",
+   "marca": "Logitech",
+   "modelo": "M190",
+   "destaques": [
+    "CONFORTO SEM FIO: O mouse é fabricado com um formato arredondado e ergonômico que segue a curva natural das mãos.",
+    "CONEXÃO SEM ATRASOS: Trabalhe sem fios e movimente-se livremente a uma distância de até 10 metros, evitando bagunça.",
+    "PRECISÃO DE ALTA QUALIDADE: Não comprometa a qualidade do seu trabalho ou jogos. Rastreamento preciso, rolagem simples.",
+    "FEITO PARA DURAR: Projetado pelo líder mundial em mouses e teclados, o M190 é um mouse para laptop e PC para uso diário."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_970012-MLA99472260158_112025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_845228-MLA87117165356_072025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_771964-MLA87117020382_072025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_909129-MLA87117165364_072025-F.jpg"
+   ],
+   "preco": 105.9,
+   "preco_de": null,
+   "desconto_pct": null,
+   "desconto_verificado": false,
+   "frete": "grátis",
+   "vendedor": "LEPOK PAPELARIA",
+   "loja_oficial": true,
+   "mercadolider": "gold",
+   "vendas_vendedor": 16315,
+   "ofertas_no_catalogo": 14,
+   "link": "https://www.mercadolivre.com.br/p/MLB16139512?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB26059079",
+   "posicao_mais_vendidos": 11,
+   "categoria": "MLB430918",
+   "nome": "Cabo Turbo Baseus P/ iPhone Usb-c P/ Lightning 20w 2m",
+   "marca": "Baseus",
+   "modelo": "FAST CHARGING DATA",
+   "destaques": [
+    "Com entrada USB tipo C e saída tipo C",
+    "Marca compatível: Apple.",
+    "Modelo compatível: até iPhone 14.",
+    "Versão da porta: 2.0."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_834692-MLA99568255010_122025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_974156-MLU74515183109_022024-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_964839-MLU75209649418_032024-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_880550-MLU75209629652_032024-F.jpg"
+   ],
+   "preco": 41,
+   "preco_de": 79,
+   "desconto_pct": 48,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "BASEUS_BRASIL",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 425115,
+   "ofertas_no_catalogo": 4,
+   "link": "https://www.mercadolivre.com.br/p/MLB26059079?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB23263416",
+   "posicao_mais_vendidos": 13,
+   "categoria": "MLB430918",
+   "nome": "Cabo Turbo Usb-c P/ Usb-c Baseus Superior Series 100w 1m Cor Preto",
+   "marca": "Baseus",
+   "modelo": "CATYS-B01",
+   "destaques": [
+    "Com entrada USB e saída USB-C.",
+    "Marca compatível: Apple.",
+    "Modelo compatível: Applebook20207/2019.",
+    "Versão da porta: 3.0."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_605238-MLA99601874566_122025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_777297-MLA91569819572_092025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_969395-MLA91569789852_092025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_852493-MLA91569869208_092025-F.jpg"
+   ],
+   "preco": 49,
+   "preco_de": null,
+   "desconto_pct": null,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "BTQ DIGITAL",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 46884,
+   "ofertas_no_catalogo": 1,
+   "link": "https://www.mercadolivre.com.br/p/MLB23263416?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB52039200",
+   "posicao_mais_vendidos": 19,
+   "categoria": "MLB3813",
+   "nome": "Samsung Galaxy Buds Core branco",
+   "marca": "Samsung",
+   "modelo": "Galaxy Buds Core",
+   "destaques": [
+    "Com estojo de carregamento.",
+    "Com microfone embutido."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_967872-MLA87279987383_072025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_754623-MLA86955784948_072025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_679230-MLA86954972518_072025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_842474-MLA87280066633_072025-F.jpg"
+   ],
+   "preco": 229,
+   "preco_de": 349,
+   "desconto_pct": 34,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "ELETRO2U",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 132616,
+   "ofertas_no_catalogo": 38,
+   "link": "https://www.mercadolivre.com.br/p/MLB52039200?matt_word=paulovitorlemes&matt_tool=37931087"
   }
  ],
  "recusados": [
@@ -209,6 +362,126 @@
   },
   {
    "id": "MLB59323062",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB25057291",
+   "motivo": "nenhum vendedor confiável"
+  },
+  {
+   "id": "MLB65598839",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB48478097",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB27728147",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB62870615",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB66497052",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB20266125",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB79400859",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB75012346",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB70514530",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB80097388",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB42553350",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB69794678",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB70109633",
+   "motivo": "sem marca"
+  },
+  {
+   "id": "MLB16211422",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB64369743",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB53569339",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB78488877",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB78298533",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB61706715",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB58519492",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB48947564",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB34229153",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB79379664",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB63238506",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB76223619",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB54026101",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB59019868",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB76584148",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB64212276",
    "motivo": "eletrônico de marca desconhecida"
   }
  ]

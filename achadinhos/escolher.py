@@ -143,16 +143,20 @@ def avaliar(pid, posicao, categoria, precos, hoje):
     o = boas[0]
     v = vendedor(o['seller_id'])
     rep = v['seller_reputation']
-    # histórico de preço: registra hoje e checa se o preço "de" é inflado
+    # histórico de preço e de preço "de": registra hoje e checa se o "de" foi inflado
     hist = precos.setdefault(pid, {})
-    hist[hoje] = o['price']
-    antes = [pr for d, pr in hist.items() if d != hoje and d >= (dt.date.fromisoformat(hoje) - dt.timedelta(days=14)).isoformat()]
     de = o.get('original_price')
+    hist[hoje] = {'p': o['price'], 'de': de}
+    limite = (dt.date.fromisoformat(hoje) - dt.timedelta(days=14)).isoformat()
+    antes = [h for d, h in hist.items() if d != hoje and d >= limite]
+    des_antes = [h['de'] for h in antes if isinstance(h, dict) and h.get('de')]
     desconto = None
     if de and de > o['price']:
-        # desconto real: o "de" não pode estar acima do que o produto custou nos últimos 14 dias
-        if not antes or de <= max(antes) * 1.02:
+        # desconto real: o "de" de hoje não pode estar acima do "de" dos últimos 14 dias (loja subindo o "de")
+        if not des_antes or de <= max(des_antes) * 1.02:
             desconto = round(100 * (1 - o['price'] / de))
+        if desconto and desconto > 60:  # "de" irreal (ex.: 659 por 208): não mostra
+            desconto = None
     return {
         'id': pid,
         'posicao_mais_vendidos': posicao,
@@ -165,7 +169,7 @@ def avaliar(pid, posicao, categoria, precos, hoje):
         'preco': o['price'],
         'preco_de': de if desconto else None,
         'desconto_pct': desconto,
-        'desconto_verificado': bool(desconto and antes),
+        'desconto_verificado': bool(desconto and des_antes),
         'frete': 'Full' if o['shipping'].get('logistic_type') == 'fulfillment' else 'grátis',
         'vendedor': v.get('nickname'),
         'loja_oficial': bool(o.get('official_store_id')),

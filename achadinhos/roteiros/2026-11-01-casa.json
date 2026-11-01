@@ -1,0 +1,45 @@
+{
+ "dia": "2026-11-01-casa.json",
+ "rotulo": "achadinhos pra casa",
+ "capa": {
+  "linha1": "5 achadinhos baratinhos",
+  "linha2": "pra casa",
+  "sub": "Todos por menos de R$ 45"
+ },
+ "produtos": [
+  {
+   "id": "MLB67146264",
+   "foto": 0,
+   "nome": "Mini mixer recarregável",
+   "beneficio": "Bate café, shake e clara em neve. Carrega no USB e cabe na gaveta."
+  },
+  {
+   "id": "MLB53507162",
+   "foto": 0,
+   "nome": "Kit 10 fios de fada LED",
+   "beneficio": "Luzinha quente pra decorar quarto, mesa e o Natal que tá chegando."
+  },
+  {
+   "id": "MLB74944152",
+   "foto": 0,
+   "nome": "10 sacos a vácuo + bomba",
+   "beneficio": "Edredom e roupa de frio ocupando até 80% menos espaço."
+  },
+  {
+   "id": "MLB62997555",
+   "foto": 0,
+   "nome": "Balança digital de cozinha",
+   "beneficio": "Pesa até 10 kg e tem função tara. Receita na medida certa."
+  },
+  {
+   "id": "MLB57662272",
+   "foto": 0,
+   "nome": "Kit 12 utensílios de silicone",
+   "beneficio": "Não risca a panela antiaderente e já vem com o pote pra guardar."
+  }
+ ],
+ "cta": {
+  "titulo": "Quer o link de todos?",
+  "sub": "Comenta QUERO aqui embaixo que eu te mando no Direct o link do nosso grupo de promoções."
+ }
+}

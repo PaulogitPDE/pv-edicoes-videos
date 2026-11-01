@@ -58,10 +58,19 @@ def arte(p, data):
     for xy in [(x, y) for x in range(0, w, 15) for y in (0, h - 1)] + [(x, y) for y in range(0, h, 15) for x in (0, w - 1)]:
         if claro.getpixel(xy) == 255:
             ImageDraw.floodfill(claro, xy, 128)
-    alfa = np.where(np.asarray(claro) == 128, 0, 255).astype(np.uint8)
+    op = np.asarray(claro) != 128
+    borda = np.concatenate([op[0], op[-1], op[:, 0], op[:, -1]]).mean()
+    # recorte só para produto escuro sobre fundo branco limpo; produto claro ou foto com arte do vendedor vai num cartão
+    recorta = borda < 0.02 and op.mean() >= 0.3 and arr[op].min(-1).mean() < 100
     rec = foto.convert('RGBA')
-    rec.putalpha(Image.fromarray(alfa).filter(ImageFilter.MinFilter(3)).filter(ImageFilter.GaussianBlur(1)))
-    rec = rec.crop(rec.getbbox() or (0, 0, foto.width, foto.height))
+    if recorta:
+        alfa = np.where(op, 255, 0).astype(np.uint8)
+        rec.putalpha(Image.fromarray(alfa).filter(ImageFilter.MinFilter(3)).filter(ImageFilter.GaussianBlur(1)))
+        rec = rec.crop(rec.getbbox() or (0, 0, foto.width, foto.height))
+    else:
+        m = Image.new('L', rec.size, 0)
+        ImageDraw.Draw(m).rounded_rectangle([0, 0, rec.width - 1, rec.height - 1], int(min(rec.size) * 0.05), fill=255)
+        rec.putalpha(m)
     esc = min(800 / rec.width, 760 / rec.height)
     rec = rec.resize((int(rec.width * esc), int(rec.height * esc)), Image.LANCZOS)
     fundo = Image.new('RGBA', (S, S), (240, 200, 60, 255))
