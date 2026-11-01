@@ -16,8 +16,11 @@ Tudo que o PC precisa ler (fila, comandos) tem que estar na branch `main`.
    Copiar para `postados-img/achadinhos/AAAA-MM-DD-TEMA-N.jpg`.
 5. Legenda curta: lista dos 5, "Comenta QUERO que eu te mando no Direct o link do grupo", aviso de afiliado, 5 hashtags.
    Salvar em `achadinhos/legendas/AAAA-MM-DD.txt`.
-6. Fila do WhatsApp: `python3 achadinhos/fila.py AAAA-MM-DD achadinhos/dia/<arquivos de hoje> --textos <nome curto e frase dos produtos>`
-   (8 ofertas, 09:00 a 21:30). Conferir os textos.
+6. Fila do WhatsApp: `python3 achadinhos/fila.py AAAA-MM-DD achadinhos/dia/<arquivos de hoje> --textos T.json`
+   (8 ofertas, 09:00 a 21:30). Formato aprovado em 01/11 (modelo de grupo de promoções): T.json = {id: {emoji, titulo,
+   modelo, specs}}, ex. {"emoji": "🎧", "titulo": "Fone bluetooth com 30h de bateria", "modelo": "Soundcore by Anker P20i",
+   "specs": "Bluetooth 5.3 - Graves reforçados - Preto"}. Specs SÓ com dados dos atributos/destaques do produto.
+   O script gera a arte amarela de cada oferta em achadinhos/ofertas/DATA/: OLHAR as artes (recorte ruim -> trocar produto).
 7. Commit e `git push origin HEAD:main` (o PC lê a fila da main).
 8. Publicar o carrossel: `modelo/scripts/publicar_carrossel.py achadinhos/legendas/AAAA-MM-DD.txt postados-img/achadinhos/...-1.jpg ...`
    (usa raw da main, por isso o push vem antes). Gravar o media id em `achadinhos/postados.json` e os ids em
