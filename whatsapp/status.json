@@ -8,7 +8,43 @@
     "participantes": 2
    },
    "quando": "2026-11-01T01:13:18.123Z"
+  },
+  "2026-11-01-nome": {
+   "tipo": "nome",
+   "resultado": "ok",
+   "quando": "2026-11-01T01:28:47.237Z"
+  },
+  "2026-11-01-desc": {
+   "tipo": "descricao",
+   "resultado": "ok",
+   "quando": "2026-11-01T01:28:48.106Z"
+  },
+  "2026-11-01-foto": {
+   "tipo": "foto",
+   "resultado": "ok",
+   "quando": "2026-11-01T01:28:50.282Z"
+  },
+  "2026-11-01-soadmins": {
+   "tipo": "so_admins",
+   "resultado": "ok",
+   "quando": "2026-11-01T01:28:50.709Z"
+  },
+  "2026-11-01-trava": {
+   "tipo": "trava_dados",
+   "resultado": "ok",
+   "quando": "2026-11-01T01:28:51.145Z"
+  },
+  "2026-11-01-info2": {
+   "tipo": "info",
+   "resultado": {
+    "nome": "Achadinhos do PV 🛍️",
+    "descricao": "🛍️ Achadinhos do PV\n\nAchadinhos e promoções todo dia, só de lojas oficiais, com frete grátis.\n\n⏰ As ofertas saem das 9h às 21h30.\n🔕 Só os admins mandam mensagem, pra não lotar seu celular.\n\nOs links são de afiliado: você não paga nada a mais e ajuda o grupo a continuar.",
+    "participantes": 2,
+    "so_admins_falam": true,
+    "so_admins_editam": true
+   },
+   "quando": "2026-11-01T01:28:51.476Z"
   }
  },
- "atualizado": "2026-11-01T01:13:18.125Z"
+ "atualizado": "2026-11-01T01:28:51.477Z"
 }
