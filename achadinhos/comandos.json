@@ -30,6 +30,11 @@
   {
    "id": "2026-11-01-info2",
    "tipo": "info"
+  },
+  {
+   "id": "2026-11-01-foto2",
+   "tipo": "foto",
+   "url": "https://raw.githubusercontent.com/PaulogitPDE/pv-edicoes-videos/main/achadinhos/marca/foto-grupo-pv.jpg"
   }
  ]
 }
