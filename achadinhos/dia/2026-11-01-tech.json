@@ -8,6 +8,7 @@
    "categoria": "MLB417704",
    "nome": "Smartwatch HUAWEI Band 10 Caixa de Polímeros Duráveis Análise do Sono em Nível Profissional Assistente de Bem-estar Emocional Relógio Smartwatch Compatível com Android e iOS Preto",
    "marca": "Huawei",
+   "modelo": "Band 10",
    "destaques": [
     "Resistente à água.",
     "Conectividade Bluetooth.",
@@ -27,7 +28,7 @@
    "vendedor": "CONNECTLIVIN",
    "loja_oficial": true,
    "mercadolider": "platinum",
-   "vendas_vendedor": 54699,
+   "vendas_vendedor": 54712,
    "ofertas_no_catalogo": 28,
    "link": "https://www.mercadolivre.com.br/p/MLB46202402?matt_word=paulovitorlemes&matt_tool=37931087"
   },
@@ -37,6 +38,7 @@
    "categoria": "MLB417704",
    "nome": "Smartwatch Xiaomi Redmi Watch 5 Active Tela Lcd 2.00 Preto",
    "marca": "Xiaomi",
+   "modelo": "watch 5 active",
    "destaques": [
     "Tela LCD de alta resolução de 2,0\" com 320 x 385 px para uma visualização clara e nítida.",
     "Bateria com capacidade de 470 mAh proporcionando até 18 dias de autonomia.",
@@ -67,6 +69,7 @@
    "categoria": "MLB3813",
    "nome": "Fone De Ouvido Soundcore by Anker P20i Graves Poderosos e Impactantes Bluetooth 5.3 30H de Reprodução Resistência à Água 2 Mics IA para Chamadas Claras Personalização de Som via App Cor Preto",
    "marca": "Anker",
+   "modelo": "P20i",
    "destaques": [
     "Seu alcance sem fio é de 15 m.",
     "Com estojo de carregamento sem fio.",
@@ -97,6 +100,7 @@
    "categoria": "MLB3813",
    "nome": "Fone de Ouvido JBL Tune 530BT Bluetooth Sem Fio Preto Headphone com Microfone Wireless Estéreo Graves Potentes Confortável",
    "marca": "JBL",
+   "modelo": "Tune 530BT",
    "destaques": [
     "A duração máxima da bateria é 76 h.",
     "Modo mãos-livres incluído.",

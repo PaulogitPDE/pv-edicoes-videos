@@ -159,6 +159,7 @@ def avaliar(pid, posicao, categoria, precos, hoje):
         'categoria': categoria,
         'nome': p['name'],
         'marca': attrs.get('BRAND'),
+        'modelo': attrs.get('MODEL'),
         'destaques': [f['text'] for f in p.get('main_features', [])][:4],
         'fotos': [f['url'] for f in p['pictures'][:4]],
         'preco': o['price'],
