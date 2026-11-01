@@ -1,6 +1,9 @@
-// Envia as ofertas do dia no grupo de WhatsApp.
-// A nuvem publica achadinhos/fila/AAAA-MM-DD.json no repo; este script roda no PC,
-// confere a fila a cada minuto e manda cada oferta quando chega o horario dela.
+// Envia as ofertas do dia no grupo de WhatsApp e executa as ordens da nuvem.
+// A nuvem publica achadinhos/fila/AAAA-MM-DD.json e achadinhos/comandos.json no repo; este script roda no PC,
+// confere os dois a cada minuto, manda cada oferta no horario dela e executa cada comando novo uma vez
+// (trocar nome, descricao ou foto do grupo, pegar o link de convite, mandar mensagem avulsa).
+// O resultado dos comandos vai para whatsapp/status.json, que este script commita e da push se a pasta
+// estiver dentro de um clone do repo; assim a nuvem le o resultado (ex.: o link do grupo).
 //   node enviador.js          -> roda o dia todo
 //   node enviador.js grupos   -> lista os grupos e seus IDs (para o config.json)
 //   node enviador.js teste    -> manda 1 mensagem de teste no grupo do config
@@ -18,6 +21,9 @@ const {
 const DIR = __dirname
 const CONFIG = path.join(DIR, 'config.json')
 const ENVIADOS = path.join(DIR, 'enviados.json')
+const FEITOS = path.join(DIR, 'comandos-feitos.json')
+const STATUS = path.join(DIR, 'status.json')
+const { execFileSync } = require('child_process')
 const modo = process.argv[2] || 'rodar'
 
 function ler(arq, padrao) {
@@ -47,6 +53,65 @@ async function baixarFila(data) {
   if (r.status === 404) return null
   if (!r.ok) throw new Error(`fila ${r.status}`)
   return r.json()
+}
+
+async function baixarComandos() {
+  const base = config.comandos_url ||
+    'https://raw.githubusercontent.com/PaulogitPDE/pv-edicoes-videos/main/achadinhos/comandos.json'
+  const r = await fetch(base + `?t=${Date.now()}`)
+  if (r.status === 404) return []
+  if (!r.ok) throw new Error(`comandos ${r.status}`)
+  return (await r.json()).comandos || []
+}
+
+// Grava o resultado e tenta mandar para o repo (so funciona se a pasta for um clone com git logado)
+function publicarStatus(status) {
+  fs.writeFileSync(STATUS, JSON.stringify(status, null, 1))
+  try {
+    const git = args => execFileSync('git', args, { cwd: DIR, stdio: 'pipe' })
+    git(['add', 'status.json'])
+    git(['commit', '-m', 'WhatsApp: resultado dos comandos'])
+    git(['pull', '--rebase', '--autostash'])
+    git(['push'])
+  } catch (e) {
+    console.log(`  status salvo so no PC (git: ${String(e.stderr || e.message).split('\n')[0]})`)
+  }
+}
+
+async function executarComando(sock, c) {
+  const g = config.grupo_id
+  switch (c.tipo) {
+    case 'nome': await sock.groupUpdateSubject(g, c.valor); return 'ok'
+    case 'descricao': await sock.groupUpdateDescription(g, c.valor); return 'ok'
+    case 'foto': await sock.updateProfilePicture(g, await baixarImagem(c.url)); return 'ok'
+    case 'link': return 'https://chat.whatsapp.com/' + await sock.groupInviteCode(g)
+    case 'mensagem':
+      if (c.imagem) await sock.sendMessage(g, { image: await baixarImagem(c.imagem), caption: c.texto })
+      else await sock.sendMessage(g, { text: c.texto })
+      return 'ok'
+    case 'info': {
+      const m = await sock.groupMetadata(g)
+      return { nome: m.subject, descricao: m.desc || '', participantes: m.participants.length }
+    }
+    default: throw new Error(`tipo desconhecido: ${c.tipo}`)
+  }
+}
+
+async function rodarComandos(sock) {
+  const feitos = ler(FEITOS, {})
+  const novos = (await baixarComandos()).filter(c => c.id && !feitos[c.id])
+  if (!novos.length) return
+  const status = ler(STATUS, { resultados: {} })
+  for (const c of novos) {
+    let resultado
+    try { resultado = await executarComando(sock, c) } catch (e) { resultado = `erro: ${e.message}` }
+    feitos[c.id] = new Date().toISOString()
+    status.resultados[c.id] = { tipo: c.tipo, resultado, quando: feitos[c.id] }
+    console.log(`comando ${c.id} (${c.tipo}): ${JSON.stringify(resultado)}`)
+  }
+  fs.writeFileSync(FEITOS, JSON.stringify(feitos, null, 1))
+  status.atualizado = new Date().toISOString()
+  publicarStatus(status)
 }
 
 async function baixarImagem(url) {
@@ -107,6 +172,7 @@ async function rodar(sock) {
   console.log('Rodando. Deixe esta janela aberta; as ofertas saem nos horarios da fila.')
   for (;;) {
     try {
+      await rodarComandos(sock)
       const { data, hora } = agoraBR()
       const fila = await baixarFila(data)
       for (const oferta of fila?.ofertas || []) {
