@@ -38,3 +38,4 @@
 - 2026-10-31 · p1 · Halloween: o orçamento fantasma (data) · direct · https://www.instagram.com/p/DfKEbOQFsW6/
 - 2026-10-31 · r1 · Conteúdo Halloween: como trazer o orçamento fantasma de volta (3 mensagens) · salva (sem venda) · gancho: "Feliz Halloween / Visualizou e sumiu" · https://www.instagram.com/reel/DfKdyCKCEni/
 - 2026-10-31 · r2 · Lentes: a paciente que compara preço · bio · gancho: "Ela pediu orçamento em 3 clínicas" · https://www.instagram.com/reel/DfLSaQnDjzo/
+- 2026-11-01 · p1 · Novembro Azul: cuidar também é lembrar (data) · bio · https://www.instagram.com/p/DfMpPbAlD-K/
