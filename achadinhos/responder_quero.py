@@ -1,5 +1,5 @@
-"""Responde quem comentou QUERO nos posts de achadinhos do @pvedicoes: manda no Direct (resposta privada) os links
-do post e o link do grupo, e responde o comentário em público ("Te mandei no Direct!").
+"""Responde quem comentou QUERO nos posts de achadinhos do @pvedicoes: manda no Direct (resposta privada) o link
+do grupo de WhatsApp (achadinhos/grupo.txt), e responde o comentário em público ("Te mandei no Direct!").
 Uso (na raiz do repo): python3 achadinhos/responder_quero.py [--teste]   (--teste só lista, não envia)
 achadinhos/postados.json: {media_id: {roteiro, dia}} gravado quando o carrossel é publicado.
 achadinhos/respondidos.json: ids de comentários já respondidos (commitar depois de rodar, para não repetir).
@@ -10,7 +10,7 @@ IG = '17841429538755844'
 PAGINA = '1296775513530226'
 API = 'https://graph.facebook.com/v21.0'
 AQUI = os.path.dirname(os.path.abspath(__file__))
-GRUPO = os.environ.get('ACHADINHOS_GRUPO_LINK', '')  # link de convite do grupo de WhatsApp
+GRUPO = open(os.path.join(AQUI, 'grupo.txt')).read().strip() if os.path.exists(os.path.join(AQUI, 'grupo.txt')) else ''  # convite do grupo
 
 
 def req(metodo, caminho, dados=None, token=None):
@@ -36,14 +36,8 @@ def ler(nome, padrao):
 
 
 def mensagem(info):
-    r = json.load(open(os.path.join(AQUI, 'roteiros', info['roteiro'])))
-    dia = {p['id']: p for p in json.load(open(os.path.join(AQUI, 'dia', r['dia'])))['produtos']}
-    linhas = ['Oi! Aqui estão os links dos achadinhos 👇', '']
-    for i, c in enumerate(r['produtos'], 1):
-        linhas += [f"{i}. {c['nome']}", dia[c['id']]['link'], '']
-    if GRUPO:
-        linhas += ['Promoções todo dia no nosso grupo de WhatsApp:', GRUPO]
-    return '\n'.join(linhas).strip()
+    return ('Oi! Os links de todos os achadinhos (e promoções novas todo dia) estão no nosso grupo de WhatsApp 👇\n'
+            + GRUPO)
 
 
 def main():
@@ -52,6 +46,8 @@ def main():
     respondidos = set(ler('respondidos.json', []))
     contas = req('GET', 'me/accounts?fields=id,access_token')
     token_pagina = next(a['access_token'] for a in contas['data'] if a['id'] == PAGINA)
+    if not GRUPO and not teste:
+        sys.exit('Falta o link do grupo em achadinhos/grupo.txt')
     novos = 0
     for media_id, info in postados.items():
         coments = req('GET', f'{media_id}/comments?fields=id,text,username,timestamp&limit=100')
