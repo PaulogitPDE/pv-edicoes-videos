@@ -1,0 +1,17 @@
+{
+  "name": "pv-achadinhos-whatsapp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Envia as ofertas do dia no grupo de WhatsApp a partir da fila publicada pela nuvem",
+  "main": "enviador.js",
+  "scripts": {
+    "start": "node enviador.js",
+    "grupos": "node enviador.js grupos",
+    "teste": "node enviador.js teste"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "pino": "^9.4.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
