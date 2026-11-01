@@ -49,7 +49,12 @@
    "tipo": "foto",
    "resultado": "ok",
    "quando": "2026-11-01T01:41:58.646Z"
+  },
+  "2026-11-01-oferta-teste": {
+   "tipo": "mensagem",
+   "resultado": "ok",
+   "quando": "2026-11-01T01:47:04.560Z"
   }
  },
- "atualizado": "2026-11-01T01:41:58.649Z"
+ "atualizado": "2026-11-01T01:47:04.561Z"
 }
