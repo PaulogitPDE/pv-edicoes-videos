@@ -33,6 +33,22 @@ Dar dois cliques em `iniciar.bat` (ou colocar um atalho dele em `shell:startup` 
 - `enviados.json` guarda o que já saiu, então reiniciar não repete oferta.
 - Sessão do WhatsApp fica em `auth/` (não vai para o git). Se o celular desconectar, apagar `auth/` e escanear de novo.
 
+## Comandos da nuvem (`achadinhos/comandos.json` na `main`)
+A cada minuto o programa também lê os comandos e executa cada `id` novo uma vez:
+```json
+{"comandos": [
+  {"id": "2026-11-01-a", "tipo": "descricao", "valor": "Promoções todo dia 🛍️"},
+  {"id": "2026-11-01-b", "tipo": "nome", "valor": "Achadinhos do PV"},
+  {"id": "2026-11-01-c", "tipo": "foto", "url": "https://.../foto.jpg"},
+  {"id": "2026-11-01-d", "tipo": "link"},
+  {"id": "2026-11-01-e", "tipo": "info"},
+  {"id": "2026-11-01-f", "tipo": "mensagem", "texto": "Bom dia!", "imagem": "https://... (opcional)"}
+]}
+```
+O resultado vai para `whatsapp/status.json`. Se esta pasta estiver dentro de um clone do repo com o git logado,
+o programa faz commit e push do status sozinho, e a nuvem lê o resultado. Nome, descrição e foto exigem que o
+número do chip seja admin do grupo. Depois de atualizar este arquivo, feche e abra o `iniciar.bat` de novo.
+
 ## Cuidados
 - Usar um número só para o grupo, nunca o pessoal: a conexão não é oficial e o WhatsApp pode banir números que mandam demais.
 - Manter poucas mensagens por hora (a rotina planeja 8 por dia).

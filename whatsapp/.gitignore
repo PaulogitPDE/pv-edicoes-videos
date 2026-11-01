@@ -2,3 +2,4 @@ node_modules/
 auth/
 config.json
 enviados.json
+comandos-feitos.json
