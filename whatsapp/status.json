@@ -44,7 +44,12 @@
     "so_admins_editam": true
    },
    "quando": "2026-11-01T01:28:51.476Z"
+  },
+  "2026-11-01-foto2": {
+   "tipo": "foto",
+   "resultado": "ok",
+   "quando": "2026-11-01T01:41:58.646Z"
   }
  },
- "atualizado": "2026-11-01T01:28:51.477Z"
+ "atualizado": "2026-11-01T01:41:58.649Z"
 }
