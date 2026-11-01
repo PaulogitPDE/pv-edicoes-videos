@@ -54,7 +54,12 @@
    "tipo": "mensagem",
    "resultado": "ok",
    "quando": "2026-11-01T01:47:04.560Z"
+  },
+  "2026-11-01-oferta-teste2": {
+   "tipo": "mensagem",
+   "resultado": "ok",
+   "quando": "2026-11-01T01:59:11.073Z"
   }
  },
- "atualizado": "2026-11-01T01:47:04.561Z"
+ "atualizado": "2026-11-01T01:59:11.074Z"
 }
