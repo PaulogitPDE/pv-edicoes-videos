@@ -1,0 +1,79 @@
+{
+ "tarja": "Conta os seus. <Hoje>.",
+ "semente": 211,
+ "tema": "37 orçamentos sem resposta no mês (conteúdo)",
+ "ganchos_ab": [
+  "Quantos orçamentos você mandou <este mês>?",
+  "Ninguém <conta> isso na clínica"
+ ],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "rotulo": "pergunta rápida",
+   "texto": "Quantos orçamentos você mandou <este mês>?",
+   "rabisco": "circulo",
+   "dur": 2.6,
+   "legenda": "Quase ninguém <sabe>",
+   "humor": "dor"
+  },
+  {
+   "tipo": "numero",
+   "rotulo": "orçamentos sem resposta",
+   "ate": 37,
+   "cor": "vermelho",
+   "sub": "num mês, numa clínica de <exemplo>",
+   "dur": 3.0,
+   "legenda": "Ficaram no <vou pensar>"
+  },
+  {
+   "tipo": "leads",
+   "titulo": "Orçamentos do mês",
+   "leads": [
+    {
+     "nome": "Carla",
+     "proc": "Implante",
+     "valor": "R$ 4.800"
+    },
+    {
+     "nome": "Diego",
+     "proc": "Lentes",
+     "valor": "R$ 6.200"
+    },
+    {
+     "nome": "Júlia",
+     "proc": "Botox",
+     "valor": "R$ 1.300"
+    },
+    {
+     "nome": "Marcos",
+     "proc": "Clareamento",
+     "valor": "R$ 900"
+    }
+   ],
+   "total": "{valor} <em aberto>",
+   "dur": 4.6,
+   "legenda": "Cada um tem <nome e valor>"
+  },
+  {
+   "tipo": "lista",
+   "texto": "Faz isso <hoje>",
+   "itens": [
+    {
+     "t": "Lista os orçamentos do mês",
+     "ok": true
+    },
+    {
+     "t": "Marca quem não respondeu",
+     "ok": true
+    },
+    {
+     "t": "Manda uma mensagem curta pra cada um",
+     "ok": true
+    }
+   ],
+   "dur": 4.8,
+   "legenda": "Leva <20 minutos>",
+   "humor": "solucao"
+  }
+ ]
+}
