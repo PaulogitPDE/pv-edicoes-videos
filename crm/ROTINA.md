@@ -56,9 +56,19 @@ JSON: `{"tarja": "...", "semente": <número do dia>, "tema": "...", "cenas": [..
 ## Legenda do Instagram (`.txt`)
 1ª linha = gancho (curto). 2 a 4 linhas de valor, em tom de conversa com a dona/dono de clínica. 1 linha de CTA igual ao do vídeo. Hashtags (5 a 8): #clinicaodontologica #odontologia #esteticaavancada #harmonizacaofacial #gestaodeclinica #kommo #followup #crmquevende.
 
-## Como fazer o post de imagem (`crm/motor/post.py`)
-JSON: `layout` (frase | data | chat | numero | lista | antes_depois), `headline` (com `<destaque>`), `rotulo`, `sub`, `rabisco`, `cta` e `palavra` (FUNIL). Campos por layout: data (`dia`, `mes`), chat (`nome`, `status`, `mensagens`, `carimbo`), numero (`numero`, `cor`), lista (`itens` com `t`/`ok`), antes_depois (`antes`, `depois`, `titulo_antes`, `titulo_depois`).
-- Render: `python3 crm/motor/post.py crm/posts/<arq>.json crm/postados-img/<arq>.jpg` e **abrir o JPG para conferir**.
+## Como fazer o post de imagem: NO FIGMA (desde 02/11/2026, pedido do Sr Pv)
+Os posts de imagem (p1 e os slides do trend) são montados no **Figma pelo MCP**, não mais pelo `post.py`. Os reels continuam no `motor/reel.py`.
+- Arquivo: **CRM que vende – posts do Instagram**, https://www.figma.com/design/OfsjRUS67zWUEMJOJ9jYt3 (fileKey `OfsjRUS67zWUEMJOJ9jYt3`). Página "Modelos" = componente base `Post / frase` (id `1:54`: fundo, grade, bolinhas neon, barra lime, @crmquevende e botão de CTA). Página "Posts" = um frame por post, com o nome do arquivo.
+- JSON do post em `crm/posts/<arq>.json`, igual antes: `layout` (frase | data | numero | lista | chat | antes_depois), `headline` (com `<destaque>`), `rotulo`, `sub`, `cta` (direct | bio | comenta | arrasta | salva), `palavra`; data (`dia`, `mes`), numero (`numero`, `cor`), lista (`itens` com `t`/`ok`), chat (`nome`, `status`, `mensagens`, `carimbo`), antes_depois (`antes`, `depois`, `titulo_antes`, `titulo_depois`). `tam` força o tamanho da headline. (`rabisco` não existe no Figma.)
+- Passo a passo:
+  1. Antes do primeiro `use_figma` do disparo, carregar a skill `figma-use` (get_figma_skill `skill://figma/figma-use/SKILL.md`) e chamar `create_session` com o fileKey.
+  2. `python3 crm/figma/gerar.py crm/posts/<arq>.json [slide2.json ...]` imprime o código; colar **inteiro** no `use_figma` (skillNames `resource:figma-use`). Ele recria o frame com o nome do arquivo na página "Posts" e devolve o id + uma prévia.
+  3. Olhar a prévia: texto cortado, sobreposição, headline longa demais (se sim, encurtar o JSON e rodar de novo).
+  4. Exportar: `get_screenshot` com o id do frame, `maxDimension: 1350`, `enableBase64Response: true`. A imagem é salva em `~/.claude/projects/.../tool-results/mcp-Figma-blob-*.png` (o caminho aparece na resposta). O link figma.com do export **não** baixa (rede bloqueada), por isso o screenshot.
+  5. `python3 crm/figma/exportar.py <png> crm/postados-img/<arq>.jpg` (confere 1080x1350) e seguir com commit, push e `publicar.py`.
+- Se o Figma falhar (conector fora, limite de uso), fazer o post pelo `post.py` como antes, publicar no horário e avisar na thread o que falhou.
+- Capa do trend com foto (layout `capa`) continua no `post.py`, porque subir imagem para o Figma também passa pelo figma.com bloqueado. Sem foto livre, a capa é `frase` no Figma.
+- Antigo, reserva: `python3 crm/motor/post.py crm/posts/<arq>.json crm/postados-img/<arq>.jpg`.
 
 ## Cada disparo (post ou reel)
 0. `git pull`. Se hoje ainda não está no cronograma (a rotina começa em 22/10/2026), não postar nada. Descobrir hoje (America/Sao_Paulo) e a peça do disparo (o agendamento diz qual: p1, r1 ou r2; o p2 não existe mais desde 29/10). Se `crm/log.md` já tem essa peça de hoje, não fazer nada. Se uma peça anterior de hoje ficou faltando (falha), fazer ela também, para fechar o dia sem exceção.
