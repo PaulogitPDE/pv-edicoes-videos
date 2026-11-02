@@ -1,0 +1,18 @@
+{
+ "tarja": "Lead quente esfria em <horas>",
+ "semente": 227,
+ "tema": "Clareamento: o lead rápido que esfria rápido",
+ "ganchos_ab": [
+  "Pediu clareamento às 9h. <Às 15h já era>.",
+  "O lead mais rápido é o que <mais esfria>"
+ ],
+ "cenas": [
+  {"tipo": "gancho", "rotulo": "clareamento dental", "texto": "Pediu às 9h. <Às 15h já era>.", "rabisco": "circulo", "dur": 2.6, "legenda": "Lead de clareamento é <pressa>"},
+  {"tipo": "chat", "nome": "Paciente · clareamento", "status": "visto por último hoje às 09:12", "mensagens": [
+    {"de": "ela", "texto": "Oi! Quanto fica o clareamento?", "meta": "09:04"},
+    {"de": "eu", "texto": "Oi! Fica R$ 900, quer agendar?", "meta": "15:37"}
+  ], "carimbo": "Já fechou", "dur": 3.8, "legenda": "Ela pediu em <3 clínicas>", "humor": "dor"},
+  {"tipo": "numero", "rotulo": "horas até a resposta", "ate": 6, "cor": "vermelho", "sub": "pra responder, num <exemplo>", "dur": 3.0, "legenda": "Quem responde primeiro <agenda>"},
+  {"tipo": "cta", "modo": "direct", "texto": "Quer a mensagem de <resposta rápida>?", "palavra": "FUNIL", "dur": 4.2, "legenda": "Manda <FUNIL> no Direct"}
+ ]
+}
