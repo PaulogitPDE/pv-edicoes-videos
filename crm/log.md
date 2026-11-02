@@ -41,3 +41,4 @@
 - 2026-11-01 · p1 · Novembro Azul: cuidar também é lembrar (data) · bio · https://www.instagram.com/p/DfMpPbAlD-K/
 - 2026-11-01 · r1 · Conteúdo Novembro Azul: lembrete de consulta que funciona · salva (sem venda) · sem tarja · gancho: "Ele não faltou por descaso" · https://www.instagram.com/reel/DfNCcZcDYxn/
 - 2026-11-01 · r2 · Harmonização e botox: o "depois eu vejo" · comenta · gancho: "Ela quer. Só não agora." · https://www.instagram.com/reel/DfN3OsygZ1g/
+- 2026-11-02 · p1 · A paciente não sumiu. Ninguém chamou. (frase) · comenta · https://www.instagram.com/p/DfPOCU7l7eo/
