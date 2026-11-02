@@ -65,6 +65,11 @@
   {
    "id": "2026-11-02-atualizar-log",
    "tipo": "atualizar"
+  },
+  {
+   "id": "2026-11-02-log1",
+   "tipo": "log",
+   "linhas": 80
   }
  ]
 }
