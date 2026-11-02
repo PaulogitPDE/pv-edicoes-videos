@@ -59,7 +59,12 @@
    "tipo": "mensagem",
    "resultado": "ok",
    "quando": "2026-11-01T01:59:11.073Z"
+  },
+  "2026-11-02-atualizar-baileys7": {
+   "tipo": "atualizar",
+   "resultado": "reiniciando com a versao nova",
+   "quando": "2026-11-02T20:29:10.380Z"
   }
  },
- "atualizado": "2026-11-01T01:59:11.074Z"
+ "atualizado": "2026-11-02T20:29:10.386Z"
 }
