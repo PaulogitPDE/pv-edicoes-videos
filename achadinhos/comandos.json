@@ -51,6 +51,10 @@
   {
    "id": "2026-11-02-atualizar-baileys7",
    "tipo": "atualizar"
+  },
+  {
+   "id": "2026-11-02-info-v7",
+   "tipo": "info"
   }
  ]
 }
