@@ -109,6 +109,10 @@ async function executarComando(sock, c) {
       else await enviar(sock, g, { text: c.texto })
       return 'ok'
     case 'trava_dados': await sock.groupSettingUpdate(g, 'locked'); return 'ok'
+    case 'log': {
+      const linhas = fs.existsSync(path.join(DIR, 'baileys.log')) ? fs.readFileSync(path.join(DIR, 'baileys.log'), 'utf8').trim().split('\n') : []
+      return linhas.slice(-(c.linhas || 40)).map(l => l.slice(0, 600))
+    }
     case 'atualizar': setTimeout(() => process.exit(0), 3000); return 'reiniciando com a versao nova'
     case 'info': {
       const m = await sock.groupMetadata(g)
@@ -147,6 +151,7 @@ const espera = ms => new Promise(res => setTimeout(res, ms))
 
 async function enviar(sock, jid, conteudo) {
   const m = await sock.sendMessage(jid, conteudo)
+  console.log(`  enviada ${m?.key?.id} para ${jid}`)
   if (m?.key?.id && m.message) {
     enviadasCache.set(m.key.id, m.message)
     if (enviadasCache.size > 500) enviadasCache.delete(enviadasCache.keys().next().value)
@@ -161,7 +166,8 @@ const gruposCache = new Map()
 async function conectar() {
   B = B || await import('@whiskeysockets/baileys')
   const makeWASocket = B.makeWASocket || B.default
-  const logger = pino({ level: 'silent' })
+  // avisos e erros da biblioteca vão para baileys.log (o comando "log" devolve o fim do arquivo para a nuvem)
+  const logger = pino({ level: config?.log_nivel || 'info' }, pino.destination({ dest: path.join(DIR, 'baileys.log'), sync: true }))
   const { state, saveCreds } = await B.useMultiFileAuthState(path.join(DIR, 'auth'))
   const { version } = await B.fetchLatestBaileysVersion()
   const sock = makeWASocket({
