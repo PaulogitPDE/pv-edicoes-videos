@@ -10,7 +10,7 @@
     "teste": "node enviador.js teste"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.9",
+    "@whiskeysockets/baileys": "7.0.0-rc14",
     "pino": "^9.4.0",
     "qrcode-terminal": "^0.12.0"
   }

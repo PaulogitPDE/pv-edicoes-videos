@@ -9,22 +9,39 @@
 //   node enviador.js teste    -> manda 1 mensagem de teste no grupo do config
 const fs = require('fs')
 const path = require('path')
-const pino = require('pino')
-const qrcode = require('qrcode-terminal')
-const {
-  default: makeWASocket,
-  useMultiFileAuthState,
-  DisconnectReason,
-  fetchLatestBaileysVersion,
-} = require('@whiskeysockets/baileys')
+// Baileys 7 (só ESM): carregado com import() dentro de conectar(). A versão 6 deixava as mensagens do grupo
+// como "Aguardando mensagem" para os participantes (criptografia de grupo com LID, 02/11).
+let B = null
 
 const DIR = __dirname
 const CONFIG = path.join(DIR, 'config.json')
 const ENVIADOS = path.join(DIR, 'enviados.json')
 const FEITOS = path.join(DIR, 'comandos-feitos.json')
 const STATUS = path.join(DIR, 'status.json')
-const { execFileSync } = require('child_process')
+const { execFileSync, execSync } = require('child_process')
 const modo = process.argv[2] || 'rodar'
+
+// Depois de um "atualizar", instala sozinho as dependências novas do package.json (ex.: Baileys 7)
+function versaoInstalada(pacote) {
+  try { return JSON.parse(fs.readFileSync(path.join(DIR, 'node_modules', pacote, 'package.json'), 'utf8')).version } catch { return null }
+}
+function garantirDependencias() {
+  const deps = JSON.parse(fs.readFileSync(path.join(DIR, 'package.json'), 'utf8')).dependencies
+  // falta o pacote, ou a versão é fixa (sem ^ ou ~) e a instalada é outra
+  const faltando = Object.entries(deps).filter(([nome, v]) => {
+    const inst = versaoInstalada(nome)
+    return !inst || (!/^[\^~]/.test(v) && inst !== v)
+  })
+  if (!faltando.length) return
+  console.log(`Instalando dependencias novas: ${faltando.map(([n, v]) => n + '@' + v).join(', ')}`)
+  execSync('npm install --no-audit --no-fund', { cwd: DIR, stdio: 'inherit' })
+}
+if (Number(process.versions.node.split('.')[0]) < 20) {
+  console.log(`Node ${process.versions.node} e antigo: instale o Node 20 ou mais novo (nodejs.org, versao LTS).`)
+}
+garantirDependencias()
+const pino = require('pino')
+const qrcode = require('qrcode-terminal')
 
 function ler(arq, padrao) {
   try { return JSON.parse(fs.readFileSync(arq, 'utf8')) } catch { return padrao }
@@ -88,15 +105,16 @@ async function executarComando(sock, c) {
     case 'todos': await sock.groupSettingUpdate(g, 'not_announcement'); return 'ok'
     case 'link': return 'https://chat.whatsapp.com/' + await sock.groupInviteCode(g)
     case 'mensagem':
-      if (c.imagem) await sock.sendMessage(g, { image: await baixarImagem(c.imagem), caption: c.texto })
-      else await sock.sendMessage(g, { text: c.texto })
+      if (c.imagem) await enviar(sock, g, { image: await baixarImagem(c.imagem), caption: c.texto })
+      else await enviar(sock, g, { text: c.texto })
       return 'ok'
     case 'trava_dados': await sock.groupSettingUpdate(g, 'locked'); return 'ok'
     case 'atualizar': setTimeout(() => process.exit(0), 3000); return 'reiniciando com a versao nova'
     case 'info': {
       const m = await sock.groupMetadata(g)
       return { nome: m.subject, descricao: m.desc || '', participantes: m.participants.length,
-        so_admins_falam: !!m.announce, so_admins_editam: !!m.restrict }
+        so_admins_falam: !!m.announce, so_admins_editam: !!m.restrict,
+        node: process.versions.node, baileys: versaoInstalada('@whiskeysockets/baileys') }
     }
     default: throw new Error(`tipo desconhecido: ${c.tipo}`)
   }
@@ -127,11 +145,39 @@ async function baixarImagem(url) {
 
 const espera = ms => new Promise(res => setTimeout(res, ms))
 
+async function enviar(sock, jid, conteudo) {
+  const m = await sock.sendMessage(jid, conteudo)
+  if (m?.key?.id && m.message) {
+    enviadasCache.set(m.key.id, m.message)
+    if (enviadasCache.size > 500) enviadasCache.delete(enviadasCache.keys().next().value)
+  }
+  return m
+}
+
+// Mensagens enviadas ficam guardadas para reenviar quando o celular de alguém pede de novo (retry de criptografia)
+const enviadasCache = new Map()
+const gruposCache = new Map()
+
 async function conectar() {
-  const { state, saveCreds } = await useMultiFileAuthState(path.join(DIR, 'auth'))
-  const { version } = await fetchLatestBaileysVersion()
-  const sock = makeWASocket({ version, auth: state, logger: pino({ level: 'silent' }) })
+  B = B || await import('@whiskeysockets/baileys')
+  const makeWASocket = B.makeWASocket || B.default
+  const logger = pino({ level: 'silent' })
+  const { state, saveCreds } = await B.useMultiFileAuthState(path.join(DIR, 'auth'))
+  const { version } = await B.fetchLatestBaileysVersion()
+  const sock = makeWASocket({
+    version,
+    logger,
+    auth: { creds: state.creds, keys: B.makeCacheableSignalKeyStore(state.keys, logger) },
+    getMessage: async key => enviadasCache.get(key.id),
+    cachedGroupMetadata: async jid => gruposCache.get(jid),
+  })
   sock.ev.on('creds.update', saveCreds)
+  sock.ev.on('groups.update', async ([ev]) => {
+    try { gruposCache.set(ev.id, await sock.groupMetadata(ev.id)) } catch {}
+  })
+  sock.ev.on('group-participants.update', async ev => {
+    try { gruposCache.set(ev.id, await sock.groupMetadata(ev.id)) } catch {}
+  })
   return new Promise((resolve, reject) => {
     sock.ev.on('connection.update', u => {
       if (u.qr) {
@@ -141,7 +187,7 @@ async function conectar() {
       if (u.connection === 'open') { console.log('WhatsApp conectado.'); resolve(sock) }
       if (u.connection === 'close') {
         const codigo = u.lastDisconnect?.error?.output?.statusCode
-        if (codigo === DisconnectReason.loggedOut) {
+        if (codigo === B.DisconnectReason.loggedOut) {
           console.log('Sessao desconectada pelo celular. Apague a pasta auth e rode de novo para gerar outro QR.')
           process.exit(1)
         }
@@ -162,18 +208,19 @@ async function enviarOferta(sock, oferta) {
   if (oferta.imagem) {
     try {
       const img = await baixarImagem(oferta.imagem)
-      await sock.sendMessage(config.grupo_id, { image: img, caption: oferta.texto })
+      await enviar(sock, config.grupo_id, { image: img, caption: oferta.texto })
       return
     } catch (e) {
       console.log(`  sem imagem (${e.message}), mandando so o texto`)
     }
   }
-  await sock.sendMessage(config.grupo_id, { text: oferta.texto })
+  await enviar(sock, config.grupo_id, { text: oferta.texto })
 }
 
 async function rodar(sock) {
   const enviados = ler(ENVIADOS, {})
   let ultimoEnvio = 0
+  try { gruposCache.set(config.grupo_id, await sock.groupMetadata(config.grupo_id)) } catch {}
   console.log('Rodando. Deixe esta janela aberta; as ofertas saem nos horarios da fila.')
   for (;;) {
     try {
@@ -206,7 +253,7 @@ async function main() {
       const sock = await conectar()
       if (modo === 'grupos') { await listarGrupos(sock); process.exit(0) }
       if (modo === 'teste') {
-        await sock.sendMessage(config.grupo_id, { text: 'Teste do PV Achadinhos: se chegou, o envio automatico funciona.' })
+        await enviar(sock, config.grupo_id, { text: 'Teste do PV Achadinhos: se chegou, o envio automatico funciona.' })
         console.log('Mensagem de teste enviada.')
         process.exit(0)
       }
