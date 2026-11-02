@@ -82,7 +82,12 @@
    "tipo": "mensagem",
    "resultado": "ok",
    "quando": "2026-11-02T20:46:18.394Z"
+  },
+  "2026-11-02-atualizar-log": {
+   "tipo": "atualizar",
+   "resultado": "reiniciando com a versao nova",
+   "quando": "2026-11-02T20:58:29.186Z"
   }
  },
- "atualizado": "2026-11-02T20:46:18.405Z"
+ "atualizado": "2026-11-02T20:58:29.197Z"
 }
