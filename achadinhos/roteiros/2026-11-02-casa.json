@@ -1,0 +1,20 @@
+{
+ "dia": "2026-11-02-casa.json",
+ "rotulo": "achadinhos pra casa",
+ "capa": {
+  "linha1": "5 achadinhos",
+  "linha2": "que organizam a casa",
+  "sub": "Tem coisa a partir de R$ 19"
+ },
+ "produtos": [
+  {"id": "MLB61682500", "foto": 0, "nome": "Suporte de papel com prateleira", "beneficio": "Cola na parede sem furar, guarda 2 rolos e ainda segura o celular. Aguenta até 5 kg."},
+  {"id": "MLB67180212", "foto": 0, "nome": "Cesto de roupa de bambu", "beneficio": "72 litros, com tampa e alças. Dobra quando não está usando."},
+  {"id": "MLB63904966", "foto": 0, "nome": "Kit 10 potes de vidro", "beneficio": "Vidro borossilicato com 4 travas: vai do freezer pro micro-ondas e pro forno."},
+  {"id": "MLB74912596", "foto": 0, "nome": "Kit 10 potes com trava", "beneficio": "750 ml cada, empilham na geladeira e vão ao micro-ondas. Livres de BPA."},
+  {"id": "MLB61269292", "foto": 0, "nome": "Kit 20 cabides de madeira", "beneficio": "Roupa não escorrega nem deforma. Gancho de metal que gira."}
+ ],
+ "cta": {
+  "titulo": "Quer o link de todos?",
+  "sub": "Comenta QUERO aqui embaixo que eu te mando no Direct o link do nosso grupo de promoções."
+ }
+}
