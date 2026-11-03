@@ -1,0 +1,45 @@
+{
+ "dia": "2026-11-03-carrossel.json",
+ "rotulo": "gadgets que valem a pena",
+ "capa": {
+  "linha1": "5 gadgets",
+  "linha2": "que valem cada real",
+  "sub": "De R$ 38 a R$ 240, só marca conhecida"
+ },
+ "produtos": [
+  {
+   "id": "MLB38176139",
+   "foto": 0,
+   "nome": "Fone Soundcore P30i",
+   "beneficio": "Cancelamento de ruído adaptativo, Bluetooth 5.4 e até 45h de música com o estojo."
+  },
+  {
+   "id": "MLB43319779",
+   "foto": 0,
+   "nome": "Redmi Watch 5 Active",
+   "beneficio": "Tela de 2 polegadas, até 18 dias de bateria e resistente à água até 50 m."
+  },
+  {
+   "id": "MLB30385917",
+   "foto": 0,
+   "nome": "Hub USB-C 5 em 1 Ugreen",
+   "beneficio": "Uma porta vira 5: HDMI 4K, 3 USB e carregamento de até 100W."
+  },
+  {
+   "id": "MLB77835608",
+   "foto": 0,
+   "nome": "Cozedor de ovos elétrico",
+   "beneficio": "Até 7 ovos em uns 5 minutos, sem fogão. Também faz legumes no vapor."
+  },
+  {
+   "id": "MLB13409956",
+   "foto": 0,
+   "nome": "Chaleira elétrica 1,8 L",
+   "beneficio": "Bivolt, com base removível. Água quente pro café e o chá em minutos."
+  }
+ ],
+ "cta": {
+  "titulo": "Quer o link de todos?",
+  "sub": "Comenta QUERO aqui embaixo que eu te mando no Direct o link do nosso grupo de promoções."
+ }
+}
