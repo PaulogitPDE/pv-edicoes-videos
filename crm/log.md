@@ -45,3 +45,4 @@
 - 2026-11-02 · trend · GP de São Paulo: Bortoleto corre em casa → pit stop de 2s x orçamento que leva horas (carrossel 2 slides, capa frase, sem foto livre acessível) · bio · https://www.instagram.com/p/DfPbXGbl8OH/
 - 2026-11-02 · r1 · Conteúdo: 37 orçamentos sem resposta no mês, conta os seus hoje · salva (sem venda) · gancho: "Quantos orçamentos você mandou este mês?" · https://www.instagram.com/reel/DfPuW0pDiC8/
 - 2026-11-02 · r2 · Clareamento: o lead rápido que esfria rápido · direct · gancho: "Pediu às 9h. Às 15h já era." · https://www.instagram.com/reel/DfQcEbuATa6/
+- 2026-11-03 · p1 · O lembrete que a paciente responde (chat) (Figma) · direct · https://www.instagram.com/p/DfRy6U9F0wR/
