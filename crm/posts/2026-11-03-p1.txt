@@ -1,0 +1,11 @@
+O lembrete que a paciente responde tem 3 coisas.
+
+1. O nome dela, o horário e quem vai atender. Lembrete genérico parece robô e é ignorado.
+2. Uma resposta fácil: "confirma com 1". Quanto menos ela precisa digitar, mais ela responde.
+3. Um segundo toque 1 hora antes, com o endereço.
+No Kommo, isso sai sozinho pelo WhatsApp a partir da agenda, e quem não confirma vira tarefa pra recepção ligar.
+(Nomes e horários do post são exemplo.)
+
+Manda FUNIL no Direct que eu te passo o modelo da mensagem.
+
+#clinicaodontologica #odontologia #esteticaavancada #lembretedeconsulta #recepcaodeclinica #gestaodeclinica #kommo #crmquevende
