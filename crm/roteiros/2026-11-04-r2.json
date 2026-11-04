@@ -1,0 +1,15 @@
+{
+ "tarja": "Recepção <treinada> no funil",
+ "semente": 239,
+ "tema": "Sua recepção treinada no funil",
+ "ganchos_ab": [
+  "Sua recepção não precisa <lembrar> de tudo",
+  "Recepção boa não é a que <decora>"
+ ],
+ "cenas": [
+  {"tipo": "gancho", "rotulo": "recepção da clínica", "texto": "Ela não precisa <lembrar> de tudo", "rabisco": "circulo", "dur": 2.6, "legenda": "Precisa de um <funil>", "humor": "dor"},
+  {"tipo": "leads", "titulo": "Funil da recepção", "leads": [{"nome": "Sofia", "proc": "Lentes", "valor": "R$ 6.000", "vai": 2}, {"nome": "Rafael", "proc": "Implante", "valor": "R$ 4.500", "vai": 3}, {"nome": "Clara", "proc": "Botox", "valor": "R$ 1.200", "vai": 3}], "total": "{valor} <agendados>", "dur": 4.6, "legenda": "Cada card mostra <o próximo passo>"},
+  {"tipo": "lista", "texto": "O que a gente <entrega>", "itens": [{"t": "Funil de orçamentos montado no Kommo", "ok": true}, {"t": "Mensagens de retorno prontas", "ok": true}, {"t": "Treino da recepção pra usar no dia a dia", "ok": true}], "dur": 4.6, "legenda": "Sem depender de <memória>", "humor": "solucao"},
+  {"tipo": "cta", "modo": "comenta", "texto": "Quer ver o funil <por dentro>?", "palavra": "FUNIL", "dur": 4.2, "legenda": "Comenta <FUNIL>"}
+ ]
+}
