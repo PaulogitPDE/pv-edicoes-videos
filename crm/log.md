@@ -50,3 +50,4 @@
 - 2026-11-04 · p1 · Agenda guarda horário. Funil traz paciente (antes_depois) (Figma) · bio · https://www.instagram.com/p/DfUXrkQlMXx/
 - 2026-11-04 · trend · Enem 2026: portão fecha às 13h → o portão da paciente também fecha (carrossel 2 slides) · direct · post.py (Figma fora do ar: get_screenshot deu timeout e "Service Unavailable") · https://www.instagram.com/p/DfUktmJl_Qt/
 - 2026-11-04 · r1 · Conteúdo: "Já tenho sistema de agenda", o vazamento é antes da agenda · salva (sem venda) · gancho: "Já tenho sistema de agenda" · https://www.instagram.com/reel/DfUxCe0CmQY/
+- 2026-11-04 · r2 · Sua recepção treinada no funil · comenta · gancho: "Ela não precisa lembrar de tudo" · https://www.instagram.com/reel/DfVlgm9AoDl/
