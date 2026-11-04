@@ -39,10 +39,11 @@
 - 2026-10-31 · r1 · Conteúdo Halloween: como trazer o orçamento fantasma de volta (3 mensagens) · salva (sem venda) · gancho: "Feliz Halloween / Visualizou e sumiu" · https://www.instagram.com/reel/DfKdyCKCEni/ · ⭐ anúncio (alcance 36 vs média 7 dias ~4,7)
 - 2026-10-31 · r2 · Lentes: a paciente que compara preço · bio · gancho: "Ela pediu orçamento em 3 clínicas" · https://www.instagram.com/reel/DfLSaQnDjzo/
 - 2026-11-01 · p1 · Novembro Azul: cuidar também é lembrar (data) · bio · https://www.instagram.com/p/DfMpPbAlD-K/
-- 2026-11-01 · r1 · Conteúdo Novembro Azul: lembrete de consulta que funciona · salva (sem venda) · sem tarja · gancho: "Ele não faltou por descaso" · https://www.instagram.com/reel/DfNCcZcDYxn/
+- 2026-11-01 · r1 · Conteúdo Novembro Azul: lembrete de consulta que funciona · salva (sem venda) · sem tarja · gancho: "Ele não faltou por descaso" · https://www.instagram.com/reel/DfNCcZcDYxn/ · ⭐ anúncio (alcance 22 vs média 7 dias ~5,5)
 - 2026-11-01 · r2 · Harmonização e botox: o "depois eu vejo" · comenta · gancho: "Ela quer. Só não agora." · https://www.instagram.com/reel/DfN3OsygZ1g/
 - 2026-11-02 · p1 · A paciente não sumiu. Ninguém chamou. (frase) · comenta · https://www.instagram.com/p/DfPOCU7l7eo/
 - 2026-11-02 · trend · GP de São Paulo: Bortoleto corre em casa → pit stop de 2s x orçamento que leva horas (carrossel 2 slides, capa frase, sem foto livre acessível) · bio · https://www.instagram.com/p/DfPbXGbl8OH/
 - 2026-11-02 · r1 · Conteúdo: 37 orçamentos sem resposta no mês, conta os seus hoje · salva (sem venda) · gancho: "Quantos orçamentos você mandou este mês?" · https://www.instagram.com/reel/DfPuW0pDiC8/
 - 2026-11-02 · r2 · Clareamento: o lead rápido que esfria rápido · direct · gancho: "Pediu às 9h. Às 15h já era." · https://www.instagram.com/reel/DfQcEbuATa6/
 - 2026-11-03 · p1 · O lembrete que a paciente responde (chat) (Figma) · direct · https://www.instagram.com/p/DfRy6U9F0wR/
+- 2026-11-03 · r1 e r2 · NÃO SAÍRAM: a sessão caiu às 12h17 (erro da API) e só voltou de madrugada; não postei fora de hora sem OK do Sr Pv
