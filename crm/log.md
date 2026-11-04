@@ -47,3 +47,4 @@
 - 2026-11-02 · r2 · Clareamento: o lead rápido que esfria rápido · direct · gancho: "Pediu às 9h. Às 15h já era." · https://www.instagram.com/reel/DfQcEbuATa6/
 - 2026-11-03 · p1 · O lembrete que a paciente responde (chat) (Figma) · direct · https://www.instagram.com/p/DfRy6U9F0wR/
 - 2026-11-03 · r1 e r2 · NÃO SAÍRAM: a sessão caiu às 12h17 (erro da API) e só voltou de madrugada; não postei fora de hora sem OK do Sr Pv
+- 2026-11-04 · p1 · Agenda guarda horário. Funil traz paciente (antes_depois) (Figma) · bio · https://www.instagram.com/p/DfUXrkQlMXx/
