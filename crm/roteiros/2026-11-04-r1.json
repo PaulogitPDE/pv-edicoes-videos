@@ -1,0 +1,15 @@
+{
+ "tarja": "Agenda <não é> funil",
+ "semente": 233,
+ "tema": "\"Já tenho sistema de agenda\" (conteúdo)",
+ "ganchos_ab": [
+  "\"Já tenho sistema de <agenda>\"",
+  "Sua agenda não vê <quem não marcou>"
+ ],
+ "cenas": [
+  {"tipo": "gancho", "rotulo": "mito x verdade", "texto": "Já tenho sistema de <agenda>", "rabisco": "sublinha", "dur": 2.6, "legenda": "Mas quem <não marcou>?", "humor": "dor"},
+  {"tipo": "desenho", "forma": "funil", "texto": "O vazamento é <antes da agenda>", "vazando": 0.45, "dur": 3.4, "legenda": "Orçamento que <não virou horário>"},
+  {"tipo": "leads", "titulo": "Orçamentos fora da agenda", "leads": [{"nome": "Bruna", "proc": "Lentes", "valor": "R$ 6.000"}, {"nome": "Paulo", "proc": "Implante", "valor": "R$ 4.500"}, {"nome": "Lívia", "proc": "Botox", "valor": "R$ 1.200"}], "total": "{valor} <fora da agenda>", "dur": 4.4, "legenda": "Nenhum aparece <no sistema>"},
+  {"tipo": "lista", "texto": "Faz isso <essa semana>", "itens": [{"t": "Anota todo orçamento que sair", "ok": true}, {"t": "Põe a data do próximo contato", "ok": true}, {"t": "Confere a lista toda sexta", "ok": true}], "dur": 4.8, "legenda": "Agenda + lista = <ninguém esquecido>", "humor": "solucao"}
+ ]
+}
