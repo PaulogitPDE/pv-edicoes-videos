@@ -1,0 +1,334 @@
+{
+ "data": "2026-11-04",
+ "tema": "setup",
+ "produtos": [
+  {
+   "id": "MLB42520227",
+   "posicao_mais_vendidos": 8,
+   "categoria": "MLB417704",
+   "nome": "Smartwatch Xiaomi Redmi Watch 5 Lite 1.96 Preto",
+   "marca": "Xiaomi",
+   "modelo": "5 Lite",
+   "destaques": [
+    "18 dias de duração da bateria.",
+    "Resistente à água.",
+    "Com GPS integrado.",
+    "Com tela AMOLED de 410x502."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_748690-MLA109857707572_042026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_779006-MLA119924571115_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_625071-MLA99989591849_112025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_827372-MLA82429593723_022025-F.jpg"
+   ],
+   "preco": 330,
+   "preco_de": null,
+   "desconto_pct": null,
+   "desconto_verificado": false,
+   "frete": "grátis",
+   "vendedor": "GV20260616085701",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 4110,
+   "ofertas_no_catalogo": 100,
+   "link": "https://www.mercadolivre.com.br/p/MLB42520227?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB43534649",
+   "posicao_mais_vendidos": 9,
+   "categoria": "MLB447778",
+   "nome": "Fone De Ouvido Bluetooth JBL Wave Buds 2 Fit Preto",
+   "marca": "JBL",
+   "modelo": "JBLWBUDS2BLK",
+   "destaques": [
+    "Inclui microfone.",
+    "Confortáveis e práticos. "
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_705864-MLA99523953334_122025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_872448-MLA116951549454_092026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_807962-MLA118515664101_092026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_880696-MLA118515225721_092026-F.jpg"
+   ],
+   "preco": 256.32,
+   "preco_de": 364.62,
+   "desconto_pct": 30,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "GAZINSHOP",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 98192,
+   "ofertas_no_catalogo": 78,
+   "link": "https://www.mercadolivre.com.br/p/MLB43534649?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB36476927",
+   "posicao_mais_vendidos": 13,
+   "categoria": "MLB430687",
+   "nome": "Placa Mãe Asus Tuf Gaming B550m-plus Ddr4 AMD Am4 mATX RGB",
+   "marca": "Asus",
+   "modelo": "B550M-PLUS GAMING",
+   "destaques": [
+    "Capacidade máxima de memória RAM de 128 GB.",
+    "Oito portas USB, incluindo USB Tipo-C.",
+    "Quatro portas SATA 6Gb/s para armazenamento.",
+    "Suporte para tecnologia de Multi-GPU AMD CrossFireX."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_920822-MLA99469912962_112025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_970203-MLA91568503002_092025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_816665-MLA91568562502_092025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_718733-MLA91568453602_092025-F.jpg"
+   ],
+   "preco": 799.9,
+   "preco_de": 1099,
+   "desconto_pct": 27,
+   "desconto_verificado": false,
+   "frete": "grátis",
+   "vendedor": "INPOWER INFO",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 18658,
+   "ofertas_no_catalogo": 95,
+   "link": "https://www.mercadolivre.com.br/p/MLB36476927?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB15345937",
+   "posicao_mais_vendidos": 15,
+   "categoria": "MLB447778",
+   "nome": "Fone De Ouvido Headset Gamer Havit H2002d P3 Para PS3/PS4/PS5/XBOX/PC Cor Preto",
+   "marca": "Havit",
+   "modelo": "H2002d",
+   "destaques": [
+    "Inclui microfone.",
+    "O comprimento do cabo é de 1.7m.",
+    "Som superior e ilimitado.",
+    "Confortávels e práticos."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_759854-MLA99487952684_112025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_770871-MLA88412775583_072025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_642809-MLA88071960102_072025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_824720-MLA88071930810_072025-F.jpg"
+   ],
+   "preco": 179,
+   "preco_de": 219,
+   "desconto_pct": 18,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "BASEUS_BRASIL",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 427306,
+   "ofertas_no_catalogo": 38,
+   "link": "https://www.mercadolivre.com.br/p/MLB15345937?matt_word=paulovitorlemes&matt_tool=37931087"
+  }
+ ],
+ "recusados": [
+  {
+   "id": "MLB50196682",
+   "motivo": "sem marca"
+  },
+  {
+   "id": "MLB72674962",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB25980994",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB62756066",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB50860259",
+   "motivo": "sem marca"
+  },
+  {
+   "id": "MLB18610706",
+   "motivo": "nenhum vendedor confiável"
+  },
+  {
+   "id": "MLB18610706",
+   "motivo": "nenhum vendedor confiável"
+  },
+  {
+   "id": "MLB51757399",
+   "motivo": "sem marca"
+  },
+  {
+   "id": "MLB75621035",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB27065699",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB65103392",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB24117280",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB46220824",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB63047503",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB64997788",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB39962085",
+   "motivo": "nenhum vendedor confiável"
+  },
+  {
+   "id": "MLB53988081",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB46159912",
+   "motivo": "sem marca"
+  },
+  {
+   "id": "MLB32333269",
+   "motivo": "sem marca"
+  },
+  {
+   "id": "MLB61702644",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB68244387",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB59323062",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB25057291",
+   "motivo": "nenhum vendedor confiável"
+  },
+  {
+   "id": "MLB19444510",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB75012346",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB80097388",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB66374198",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB62754381",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB64369743",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB66104745",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB16211422",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB78867861",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB69794678",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB10295973",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB78488877",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB75627272",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB76223619",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB18010993",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB48947564",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB64212276",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB35655836",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB79379664",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB27728147",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB34229153",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB60709470",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB20266125",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB66176437",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB64335558",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB59019868",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB79031551",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB75784205",
+   "motivo": "eletrônico de marca desconhecida"
+  }
+ ]
+}

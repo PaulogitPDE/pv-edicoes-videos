@@ -1,0 +1,45 @@
+{
+ "dia": "2026-11-04-carrossel.json",
+ "rotulo": "achadinhos pra cozinha",
+ "capa": {
+  "linha1": "5 achadinhos",
+  "linha2": "pra cozinha",
+  "sub": "Da air fryer ao mixer de R$ 17"
+ },
+ "produtos": [
+  {
+   "id": "MLB62230579",
+   "foto": 0,
+   "nome": "Air fryer forno Britânia 11 L",
+   "beneficio": "8 funções no painel digital, 1800W e dá pra programar a hora de começar."
+  },
+  {
+   "id": "MLB49822923",
+   "foto": 0,
+   "nome": "Batedeira planetária Philco",
+   "beneficio": "900W, tigela de 5 L, 12 velocidades e 3 batedores de aço."
+  },
+  {
+   "id": "MLB20306137",
+   "foto": 0,
+   "nome": "Mixer recarregável 2 em 1",
+   "beneficio": "Espuma o leite do café e bate ovo. 3 velocidades, carrega no USB-C."
+  },
+  {
+   "id": "MLB75466404",
+   "foto": 0,
+   "nome": "Chaleira elétrica inox 1,8 L",
+   "beneficio": "1000W, desliga sozinha quando ferve e a base gira."
+  },
+  {
+   "id": "MLB35092029",
+   "foto": 0,
+   "nome": "Faqueiro Tramontina 24 peças",
+   "beneficio": "Aço inox, 6 de cada: faca, garfo, colher e colher de sobremesa. Vai na lava-louça."
+  }
+ ],
+ "cta": {
+  "titulo": "Quer o link de todos?",
+  "sub": "Comenta QUERO aqui embaixo que eu te mando no Direct o link do nosso grupo de promoções."
+ }
+}
