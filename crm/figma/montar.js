@@ -144,6 +144,7 @@ if (L === 'data') {
   for (const cx of [a, d]) { cx.layoutSizingHorizontal = 'FILL'; cx.layoutAlign = 'STRETCH'; for (const ch of cx.children) ch.layoutSizingHorizontal = 'FILL'; }
 }
 if (bloco) { if (antes) col.insertChild(0, bloco); else col.appendChild(bloco); }
+if (L === 'antes_depois') for (const cx of col.findOne(n => n.name === 'antes_depois').children) { cx.layoutAlign = 'STRETCH'; cx.layoutSizingVertical = 'FILL'; }
 
 // CTA
 const pal = (POST.palavra || 'FUNIL').toUpperCase();
