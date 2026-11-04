@@ -1,3 +1,4 @@
 - 2026-11-01 casa: mini mixer, fios de fada, sacos a vácuo, balança, utensílios de silicone. https://www.instagram.com/p/DfMnTKjH2rT/ | fila 8 ofertas (09:00-21:30)
 - 2026-11-02 casa: suporte de papel com prateleira, cesto de bambu, potes de vidro, potes com trava, 20 cabides. https://www.instagram.com/p/DfPLxqqFvqt/ | fila 8 ofertas (09:00-21:30)
 - 2026-11-03 tech: fone Soundcore P30i, Redmi Watch 5 Active, hub Ugreen, cozedor de ovos, chaleira. https://www.instagram.com/p/DfRwU02FyYf/ | fila 8 ofertas (09:00-21:30)
+- 2026-11-04 cozinha: air fryer Britânia 11L, batedeira Philco, mixer Woosh, chaleira Luxena, faqueiro Tramontina. https://www.instagram.com/p/DfUVCuij_d-/ | fila 8 ofertas (09:00-21:30)
