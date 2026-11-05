@@ -53,3 +53,4 @@
 - 2026-11-04 · r2 · Sua recepção treinada no funil · comenta · gancho: "Ela não precisa lembrar de tudo" · https://www.instagram.com/reel/DfVlgm9AoDl/
 - 2026-11-05 · p1 · 1 em 20: recuperar só isso já paga o mês (numero) (Figma) · comenta · https://www.instagram.com/p/DfW8fLqjJdv/
 - 2026-11-05 · r1 · Conteúdo: 20 orçamentos parados × ticket médio, a conta em 3 passos · salva (sem venda) · sem tarja · gancho: "Quanto vale o seu vou pensar?" · https://www.instagram.com/reel/DfXWB5pgvY5/
+- 2026-11-05 · r2 · A licença do Kommo é à parte (sem pegadinha) · direct · gancho: "Tem custo escondido? Não." · https://www.instagram.com/reel/DfYKbOSCB24/
