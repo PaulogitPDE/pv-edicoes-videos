@@ -1,0 +1,250 @@
+{
+ "data": "2026-11-05",
+ "tema": "fila",
+ "produtos": [
+  {
+   "id": "MLB48468943",
+   "posicao_mais_vendidos": 15,
+   "categoria": "MLB447778",
+   "nome": "Headset Gamer Redragon Zeus Lite Preto Drivers 53mm com Microfone Removível",
+   "marca": "Redragon",
+   "modelo": "H510-LT",
+   "destaques": [
+    "Unidades de diafragma de 5.3 cm que reproduzem frequências de 20 Hz a 20 kHz para detalhamento sonoro em jogos.",
+    "Conector P3 de 3.5 mm que permite conexão direta em controles de PlayStation 5 e outros dispositivos com entrada única.",
+    "Microfone removível com cancelamento de ruído que permite a comunicação clara durante partidas online.",
+    "Cabo de 1.8 m que proporciona alcance para uso em consoles ou computadores mantendo a mobilidade básica."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_743438-MLA105468591979_012026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_736961-MLA99480293420_112025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_734190-MLA95935318665_102025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_666402-MLA95935052529_102025-F.jpg"
+   ],
+   "preco": 149.9,
+   "preco_de": 209,
+   "desconto_pct": 28,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Eletronicos",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 25488799,
+   "ofertas_no_catalogo": 100,
+   "link": "https://www.mercadolivre.com.br/p/MLB48468943?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB22871761",
+   "posicao_mais_vendidos": 1,
+   "categoria": "MLB439347",
+   "nome": "Escova Rotativa Mondial Ceramica Tourmaline Ion 3x1 Erb-01 Rosa 127/220v",
+   "marca": "Mondial",
+   "modelo": "ERB-01 Bivolt",
+   "destaques": [
+    "Temperatura máxima: 230°C.",
+    "Possui controle de temperatura.",
+    "Material de cerdas: plástico.",
+    "Com tecnología íon."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_842831-MLA99963285219_112025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_787989-MLA101682960477_122025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_997676-MLA101182840282_122025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_793778-MLA101182564512_122025-F.jpg"
+   ],
+   "preco": 133.41,
+   "preco_de": 299,
+   "desconto_pct": 55,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "FIVESHOP5",
+   "loja_oficial": false,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 40130,
+   "ofertas_no_catalogo": 60,
+   "link": "https://www.mercadolivre.com.br/p/MLB22871761?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB69221811",
+   "posicao_mais_vendidos": 16,
+   "categoria": "MLB417704",
+   "nome": "Relógio Smartwatch Redmi Watch 5 Active Lite Xiaomi Preto Prateado",
+   "marca": "Xiaomi",
+   "modelo": "Redmi Watch 5 Lite",
+   "destaques": [
+    "A bateria de 470 mAh proporciona autonomia de 18 dias sem necessidade de conexão constante a tomadas elétricas.",
+    "A tela AMOLED de 1.96 polegadas oferece uma área de visualização ampla para leitura de notificações e dados técnicos.",
+    "A classificação de resistência à água de 5 ATM permite o uso em atividades aquáticas com profundidade de até 50 metros.",
+    "O GPS integrado possibilita o registro de trajetos e rotas durante atividades físicas sem depender do celular próximo."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_761997-MLA111392533251_052026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_832787-MLA111577874506_062026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_995134-MLA112647344029_062026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_969534-MLA112647108657_062026-F.jpg"
+   ],
+   "preco": 336,
+   "preco_de": null,
+   "desconto_pct": null,
+   "desconto_verificado": false,
+   "frete": "grátis",
+   "vendedor": "GV20260616085701",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 4169,
+   "ofertas_no_catalogo": 15,
+   "link": "https://www.mercadolivre.com.br/p/MLB69221811?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB21361292",
+   "posicao_mais_vendidos": 2,
+   "categoria": "MLB199407",
+   "nome": "Loção Hidratante Corporal 3 Ceramidas Hidratação 120h CeraVe 473ml",
+   "marca": "CeraVe",
+   "modelo": null,
+   "destaques": [
+    "Loção de 473ml, com ótimo rendimento, para pele seca a extrasseca.",
+    "Com 3 ceramidas essenciais e ácido hialurônico que restauram a barreira da pele.",
+    "Tecnologia MVE de liberação prolongada: hidratação por até 120 horas.",
+    "Textura leve e de rápida absorção, sem perfume e sem sensação pegajosa."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_930930-MLA118355221530_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_721850-MLA120005044179_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_937506-MLA118355656584_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_801549-MLA118355656590_102026-F.jpg"
+   ],
+   "preco": 90.91,
+   "preco_de": 143.9,
+   "desconto_pct": 37,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Brasil",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 36127074,
+   "ofertas_no_catalogo": 50,
+   "link": "https://www.mercadolivre.com.br/p/MLB21361292?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB38605973",
+   "posicao_mais_vendidos": 3,
+   "categoria": "MLB1631",
+   "nome": "Cortina Blackout Em Tecido 3,00x2,80 Corta Luz Cor Palha",
+   "marca": "Enxovais Santana",
+   "modelo": "Blackout",
+   "destaques": [
+    "Material: poliéster.",
+    "Tem costuras reforçadas."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_949685-MLA99517006678_112025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_821040-MLA83331964751_032025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_841263-MLA83331703197_032025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_799085-MLU77899873925_072024-F.jpg"
+   ],
+   "preco": 76.28,
+   "preco_de": 109.99,
+   "desconto_pct": 31,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "ENXOVAIS SANTANA",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 230227,
+   "ofertas_no_catalogo": 8,
+   "link": "https://www.mercadolivre.com.br/p/MLB38605973?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB24326256",
+   "posicao_mais_vendidos": 1,
+   "categoria": "MLB199407",
+   "nome": "Creme Multirreparador Pele Sensível Cicaplast Baume B5+ La Roche-Posay 40ml",
+   "marca": "La Roche-Posay",
+   "modelo": null,
+   "destaques": [
+    "Creme multirreparador calmante que repara, acalma e protege a pele sensível e irritada desde a 1ª aplicação.",
+    "TRIBIOMA patenteado reequilibra o microbioma cutâneo; Pantenol 5% e Madecassoside restauram e regeneram a barreira. ",
+    "Hidratação por até 48 horas com textura leve e não oleosa, para conforto imediato na pele sensibilizada. ",
+    "Multipropósito: indicado para pós-procedimentos, assaduras, queimaduras solares e lábios fragilizados. "
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_695558-MLA119937437423_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_905502-MLA119937583471_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_736458-MLA118290879650_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_698021-MLA119938050793_102026-F.jpg"
+   ],
+   "preco": 67.94,
+   "preco_de": 109.9,
+   "desconto_pct": 38,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Brasil",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 36127074,
+   "ofertas_no_catalogo": 1,
+   "link": "https://www.mercadolivre.com.br/p/MLB24326256?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB53860436",
+   "posicao_mais_vendidos": 3,
+   "categoria": "MLB1613",
+   "nome": "Jogo de Toalhas Karsten Bosco com 4 de Algodão, Azul Serena e Azul Naval",
+   "marca": "Karsten",
+   "modelo": "Provence",
+   "destaques": [
+    "A composição é algodão.",
+    "As medidas da toalha são: Comprimento de 1.35m e largura de  70cm.  "
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_800180-MLA96101701387_102025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_689169-MLA90061606789_082025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_998890-MLA90061528075_082025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_736122-MLA89686735450_082025-F.jpg"
+   ],
+   "preco": 132.9,
+   "preco_de": 149.9,
+   "desconto_pct": 11,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Casa",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 9835399,
+   "ofertas_no_catalogo": 4,
+   "link": "https://www.mercadolivre.com.br/p/MLB53860436?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB26080271",
+   "posicao_mais_vendidos": 1,
+   "categoria": "MLB1263",
+   "nome": "L'Oréal Paris Elseve Óleo Extraordinário 100ml - Leave In Anti Frizz Protetor Térmico Tratamento Reconstrutor Para Todos Os Tipos De Cabelo",
+   "marca": "L'Oréal Paris",
+   "modelo": null,
+   "destaques": [
+    "Tratamento capilar intensivo com 6 óleos de flores preciosas para nutrição profunda e transformação visível em todos os ",
+    "Ação anti-frizz que disciplina fios rebeldes e oferece proteção térmica de até 230 °C contra danos de secadores e chapin",
+    "Fórmula leve e não oleosa que nutre sem pesar, deixando os cabelos macios, brilhantes e com movimento natural.",
+    "Uso versátil: como leave-in protetor em cabelos úmidos ou finalizador em cabelos secos para brilho intenso e controle ex"
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_605503-MLA114497234356_082026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_895244-MLA113296534259_062026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_647620-MLA112154021360_062026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_787528-MLA116755861467_082026-F.jpg"
+   ],
+   "preco": 36.14,
+   "preco_de": 64.19,
+   "desconto_pct": 44,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Brasil",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 36127074,
+   "ofertas_no_catalogo": 100,
+   "link": "https://www.mercadolivre.com.br/p/MLB26080271?matt_word=paulovitorlemes&matt_tool=37931087"
+  }
+ ]
+}

@@ -1,0 +1,243 @@
+{
+ "data": "2026-11-05",
+ "tema": "tech",
+ "produtos": [
+  {
+   "id": "MLB69221811",
+   "posicao_mais_vendidos": 16,
+   "categoria": "MLB417704",
+   "nome": "Relógio Smartwatch Redmi Watch 5 Active Lite Xiaomi Preto Prateado",
+   "marca": "Xiaomi",
+   "modelo": "Redmi Watch 5 Lite",
+   "destaques": [
+    "A bateria de 470 mAh proporciona autonomia de 18 dias sem necessidade de conexão constante a tomadas elétricas.",
+    "A tela AMOLED de 1.96 polegadas oferece uma área de visualização ampla para leitura de notificações e dados técnicos.",
+    "A classificação de resistência à água de 5 ATM permite o uso em atividades aquáticas com profundidade de até 50 metros.",
+    "O GPS integrado possibilita o registro de trajetos e rotas durante atividades físicas sem depender do celular próximo."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_761997-MLA111392533251_052026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_832787-MLA111577874506_062026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_995134-MLA112647344029_062026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_969534-MLA112647108657_062026-F.jpg"
+   ],
+   "preco": 336,
+   "preco_de": null,
+   "desconto_pct": null,
+   "desconto_verificado": false,
+   "frete": "grátis",
+   "vendedor": "GV20260616085701",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 4169,
+   "ofertas_no_catalogo": 15,
+   "link": "https://www.mercadolivre.com.br/p/MLB69221811?matt_word=paulovitorlemes&matt_tool=37931087"
+  }
+ ],
+ "recusados": [
+  {
+   "id": "MLB47889235",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB72674962",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB47609067",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB62756066",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB47814270",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB18610706",
+   "motivo": "nenhum vendedor confiável"
+  },
+  {
+   "id": "MLB62080137",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB25263382",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB75621035",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB48918581",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB65103392",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB39962085",
+   "motivo": "nenhum vendedor confiável"
+  },
+  {
+   "id": "MLB46220824",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB70121902",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB64997788",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB65271168",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB53988081",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB53220519",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB61702644",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB65598839",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB59323062",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB48478097",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB25057291",
+   "motivo": "nenhum vendedor confiável"
+  },
+  {
+   "id": "MLB67713674",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB75012346",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB80097388",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB27728147",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB54026101",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB16211422",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB79400859",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB64369743",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB66497052",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB42553350",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB69794678",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB70514530",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB48947564",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB76223619",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB53569339",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB78488877",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB78298533",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB64212276",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB67711993",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB79379664",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB34229153",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB58519492",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB20266125",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB63238506",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB64335558",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB53911392",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB59019868",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB76584148",
+   "motivo": "eletrônico de marca desconhecida"
+  }
+ ]
+}

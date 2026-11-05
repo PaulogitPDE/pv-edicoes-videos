@@ -1,0 +1,45 @@
+{
+ "dia": "2026-11-05-carrossel.json",
+ "rotulo": "achadinhos da quinta",
+ "capa": {
+  "linha1": "5 achadinhos",
+  "linha2": "com desconto hoje",
+  "sub": "Do headset gamer ao creme da La Roche"
+ },
+ "produtos": [
+  {
+   "id": "MLB48468943",
+   "foto": 0,
+   "nome": "Headset Redragon Zeus Lite",
+   "beneficio": "Drivers de 53 mm e microfone removível. Conecta no P3 do PC e do controle do PS5."
+  },
+  {
+   "id": "MLB69221811",
+   "foto": 0,
+   "nome": "Redmi Watch 5 Active Lite",
+   "beneficio": "Tela AMOLED de 1,96\", GPS integrado e até 18 dias de bateria."
+  },
+  {
+   "id": "MLB38605973",
+   "foto": 0,
+   "nome": "Cortina blackout 3 metros",
+   "beneficio": "Corta a luz do quarto pra dormir até mais tarde. Tecido com costura reforçada."
+  },
+  {
+   "id": "MLB22871761",
+   "foto": 1,
+   "nome": "Escova rotativa Mondial 3 em 1",
+   "beneficio": "Cerâmica com íons, até 230 °C e controle de temperatura. Bivolt."
+  },
+  {
+   "id": "MLB24326256",
+   "foto": 1,
+   "nome": "Creme Cicaplast Baume B5+",
+   "beneficio": "Creme multirreparador pra pele sensível: acalma, hidrata e protege."
+  }
+ ],
+ "cta": {
+  "titulo": "Quer o link de todos?",
+  "sub": "Comenta QUERO aqui embaixo que eu te mando no Direct o link do nosso grupo de promoções."
+ }
+}

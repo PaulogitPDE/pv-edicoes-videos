@@ -45,7 +45,12 @@ def quebra(texto, f, largura):
 
 def cartao(im, lado, raio=44):
     """Foto do anúncio num cartão branco arredondado, com sombra suave."""
-    im = ImageOps.fit(im, (lado, lado), Image.LANCZOS)
+    # foto muito larga ou muito alta (ex. 1200x323) perde o produto no corte: encaixa inteira em fundo branco
+    r = im.width / im.height
+    if r > 1.3 or r < 0.77:
+        im = ImageOps.pad(im, (lado, lado), Image.LANCZOS, color=(255, 255, 255))
+    else:
+        im = ImageOps.fit(im, (lado, lado), Image.LANCZOS)
     mask = Image.new('L', (lado, lado), 0)
     ImageDraw.Draw(mask).rounded_rectangle([0, 0, lado - 1, lado - 1], raio, fill=255)
     pad = 60

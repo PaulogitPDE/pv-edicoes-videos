@@ -1,0 +1,319 @@
+{
+ "data": "2026-11-05",
+ "tema": "casa",
+ "produtos": [
+  {
+   "id": "MLB65269789",
+   "posicao_mais_vendidos": 1,
+   "categoria": "MLB1618",
+   "nome": "Kit 10 Pote De Vidro Marmita Hermético 640ml Freezer Fitness Vitrex",
+   "marca": "Vitrex",
+   "modelo": "Pote Hermetico Borossilicato",
+   "destaques": [
+    "A vedação hermética da tampa impede a entrada de ar e mantém a conservação dos alimentos dentro da rotina de preparo.",
+    "O formato retangular com 18 cm de comprimento e 10 cm de largura otimiza o espaço disponível nas prateleiras do freezer.",
+    "O material incolor oferece visibilidade total do conteúdo armazenado para rápida identificação dos itens na geladeira.",
+    "A estrutura do pote suporta a limpeza completa em máquinas de lavar louças removendo resíduos sem danificar a peça."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_932662-MLA114564682923_072026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_633997-MLA113320214754_072026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_741927-MLA114566008051_072026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_669557-MLA114565594223_072026-F.jpg"
+   ],
+   "preco": 96.9,
+   "preco_de": 188.1,
+   "desconto_pct": 48,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "NUVIMULTI",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 807884,
+   "ofertas_no_catalogo": 12,
+   "link": "https://www.mercadolivre.com.br/p/MLB65269789?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB75542419",
+   "posicao_mais_vendidos": 1,
+   "categoria": "MLB264051",
+   "nome": "Percarbonato De Sódio 100% Puro Tira Manchas Alvejante - 1kg Calisul",
+   "marca": "Calisul",
+   "modelo": "Calisul",
+   "destaques": [
+    "Ação do percarbonato de sódio puro que remove manchas difíceis em calçados brancos e coloridos por oxigenação.",
+    "Composição concentrada que atua na limpeza de diversos tipos de tecidos preservando a integridade das fibras.",
+    "Produto com prazo de validade de 2 anos que mantém suas propriedades químicas ativas para múltiplos usos."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_670568-MLA113572446412_072026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_779292-MLA116759723675_082026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_749702-MLA116763344195_082026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_973291-MLA116760509105_082026-F.jpg"
+   ],
+   "preco": 49.99,
+   "preco_de": null,
+   "desconto_pct": null,
+   "desconto_verificado": false,
+   "frete": "grátis",
+   "vendedor": "PETLAR_BRASIL",
+   "loja_oficial": false,
+   "mercadolider": "gold",
+   "vendas_vendedor": 7888,
+   "ofertas_no_catalogo": 23,
+   "link": "https://www.mercadolivre.com.br/p/MLB75542419?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB19590092",
+   "posicao_mais_vendidos": 1,
+   "categoria": "MLB1613",
+   "nome": "Ducha Eletrônica Lorenzetti Loren Shower Ultra 7500W 220V Branco",
+   "marca": "Lorenzetti",
+   "modelo": "Loren Shower Ultra",
+   "destaques": [
+    "O pacote inclui: chuveiro de mão, mangueira, suporte.",
+    "Material: plástico.",
+    "Tipo de cabeça: fixo.",
+    "Fornece uma solução eficiente para a obtenção de água quente."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_817978-MLA118517428381_092026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_638677-MLA118516851287_092026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_884513-MLA116953168666_092026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_952121-MLA118517428365_092026-F.jpg"
+   ],
+   "preco": 134.39,
+   "preco_de": null,
+   "desconto_pct": null,
+   "desconto_verificado": false,
+   "frete": "grátis",
+   "vendedor": "DALLAHOMECENTER",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 74858,
+   "ofertas_no_catalogo": 100,
+   "link": "https://www.mercadolivre.com.br/p/MLB19590092?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB16084358",
+   "posicao_mais_vendidos": 2,
+   "categoria": "MLB264051",
+   "nome": "Papel Higiênico Neve Supreme Folha Tripla, Kit Com 24 Rolos",
+   "marca": "Neve",
+   "modelo": "Dermacare",
+   "destaques": [
+    "A tecnologia DermaCare mantém o pH natural da pele reduzindo o atrito direto durante o uso contínuo no cotidiano.",
+    "Cada rolo possui 20 m de comprimento que permite o uso prolongado em banheiros residenciais com maior autonomia.",
+    "A estrutura de folha tripla aumenta a absorção de líquidos e a resistência mecânica durante o manuseio direto.",
+    "A textura lisa da superfície minimiza o contato direto com as fibras mantendo a integridade do papel no uso diário."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_866261-MLA99361636628_112025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_908526-MLA116733340775_082026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_663083-MLA74779453581_022024-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_946183-MLU73105491920_122023-F.jpg"
+   ],
+   "preco": 100.7,
+   "preco_de": null,
+   "desconto_pct": null,
+   "desconto_verificado": false,
+   "frete": "grátis",
+   "vendedor": "CBFE",
+   "loja_oficial": false,
+   "mercadolider": "silver",
+   "vendas_vendedor": 2858,
+   "ofertas_no_catalogo": 38,
+   "link": "https://www.mercadolivre.com.br/p/MLB16084358?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB78457348",
+   "posicao_mais_vendidos": 3,
+   "categoria": "MLB1618",
+   "nome": "Kit 10 Pote De Vidro Marmita Hermético 370ml Freezer Vitrex",
+   "marca": "Vitrex",
+   "modelo": null,
+   "destaques": [
+    "Capacidade de 370 mL em formato retangular que permite o armazenamento de porções individuais em freezer ou geladeira.",
+    "Tampa hermética que isola o conteúdo do ar externo para auxiliar na conservação de ingredientes ou refeições preparadas.",
+    "Estrutura em vidro com 12,5 cm de comprimento e 8,5 cm de largura que possibilita a identificação visual do conteúdo.",
+    "Compatibilidade com máquina de lavar louças que permite a higienização completa dos recipientes após cada utilização."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_920107-MLA116822226917_082026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_927027-MLA116822405069_082026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_785196-MLA116821666261_082026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_956092-MLA116821932035_082026-F.jpg"
+   ],
+   "preco": 68.9,
+   "preco_de": 159.9,
+   "desconto_pct": 57,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "NUVIMULTI",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 807884,
+   "ofertas_no_catalogo": 8,
+   "link": "https://www.mercadolivre.com.br/p/MLB78457348?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB17001072",
+   "posicao_mais_vendidos": 3,
+   "categoria": "MLB264051",
+   "nome": "Lava Roupas Líquido Omo Lavanderia Profissional Lavagem 7 L",
+   "marca": "Omo",
+   "modelo": "Lavagem Perfeita",
+   "destaques": [
+    "Tecnologia avançada de compactação para maior rendimento.",
+    "Fórmula que não deixa resíduos que danificam as roupas.",
+    "Remove manchas eficientemente.",
+    "PH puro entre 7.0 e 8.0, ideal para cuidado das roupas."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_685429-MLA116551180045_082026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_893134-MLA115783362979_082026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_625466-MLA115783362997_082026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_925409-MLA114434961508_082026-F.jpg"
+   ],
+   "preco": 84.9,
+   "preco_de": 92.28,
+   "desconto_pct": 8,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Brasil",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 36127074,
+   "ofertas_no_catalogo": 95,
+   "link": "https://www.mercadolivre.com.br/p/MLB17001072?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB53860436",
+   "posicao_mais_vendidos": 3,
+   "categoria": "MLB1613",
+   "nome": "Jogo de Toalhas Karsten Bosco com 4 de Algodão, Azul Serena e Azul Naval",
+   "marca": "Karsten",
+   "modelo": "Provence",
+   "destaques": [
+    "A composição é algodão.",
+    "As medidas da toalha são: Comprimento de 1.35m e largura de  70cm.  "
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_800180-MLA96101701387_102025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_689169-MLA90061606789_082025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_998890-MLA90061528075_082025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_736122-MLA89686735450_082025-F.jpg"
+   ],
+   "preco": 132.9,
+   "preco_de": 149.9,
+   "desconto_pct": 11,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Casa",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 9835399,
+   "ofertas_no_catalogo": 4,
+   "link": "https://www.mercadolivre.com.br/p/MLB53860436?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB38605973",
+   "posicao_mais_vendidos": 3,
+   "categoria": "MLB1631",
+   "nome": "Cortina Blackout Em Tecido 3,00x2,80 Corta Luz Cor Palha",
+   "marca": "Enxovais Santana",
+   "modelo": "Blackout",
+   "destaques": [
+    "Material: poliéster.",
+    "Tem costuras reforçadas."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_949685-MLA99517006678_112025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_821040-MLA83331964751_032025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_841263-MLA83331703197_032025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_799085-MLU77899873925_072024-F.jpg"
+   ],
+   "preco": 76.28,
+   "preco_de": 109.99,
+   "desconto_pct": 31,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "ENXOVAIS SANTANA",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 230227,
+   "ofertas_no_catalogo": 8,
+   "link": "https://www.mercadolivre.com.br/p/MLB38605973?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB23942853",
+   "posicao_mais_vendidos": 4,
+   "categoria": "MLB1618",
+   "nome": "Kit 10 Pano De Prato Estampado 100% Algodão",
+   "marca": "Europinha/Ibiza",
+   "modelo": "Día a Día",
+   "destaques": [
+    "Panos de prato de 100% algodão.",
+    "Tratamento anti-manchas para fácil manutenção.",
+    "Excelente absorção para secagem eficiente.",
+    "Estampas variadas que alegram a cozinha."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_983441-MLA119124156390_112026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_668001-MLA120823514283_112026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_903231-MLA120823977935_112026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_711833-MLA119124186212_112026-F.jpg"
+   ],
+   "preco": 24.1,
+   "preco_de": null,
+   "desconto_pct": null,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "FLORDOCAMPO",
+   "loja_oficial": false,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 33089,
+   "ofertas_no_catalogo": 56,
+   "link": "https://www.mercadolivre.com.br/p/MLB23942853?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB19745649",
+   "posicao_mais_vendidos": 4,
+   "categoria": "MLB264051",
+   "nome": "Água sanitária e alvejante cloro ativo 5 litros Ypê",
+   "marca": "Ypê",
+   "modelo": null,
+   "destaques": [
+    "Embalagem em  galão.",
+    "Sugestão de uso: eficiente para a limpeza e desinfecção de banheiros, cozinhas, pisos, azulejos e paredes.."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_950605-MLA99927683925_112025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_755096-MLA91618483832_092025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_868301-MLA92018240075_092025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_957547-MLA91618846848_092025-F.jpg"
+   ],
+   "preco": 14.99,
+   "preco_de": 19.99,
+   "desconto_pct": 25,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "YPE",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 1761526,
+   "ofertas_no_catalogo": 6,
+   "link": "https://www.mercadolivre.com.br/p/MLB19745649?matt_word=paulovitorlemes&matt_tool=37931087"
+  }
+ ],
+ "recusados": [
+  {
+   "id": "MLB37107370",
+   "motivo": "nenhum vendedor confiável"
+  },
+  {
+   "id": "MLB68018634",
+   "motivo": "nenhum vendedor confiável"
+  }
+ ]
+}

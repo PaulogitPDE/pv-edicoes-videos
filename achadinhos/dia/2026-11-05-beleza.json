@@ -1,0 +1,251 @@
+{
+ "data": "2026-11-05",
+ "tema": "beleza",
+ "produtos": [
+  {
+   "id": "MLB26080271",
+   "posicao_mais_vendidos": 1,
+   "categoria": "MLB1263",
+   "nome": "L'Oréal Paris Elseve Óleo Extraordinário 100ml - Leave In Anti Frizz Protetor Térmico Tratamento Reconstrutor Para Todos Os Tipos De Cabelo",
+   "marca": "L'Oréal Paris",
+   "modelo": null,
+   "destaques": [
+    "Tratamento capilar intensivo com 6 óleos de flores preciosas para nutrição profunda e transformação visível em todos os ",
+    "Ação anti-frizz que disciplina fios rebeldes e oferece proteção térmica de até 230 °C contra danos de secadores e chapin",
+    "Fórmula leve e não oleosa que nutre sem pesar, deixando os cabelos macios, brilhantes e com movimento natural.",
+    "Uso versátil: como leave-in protetor em cabelos úmidos ou finalizador em cabelos secos para brilho intenso e controle ex"
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_605503-MLA114497234356_082026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_895244-MLA113296534259_062026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_647620-MLA112154021360_062026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_787528-MLA116755861467_082026-F.jpg"
+   ],
+   "preco": 36.14,
+   "preco_de": 64.19,
+   "desconto_pct": 44,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Brasil",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 36127074,
+   "ofertas_no_catalogo": 100,
+   "link": "https://www.mercadolivre.com.br/p/MLB26080271?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB24326256",
+   "posicao_mais_vendidos": 1,
+   "categoria": "MLB199407",
+   "nome": "Creme Multirreparador Pele Sensível Cicaplast Baume B5+ La Roche-Posay 40ml",
+   "marca": "La Roche-Posay",
+   "modelo": null,
+   "destaques": [
+    "Creme multirreparador calmante que repara, acalma e protege a pele sensível e irritada desde a 1ª aplicação.",
+    "TRIBIOMA patenteado reequilibra o microbioma cutâneo; Pantenol 5% e Madecassoside restauram e regeneram a barreira. ",
+    "Hidratação por até 48 horas com textura leve e não oleosa, para conforto imediato na pele sensibilizada. ",
+    "Multipropósito: indicado para pós-procedimentos, assaduras, queimaduras solares e lábios fragilizados. "
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_695558-MLA119937437423_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_905502-MLA119937583471_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_736458-MLA118290879650_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_698021-MLA119938050793_102026-F.jpg"
+   ],
+   "preco": 67.94,
+   "preco_de": 109.9,
+   "desconto_pct": 38,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Brasil",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 36127074,
+   "ofertas_no_catalogo": 1,
+   "link": "https://www.mercadolivre.com.br/p/MLB24326256?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB41038891",
+   "posicao_mais_vendidos": 1,
+   "categoria": "MLB1248",
+   "nome": "Kit Pincel De Maquiagem Com 13 Unidades Sombra Blush Cor Roxo",
+   "marca": "Makeup Brushes",
+   "modelo": "Makeup Brushes",
+   "destaques": [
+    "Cerdas sintéticas que garantem aplicação suave e uniforme dos produtos.",
+    "Cabos em plástico resistente para maior durabilidade.",
+    "Pincéis com tamanhos aproximados de 17,5 cm para fácil manuseio."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_756953-MLA79432505733_092024-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_755584-MLA79189740392_092024-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_667876-MLA79432505741_092024-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_667672-MLA79189740414_092024-F.jpg"
+   ],
+   "preco": 19.17,
+   "preco_de": null,
+   "desconto_pct": null,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "PEITER SHOP",
+   "loja_oficial": false,
+   "mercadolider": "silver",
+   "vendas_vendedor": 17907,
+   "ofertas_no_catalogo": 3,
+   "link": "https://www.mercadolivre.com.br/p/MLB41038891?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB22871761",
+   "posicao_mais_vendidos": 1,
+   "categoria": "MLB439347",
+   "nome": "Escova Rotativa Mondial Ceramica Tourmaline Ion 3x1 Erb-01 Rosa 127/220v",
+   "marca": "Mondial",
+   "modelo": "ERB-01 Bivolt",
+   "destaques": [
+    "Temperatura máxima: 230°C.",
+    "Possui controle de temperatura.",
+    "Material de cerdas: plástico.",
+    "Com tecnología íon."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_842831-MLA99963285219_112025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_787989-MLA101682960477_122025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_997676-MLA101182840282_122025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_793778-MLA101182564512_122025-F.jpg"
+   ],
+   "preco": 133.41,
+   "preco_de": 299,
+   "desconto_pct": 55,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "FIVESHOP5",
+   "loja_oficial": false,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 40130,
+   "ofertas_no_catalogo": 60,
+   "link": "https://www.mercadolivre.com.br/p/MLB22871761?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB42456000",
+   "posicao_mais_vendidos": 2,
+   "categoria": "MLB1263",
+   "nome": "Máscara Acidificante Amend Equilíbrio do pH 250g",
+   "marca": "Amend",
+   "modelo": null,
+   "destaques": [
+    "Máscara acidificante para cabelos porosos e ásperos.",
+    "Restauração eficaz com redução do frizz.",
+    "Indicado para cuidados de reconstrução.",
+    "Livre de parabenos para segurança dos fios."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_997869-MLA119798411771_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_953693-MLA115700522740_092026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_611064-MLA115358901290_082026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_914642-MLA115700463126_092026-F.jpg"
+   ],
+   "preco": 33.98,
+   "preco_de": 48.98,
+   "desconto_pct": 31,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "BEAUTY_KEY",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 43719,
+   "ofertas_no_catalogo": 100,
+   "link": "https://www.mercadolivre.com.br/p/MLB42456000?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB21361292",
+   "posicao_mais_vendidos": 2,
+   "categoria": "MLB199407",
+   "nome": "Loção Hidratante Corporal 3 Ceramidas Hidratação 120h CeraVe 473ml",
+   "marca": "CeraVe",
+   "modelo": null,
+   "destaques": [
+    "Loção de 473ml, com ótimo rendimento, para pele seca a extrasseca.",
+    "Com 3 ceramidas essenciais e ácido hialurônico que restauram a barreira da pele.",
+    "Tecnologia MVE de liberação prolongada: hidratação por até 120 horas.",
+    "Textura leve e de rápida absorção, sem perfume e sem sensação pegajosa."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_930930-MLA118355221530_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_721850-MLA120005044179_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_937506-MLA118355656584_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_801549-MLA118355656590_102026-F.jpg"
+   ],
+   "preco": 90.91,
+   "preco_de": 143.9,
+   "desconto_pct": 37,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Brasil",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 36127074,
+   "ofertas_no_catalogo": 50,
+   "link": "https://www.mercadolivre.com.br/p/MLB21361292?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB56546186",
+   "posicao_mais_vendidos": 4,
+   "categoria": "MLB1248",
+   "nome": "Bioré Óleo Demaquilante Facial Cleansing Oil Original 230ml",
+   "marca": "Bioré",
+   "modelo": null,
+   "destaques": [
+    "A tecnologia de emulsão com água permite a remoção de maquiagem resistente em segundos através do enxágue imediato.",
+    "A formulação em óleo possibilita a aplicação direta no rosto mesmo com as mãos molhadas durante o banho.",
+    "A estrutura baseada em camadas laminares possibilita a retirada de impurezas sem a necessidade de uso de algodão.",
+    "A composição sem ácidos possibilita a remoção de maquiagens à prova d'água evitando resíduos oleosos na face."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_855741-MLA119030355352_112026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_952385-MLA120725353309_112026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_716081-MLA119030063402_112026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_637354-MLA119030296062_112026-F.jpg"
+   ],
+   "preco": 104.97,
+   "preco_de": null,
+   "desconto_pct": null,
+   "desconto_verificado": false,
+   "frete": "grátis",
+   "vendedor": "VITIX_CO",
+   "loja_oficial": true,
+   "mercadolider": "silver",
+   "vendas_vendedor": 4773,
+   "ofertas_no_catalogo": 4,
+   "link": "https://www.mercadolivre.com.br/p/MLB56546186?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB27506673",
+   "posicao_mais_vendidos": 2,
+   "categoria": "MLB439347",
+   "nome": "Prancha Alisadora Lizze Extreme Profissional de Titânio com 250°C",
+   "marca": "Lizze",
+   "modelo": "Extreme",
+   "destaques": [
+    "Possui placas de cerâmica.",
+    "Atinge 250 °C de temperatura máxima e 150 °C de temperatura mínima.",
+    "Inclui 6 níveis para pranchar.",
+    "O display é led."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_893685-MLA99573499712_122025-F.jpg"
+   ],
+   "preco": 459,
+   "preco_de": null,
+   "desconto_pct": null,
+   "desconto_verificado": false,
+   "frete": "grátis",
+   "vendedor": "LIZZE_EQUIPAMENTOS",
+   "loja_oficial": true,
+   "mercadolider": null,
+   "vendas_vendedor": 2412,
+   "ofertas_no_catalogo": 2,
+   "link": "https://www.mercadolivre.com.br/p/MLB27506673?matt_word=paulovitorlemes&matt_tool=37931087"
+  }
+ ],
+ "recusados": []
+}
