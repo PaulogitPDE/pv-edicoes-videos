@@ -52,3 +52,4 @@
 - 2026-11-04 · r1 · Conteúdo: "Já tenho sistema de agenda", o vazamento é antes da agenda · salva (sem venda) · gancho: "Já tenho sistema de agenda" · https://www.instagram.com/reel/DfUxCe0CmQY/
 - 2026-11-04 · r2 · Sua recepção treinada no funil · comenta · gancho: "Ela não precisa lembrar de tudo" · https://www.instagram.com/reel/DfVlgm9AoDl/
 - 2026-11-05 · p1 · 1 em 20: recuperar só isso já paga o mês (numero) (Figma) · comenta · https://www.instagram.com/p/DfW8fLqjJdv/
+- 2026-11-05 · r1 · Conteúdo: 20 orçamentos parados × ticket médio, a conta em 3 passos · salva (sem venda) · sem tarja · gancho: "Quanto vale o seu vou pensar?" · https://www.instagram.com/reel/DfXWB5pgvY5/
