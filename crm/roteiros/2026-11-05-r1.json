@@ -1,0 +1,78 @@
+{
+ "semente": 241,
+ "tema": "20 orçamentos parados × ticket médio (conteúdo, sem tarja)",
+ "ganchos_ab": [
+  "Quanto vale o seu <vou pensar>?",
+  "Faz essa conta <antes do almoço>"
+ ],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "rotulo": "quinta da conta",
+   "texto": "Quanto vale o seu <vou pensar>?",
+   "rabisco": "circulo",
+   "dur": 2.6,
+   "legenda": "Faz a conta <comigo>",
+   "humor": "dor"
+  },
+  {
+   "tipo": "numero",
+   "rotulo": "orçamentos parados",
+   "ate": 20,
+   "cor": "vermelho",
+   "sub": "num mês de <exemplo>",
+   "dur": 3.0,
+   "legenda": "Agora multiplica pelo <ticket médio>"
+  },
+  {
+   "tipo": "leads",
+   "titulo": "Parados no vou pensar",
+   "leads": [
+    {
+     "nome": "Marina",
+     "proc": "Lentes",
+     "valor": "R$ 6.000"
+    },
+    {
+     "nome": "Jorge",
+     "proc": "Implante",
+     "valor": "R$ 4.500"
+    },
+    {
+     "nome": "Bia",
+     "proc": "Harmonização",
+     "valor": "R$ 2.800"
+    },
+    {
+     "nome": "Téo",
+     "proc": "Clareamento",
+     "valor": "R$ 900"
+    }
+   ],
+   "total": "{valor} <só nesses 4>",
+   "dur": 4.6,
+   "legenda": "Cada card é <dinheiro parado>"
+  },
+  {
+   "tipo": "lista",
+   "texto": "A conta <em 3 passos>",
+   "itens": [
+    {
+     "t": "Conta os orçamentos sem resposta",
+     "ok": true
+    },
+    {
+     "t": "Multiplica pelo seu ticket médio",
+     "ok": true
+    },
+    {
+     "t": "Escolhe 3 pra chamar hoje",
+     "ok": true
+    }
+   ],
+   "dur": 4.8,
+   "legenda": "Começa pelos <maiores>",
+   "humor": "solucao"
+  }
+ ]
+}
