@@ -1,0 +1,14 @@
+{
+ "tarja": "Preço <sem letra miúda>",
+ "semente": 251,
+ "tema": "A licença do Kommo é à parte (sem pegadinha)",
+ "ganchos_ab": [
+  "O preço <sem letra miúda>",
+  "Tem <custo escondido>? Não."
+ ],
+ "cenas": [
+  {"tipo": "gancho", "rotulo": "sem pegadinha", "texto": "Tem <custo escondido>? Não.", "rabisco": "sublinha", "dur": 2.6, "legenda": "Te conto <tudo> aqui"},
+  {"tipo": "lista", "texto": "O que você <paga>", "itens": [{"t": "Implantação: R$ 1.497 ou 3x R$ 550", "ok": true}, {"t": "Licença do Kommo: direto pra Kommo", "ok": true}, {"t": "No ar em 7 dias úteis ou não paga", "ok": true}], "dur": 5.2, "legenda": "Licença <à parte>, sem surpresa", "humor": "solucao"},
+  {"tipo": "cta", "modo": "direct", "texto": "Quer saber o <custo total>?", "palavra": "FUNIL", "dur": 4.4, "legenda": "Manda <FUNIL> no Direct"}
+ ]
+}
