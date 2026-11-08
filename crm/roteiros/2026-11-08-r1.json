@@ -1,0 +1,11 @@
+{
+ "tarja": "A semana começa <no WhatsApp>",
+ "semente": 263,
+ "tema": "A semana começa no WhatsApp (conteúdo)",
+ "ganchos_ab": ["Sua segunda começa <no WhatsApp>", "Antes da agenda, <o WhatsApp>"],
+ "cenas": [
+  {"tipo": "gancho", "rotulo": "dica de domingo", "texto": "Sua segunda começa <no WhatsApp>", "rabisco": "circulo", "dur": 2.6, "legenda": "Não na agenda", "humor": "dor"},
+  {"tipo": "leads", "titulo": "Conversas do fim de semana", "leads": [{"nome": "Carla", "proc": "Clareamento", "valor": "R$ 900"}, {"nome": "Rafael", "proc": "Implante", "valor": "R$ 4.500"}, {"nome": "Júlia", "proc": "Preenchimento", "valor": "R$ 1.800"}], "total": "{valor} <esperando resposta>", "dur": 4.4, "legenda": "Quem chamou no sábado <ainda espera>"},
+  {"tipo": "lista", "texto": "Segunda, <antes das 9h>", "itens": [{"t": "Responde quem chamou no fim de semana", "ok": true}, {"t": "Chama os orçamentos da semana passada", "ok": true}, {"t": "Só depois abre a agenda", "ok": true}], "dur": 5.0, "legenda": "15 minutos que <viram consulta>", "humor": "solucao"}
+ ]
+}
