@@ -1,0 +1,12 @@
+{
+ "tarja": "Orçamento que Volta <em 20s>",
+ "semente": 271,
+ "tema": "Orçamento que Volta: o que é, em 20 segundos",
+ "ganchos_ab": ["O que é o <Orçamento que Volta>?", "Em 20 segundos: <o que eu faço>"],
+ "cenas": [
+  {"tipo": "gancho", "rotulo": "em 20 segundos", "texto": "O que é o <Orçamento que Volta>?", "rabisco": "sublinha", "dur": 2.6, "legenda": "Te explico <rapidinho>"},
+  {"tipo": "timeline", "nome": "Mariana", "passos": [{"quando": "+2h", "texto": "Conseguiu ver o orçamento?"}, {"quando": "+1 dia", "texto": "Posso te explicar as formas de pagamento"}, {"quando": "+3 dias", "texto": "Tenho horário quinta e sexta"}], "resposta": "Quinta às 10h dá certo!", "dur": 5.0, "legenda": "O Kommo chama de volta <sozinho>"},
+  {"tipo": "leads", "titulo": "Funil de orçamentos", "leads": [{"nome": "Mariana", "proc": "Lentes", "valor": "R$ 6.000", "vai": 3}, {"nome": "Diego", "proc": "Implante", "valor": "R$ 4.500", "vai": 2}, {"nome": "Helena", "proc": "Botox", "valor": "R$ 1.200", "vai": 3}], "total": "{valor} <de volta>", "dur": 4.6, "legenda": "Montado em <7 dias úteis>"},
+  {"tipo": "cta", "modo": "direct", "texto": "Quer na <sua clínica>?", "palavra": "FUNIL", "dur": 4.4, "legenda": "Manda <FUNIL> no Direct"}
+ ]
+}
