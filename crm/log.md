@@ -54,3 +54,7 @@
 - 2026-11-05 · p1 · 1 em 20: recuperar só isso já paga o mês (numero) (Figma) · comenta · https://www.instagram.com/p/DfW8fLqjJdv/
 - 2026-11-05 · r1 · Conteúdo: 20 orçamentos parados × ticket médio, a conta em 3 passos · salva (sem venda) · sem tarja · gancho: "Quanto vale o seu vou pensar?" · https://www.instagram.com/reel/DfXWB5pgvY5/
 - 2026-11-05 · r2 · A licença do Kommo é à parte (sem pegadinha) · direct · gancho: "Tem custo escondido? Não." · https://www.instagram.com/reel/DfYKbOSCB24/
+- 2026-11-06 · p1, trend, r1, r2 · NÃO SAÍRAM (os disparos não rodaram: a sessão ficou travada reiniciando e os avisos só chegaram em 08/11 12h18; não postei fora de hora)
+- 2026-11-07 · p1, r1, r2 · NÃO SAÍRAM (mesmo motivo)
+- 2026-11-08 · p1 · Descanso de verdade é saber que ninguém ficou sem resposta (frase) (Figma) · comenta · publicado 12h20 (atrasado, junto do r1) · https://www.instagram.com/p/DffEEvPFOj4/
+- 2026-11-08 · r1 · Conteúdo: a semana começa no WhatsApp · salva (sem venda) · gancho: "Sua segunda começa no WhatsApp" · https://www.instagram.com/reel/DffEH_Sj1uw/
