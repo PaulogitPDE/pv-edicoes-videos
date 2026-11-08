@@ -1,0 +1,301 @@
+{
+ "data": "2026-11-08",
+ "tema": "tech",
+ "produtos": [
+  {
+   "id": "MLB39962085",
+   "posicao_mais_vendidos": 6,
+   "categoria": "MLB3813",
+   "nome": "Fone De Ouvido Sem Fio Xiaomi Redmi Buds 6 Play Preto",
+   "marca": "Xiaomi",
+   "modelo": "Redmi Buds 6 Play",
+   "destaques": [
+    "Possui tecnologia True Wireless.",
+    "Seu alcance sem fio é de 10 m.",
+    "Modo mãos-livres incluído.",
+    "Assistente de voz integrado: Xiaomi."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_954504-MLA118603044502_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_648085-MLA115912849692_092026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_662416-MLA87136376244_072025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_984783-MLA87462443051_072025-F.jpg"
+   ],
+   "preco": 79.9,
+   "preco_de": 99.99,
+   "desconto_pct": 20,
+   "desconto_verificado": false,
+   "frete": "grátis",
+   "vendedor": "GP SUPRIMENTOS",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 6800,
+   "ofertas_no_catalogo": 100,
+   "link": "https://www.mercadolivre.com.br/p/MLB39962085?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB45160657",
+   "posicao_mais_vendidos": 16,
+   "categoria": "MLB454379",
+   "nome": "Mouse Gamer M711 Cobra Chroma Redragon Com fio Para Jogos 12.400 DPI Com Led RGB Preto",
+   "marca": "Redragon",
+   "modelo": "Cobra",
+   "destaques": [
+    "Resolução do sensor de até 12000 DPI para alta precisão em jogos.",
+    "Máxima velocidade de 100 IPS para respostas rápidas.",
+    "Conectividade USB 2.0 para uma conexão confiável.",
+    "Design ergonômico para conforto em longas sessões."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_898286-MLA95664298408_102025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_715129-MLA91950857359_092025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_841496-MLA81390165554_122024-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_646441-MLA91552035198_092025-F.jpg"
+   ],
+   "preco": 79.9,
+   "preco_de": 143.43,
+   "desconto_pct": 44,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Eletronicos",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 25541131,
+   "ofertas_no_catalogo": 94,
+   "link": "https://www.mercadolivre.com.br/p/MLB45160657?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB23743709",
+   "posicao_mais_vendidos": 17,
+   "categoria": "MLB454379",
+   "nome": "Mouse sem fio Logitech Pebble 2 M350s - Branco",
+   "marca": "Logitech",
+   "modelo": "M350S",
+   "destaques": [
+    "É sem fio.",
+    "Você pode se conectar a qualquer dispositivo via Bluetooth.",
+    "Orientação da mão: ambidestra.",
+    "Tipo de fonte de alimentação sem fio: baterias."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_965045-MLA99481399148_112025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_850608-MLU78867202221_092024-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_622643-MLA83086664171_032025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_925801-MLA82798738424_032025-F.jpg"
+   ],
+   "preco": 79.9,
+   "preco_de": 119.9,
+   "desconto_pct": 33,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Eletronicos",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 25541131,
+   "ofertas_no_catalogo": 5,
+   "link": "https://www.mercadolivre.com.br/p/MLB23743709?matt_word=paulovitorlemes&matt_tool=37931087"
+  }
+ ],
+ "recusados": [
+  {
+   "id": "MLB47889235",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB18610706",
+   "motivo": "nenhum vendedor confiável"
+  },
+  {
+   "id": "MLB47609067",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB62756066",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB47814270",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB72674962",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB62080137",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB25263382",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB75621035",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB70121902",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB65103392",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB65271168",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB46220824",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB48918581",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB64997788",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB61702644",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB53220519",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB62870615",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB66497052",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB53988081",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB65598839",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB59323062",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB48478097",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB16211422",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB67713674",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB75012346",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB80097388",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB27728147",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB54026101",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB79379664",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB79400859",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB67711993",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB48947564",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB42553350",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB69794678",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB50592250",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB53760876",
+   "motivo": "nenhum vendedor confiável"
+  },
+  {
+   "id": "MLB64212276",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB53569339",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB81043250",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB61706715",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB53911392",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB78488877",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB76223619",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB70514530",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB63238506",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB64335558",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB58519492",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB63209472",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB64369743",
+   "motivo": "eletrônico de marca desconhecida"
+  }
+ ]
+}

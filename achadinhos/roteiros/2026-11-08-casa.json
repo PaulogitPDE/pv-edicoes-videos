@@ -1,0 +1,20 @@
+{
+ "dia": "2026-11-08-casa.json",
+ "rotulo": "achadinhos pra casa",
+ "capa": {
+  "linha1": "5 achadinhos",
+  "linha2": "pra casa e pro Natal",
+  "sub": "Tem coisa a partir de R$ 29"
+ },
+ "produtos": [
+  {"id": "MLB79208332", "foto": 0, "nome": "Pisca-pisca de 50 metros", "beneficio": "1600 LEDs em branco frio. Serve pra dentro e pra fora de casa."},
+  {"id": "MLB62807027", "foto": 0, "nome": "Saia para árvore de Natal", "beneficio": "Tapete redondo de algodão que esconde o pé da árvore e fecha a decoração."},
+  {"id": "MLB55261164", "foto": 0, "nome": "Escorredor de 2 andares", "beneficio": "Aço carbono resistente à ferrugem, cabe 11 pratos em cima e tem bandeja pra água."},
+  {"id": "MLB65269789", "foto": 0, "nome": "Kit 10 potes de vidro", "beneficio": "Borossilicato com tampa hermética, 640 ml. Vai pro freezer e pra lava-louças."},
+  {"id": "MLB19590092", "foto": 0, "nome": "Ducha Lorenzetti Loren Shower", "beneficio": "7500 W, vem com chuveirinho de mão, mangueira e suporte."}
+ ],
+ "cta": {
+  "titulo": "Quer o link de todos?",
+  "sub": "Comenta QUERO aqui embaixo que eu te mando no Direct o link do nosso grupo de promoções."
+ }
+}
