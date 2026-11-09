@@ -61,3 +61,4 @@
 - 2026-11-08 · r2 · Orçamento que Volta: o que é, em 20 segundos · direct · gancho: "O que é o Orçamento que Volta?" · https://www.instagram.com/reel/Dff4shPDfaY/
 - 2026-11-09 · p1 · Orçamentos parados: quantos você tem hoje? (numero "?") (Figma) · direct · https://www.instagram.com/p/DfhPoWIjBvW/
 - 2026-11-09 · trend · Fim da escala 6x1 → recepção folgando e o WhatsApp? (carrossel 2 slides) (Figma) · comenta · https://www.instagram.com/p/Dfhch2yF_px/
+- 2026-11-09 · r1 · Conteúdo: paciente pediu preço às 22h e ninguém respondeu · salva (sem venda) · sem tarja · gancho: "Ela pediu preço às 22h" · https://www.instagram.com/reel/DfhpVkdEWZC/
