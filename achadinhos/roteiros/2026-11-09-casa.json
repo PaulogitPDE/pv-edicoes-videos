@@ -1,0 +1,45 @@
+{
+ "dia": "2026-11-09-fila.json",
+ "rotulo": "achadinhos pra casa",
+ "capa": {
+  "linha1": "5 achadinhos",
+  "linha2": "que facilitam a casa",
+  "sub": "Tem coisa a partir de R$ 20"
+ },
+ "produtos": [
+  {
+   "id": "MLB51866698",
+   "foto": 0,
+   "nome": "Lixeira automática com sensor",
+   "beneficio": "Abre sozinha quando você aproxima a mão, até 30 cm. Também abre no toque. 16 litros."
+  },
+  {
+   "id": "MLB66827648",
+   "foto": 0,
+   "nome": "Kit 10 sacos a vácuo com bomba",
+   "beneficio": "40 x 60 cm, reutilizáveis. Tira o ar e a roupa ocupa bem menos espaço."
+  },
+  {
+   "id": "MLB70528833",
+   "foto": 0,
+   "nome": "Kit 6 sacos para edredom",
+   "beneficio": "Nylon lavável com alças, aguenta até 5 kg e dobra quando está vazio."
+  },
+  {
+   "id": "MLB79971653",
+   "foto": 0,
+   "nome": "Pisca-pisca de 100 LEDs",
+   "beneficio": "9,5 metros em branco quente, com 8 modos de luz. Para uso interno."
+  },
+  {
+   "id": "MLB18238727",
+   "foto": 0,
+   "nome": "Aspirador vertical Electrolux",
+   "beneficio": "1450 W, filtro HEPA e vira aspirador de mão. Cabo de 6 metros."
+  }
+ ],
+ "cta": {
+  "titulo": "Quer o link de todos?",
+  "sub": "Comenta QUERO aqui embaixo que eu te mando no Direct o link do nosso grupo de promoções."
+ }
+}

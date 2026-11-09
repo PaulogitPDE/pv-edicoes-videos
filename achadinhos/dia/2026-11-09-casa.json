@@ -1,0 +1,469 @@
+{
+ "data": "2026-11-09",
+ "tema": "casa",
+ "produtos": [
+  {
+   "id": "MLB17001072",
+   "posicao_mais_vendidos": 1,
+   "categoria": "MLB264051",
+   "nome": "Lava Roupas Líquido Omo Lavanderia Profissional Lavagem 7 L",
+   "marca": "Omo",
+   "modelo": "Lavagem Perfeita",
+   "destaques": [
+    "Tecnologia avançada de compactação para maior rendimento.",
+    "Fórmula que não deixa resíduos que danificam as roupas.",
+    "Remove manchas eficientemente.",
+    "PH puro entre 7.0 e 8.0, ideal para cuidado das roupas."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_685429-MLA116551180045_082026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_893134-MLA115783362979_082026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_625466-MLA115783362997_082026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_925409-MLA114434961508_082026-F.jpg"
+   ],
+   "preco": 84.9,
+   "preco_de": 92.28,
+   "desconto_pct": 8,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Brasil",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 36497892,
+   "ofertas_no_catalogo": 87,
+   "link": "https://www.mercadolivre.com.br/p/MLB17001072?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB75542419",
+   "posicao_mais_vendidos": 2,
+   "categoria": "MLB264051",
+   "nome": "Percarbonato De Sódio 100% Puro Tira Manchas Alvejante - 1kg Calisul",
+   "marca": "Calisul",
+   "modelo": "Calisul",
+   "destaques": [
+    "Ação do percarbonato de sódio puro que remove manchas difíceis em calçados brancos e coloridos por oxigenação.",
+    "Composição concentrada que atua na limpeza de diversos tipos de tecidos preservando a integridade das fibras.",
+    "Produto com prazo de validade de 2 anos que mantém suas propriedades químicas ativas para múltiplos usos."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_670568-MLA113572446412_072026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_779292-MLA116759723675_082026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_749702-MLA116763344195_082026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_973291-MLA116760509105_082026-F.jpg"
+   ],
+   "preco": 49.99,
+   "preco_de": null,
+   "desconto_pct": null,
+   "desconto_verificado": false,
+   "frete": "grátis",
+   "vendedor": "PETLAR_BRASIL",
+   "loja_oficial": false,
+   "mercadolider": "gold",
+   "vendas_vendedor": 8275,
+   "ofertas_no_catalogo": 23,
+   "link": "https://www.mercadolivre.com.br/p/MLB75542419?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB78457348",
+   "posicao_mais_vendidos": 3,
+   "categoria": "MLB1618",
+   "nome": "Kit 10 Pote De Vidro Marmita Hermético 370ml Freezer Vitrex",
+   "marca": "Vitrex",
+   "modelo": null,
+   "destaques": [
+    "Capacidade de 370 mL em formato retangular que permite o armazenamento de porções individuais em freezer ou geladeira.",
+    "Tampa hermética que isola o conteúdo do ar externo para auxiliar na conservação de ingredientes ou refeições preparadas.",
+    "Estrutura em vidro com 12,5 cm de comprimento e 8,5 cm de largura que possibilita a identificação visual do conteúdo.",
+    "Compatibilidade com máquina de lavar louças que permite a higienização completa dos recipientes após cada utilização."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_718827-MLA121009065709_112026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_927027-MLA116822405069_082026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_647801-MLA119302071374_112026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_650460-MLA121009331813_112026-F.jpg"
+   ],
+   "preco": 68.9,
+   "preco_de": 159.9,
+   "desconto_pct": 57,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "NUVIMULTI",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 816101,
+   "ofertas_no_catalogo": 4,
+   "link": "https://www.mercadolivre.com.br/p/MLB78457348?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB16084358",
+   "posicao_mais_vendidos": 3,
+   "categoria": "MLB264051",
+   "nome": "Papel Higiênico Neve Supreme Folha Tripla, Kit Com 24 Rolos",
+   "marca": "Neve",
+   "modelo": "Dermacare",
+   "destaques": [
+    "A tecnologia DermaCare mantém o pH natural da pele reduzindo o atrito direto durante o uso contínuo no cotidiano.",
+    "Cada rolo possui 20 m de comprimento que permite o uso prolongado em banheiros residenciais com maior autonomia.",
+    "A estrutura de folha tripla aumenta a absorção de líquidos e a resistência mecânica durante o manuseio direto.",
+    "A textura lisa da superfície minimiza o contato direto com as fibras mantendo a integridade do papel no uso diário."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_866261-MLA99361636628_112025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_908526-MLA116733340775_082026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_663083-MLA74779453581_022024-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_946183-MLU73105491920_122023-F.jpg"
+   ],
+   "preco": 73.1,
+   "preco_de": null,
+   "desconto_pct": null,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "WEB MERCADINHO",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 1277172,
+   "ofertas_no_catalogo": 33,
+   "link": "https://www.mercadolivre.com.br/p/MLB16084358?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB19745649",
+   "posicao_mais_vendidos": 4,
+   "categoria": "MLB264051",
+   "nome": "Água Sanitária Ypê Cloro Ativo 5 L Original",
+   "marca": "Ypê",
+   "modelo": null,
+   "destaques": [
+    "Embalagem em  galão.",
+    "Sugestão de uso: eficiente para a limpeza e desinfecção de banheiros, cozinhas, pisos, azulejos e paredes.."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_950605-MLA99927683925_112025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_868301-MLA92018240075_092025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_957547-MLA91618846848_092025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_994439-MLA99416681886_112025-F.jpg"
+   ],
+   "preco": 12.99,
+   "preco_de": 19.6,
+   "desconto_pct": 34,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Brasil",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 36497892,
+   "ofertas_no_catalogo": 6,
+   "link": "https://www.mercadolivre.com.br/p/MLB19745649?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB26242473",
+   "posicao_mais_vendidos": 4,
+   "categoria": "MLB1613",
+   "nome": "Chuveiro Eletrônico Zagonel Moment Branco 7500W",
+   "marca": "Zagonel",
+   "modelo": "Moment",
+   "destaques": [
+    "Material: plástico.",
+    "Tipo de cabeça: fixo.",
+    "Fornece uma solução eficiente para a obtenção de água quente."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_759545-MLA115253164788_082026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_968910-MLA116579566497_082026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_878939-MLA114014559745_072026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_613248-MLA113824412177_062026-F.jpg"
+   ],
+   "preco": 119.99,
+   "preco_de": null,
+   "desconto_pct": null,
+   "desconto_verificado": false,
+   "frete": "grátis",
+   "vendedor": "ELAELETRO",
+   "loja_oficial": true,
+   "mercadolider": null,
+   "vendas_vendedor": 1743,
+   "ofertas_no_catalogo": 100,
+   "link": "https://www.mercadolivre.com.br/p/MLB26242473?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB65881372",
+   "posicao_mais_vendidos": 5,
+   "categoria": "MLB264051",
+   "nome": "CIF Cremoso Limpeza Milagrosa Original 450 ml",
+   "marca": "Cif",
+   "modelo": "Limpeza Milagrosa Metais",
+   "destaques": [
+    "Áreas de uso recomendadas: banheiro, multissuperfícies.",
+    "Vendido em formato de cremoso.",
+    "Adequado para aplicar em metais e cerâmica."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_811547-MLA116164414622_092026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_726695-MLA118423350122_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_979480-MLA117732850046_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_704741-MLA107475787081_022026-F.jpg"
+   ],
+   "preco": 10.38,
+   "preco_de": 22.02,
+   "desconto_pct": 53,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Brasil",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 36497892,
+   "ofertas_no_catalogo": 97,
+   "link": "https://www.mercadolivre.com.br/p/MLB65881372?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB44261710",
+   "posicao_mais_vendidos": 5,
+   "categoria": "MLB1613",
+   "nome": "Chuveiro Ducha Loren Shower Eletronica 5500w",
+   "marca": "Lorenzetti",
+   "modelo": "Loren Ducha Ultra Electrónica",
+   "destaques": [
+    "Potência eficiente de 5.5 kW para um banho quente.",
+    "Quatro níveis de temperatura para conforto personalizado.",
+    "Material plástico durável que garante resistência."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_915417-MLA106374998958_022026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_766609-MLA88406018385_072025-F.jpg"
+   ],
+   "preco": 152,
+   "preco_de": 281,
+   "desconto_pct": 46,
+   "desconto_verificado": false,
+   "frete": "grátis",
+   "vendedor": "LEDDIS COMMERCE.",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 151182,
+   "ofertas_no_catalogo": 9,
+   "link": "https://www.mercadolivre.com.br/p/MLB44261710?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB27146487",
+   "posicao_mais_vendidos": 6,
+   "categoria": "MLB1618",
+   "nome": "Kit 10 Potes 1 Litro Transparente Marmita Fitness Bpa Free Tampa Hermética Reutilizável Micro E Freezer Mantimentos ponte lar utilidades",
+   "marca": "Ponte Lar Utilidades",
+   "modelo": "retangular bpa free",
+   "destaques": [
+    "Kit com 10 potes de 1 litro fabricados em plástico livre de BPA e reutilizável.",
+    "Ideal para marmitas fitness armazenamento de refeições e sobremesas.",
+    "Tampa hermética que evita vazamentos e preserva os alimentos por mais tempo.",
+    "Pode ser levado ao micro-ondas e freezer sem deformar ou liberar odores."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_748154-MLA114700023633_072026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_823745-MLA114701736751_072026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_977828-MLA113983015792_072026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_922832-MLA112450840383_052026-F.jpg"
+   ],
+   "preco": 28.9,
+   "preco_de": 59.9,
+   "desconto_pct": 52,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "DIASOULATELIE",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 209330,
+   "ofertas_no_catalogo": 1,
+   "link": "https://www.mercadolivre.com.br/p/MLB27146487?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB70528833",
+   "posicao_mais_vendidos": 10,
+   "categoria": "MLB436414",
+   "nome": "Kit 6 Sacos Edredom Organizadores Guarda Roupa Dobrável Nylon Cobertor Roupa De Cama Travesseiro Organizador Multiuso Com Zíper Alça Reforçada Para Closet Armário Mudança E Armazenamento - Nany Pink",
+   "marca": "NANY PINK",
+   "modelo": "Organizador Edredom",
+   "destaques": [
+    "Estrutura em nylon lavável que permite remover sujeiras e manchas acumuladas durante o uso prolongado no guarda-roupa.",
+    "Suporta até 5 kg de carga, possibilitando o armazenamento de edredons pesados e travesseiros com total segurança.",
+    "Design totalmente dobrável que viabiliza o ganho de espaço interno quando os sacos não estiverem sendo utilizados.",
+    "Sistema com alças reforçadas que facilita o transporte manual de roupas de cama entre cômodos ou durante mudanças."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_731428-MLA117878806524_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_616298-MLA112120228832_062026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_844022-MLA113260035449_062026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_722220-MLA113260472337_062026-F.jpg"
+   ],
+   "preco": 61.9,
+   "preco_de": 78.9,
+   "desconto_pct": 22,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "YHVARIEDADES",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 244362,
+   "ofertas_no_catalogo": 1,
+   "link": "https://www.mercadolivre.com.br/p/MLB70528833?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB19466433",
+   "posicao_mais_vendidos": 6,
+   "categoria": "MLB264051",
+   "nome": "Lava Roupas Líquido Tixan Ypê Primavera 7 Litros",
+   "marca": "Tixan Ypê",
+   "modelo": null,
+   "destaques": [
+    "Capacidade de 7 L para limpeza prolongada e eficiente."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_850337-MLA110275056555_042026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_891450-MLA109733676862_042026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_681483-MLA109733676872_042026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_761409-MLA109733765342_042026-F.jpg"
+   ],
+   "preco": 58.99,
+   "preco_de": 95.99,
+   "desconto_pct": 39,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "YPE",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 1781452,
+   "ofertas_no_catalogo": 15,
+   "link": "https://www.mercadolivre.com.br/p/MLB19466433?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB79971653",
+   "posicao_mais_vendidos": 6,
+   "categoria": "MLB1631",
+   "nome": "Cordão de Luzes Natalinas 100 LED Branco Quente 9.5m para Árvore e Interior",
+   "marca": "DIALED",
+   "modelo": "Luzes Natalinas Pisca 100 LED",
+   "destaques": [
+    "A caixa de controle integrada permite alternar entre 8 modos de iluminação para ajustar o padrão visual do ambiente.",
+    "Os 100 LEDs integrados ao circuito geram o brilho necessário para cobrir áreas de ornamentação em interiores.",
+    "A alimentação por corrente doméstica permite manter a iluminação acionada continuamente sem interrupções por bateria.",
+    "O grau de proteção IP20 especifica a operação segura do item exclusivamente em áreas internas protegidas da umidade."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_736771-MLA117599831710_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_944625-MLA117225294132_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_984966-MLA118732724931_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_751362-MLA118732754301_102026-F.jpg"
+   ],
+   "preco": 20.9,
+   "preco_de": 29.9,
+   "desconto_pct": 30,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "AGUSTECO",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 35100,
+   "ofertas_no_catalogo": 3,
+   "link": "https://www.mercadolivre.com.br/p/MLB79971653?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB55829716",
+   "posicao_mais_vendidos": 7,
+   "categoria": "MLB1618",
+   "nome": "Kit 10 Pote De Vidro Marmita Hermético 640ml Freezer Fitness Borossilicato 4 Travas Micro-ondas Azul-Escuro",
+   "marca": "Formy",
+   "modelo": "Conjunto Jogo Borossilicato",
+   "destaques": [
+    "Kit com 10 unidades: ideal para organizar refeições da semana, marmitas fitness e armazenamento de alimentos.",
+    "Capacidade de 640ml: tamanho versátil para refeições individuais, dietas balanceadas e controle de porções.",
+    "Vidro resistente e durável: não absorve odores, manchas ou sabores dos alimentos.",
+    "Fechamento hermético com travas: ajuda a evitar vazamentos e mantém os alimentos conservados por mais tempo."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_628438-MLA116953128816_092026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_856922-MLA116952752682_092026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_795364-MLA118516696467_092026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_630803-MLA118517044617_092026-F.jpg"
+   ],
+   "preco": 109.8,
+   "preco_de": 174,
+   "desconto_pct": 37,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "YUYOHOME",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 124367,
+   "ofertas_no_catalogo": 1,
+   "link": "https://www.mercadolivre.com.br/p/MLB55829716?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB66827648",
+   "posicao_mais_vendidos": 11,
+   "categoria": "MLB436414",
+   "nome": "Kit 10 Sacos A Vácuo 40cmx60cm Kit Com Bomba Organizador De Roupas Viagem Casa Mala Otimização De Espaço",
+   "marca": "Bacana Decor",
+   "modelo": "Saco a Vácuo Organizador",
+   "destaques": [
+    "Inclui bomba Sim.",
+    "Inclui válvula Sim.",
+    "É reutilizável Sim."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_652015-MLA115045734968_082026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_984275-MLA108245210666_032026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_818204-MLA108244704976_032026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_844050-MLA109032098147_032026-F.jpg"
+   ],
+   "preco": 40.99,
+   "preco_de": 78,
+   "desconto_pct": 47,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "ANGEL UNIVERSE",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 55275,
+   "ofertas_no_catalogo": 1,
+   "link": "https://www.mercadolivre.com.br/p/MLB66827648?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB21817157",
+   "posicao_mais_vendidos": 7,
+   "categoria": "MLB264051",
+   "nome": "Detergente Lava Louças Ypê Com 6 Unidades Neutro 500ml",
+   "marca": "Ypê",
+   "modelo": "Detergente Ypê",
+   "destaques": [
+    "Ação desengordurante que remove resíduos de gordura das superfícies facilitando a limpeza de panelas e recipientes.",
+    "Composição neutra que permite a higienização de utensílios sem a transferência de aromas para os alimentos servidos.",
+    "Fórmula compatível com máquinas lava-louças que possibilita a limpeza mecânica completa de itens diversos.",
+    "Formato líquido que proporciona maior fluidez na dosagem durante a lavagem manual de grandes quantidades de louças."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_981697-MLA99446675498_112025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_931157-MLA91340437854_092025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_845536-MLA118917076083_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_767680-MLA118917930579_102026-F.jpg"
+   ],
+   "preco": 14.99,
+   "preco_de": 19.99,
+   "desconto_pct": 25,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "YPE",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 1781452,
+   "ofertas_no_catalogo": 67,
+   "link": "https://www.mercadolivre.com.br/p/MLB21817157?matt_word=paulovitorlemes&matt_tool=37931087"
+  }
+ ],
+ "recusados": [
+  {
+   "id": "MLB37107370",
+   "motivo": "nenhum vendedor confiável"
+  },
+  {
+   "id": "MLB68018634",
+   "motivo": "nenhum vendedor confiável"
+  }
+ ]
+}
