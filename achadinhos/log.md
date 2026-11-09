@@ -3,3 +3,4 @@
 - 2026-11-03 tech: fone Soundcore P30i, Redmi Watch 5 Active, hub Ugreen, cozedor de ovos, chaleira. https://www.instagram.com/p/DfRwU02FyYf/ | fila 8 ofertas (09:00-21:30)
 - 2026-11-05 misto (setup com poucos aprovados: só 3 no filtro + tech esgotado pelos 14 dias sem repetir): headset Redragon, Redmi Watch 5 Active Lite, cortina blackout, escova Mondial, Cicaplast. https://www.instagram.com/p/DfW6BhLDDjS/ | fila 8 ofertas (09:00-21:30)
 - 2026-11-08 casa/Natal: pisca-pisca 50m, saia de árvore, escorredor 2 andares, potes de vidro Vitrex, ducha Loren Shower. Carrossel NÃO publicado: Meta respondeu 'A conta do Instagram foi restringida' (code 25/2207050). Rotinas de 06 e 07/11 não rodaram. | fila 8 ofertas (13:30-21:30, rodou tarde)
+- 2026-11-09 casa: lixeira com sensor, sacos a vácuo, sacos p/ edredom, pisca-pisca 100 LEDs, aspirador Electrolux STK15. Carrossel NÃO publicado (IG ainda restringido). | fila 8 ofertas (09:00-21:30)
