@@ -59,3 +59,4 @@
 - 2026-11-08 · p1 · Descanso de verdade é saber que ninguém ficou sem resposta (frase) (Figma) · comenta · publicado 12h20 (atrasado, junto do r1) · https://www.instagram.com/p/DffEEvPFOj4/
 - 2026-11-08 · r1 · Conteúdo: a semana começa no WhatsApp · salva (sem venda) · gancho: "Sua segunda começa no WhatsApp" · https://www.instagram.com/reel/DffEH_Sj1uw/
 - 2026-11-08 · r2 · Orçamento que Volta: o que é, em 20 segundos · direct · gancho: "O que é o Orçamento que Volta?" · https://www.instagram.com/reel/Dff4shPDfaY/
+- 2026-11-09 · p1 · Orçamentos parados: quantos você tem hoje? (numero "?") (Figma) · direct · https://www.instagram.com/p/DfhPoWIjBvW/
