@@ -1,0 +1,57 @@
+{
+ "tarja": "Garantia <7 dias úteis>",
+ "semente": 293,
+ "tema": "Garantia: no ar em 7 dias úteis ou você não paga",
+ "ganchos_ab": [
+  "No ar em 7 dias <ou não paga>",
+  "E se não ficar pronto? <Você não paga>"
+ ],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "rotulo": "garantia",
+   "texto": "No ar em 7 dias <ou não paga>",
+   "rabisco": "sublinha",
+   "dur": 2.6,
+   "legenda": "Sem <enrolação>"
+  },
+  {
+   "tipo": "numero",
+   "rotulo": "dias úteis",
+   "ate": 7,
+   "cor": "lime",
+   "sub": "do pagamento <ao funil rodando>",
+   "dur": 3.4,
+   "legenda": "Prazo <no contrato>",
+   "humor": "solucao"
+  },
+  {
+   "tipo": "timeline",
+   "nome": "Luana",
+   "passos": [
+    {
+     "quando": "+2h",
+     "texto": "Ficou alguma dúvida no orçamento?"
+    },
+    {
+     "quando": "+1 dia",
+     "texto": "Dá pra começar pela avaliação"
+    },
+    {
+     "quando": "+3 dias",
+     "texto": "Separei dois horários pra você"
+    }
+   ],
+   "resposta": "Pode ser terça?",
+   "dur": 5.2,
+   "legenda": "Isso rodando <em 7 dias úteis>"
+  },
+  {
+   "tipo": "cta",
+   "modo": "bio",
+   "texto": "Quer começar <essa semana>?",
+   "dur": 4.4,
+   "legenda": "Link na <bio>"
+  }
+ ]
+}
