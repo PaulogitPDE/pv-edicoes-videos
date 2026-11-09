@@ -1,0 +1,11 @@
+{
+ "semente": 281,
+ "tema": "Paciente pediu preço às 22h e ninguém respondeu (conteúdo, sem tarja)",
+ "ganchos_ab": ["Pediu preço <às 22h>", "Quem responde <depois das 18h>?"],
+ "cenas": [
+  {"tipo": "gancho", "rotulo": "caso de clínica", "texto": "Ela pediu preço <às 22h>", "rabisco": "circulo", "dur": 2.6, "legenda": "E a clínica <fechou às 18h>", "humor": "dor"},
+  {"tipo": "chat", "nome": "Camila", "status": "online", "mensagens": [{"de": "ela", "texto": "Oi! Quanto fica o clareamento?", "meta": "22:04"}, {"de": "ela", "texto": "Vi o perfil de vocês agora", "meta": "22:05"}], "carimbo": "Sem resposta", "dur": 4.2, "legenda": "Ela mandou <pra três clínicas>"},
+  {"tipo": "numero", "rotulo": "horas sem resposta", "ate": 10, "cor": "vermelho", "sub": "das 22h <até a recepção abrir>", "dur": 3.6, "legenda": "Quem responde <primeiro leva>"},
+  {"tipo": "lista", "texto": "Faz isso <ainda hoje>", "itens": [{"t": "Mensagem de ausência no WhatsApp Business", "ok": true}, {"t": "Diz o horário que vai responder", "ok": true}, {"t": "Primeira resposta do dia: quem chamou à noite", "ok": true}], "dur": 5.2, "legenda": "A noite <não espera>", "humor": "solucao"}
+ ]
+}
