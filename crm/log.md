@@ -63,3 +63,4 @@
 - 2026-11-09 · trend · Fim da escala 6x1 → recepção folgando e o WhatsApp? (carrossel 2 slides) (Figma) · comenta · https://www.instagram.com/p/Dfhch2yF_px/
 - 2026-11-09 · r1 · Conteúdo: paciente pediu preço às 22h e ninguém respondeu · salva (sem venda) · sem tarja · gancho: "Ela pediu preço às 22h" · https://www.instagram.com/reel/DfhpVkdEWZC/
 - 2026-11-09 · r2 · Garantia: no ar em 7 dias úteis ou você não paga · bio · gancho: "No ar em 7 dias ou não paga" · https://www.instagram.com/reel/Dfidjv2kf8K/
+- 2026-11-10 · p1 · Recepção que lembra x funil que lembra (antes_depois) (Figma) · bio · https://www.instagram.com/p/Dfj0YISmR37/
