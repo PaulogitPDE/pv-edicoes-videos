@@ -65,3 +65,4 @@
 - 2026-11-09 · r2 · Garantia: no ar em 7 dias úteis ou você não paga · bio · gancho: "No ar em 7 dias ou não paga" · https://www.instagram.com/reel/Dfidjv2kf8K/
 - 2026-11-10 · p1 · Recepção que lembra x funil que lembra (antes_depois) (Figma) · bio · https://www.instagram.com/p/Dfj0YISmR37/
 - 2026-11-10 · r1 · Conteúdo: lembrete de consulta 1 dia e 1 hora antes · salva (sem venda) · gancho: "Ela marcou e não veio" · https://www.instagram.com/reel/DfkN6gKAc0G/
+- 2026-11-10 · r2 · 3 vagas de fundador a R$ 997 · comenta (FUNDADOR) · gancho: "Só 3 clínicas pagam menos" · https://www.instagram.com/reel/DflCT0MIXtq/
