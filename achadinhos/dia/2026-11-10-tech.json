@@ -1,0 +1,235 @@
+{
+ "data": "2026-11-10",
+ "tema": "tech",
+ "produtos": [
+  {
+   "id": "MLB18610706",
+   "posicao_mais_vendidos": 1,
+   "categoria": "MLB454379",
+   "nome": "Logitech Mk235 ABNT2 Português Teclado E Mouse Grafite Preto",
+   "marca": "Logitech",
+   "modelo": "MK235",
+   "destaques": [
+    "Kit composto por teclado K235 e mouse M170.",
+    "Adequados para windows 7 e versões superiores.",
+    "Resistentes a respingos.",
+    "Mouse com sensor óptico e resolução de 1000 dpi."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_735713-MLA99973706633_112025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_968074-MLA88024564820_072025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_680865-MLA81628379325_122024-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_697908-MLA111822786151_052026-F.jpg"
+   ],
+   "preco": 235.9,
+   "preco_de": null,
+   "desconto_pct": null,
+   "desconto_verificado": false,
+   "frete": "grátis",
+   "vendedor": "LEVELPRIME",
+   "loja_oficial": true,
+   "mercadolider": "gold",
+   "vendas_vendedor": 8169,
+   "ofertas_no_catalogo": 22,
+   "link": "https://www.mercadolivre.com.br/p/MLB18610706?matt_word=paulovitorlemes&matt_tool=37931087"
+  }
+ ],
+ "recusados": [
+  {
+   "id": "MLB47889235",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB47609067",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB62756066",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB47814270",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB72674962",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB70121902",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB25263382",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB75621035",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB62080137",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB65103392",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB50592250",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB46220824",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB48918581",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB64997788",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB66497052",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB61702644",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB53220519",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB59323062",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB65271168",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB53988081",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB65598839",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB62870615",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB16211422",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB67713674",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB48478097",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB79379664",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB27728147",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB54026101",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB80097388",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB79400859",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB64212276",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB48947564",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB42553350",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB69794678",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB67711993",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB61706715",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB70514530",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB81043250",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB76223619",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB53569339",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB78488877",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB64335558",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB53911392",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB63209472",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB34229153",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB58519492",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB59019868",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB63238506",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB64369743",
+   "motivo": "eletrônico de marca desconhecida"
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "dia": "2026-11-10-fila.json",
+ "rotulo": "achadinhos tech",
+ "capa": {"linha1": "5 gadgets", "linha2": "que salvam o seu dia", "sub": "Tem coisa a partir de R$ 38"},
+ "produtos": [
+  {"id": "MLB75836344", "foto": 0, "nome": "Auxiliar de partida 4 em 1", "beneficio": "Dá partida no carro com bateria arriada, calibra pneu, carrega o celular e tem lanterna."},
+  {"id": "MLB56979786", "foto": 0, "nome": "Compressor de ar portátil", "beneficio": "Até 150 psi com tela digital que mostra a pressão. Serve pra carro, moto e bike."},
+  {"id": "MLB62564330", "foto": 0, "nome": "Carregador de bateria 12V", "beneficio": "Ajusta a carga sozinho, para baterias de 4 a 100 Ah. Protege contra polaridade invertida."},
+  {"id": "MLB65461162", "foto": 0, "nome": "Fone Bluetooth para capacete", "beneficio": "Bluetooth 5.3, até 16 h de bateria e proteção IPX6 contra chuva."},
+  {"id": "MLB18610706", "foto": 0, "nome": "Teclado e mouse sem fio Logitech", "beneficio": "Kit MK235 em ABNT2, resistente a respingos. Mouse de 1000 dpi."}
+ ],
+ "cta": {"titulo": "Quer o link de todos?", "sub": "Comenta QUERO aqui embaixo que eu te mando no Direct o link do nosso grupo de promoções."}
+}
