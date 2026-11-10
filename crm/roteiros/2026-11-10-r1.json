@@ -1,0 +1,12 @@
+{
+ "tarja": "Lembrete <que evita falta>",
+ "semente": 307,
+ "tema": "Lembrete de consulta 1 dia e 1 hora antes (conteúdo)",
+ "ganchos_ab": ["Ela marcou e <não veio>", "Faltou porque <esqueceu>"],
+ "cenas": [
+  {"tipo": "gancho", "rotulo": "bastidor", "texto": "Ela marcou e <não veio>", "rabisco": "x", "dur": 2.6, "legenda": "Não foi descaso, <foi esquecimento>", "humor": "dor"},
+  {"tipo": "numero", "rotulo": "faltas no mês (exemplo)", "ate": 4, "cor": "vermelho", "sub": "cada uma é <um horário vazio>", "dur": 3.4, "legenda": "Cadeira parada, <equipe esperando>"},
+  {"tipo": "timeline", "nome": "Patrícia", "passos": [{"quando": "1 dia antes", "texto": "Amanhã às 15h, confirma pra mim?"}, {"quando": "1 hora antes", "texto": "Te esperamos às 15h! Rua tal, 120"}], "resposta": "Confirmado, tô indo!", "dur": 4.8, "legenda": "Dois lembretes, <zero esforço>", "humor": "solucao"},
+  {"tipo": "lista", "texto": "Faz isso <amanhã>", "itens": [{"t": "Manda lembrete 1 dia antes pedindo pra confirmar", "ok": true}, {"t": "Manda outro 1 hora antes com o endereço", "ok": true}, {"t": "Não confirmou? Liga ou oferece outro horário", "ok": true}], "dur": 5.2, "legenda": "Quem confirma <aparece>"}
+ ]
+}
