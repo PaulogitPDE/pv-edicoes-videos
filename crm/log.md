@@ -69,3 +69,4 @@
 - 2026-11-11 · p1 · "Mandar 4 mensagens é demais?" (lista) (Figma) · comenta · https://www.instagram.com/p/DfmZJQ-m9C0/
 - 2026-11-11 · trend · Esquenta da Black Friday → promoção enche o WhatsApp (carrossel 2 slides) (Figma) · bio · https://www.instagram.com/p/Dfmlw8QEffe/
 - 2026-11-11 · r1 · Conteúdo: follow-up incomoda a paciente? · salva (sem venda) · sem tarja · gancho: "Chamar de volta incomoda?" · https://www.instagram.com/reel/Dfmyh5Rj8yY/
+- 2026-11-11 · r2 · O kit de 4 mensagens grátis · direct · gancho: "O kit de 4 mensagens" · https://www.instagram.com/reel/DfnnOIgDrFZ/
