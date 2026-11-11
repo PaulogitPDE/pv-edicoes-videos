@@ -66,3 +66,4 @@
 - 2026-11-10 · p1 · Recepção que lembra x funil que lembra (antes_depois) (Figma) · bio · https://www.instagram.com/p/Dfj0YISmR37/
 - 2026-11-10 · r1 · Conteúdo: lembrete de consulta 1 dia e 1 hora antes · salva (sem venda) · gancho: "Ela marcou e não veio" · https://www.instagram.com/reel/DfkN6gKAc0G/
 - 2026-11-10 · r2 · 3 vagas de fundador a R$ 997 · comenta (FUNDADOR) · gancho: "Só 3 clínicas pagam menos" · https://www.instagram.com/reel/DflCT0MIXtq/
+- 2026-11-11 · p1 · "Mandar 4 mensagens é demais?" (lista) (Figma) · comenta · https://www.instagram.com/p/DfmZJQ-m9C0/
