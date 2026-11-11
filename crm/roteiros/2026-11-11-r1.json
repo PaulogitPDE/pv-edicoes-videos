@@ -1,0 +1,11 @@
+{
+ "semente": 317,
+ "tema": "Follow-up incomoda a paciente? (conteúdo, sem tarja)",
+ "ganchos_ab": ["Chamar de volta <incomoda>?", "Follow-up é <chato>?"],
+ "cenas": [
+  {"tipo": "gancho", "rotulo": "mito x verdade", "texto": "Chamar de volta <incomoda>?", "rabisco": "sublinha", "dur": 2.6, "legenda": "Depende <do jeito>", "humor": "dor"},
+  {"tipo": "chat", "nome": "Renata", "status": "online", "mensagens": [{"de": "eu", "texto": "E aí, vai fechar?", "meta": "seg 9:00"}, {"de": "eu", "texto": "Oi?? Vai fechar ou não?", "meta": "seg 15:00"}], "carimbo": "Isso incomoda", "dur": 4.0, "legenda": "Cobrança <sem motivo>"},
+  {"tipo": "timeline", "nome": "Renata", "passos": [{"quando": "+2h", "texto": "Ficou alguma dúvida no orçamento?"}, {"quando": "+1 dia", "texto": "Dá pra parcelar, se ajudar"}, {"quando": "+3 dias", "texto": "Tenho dois horários na quinta"}], "resposta": "Quinta de manhã dá!", "dur": 5.0, "legenda": "Cada mensagem <ajuda em algo>", "humor": "solucao"},
+  {"tipo": "lista", "texto": "A regra <é simples>", "itens": [{"t": "Toda mensagem resolve uma dúvida", "ok": true}, {"t": "Espaço entre uma e outra", "ok": true}, {"t": "Cobrar \"vai fechar?\"", "ok": false}], "dur": 4.6, "legenda": "Ajuda <não incomoda>"}
+ ]
+}
