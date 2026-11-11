@@ -68,3 +68,4 @@
 - 2026-11-10 · r2 · 3 vagas de fundador a R$ 997 · comenta (FUNDADOR) · gancho: "Só 3 clínicas pagam menos" · https://www.instagram.com/reel/DflCT0MIXtq/
 - 2026-11-11 · p1 · "Mandar 4 mensagens é demais?" (lista) (Figma) · comenta · https://www.instagram.com/p/DfmZJQ-m9C0/
 - 2026-11-11 · trend · Esquenta da Black Friday → promoção enche o WhatsApp (carrossel 2 slides) (Figma) · bio · https://www.instagram.com/p/Dfmlw8QEffe/
+- 2026-11-11 · r1 · Conteúdo: follow-up incomoda a paciente? · salva (sem venda) · sem tarja · gancho: "Chamar de volta incomoda?" · https://www.instagram.com/reel/Dfmyh5Rj8yY/
