@@ -1,0 +1,53 @@
+{
+ "tarja": "Kit <grátis>",
+ "semente": 331,
+ "tema": "O kit de 4 mensagens grátis (manda FUNIL)",
+ "ganchos_ab": [
+  "O kit de <4 mensagens>",
+  "O kit que eu <te dou de graça>"
+ ],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "rotulo": "de graça",
+   "texto": "O kit de <4 mensagens>",
+   "rabisco": "circulo",
+   "dur": 2.8,
+   "legenda": "Prontas pra <copiar e colar>"
+  },
+  {
+   "tipo": "timeline",
+   "nome": "Bianca",
+   "passos": [
+    {
+     "quando": "+2h",
+     "texto": "Ficou alguma dúvida no orçamento?"
+    },
+    {
+     "quando": "+1 dia",
+     "texto": "Dá pra começar pela avaliação"
+    },
+    {
+     "quando": "+3 dias",
+     "texto": "Separei dois horários pra você"
+    },
+    {
+     "quando": "+7 dias",
+     "texto": "Se quiser retomar, é só responder"
+    }
+   ],
+   "resposta": "Quero retomar sim!",
+   "dur": 6.2,
+   "legenda": "Cada uma no <dia certo>",
+   "humor": "solucao"
+  },
+  {
+   "tipo": "cta",
+   "modo": "direct",
+   "texto": "Quer o <kit>?",
+   "palavra": "FUNIL",
+   "dur": 4.4,
+   "legenda": "Manda <FUNIL> no Direct"
+  }
+ ]
+}
