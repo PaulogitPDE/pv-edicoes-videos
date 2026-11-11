@@ -1,0 +1,231 @@
+{
+ "data": "2026-11-11",
+ "tema": "tech",
+ "produtos": [
+  {
+   "id": "MLB45151298",
+   "posicao_mais_vendidos": 15,
+   "categoria": "MLB454379",
+   "nome": "Mouse Sem Fio Logitech M196 Com Conexão Bluetooth - Rosa Rosa",
+   "marca": "Logitech",
+   "modelo": "M196",
+   "destaques": [
+    "É sem fio.",
+    "Pode conectar-se a qualquer dispositivo via Bluetooth.",
+    "Orientação da mão: destro.",
+    "Com sensor óptico."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_862174-MLA99480177236_112025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_664165-MLA82792294887_022025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_959565-MLA87149159340_072025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_736448-MLA87148892796_072025-F.jpg"
+   ],
+   "preco": 49.9,
+   "preco_de": 79.9,
+   "desconto_pct": 38,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Eletronicos",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 25649763,
+   "ofertas_no_catalogo": 16,
+   "link": "https://www.mercadolivre.com.br/p/MLB45151298?matt_word=paulovitorlemes&matt_tool=37931087"
+  }
+ ],
+ "recusados": [
+  {
+   "id": "MLB47889235",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB47609067",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB62756066",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB47814270",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB72674962",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB70121902",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB50592250",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB75621035",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB62080137",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB65103392",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB25263382",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB61702644",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB48918581",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB64997788",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB66497052",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB46220824",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB53220519",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB59323062",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB65271168",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB53988081",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB65598839",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB62870615",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB25057291",
+   "motivo": "nenhum vendedor confiável"
+  },
+  {
+   "id": "MLB67713674",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB54026101",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB53760876",
+   "motivo": "nenhum vendedor confiável"
+  },
+  {
+   "id": "MLB27728147",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB75012346",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB48478097",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB16211422",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB79400859",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB70514530",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB79379664",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB42553350",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB64212276",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB80097388",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB69794678",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB67711993",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB48947564",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB81043250",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB61706715",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB53569339",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB63209472",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB34229153",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB76223619",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB58519492",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB81078208",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB64335558",
+   "motivo": "eletrônico de marca desconhecida"
+  }
+ ]
+}

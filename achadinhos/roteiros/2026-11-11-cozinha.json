@@ -1,0 +1,13 @@
+{
+ "dia": "2026-11-11-fila.json",
+ "rotulo": "achadinhos de cozinha",
+ "capa": {"linha1": "5 achadinhos", "linha2": "pra organizar a cozinha", "sub": "Tem coisa a partir de R$ 28"},
+ "produtos": [
+  {"id": "MLB70393569", "foto": 0, "nome": "Chaleira elétrica de inox", "beneficio": "1,8 litro e 1500 W pra ferver rápido. A base gira 360° pra encaixar de qualquer lado."},
+  {"id": "MLB72081098", "foto": 0, "nome": "Kit 10 potes de vidro com travas", "beneficio": "640 ml, 4 travas e anel de silicone contra vazamento. Vão ao freezer, micro-ondas e forno."},
+  {"id": "MLB27410145", "foto": 0, "nome": "Kit 3 assadeiras Marinex", "beneficio": "Vidro opaline que vai ao forno, micro-ondas, airfryer, freezer e lava-louças."},
+  {"id": "MLB27146487", "foto": 0, "nome": "Kit 10 potes de 1 litro", "beneficio": "Plástico livre de BPA com tampa hermética. Vão ao micro-ondas e ao freezer."},
+  {"id": "MLB78457348", "foto": 0, "nome": "Kit 10 potes de vidro Vitrex", "beneficio": "370 ml, ideal pra porções individuais. Tampa hermética e pode ir na lava-louças."}
+ ],
+ "cta": {"titulo": "Quer o link de todos?", "sub": "Comenta QUERO aqui embaixo que eu te mando no Direct o link do nosso grupo de promoções."}
+}

@@ -5,3 +5,4 @@
 - 2026-11-08 casa/Natal: pisca-pisca 50m, saia de árvore, escorredor 2 andares, potes de vidro Vitrex, ducha Loren Shower. Carrossel NÃO publicado: Meta respondeu 'A conta do Instagram foi restringida' (code 25/2207050). Rotinas de 06 e 07/11 não rodaram. | fila 8 ofertas (13:30-21:30, rodou tarde)
 - 2026-11-09 casa: lixeira com sensor, sacos a vácuo, sacos p/ edredom, pisca-pisca 100 LEDs, aspirador Electrolux STK15. Carrossel NÃO publicado (IG ainda restringido). | fila 8 ofertas (09:00-21:30)
 - 2026-11-10 tech/gadgets (tech esgotado; itens de carro + Logitech): auxiliar de partida, compressor VERUNTO, carregador de bateria, fone de capacete, MK235. Carrossel NÃO publicado (IG ainda restringido). | fila 8 ofertas (09:00-21:30)
+- 2026-11-11 cozinha: chaleira inox, potes de vidro Haushop, assadeiras Marinex, potes 1 L, potes Vitrex 370 ml. Carrossel NÃO publicado (IG ainda restringido). | fila 8 ofertas (09:00-21:30)
