@@ -1,0 +1,219 @@
+{
+ "data": "2026-11-12",
+ "tema": "setup",
+ "produtos": [
+  {
+   "id": "MLB36476927",
+   "posicao_mais_vendidos": 13,
+   "categoria": "MLB430687",
+   "nome": "Placa Mãe Asus Tuf Gaming B550m-plus Ddr4 AMD Am4 mATX RGB",
+   "marca": "Asus",
+   "modelo": "B550M-PLUS GAMING",
+   "destaques": [
+    "Capacidade máxima de memória RAM de 128 GB.",
+    "Oito portas USB, incluindo USB Tipo-C.",
+    "Quatro portas SATA 6Gb/s para armazenamento.",
+    "Suporte para tecnologia de Multi-GPU AMD CrossFireX."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_920822-MLA99469912962_112025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_970203-MLA91568503002_092025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_816665-MLA91568562502_092025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_718733-MLA91568453602_092025-F.jpg"
+   ],
+   "preco": 749,
+   "preco_de": 1096.78,
+   "desconto_pct": 32,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "NEGOCIUN-SP",
+   "loja_oficial": true,
+   "mercadolider": null,
+   "vendas_vendedor": 412334,
+   "ofertas_no_catalogo": 94,
+   "link": "https://www.mercadolivre.com.br/p/MLB36476927?matt_word=paulovitorlemes&matt_tool=37931087"
+  }
+ ],
+ "recusados": [
+  {
+   "id": "MLB50196682",
+   "motivo": "sem marca"
+  },
+  {
+   "id": "MLB25980994",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB62756066",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB50860259",
+   "motivo": "sem marca"
+  },
+  {
+   "id": "MLB72674962",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB51757399",
+   "motivo": "sem marca"
+  },
+  {
+   "id": "MLB75621035",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB27065699",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB65103392",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB52304672",
+   "motivo": "sem marca"
+  },
+  {
+   "id": "MLB46220824",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB63047503",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB64997788",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB53988081",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB19444510",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB59323062",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB32333269",
+   "motivo": "sem marca"
+  },
+  {
+   "id": "MLB53760876",
+   "motivo": "nenhum vendedor confiável"
+  },
+  {
+   "id": "MLB68244387",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB25057291",
+   "motivo": "nenhum vendedor confiável"
+  },
+  {
+   "id": "MLB46159912",
+   "motivo": "sem marca"
+  },
+  {
+   "id": "MLB62870615",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB24117280",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB16211422",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB75627272",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB79379664",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB66374198",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB69794678",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB62754381",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB75012346",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB18010993",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB80097388",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB64212276",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB66176437",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB61706715",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB60709470",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB48947564",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB70040749",
+   "motivo": "categoria de risco"
+  },
+  {
+   "id": "MLB34229153",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB79031551",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB76223619",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB66104745",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB59019868",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB58147143",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB64335558",
+   "motivo": "eletrônico de marca desconhecida"
+  }
+ ]
+}

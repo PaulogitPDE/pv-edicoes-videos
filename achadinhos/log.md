@@ -6,3 +6,4 @@
 - 2026-11-09 casa: lixeira com sensor, sacos a vácuo, sacos p/ edredom, pisca-pisca 100 LEDs, aspirador Electrolux STK15. Carrossel NÃO publicado (IG ainda restringido). | fila 8 ofertas (09:00-21:30)
 - 2026-11-10 tech/gadgets (tech esgotado; itens de carro + Logitech): auxiliar de partida, compressor VERUNTO, carregador de bateria, fone de capacete, MK235. Carrossel NÃO publicado (IG ainda restringido). | fila 8 ofertas (09:00-21:30)
 - 2026-11-11 cozinha: chaleira inox, potes de vidro Haushop, assadeiras Marinex, potes 1 L, potes Vitrex 370 ml. Carrossel NÃO publicado (IG ainda restringido). | fila 8 ofertas (09:00-21:30)
+- 2026-11-12 misto (setup sem produtos novos no filtro): air fryer Philco, escorredor suspenso, cortador de legumes, bomba de pneu, ganchos adesivos. Carrossel NÃO publicado (IG ainda restringido). | fila 8 ofertas (09:00-21:30)

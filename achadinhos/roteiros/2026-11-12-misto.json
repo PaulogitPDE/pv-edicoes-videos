@@ -1,0 +1,13 @@
+{
+ "dia": "2026-11-12-fila.json",
+ "rotulo": "achadinhos úteis",
+ "capa": {"linha1": "5 achadinhos", "linha2": "que facilitam a rotina", "sub": "Tem coisa a partir de R$ 19"},
+ "produtos": [
+  {"id": "MLB52052995", "foto": 0, "nome": "Air fryer Philco 6,5 L", "beneficio": "1700 W, visor de vidro pra acompanhar o preparo e temperatura de 40 a 200 °C."},
+  {"id": "MLB55052720", "foto": 0, "nome": "Escorredor suspenso de 65 cm", "beneficio": "Fica em cima da pia e libera a bancada. Cabem 12 pratos e 12 tigelas."},
+  {"id": "MLB80864726", "foto": 0, "nome": "Cortador de legumes 16 peças", "beneficio": "Lâminas de inox pra cortar, fatiar e ralar, com pote coletor que mantém a bancada limpa."},
+  {"id": "MLB57468779", "foto": 0, "nome": "Bomba digital para pneu", "beneficio": "Até 150 psi, carrega por USB-C e tem lanterna. Serve pra carro, moto e bike."},
+  {"id": "MLB69986111", "foto": 0, "nome": "Kit 30 ganchos adesivos", "beneficio": "Colam no azulejo, vidro ou madeira sem furar a parede."}
+ ],
+ "cta": {"titulo": "Quer o link de todos?", "sub": "Comenta QUERO aqui embaixo que eu te mando no Direct o link do nosso grupo de promoções."}
+}
