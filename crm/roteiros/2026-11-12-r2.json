@@ -1,0 +1,12 @@
+{
+ "tarja": "Raio-x <gratuito>",
+ "semente": 347,
+ "tema": "Raio-x de 15 minutos dos seus orçamentos parados",
+ "ganchos_ab": ["Quanto tem <parado> no seu WhatsApp?", "Raio-x dos seus <orçamentos parados>"],
+ "cenas": [
+  {"tipo": "gancho", "rotulo": "raio-x", "texto": "Quanto tem <parado> no seu WhatsApp?", "rabisco": "circulo", "dur": 2.8, "legenda": "Eu te ajudo <a contar>", "humor": "dor"},
+  {"tipo": "lista", "texto": "No <raio-x> a gente vê", "itens": [{"t": "Quantos orçamentos ficaram sem retorno", "ok": true}, {"t": "Quanto isso vale no seu ticket", "ok": true}, {"t": "Onde a paciente some no caminho", "ok": true}], "dur": 5.0, "legenda": "Sem compromisso <de fechar>", "humor": "solucao"},
+  {"tipo": "numero", "rotulo": "minutos de conversa", "ate": 15, "cor": "lime", "sub": "pelo <WhatsApp ou chamada>", "dur": 3.4, "legenda": "Você sai com <o número na mão>"},
+  {"tipo": "cta", "modo": "bio", "texto": "Quer o seu <raio-x>?", "dur": 4.4, "legenda": "Link na <bio>"}
+ ]
+}
