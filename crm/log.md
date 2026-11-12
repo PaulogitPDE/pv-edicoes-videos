@@ -71,3 +71,4 @@
 - 2026-11-11 · r1 · Conteúdo: follow-up incomoda a paciente? · salva (sem venda) · sem tarja · gancho: "Chamar de volta incomoda?" · https://www.instagram.com/reel/Dfmyh5Rj8yY/
 - 2026-11-11 · r2 · O kit de 4 mensagens grátis · direct · gancho: "O kit de 4 mensagens" · https://www.instagram.com/reel/DfnnOIgDrFZ/
 - 2026-11-12 · p1 · O custo do "depois eu vejo" (numero R$ 4.500, exemplo) (Figma) · direct · https://www.instagram.com/p/Dfo9-eRlNlz/
+- 2026-11-12 · r1 · Conteúdo: 3 faltas por semana, quanto dá no mês · salva (sem venda) · gancho: "3 faltas por semana parece pouco" · https://www.instagram.com/reel/DfpXXSgleCg/
