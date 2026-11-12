@@ -1,0 +1,12 @@
+{
+ "tarja": "A conta <das faltas>",
+ "semente": 337,
+ "tema": "3 faltas por semana: quanto isso dá no mês (conteúdo)",
+ "ganchos_ab": ["3 faltas por semana <parece pouco>", "Quanto custa <uma falta>?"],
+ "cenas": [
+  {"tipo": "gancho", "rotulo": "quinta da conta", "texto": "3 faltas por semana <parece pouco>", "rabisco": "sublinha", "dur": 2.6, "legenda": "Até fazer <a conta>", "humor": "dor"},
+  {"tipo": "numero", "rotulo": "horários vazios no mês", "ate": 12, "cor": "vermelho", "sub": "3 por semana <× 4 semanas>", "dur": 3.6, "legenda": "Multiplica pelo <seu ticket>"},
+  {"tipo": "timeline", "nome": "Carla", "passos": [{"quando": "1 dia antes", "texto": "Sua consulta é amanhã às 10h. Confirma?"}, {"quando": "1 hora antes", "texto": "Estamos te esperando às 10h!"}], "resposta": "Confirmo, até amanhã!", "dur": 4.6, "legenda": "Lembrete <corta falta>", "humor": "solucao"},
+  {"tipo": "lista", "texto": "Faz a conta <hoje>", "itens": [{"t": "Conta as faltas da última semana", "ok": true}, {"t": "Multiplica por 4 e pelo ticket médio", "ok": true}, {"t": "Começa o lembrete 1 dia e 1 hora antes", "ok": true}], "dur": 5.0, "legenda": "Número na mão <muda tudo>"}
+ ]
+}
