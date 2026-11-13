@@ -74,3 +74,4 @@
 - 2026-11-12 · r1 · Conteúdo: 3 faltas por semana, quanto dá no mês · salva (sem venda) · gancho: "3 faltas por semana parece pouco" · https://www.instagram.com/reel/DfpXXSgleCg/
 - 2026-11-12 · r2 · Oferta: raio-x de 15 min dos orçamentos parados · link na bio · gancho: "Quanto tem parado no seu WhatsApp?" · https://www.instagram.com/reel/DfqMGGQj9qu/
 - 2026-11-13 · p1 · Sexta 17h58: quem responde? (chat, carimbo PERDIDA) (Figma) · link na bio · https://www.instagram.com/p/Dfri098FNGk/
+- 2026-11-13 · trend · Sexta-feira 13 → paciente que sumiu não foi azar (carrossel 2 slides) (Figma) · direct FUNIL · saiu 12h32, atrasado: o disparo das 10h27 só chegou 12h30 · https://www.instagram.com/p/Dfr9cV3FLAF/
