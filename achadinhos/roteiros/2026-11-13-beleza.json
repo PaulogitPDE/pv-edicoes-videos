@@ -1,0 +1,13 @@
+{
+ "dia": "2026-11-13-fila.json",
+ "rotulo": "achadinhos de beleza",
+ "capa": {"linha1": "5 achadinhos", "linha2": "de beleza que valem a pena", "sub": "Tem coisa a partir de R$ 34"},
+ "produtos": [
+  {"id": "MLB52162585", "foto": 0, "nome": "Chapinha Taiff Gloss Rose", "beneficio": "Placas giratórias que chegam a 230 °C, com 5 níveis de temperatura."},
+  {"id": "MLB7975820", "foto": 0, "nome": "Prancha Gama Eleganza Plus", "beneficio": "Placas de cerâmica com cuidado iônico, de 140 a 210 °C."},
+  {"id": "MLB50832844", "foto": 0, "nome": "Organizador de acrílico", "beneficio": "Kit com 14 gavetas empilháveis pra deixar a maquiagem à vista e no lugar."},
+  {"id": "MLB10632463", "foto": 0, "nome": "Máscara de cílios Maybelline", "beneficio": "The Colossal: mais volume e cílios curvados em uma camada. Lavável."},
+  {"id": "MLB60416809", "foto": 0, "nome": "Protetor solar facial FPS 70", "beneficio": "Hidrabene com toque seco, resistente à água e hipoalergênico."}
+ ],
+ "cta": {"titulo": "Quer o link de todos?", "sub": "Comenta QUERO aqui embaixo que eu te mando no Direct o link do nosso grupo de promoções."}
+}
