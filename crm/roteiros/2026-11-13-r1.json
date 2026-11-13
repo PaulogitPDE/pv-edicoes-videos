@@ -1,0 +1,11 @@
+{
+ "semente": 353,
+ "tema": "Sextou: 3 mensagens pra mandar antes do fim de semana (conteúdo, sem tarja)",
+ "ganchos_ab": ["Sextou: <3 mensagens> antes de fechar", "Antes do fim de semana, <manda isso>"],
+ "cenas": [
+  {"tipo": "gancho", "rotulo": "sextou", "texto": "<3 mensagens> antes de fechar", "rabisco": "sublinha", "dur": 2.6, "legenda": "Sexta não é dia <de largar a agenda>", "humor": "dor"},
+  {"tipo": "chat", "nome": "Juliana", "status": "visto por último qui 18:10", "mensagens": [{"de": "eu", "texto": "O orçamento fica R$ 1.800, dá pra parcelar", "meta": "qui 18:02"}, {"de": "ela", "texto": "Vou pensar e te falo", "meta": "qui 18:10"}], "carimbo": "Esfriou", "dur": 4.0, "legenda": "Até segunda, <ela já esqueceu>"},
+  {"tipo": "timeline", "nome": "Juliana", "passos": [{"quando": "sex 10h", "texto": "Ficou alguma dúvida no orçamento?"}, {"quando": "sex 14h", "texto": "Tenho um horário segunda às 9h"}, {"quando": "sex 17h", "texto": "Quer que eu reserve pra você?"}], "resposta": "Pode reservar!", "dur": 5.0, "legenda": "Uma conversa <que não esfria>", "humor": "solucao"},
+  {"tipo": "lista", "texto": "Antes de fechar <na sexta>", "itens": [{"t": "Chame quem pediu orçamento na semana", "ok": true}, {"t": "Ofereça horário a quem faltou", "ok": true}, {"t": "Confirme quem vem na segunda", "ok": true}], "dur": 5.0, "legenda": "Salva pra <toda sexta>"}
+ ]
+}
