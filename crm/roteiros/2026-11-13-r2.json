@@ -1,0 +1,12 @@
+{
+ "tarja": "Orçamento que <Volta>",
+ "semente": 359,
+ "tema": "Implante: o orçamento mais caro de perder",
+ "ganchos_ab": ["O orçamento <mais caro> de perder", "Implante que <ninguém chamou>"],
+ "cenas": [
+  {"tipo": "gancho", "rotulo": "orçamento de implante", "texto": "Caro <de perder>", "rabisco": "sublinha", "dur": 2.8, "legenda": "E quase ninguém <chama de volta>", "humor": "dor"},
+  {"tipo": "chat", "nome": "Roberto", "status": "visto por último ter 19:20", "mensagens": [{"de": "eu", "texto": "O implante fica R$ 4.500, em até 12x", "meta": "ter 19:05"}, {"de": "ela", "texto": "Vou ver com minha esposa", "meta": "ter 19:20"}], "carimbo": "Nunca mais", "dur": 4.0, "legenda": "Decisão grande <pede retorno>"},
+  {"tipo": "leads", "titulo": "Funil de orçamentos", "leads": [{"nome": "Roberto", "proc": "Implante", "valor": "R$ 4.500", "vai": 3}, {"nome": "Sônia", "proc": "Protocolo", "valor": "R$ 18.000", "vai": 2}, {"nome": "Paulo", "proc": "Implante", "valor": "R$ 4.800", "vai": 3}], "total": "{valor} <de volta>", "dur": 4.6, "legenda": "Valores de <exemplo>", "humor": "solucao"},
+  {"tipo": "cta", "modo": "comenta", "texto": "Comenta <FUNIL>", "palavra": "FUNIL", "dur": 4.2, "legenda": "Te mando <o kit no Direct>"}
+ ]
+}
