@@ -77,3 +77,4 @@
 - 2026-11-13 · trend · Sexta-feira 13 → paciente que sumiu não foi azar (carrossel 2 slides) (Figma) · direct FUNIL · saiu 12h32, atrasado: o disparo das 10h27 só chegou 12h30 · https://www.instagram.com/p/Dfr9cV3FLAF/
 - 2026-11-13 · r1 · Conteúdo: sextou, 3 mensagens antes de fechar · salva (sem venda) · sem tarja · gancho: "3 mensagens antes de fechar" · saiu 13h08 (disparo atrasado) · https://www.instagram.com/reel/DfsBg8CgFXg/
 - 2026-11-13 · r2 · Implante: o orçamento mais caro de perder · comenta FUNIL · gancho: "Caro de perder" · https://www.instagram.com/reel/Dfsw9OAk0xe/
+- 2026-11-14 · p1 · Dia Mundial do Diabetes: retorno não pode depender de memória (data) (Figma) · comenta RETORNO · https://www.instagram.com/p/DfuHiy5F4zj/
