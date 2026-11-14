@@ -1,0 +1,13 @@
+{
+ "dia": "2026-11-14-fila.json",
+ "rotulo": "achadinhos pro carro e pra moto",
+ "capa": {"linha1": "5 achadinhos", "linha2": "pro carro e pra moto", "sub": "Tem coisa a partir de R$ 29"},
+ "produtos": [
+  {"id": "MLB65770538", "foto": 0, "nome": "Carregador de bateria 12 V", "beneficio": "Carregador inteligente de 6 A, bivolt, com proteção contra sobrecarga."},
+  {"id": "MLB73198354", "foto": 0, "nome": "Mini aspirador portátil", "beneficio": "Recarregável por USB: aspira e sopra a sujeira do carro."},
+  {"id": "MLB81819641", "foto": 0, "nome": "Fone Bluetooth pra capacete", "beneficio": "Comunicador com alcance de até 1,2 km, funciona com Android e iOS."},
+  {"id": "MLB21562564", "foto": 0, "nome": "Módulo Taramps TS 800x4", "beneficio": "800 W RMS em 4 canais (4x 200 W a 2 ohms) com fonte mosfet."},
+  {"id": "MLB18464286", "foto": 0, "nome": "Capacete Pro Tork New Liberty", "beneficio": "Aberto, leve e com fecho micrométrico. Ideal pra rodar na cidade."}
+ ],
+ "cta": {"titulo": "Quer o link de todos?", "sub": "Comenta QUERO aqui embaixo que eu te mando no Direct o link do nosso grupo de promoções."}
+}
