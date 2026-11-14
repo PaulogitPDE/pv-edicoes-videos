@@ -1,0 +1,12 @@
+{
+ "tarja": "Orçamento que <Volta>",
+ "semente": 367,
+ "tema": "Lentes de contato dental: a paciente que compara preço",
+ "ganchos_ab": ["Ela tá <comparando preço>", "Lentes: <3 orçamentos> abertos"],
+ "cenas": [
+  {"tipo": "gancho", "rotulo": "lentes de contato", "texto": "Ela tá <cotando>", "rabisco": "sublinha", "dur": 2.6, "legenda": "E você saiu <da conversa>", "humor": "dor"},
+  {"tipo": "chat", "nome": "Fernanda", "status": "online", "mensagens": [{"de": "ela", "texto": "Peguei mais 2 orçamentos de lentes, vou comparar", "meta": "qua 16:40"}, {"de": "eu", "texto": "Claro! Qualquer coisa me chama", "meta": "qua 16:42"}], "carimbo": "Esquecida", "dur": 4.0, "legenda": "\"Me chama\" <ninguém chama>"},
+  {"tipo": "timeline", "nome": "Fernanda", "passos": [{"quando": "+1 dia", "texto": "Quer comparar o que cada orçamento inclui?"}, {"quando": "+3 dias", "texto": "Te mando fotos de casos como o seu"}, {"quando": "+5 dias", "texto": "Tenho avaliação na terça, reservo?"}], "resposta": "Reserva pra mim!", "dur": 5.2, "legenda": "Quem volta <ganha a comparação>", "humor": "solucao"},
+  {"tipo": "cta", "modo": "direct", "texto": "Quer as 4 mensagens <prontas>?", "palavra": "FUNIL", "dur": 4.2, "legenda": "Manda <FUNIL> no Direct"}
+ ]
+}
