@@ -68,7 +68,7 @@
 - 2026-11-10 · r2 · 3 vagas de fundador a R$ 997 · comenta (FUNDADOR) · gancho: "Só 3 clínicas pagam menos" · https://www.instagram.com/reel/DflCT0MIXtq/
 - 2026-11-11 · p1 · "Mandar 4 mensagens é demais?" (lista) (Figma) · comenta · https://www.instagram.com/p/DfmZJQ-m9C0/
 - 2026-11-11 · trend · Esquenta da Black Friday → promoção enche o WhatsApp (carrossel 2 slides) (Figma) · bio · https://www.instagram.com/p/Dfmlw8QEffe/
-- 2026-11-11 · r1 · Conteúdo: follow-up incomoda a paciente? · salva (sem venda) · sem tarja · gancho: "Chamar de volta incomoda?" · https://www.instagram.com/reel/Dfmyh5Rj8yY/
+- 2026-11-11 · r1 · Conteúdo: follow-up incomoda a paciente? · salva (sem venda) · sem tarja · gancho: "Chamar de volta incomoda?" · https://www.instagram.com/reel/Dfmyh5Rj8yY/ · ⭐ anúncio (alcance 14 x média 7 dias ≈ 1,7)
 - 2026-11-11 · r2 · O kit de 4 mensagens grátis · direct · gancho: "O kit de 4 mensagens" · https://www.instagram.com/reel/DfnnOIgDrFZ/
 - 2026-11-12 · p1 · O custo do "depois eu vejo" (numero R$ 4.500, exemplo) (Figma) · direct · https://www.instagram.com/p/Dfo9-eRlNlz/
 - 2026-11-12 · r1 · Conteúdo: 3 faltas por semana, quanto dá no mês · salva (sem venda) · gancho: "3 faltas por semana parece pouco" · https://www.instagram.com/reel/DfpXXSgleCg/
