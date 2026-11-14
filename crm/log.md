@@ -79,3 +79,4 @@
 - 2026-11-13 · r2 · Implante: o orçamento mais caro de perder · comenta FUNIL · gancho: "Caro de perder" · https://www.instagram.com/reel/Dfsw9OAk0xe/
 - 2026-11-14 · p1 · Dia Mundial do Diabetes: retorno não pode depender de memória (data) (Figma) · comenta RETORNO · https://www.instagram.com/p/DfuHiy5F4zj/
 - 2026-11-14 · r1 · Conteúdo: Dia Mundial do Diabetes, retorno com data marcada · salva (sem venda) · gancho: "Quem lembra do retorno?" · https://www.instagram.com/reel/Dfug5VhAR5V/
+- 2026-11-14 · r2 · Lentes de contato: a paciente que compara preço · direct FUNIL · gancho: "Ela tá cotando" · https://www.instagram.com/reel/DfvVj8YDnTM/
