@@ -1,0 +1,70 @@
+{
+ "tarja": "Retorno <com data marcada>",
+ "semente": 361,
+ "tema": "Dia Mundial do Diabetes: retorno não pode depender de memória (conteúdo)",
+ "ganchos_ab": [
+  "Quando é o <próximo retorno>?",
+  "Retorno <de memória> atrasa"
+ ],
+ "cenas": [
+  {
+   "tipo": "data",
+   "dia": "14",
+   "mes": "nov",
+   "titulo": "Dia Mundial <do Diabetes>",
+   "dur": 3.0,
+   "legenda": "Acompanhar <é rotina>"
+  },
+  {
+   "tipo": "gancho",
+   "rotulo": "retorno",
+   "texto": "Quem <lembra> do retorno?",
+   "rabisco": "sublinha",
+   "dur": 2.6,
+   "legenda": "Na maioria das clínicas, <ninguém>",
+   "humor": "dor"
+  },
+  {
+   "tipo": "chat",
+   "nome": "Sr. Antônio",
+   "status": "online",
+   "mensagens": [
+    {
+     "de": "eu",
+     "texto": "Oi, Sr. Antônio! Já faz 3 meses da sua última revisão. Vamos marcar?",
+     "meta": "seg 9:00"
+    },
+    {
+     "de": "ela",
+     "texto": "Nossa, nem lembrava! Quinta de manhã pode?",
+     "meta": "seg 9:14"
+    }
+   ],
+   "carimbo": "Agendado",
+   "cor_carimbo": "lime",
+   "dur": 4.4,
+   "legenda": "Lembrete no <dia certo>",
+   "humor": "solucao"
+  },
+  {
+   "tipo": "lista",
+   "texto": "Retorno <que não falha>",
+   "itens": [
+    {
+     "t": "Anote a data do próximo retorno na consulta",
+     "ok": true
+    },
+    {
+     "t": "Avise 1 semana antes",
+     "ok": true
+    },
+    {
+     "t": "Esperar o paciente lembrar",
+     "ok": false
+    }
+   ],
+   "dur": 5.0,
+   "legenda": "Salva pra <usar na recepção>"
+  }
+ ]
+}
