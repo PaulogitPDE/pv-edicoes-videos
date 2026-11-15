@@ -9,3 +9,4 @@
 - 2026-11-12 misto (setup sem produtos novos no filtro): air fryer Philco, escorredor suspenso, cortador de legumes, bomba de pneu, ganchos adesivos. Carrossel NÃO publicado (IG ainda restringido). | fila 8 ofertas (09:00-21:30)
 - 2026-11-13 beleza: chapinha Taiff, prancha Gama, organizador de acrílico, máscara Maybelline, protetor Hidrabene. Carrossel NÃO publicado (IG ainda restringido). | fila 8 ofertas (09:00-21:30)
 - 2026-11-14 carro: carregador de bateria Woosh, mini aspirador Dr. Hank, fone de capacete Kateluo, Taramps TS 800x4, capacete Pro Tork. Carrossel NÃO publicado (IG ainda restringido). | fila 8 ofertas (09:00-21:30)
+- 2026-11-15 casa: aspirador WAP, air fryer Elgin, chuveiro Zagonel, torneira aço 304, cascata de Natal Laruno. Carrossel NÃO publicado (IG ainda restringido). | fila 8 ofertas (09:00-21:30)

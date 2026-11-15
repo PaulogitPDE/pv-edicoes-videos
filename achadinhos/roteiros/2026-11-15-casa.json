@@ -1,0 +1,13 @@
+{
+ "dia": "2026-11-15-fila.json",
+ "rotulo": "achadinhos pra casa",
+ "capa": {"linha1": "5 achadinhos", "linha2": "pra casa que valem a pena", "sub": "Tem coisa a partir de R$ 34"},
+ "produtos": [
+  {"id": "MLB22511808", "foto": 0, "nome": "Aspirador vertical WAP", "beneficio": "High Speed Plus 1350 W, 3 em 1: vira aspirador de mão. Cabo de 4 m."},
+  {"id": "MLB50376945", "foto": 0, "nome": "Air fryer Elgin Quad Fry", "beneficio": "Cesto de 4,2 L, 1400 W e temperatura de 80 a 200 °C."},
+  {"id": "MLB26242473", "foto": 0, "nome": "Chuveiro Zagonel Moment", "beneficio": "Eletrônico de 7500 W pra banho quente o ano todo."},
+  {"id": "MLB39027564", "foto": 0, "nome": "Torneira de banheiro aço 304", "beneficio": "Feita em aço 304, monocomando, pra bancada de pia ou lavabo."},
+  {"id": "MLB78874863", "foto": 0, "nome": "Cascata de Natal 400 LEDs", "beneficio": "10 metros, 8 funções, branco quente e proteção IP44 pra varanda."}
+ ],
+ "cta": {"titulo": "Quer o link de todos?", "sub": "Comenta QUERO aqui embaixo que eu te mando no Direct o link do nosso grupo de promoções."}
+}
