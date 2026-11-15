@@ -82,3 +82,4 @@
 - 2026-11-14 · r2 · Lentes de contato: a paciente que compara preço · direct FUNIL · gancho: "Ela tá cotando" · https://www.instagram.com/reel/DfvVj8YDnTM/
 - 2026-11-15 · p1 · Feriado 15/11: clínica fechada, WhatsApp aberto (data) (Figma) · direct FUNIL · https://www.instagram.com/p/DfwsWMMl0I5/
 - 2026-11-15 · r1 · Conteúdo: feriado, quem atende hoje? (mensagem de feriado) · salva (sem venda) · sem tarja · gancho: "Quem atende hoje?" · https://www.instagram.com/reel/DfxGRdaguy1/
+- 2026-11-15 · r2 · Harmonização e botox: o "depois eu vejo" · link na bio · gancho: "Depois eu vejo" · https://www.instagram.com/reel/Dfx6R_BEqa0/
