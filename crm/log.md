@@ -81,3 +81,4 @@
 - 2026-11-14 · r1 · Conteúdo: Dia Mundial do Diabetes, retorno com data marcada · salva (sem venda) · gancho: "Quem lembra do retorno?" · https://www.instagram.com/reel/Dfug5VhAR5V/
 - 2026-11-14 · r2 · Lentes de contato: a paciente que compara preço · direct FUNIL · gancho: "Ela tá cotando" · https://www.instagram.com/reel/DfvVj8YDnTM/
 - 2026-11-15 · p1 · Feriado 15/11: clínica fechada, WhatsApp aberto (data) (Figma) · direct FUNIL · https://www.instagram.com/p/DfwsWMMl0I5/
+- 2026-11-15 · r1 · Conteúdo: feriado, quem atende hoje? (mensagem de feriado) · salva (sem venda) · sem tarja · gancho: "Quem atende hoje?" · https://www.instagram.com/reel/DfxGRdaguy1/
