@@ -1,0 +1,74 @@
+{
+ "semente": 373,
+ "tema": "Feriado 15/11: a clínica fecha, o WhatsApp continua respondendo (conteúdo, sem tarja)",
+ "ganchos_ab": [
+  "Feriado: <quem atende>?",
+  "Clínica fechada, <WhatsApp lotado>"
+ ],
+ "cenas": [
+  {
+   "tipo": "data",
+   "dia": "15",
+   "mes": "nov",
+   "titulo": "<Feriado>",
+   "dur": 2.8,
+   "legenda": "Clínica fechada, <celular não>"
+  },
+  {
+   "tipo": "gancho",
+   "rotulo": "feriado",
+   "texto": "Quem <atende> hoje?",
+   "rabisco": "sublinha",
+   "dur": 2.6,
+   "legenda": "A paciente <tá de folga>",
+   "humor": "dor"
+  },
+  {
+   "tipo": "chat",
+   "nome": "Patrícia",
+   "status": "online",
+   "mensagens": [
+    {
+     "de": "ela",
+     "texto": "Oi! Vocês fazem clareamento? Quanto fica?",
+     "meta": "dom 10:12"
+    },
+    {
+     "de": "eu",
+     "texto": "Oi, Patrícia! Hoje é feriado. Amanhã às 8h te mando valores e horários!",
+     "meta": "dom 10:12"
+    },
+    {
+     "de": "ela",
+     "texto": "Combinado, obrigada!",
+     "meta": "dom 10:13"
+    }
+   ],
+   "carimbo": "Respondida",
+   "cor_carimbo": "lime",
+   "dur": 5.0,
+   "legenda": "Resposta <na hora>",
+   "humor": "solucao"
+  },
+  {
+   "tipo": "lista",
+   "texto": "Antes do <próximo feriado>",
+   "itens": [
+    {
+     "t": "Mensagem de feriado com prazo de retorno",
+     "ok": true
+    },
+    {
+     "t": "Lista de quem chamou pra responder primeiro",
+     "ok": true
+    },
+    {
+     "t": "Deixar a paciente no vácuo até terça",
+     "ok": false
+    }
+   ],
+   "dur": 5.0,
+   "legenda": "Salva pra <dezembro>"
+  }
+ ]
+}
