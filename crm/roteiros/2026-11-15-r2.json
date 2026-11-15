@@ -1,0 +1,12 @@
+{
+ "tarja": "Orçamento que <Volta>",
+ "semente": 379,
+ "tema": "Harmonização e botox: o \"depois eu vejo\"",
+ "ganchos_ab": ["\"Depois <eu vejo>\"", "Botox: <depois eu vejo>"],
+ "cenas": [
+  {"tipo": "gancho", "rotulo": "harmonização e botox", "texto": "\"Depois <eu vejo>\"", "rabisco": "x", "dur": 2.6, "legenda": "A frase que <mais perde paciente>", "humor": "dor"},
+  {"tipo": "chat", "nome": "Camila", "status": "visto por último sáb 20:31", "mensagens": [{"de": "eu", "texto": "O botox fica R$ 1.200, aplicação em 30 min", "meta": "sáb 20:15"}, {"de": "ela", "texto": "Ah, depois eu vejo", "meta": "sáb 20:31"}], "carimbo": "Sumiu", "dur": 4.0, "legenda": "E ninguém <perguntou de novo>"},
+  {"tipo": "timeline", "nome": "Camila", "passos": [{"quando": "+2 dias", "texto": "Ficou dúvida sobre o resultado?"}, {"quando": "+5 dias", "texto": "Olha esse antes e depois"}, {"quando": "+8 dias", "texto": "Tenho horário quinta à tarde"}], "resposta": "Quinta dá certo!", "dur": 5.2, "legenda": "O \"depois\" <vira agenda>", "humor": "solucao"},
+  {"tipo": "cta", "modo": "bio", "texto": "Quer isso <na sua clínica>?", "dur": 4.4, "legenda": "Link na <bio>"}
+ ]
+}
