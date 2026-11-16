@@ -83,3 +83,4 @@
 - 2026-11-15 · p1 · Feriado 15/11: clínica fechada, WhatsApp aberto (data) (Figma) · direct FUNIL · https://www.instagram.com/p/DfwsWMMl0I5/
 - 2026-11-15 · r1 · Conteúdo: feriado, quem atende hoje? (mensagem de feriado) · salva (sem venda) · sem tarja · gancho: "Quem atende hoje?" · https://www.instagram.com/reel/DfxGRdaguy1/
 - 2026-11-15 · r2 · Harmonização e botox: o "depois eu vejo" · link na bio · gancho: "Depois eu vejo" · https://www.instagram.com/reel/Dfx6R_BEqa0/
+- 2026-11-16 · p1 · Sem resposta não é não (frase) (Figma) · link na bio · https://www.instagram.com/p/DfzRF8Nl1Op/
