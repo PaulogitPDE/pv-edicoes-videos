@@ -1,0 +1,12 @@
+{
+ "tarja": "Funil <sem furo>",
+ "semente": 383,
+ "tema": "Seu funil está vazando (conteúdo)",
+ "ganchos_ab": ["Seu funil <tá vazando>", "Onde a paciente <escapa>?"],
+ "cenas": [
+  {"tipo": "gancho", "rotulo": "segunda da dor", "texto": "Seu funil <tá vazando>", "rabisco": "sublinha", "dur": 2.6, "legenda": "E não é no anúncio", "humor": "dor"},
+  {"tipo": "desenho", "forma": "funil", "texto": "O furo é <depois do valor>", "vazando": 0.45, "dur": 3.6, "legenda": "Orçamento enviado, <ninguém volta>"},
+  {"tipo": "timeline", "nome": "Larissa", "passos": [{"quando": "+2h", "texto": "Conseguiu ver o orçamento?"}, {"quando": "+1 dia", "texto": "Ficou dúvida no parcelamento?"}, {"quando": "+3 dias", "texto": "Separei dois horários pra você"}], "resposta": "Quarta às 10h pode?", "dur": 5.2, "legenda": "Três toques <tapam o furo>", "humor": "solucao"},
+  {"tipo": "lista", "texto": "Pra achar <o furo>", "itens": [{"t": "Conte os orçamentos enviados no mês", "ok": true}, {"t": "Veja quantos viraram agendamento", "ok": true}, {"t": "A diferença é o seu vazamento", "ok": true}], "dur": 5.0, "legenda": "Salva e faz <a conta hoje>"}
+ ]
+}
