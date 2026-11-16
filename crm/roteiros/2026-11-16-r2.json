@@ -1,0 +1,12 @@
+{
+ "tarja": "Orçamento que <Volta>",
+ "semente": 389,
+ "tema": "Clareamento: o lead rápido que esfria rápido",
+ "ganchos_ab": ["Clareamento <esfria rápido>", "Quente às 10h, <fria às 15h>"],
+ "cenas": [
+  {"tipo": "gancho", "rotulo": "clareamento", "texto": "Lead quente <esfria rápido>", "rabisco": "sublinha", "dur": 2.6, "legenda": "Clareamento é <decisão de impulso>", "humor": "dor"},
+  {"tipo": "chat", "nome": "Bianca", "status": "visto por último 10:20", "mensagens": [{"de": "ela", "texto": "Quanto fica o clareamento? Queria fazer antes do casamento", "meta": "seg 10:05"}, {"de": "eu", "texto": "Oi, Bianca! Fica R$ 900, quer agendar?", "meta": "seg 15:40"}], "carimbo": "Fechou fora", "dur": 4.2, "legenda": "Resposta 5 horas <depois>"},
+  {"tipo": "numero", "rotulo": "minutos pra responder", "ate": 5, "cor": "lime", "sub": "enquanto <a vontade tá quente>", "dur": 3.4, "legenda": "Velocidade <fecha clareamento>", "humor": "solucao"},
+  {"tipo": "cta", "modo": "comenta", "texto": "Comenta <FUNIL>", "palavra": "FUNIL", "dur": 4.2, "legenda": "Te mando <o kit no Direct>"}
+ ]
+}
