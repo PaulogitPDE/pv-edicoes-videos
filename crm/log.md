@@ -85,3 +85,4 @@
 - 2026-11-15 · r2 · Harmonização e botox: o "depois eu vejo" · link na bio · gancho: "Depois eu vejo" · https://www.instagram.com/reel/Dfx6R_BEqa0/
 - 2026-11-16 · p1 · Sem resposta não é não (frase) (Figma) · link na bio · https://www.instagram.com/p/DfzRF8Nl1Op/
 - 2026-11-16 · trend · Ronaldinho de volta aos 46 (Ravenna) → a paciente também volta (carrossel 2 slides) (Figma) · direct FUNIL · https://www.instagram.com/p/DfzeE8Ll8uh/
+- 2026-11-16 · r1 · Conteúdo: seu funil tá vazando (achar o furo) · salva (sem venda) · gancho: "Seu funil tá vazando" · https://www.instagram.com/reel/Dfzqrawkiy5/
