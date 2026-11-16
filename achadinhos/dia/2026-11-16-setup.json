@@ -1,0 +1,359 @@
+{
+ "data": "2026-11-16",
+ "tema": "setup",
+ "produtos": [
+  {
+   "id": "MLB52039200",
+   "posicao_mais_vendidos": 5,
+   "categoria": "MLB447778",
+   "nome": "Samsung Galaxy Buds Core branco",
+   "marca": "Samsung",
+   "modelo": "Galaxy Buds Core",
+   "destaques": [
+    "Com estojo de carregamento.",
+    "Com microfone embutido."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_967872-MLA87279987383_072025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_754623-MLA86955784948_072025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_679230-MLA86954972518_072025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_842474-MLA87280066633_072025-F.jpg"
+   ],
+   "preco": 226.14,
+   "preco_de": 349,
+   "desconto_pct": 35,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Eletronicos",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 25747121,
+   "ofertas_no_catalogo": 32,
+   "link": "https://www.mercadolivre.com.br/p/MLB52039200?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB65541449",
+   "posicao_mais_vendidos": 6,
+   "categoria": "MLB447778",
+   "nome": "Fone de Ouvido JBL Tune 530BT Bluetooth Sem Fio Preto Headphone com Microfone Wireless Estéreo Graves Potentes Confortável",
+   "marca": "JBL",
+   "modelo": "Tune 530BT",
+   "destaques": [
+    "A duração máxima da bateria é 76 h.",
+    "Modo mãos-livres incluído.",
+    "Inclui microfone.",
+    "Conexão multipontos com Bluetooth 6.0"
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_608030-MLA106478715282_022026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_733211-MLA118747852271_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_962612-MLA118748027157_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_706358-MLA118747940443_102026-F.jpg"
+   ],
+   "preco": 198.45,
+   "preco_de": 300.6,
+   "desconto_pct": 34,
+   "desconto_verificado": false,
+   "frete": "grátis",
+   "vendedor": "LOJAGAZIN",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 138335,
+   "ofertas_no_catalogo": 100,
+   "link": "https://www.mercadolivre.com.br/p/MLB65541449?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB36476927",
+   "posicao_mais_vendidos": 11,
+   "categoria": "MLB430687",
+   "nome": "Placa Mãe Asus Tuf Gaming B550m-plus Ddr4 AMD Am4 mATX RGB",
+   "marca": "Asus",
+   "modelo": "B550M-PLUS GAMING",
+   "destaques": [
+    "Capacidade máxima de memória RAM de 128 GB.",
+    "Oito portas USB, incluindo USB Tipo-C.",
+    "Quatro portas SATA 6Gb/s para armazenamento.",
+    "Suporte para tecnologia de Multi-GPU AMD CrossFireX."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_920822-MLA99469912962_112025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_970203-MLA91568503002_092025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_816665-MLA91568562502_092025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_718733-MLA91568453602_092025-F.jpg"
+   ],
+   "preco": 749,
+   "preco_de": 1096.78,
+   "desconto_pct": 32,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "NEGOCIUN-SP",
+   "loja_oficial": true,
+   "mercadolider": null,
+   "vendas_vendedor": 410699,
+   "ofertas_no_catalogo": 100,
+   "link": "https://www.mercadolivre.com.br/p/MLB36476927?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB19938121",
+   "posicao_mais_vendidos": 12,
+   "categoria": "MLB447778",
+   "nome": "Fone Sem Fio Lenovo Gm2 Pro 5.3 Bluetooth - Touch - Gamer Preto Luz Azul",
+   "marca": "Lenovo",
+   "modelo": "GM2 PRO",
+   "destaques": [
+    "É monaural.",
+    "Possui tecnologia True Wireless.",
+    "Com estojo de carregamento."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_896426-MLA118354508175_092026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_944641-MLA118354032373_092026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_833540-MLA116800584126_092026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_849516-MLA116800584142_092026-F.jpg"
+   ],
+   "preco": 99.9,
+   "preco_de": null,
+   "desconto_pct": null,
+   "desconto_verificado": false,
+   "frete": "grátis",
+   "vendedor": "2WTECNOLOGIA",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 4868,
+   "ofertas_no_catalogo": 100,
+   "link": "https://www.mercadolivre.com.br/p/MLB19938121?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB15144095",
+   "posicao_mais_vendidos": 17,
+   "categoria": "MLB454379",
+   "nome": "Logitech Mouse Sem Fio M170 Preto Cinza USB 2.4GHz Ambidestro Compacto para Notebook PC Computador com Nano Receptor USB Conexão Sem Fio Tecnologia Wireless Com De 1000DPI",
+   "marca": "Logitech",
+   "modelo": "M170",
+   "destaques": [
+    "Resolução de 1000dpi.",
+    "A duração da bateria de até 12 meses e o recurso de suspensão automática de energia oferecem mais tempo de uso.",
+    "Conexão Plug-and-Play: Conecte o receptor USB à porta do seu computador para desfrutar de seu mouse sem fio.",
+    "Mouse sem fio de 2,4 GHz: Possui longo alcance e funciona a até 10m de distância do seu computador."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_956180-MLA99964568593_112025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_845017-MLA99480420218_112025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_941692-MLA99964647611_112025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_625237-MLA99964213207_112025-F.jpg"
+   ],
+   "preco": 60.95,
+   "preco_de": null,
+   "desconto_pct": null,
+   "desconto_verificado": false,
+   "frete": "grátis",
+   "vendedor": "KM20260806165159823",
+   "loja_oficial": true,
+   "mercadolider": null,
+   "vendas_vendedor": 57827,
+   "ofertas_no_catalogo": 100,
+   "link": "https://www.mercadolivre.com.br/p/MLB15144095?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB47044981",
+   "posicao_mais_vendidos": 15,
+   "categoria": "MLB447778",
+   "nome": "Fone de Ouvido Gamer com Fio - Quantum 100M2 - Driver de 40mm, Microfone Boom Removível, Compatível com PC e Consoles, JBL QuantumSOUND Signature - Preto",
+   "marca": "JBL",
+   "modelo": "Quantum 100m2",
+   "destaques": [
+    "JBL QuantumSOUND Signature para ouvir detalhes sonoros que ajudam a acompanhar a ação do jogo.",
+    "Drivers de 40 mm reproduzem explosões, efeitos e sons do jogo com áudio realista.",
+    "Microfone direcional removível com função mudo para conversar com a equipe e silenciar a voz quando necessário.",
+    "Tecido respirável, espuma de memória e haste leve ajudam a reduzir o incômodo durante longas sessões de jogo."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_913023-MLA110131689717_042026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_607518-MLA118748537611_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_719495-MLA117164396646_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_839234-MLA118748389113_102026-F.jpg"
+   ],
+   "preco": 139.9,
+   "preco_de": 193.9,
+   "desconto_pct": 28,
+   "desconto_verificado": false,
+   "frete": "grátis",
+   "vendedor": "GAZINSHOP",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 112648,
+   "ofertas_no_catalogo": 91,
+   "link": "https://www.mercadolivre.com.br/p/MLB47044981?matt_word=paulovitorlemes&matt_tool=37931087"
+  }
+ ],
+ "recusados": [
+  {
+   "id": "MLB50196682",
+   "motivo": "sem marca"
+  },
+  {
+   "id": "MLB72674962",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB25980994",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB62756066",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB50860259",
+   "motivo": "sem marca"
+  },
+  {
+   "id": "MLB51757399",
+   "motivo": "sem marca"
+  },
+  {
+   "id": "MLB53760876",
+   "motivo": "nenhum vendedor confiável"
+  },
+  {
+   "id": "MLB27065699",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB64997788",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB46220824",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB63047503",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB65103392",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB53988081",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB19444510",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB59323062",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB16211422",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB68244387",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB62870615",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB52304672",
+   "motivo": "sem marca"
+  },
+  {
+   "id": "MLB25057291",
+   "motivo": "nenhum vendedor confiável"
+  },
+  {
+   "id": "MLB66374198",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB24117280",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB62754381",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB61706715",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB32333269",
+   "motivo": "sem marca"
+  },
+  {
+   "id": "MLB79379664",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB66176437",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB76223619",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB70040749",
+   "motivo": "categoria de risco"
+  },
+  {
+   "id": "MLB64244402",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB48947564",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB46159912",
+   "motivo": "sem marca"
+  },
+  {
+   "id": "MLB64212276",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB59019868",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB79031551",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB80271895",
+   "motivo": "nenhum vendedor confiável"
+  },
+  {
+   "id": "MLB60709470",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB36772633",
+   "motivo": "categoria de risco"
+  },
+  {
+   "id": "MLB34229153",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB80097388",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB58147143",
+   "motivo": "eletrônico de marca desconhecida"
+  },
+  {
+   "id": "MLB69012905",
+   "motivo": "eletrônico de marca desconhecida"
+  }
+ ]
+}

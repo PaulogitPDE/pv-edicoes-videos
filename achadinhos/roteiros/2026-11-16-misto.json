@@ -1,0 +1,13 @@
+{
+ "dia": "2026-11-16-fila.json",
+ "rotulo": "achadinhos úteis",
+ "capa": {"linha1": "5 achadinhos", "linha2": "úteis que valem a pena", "sub": "Tem coisa a partir de R$ 60"},
+ "produtos": [
+  {"id": "MLB37943617", "foto": 0, "nome": "Chuveiro Fame Intense", "beneficio": "Eletrônico, linha Luxo branca, pra banho quente e potente."},
+  {"id": "MLB15144095", "foto": 0, "nome": "Mouse sem fio Logitech M170", "beneficio": "Alcance de até 10 m e bateria que dura até 12 meses. É só plugar e usar."},
+  {"id": "MLB55829716", "foto": 0, "nome": "Kit 10 potes de vidro", "beneficio": "Borossilicato, 640 ml e tampa com travas que não vaza. Bom pra marmita."},
+  {"id": "MLB24588020", "foto": 0, "nome": "Cartão SanDisk Ultra 128 GB", "beneficio": "MicroSDXC de até 100 MB/s, com adaptador incluso."},
+  {"id": "MLB47044981", "foto": 0, "nome": "Headset JBL Quantum 100M2", "beneficio": "Drivers de 40 mm e microfone removível com botão de mudo."}
+ ],
+ "cta": {"titulo": "Quer o link de todos?", "sub": "Comenta QUERO aqui embaixo que eu te mando no Direct o link do nosso grupo de promoções."}
+}
