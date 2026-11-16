@@ -84,3 +84,4 @@
 - 2026-11-15 · r1 · Conteúdo: feriado, quem atende hoje? (mensagem de feriado) · salva (sem venda) · sem tarja · gancho: "Quem atende hoje?" · https://www.instagram.com/reel/DfxGRdaguy1/
 - 2026-11-15 · r2 · Harmonização e botox: o "depois eu vejo" · link na bio · gancho: "Depois eu vejo" · https://www.instagram.com/reel/Dfx6R_BEqa0/
 - 2026-11-16 · p1 · Sem resposta não é não (frase) (Figma) · link na bio · https://www.instagram.com/p/DfzRF8Nl1Op/
+- 2026-11-16 · trend · Ronaldinho de volta aos 46 (Ravenna) → a paciente também volta (carrossel 2 slides) (Figma) · direct FUNIL · https://www.instagram.com/p/DfzeE8Ll8uh/
