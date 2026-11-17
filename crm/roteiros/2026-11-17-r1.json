@@ -1,0 +1,11 @@
+{
+ "semente": 397,
+ "tema": "Do Direct até \"agendado\" em uma tela (conteúdo, sem tarja)",
+ "ganchos_ab": ["Do Direct ao <agendado>", "Onde tá <essa paciente>?"],
+ "cenas": [
+  {"tipo": "gancho", "rotulo": "terça de bastidor", "texto": "Onde tá <essa paciente>?", "rabisco": "sublinha", "dur": 2.6, "legenda": "Chegou pelo Direct <ontem>", "humor": "dor"},
+  {"tipo": "chat", "nome": "Renata · Direct", "status": "online", "mensagens": [{"de": "ela", "texto": "Vi o post de vocês! Vocês fazem lentes?", "meta": "seg 21:14"}, {"de": "eu", "texto": "Fazemos sim! Te passo pro WhatsApp pra marcar a avaliação?", "meta": "seg 21:15"}], "carimbo": "Virou card", "cor_carimbo": "lime", "dur": 4.2, "legenda": "Cada conversa <vira um card>", "humor": "solucao"},
+  {"tipo": "leads", "titulo": "Funil de orçamentos", "leads": [{"nome": "Renata", "proc": "Lentes", "valor": "R$ 6.000", "vai": 3}, {"nome": "Paulo", "proc": "Implante", "valor": "R$ 4.500", "vai": 2}, {"nome": "Lúcia", "proc": "Botox", "valor": "R$ 1.200", "vai": 3}], "total": "{valor} <agendados>", "dur": 4.8, "legenda": "Tudo numa tela, <valores de exemplo>"},
+  {"tipo": "lista", "texto": "Pra montar <a sua tela>", "itens": [{"t": "Uma coluna pra cada etapa", "ok": true}, {"t": "Todo contato novo entra em Novo", "ok": true}, {"t": "Card só sai quando agenda ou desiste", "ok": true}], "dur": 5.0, "legenda": "Salva pra <montar hoje>"}
+ ]
+}
