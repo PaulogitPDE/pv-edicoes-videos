@@ -78,7 +78,7 @@
 - 2026-11-13 · r1 · Conteúdo: sextou, 3 mensagens antes de fechar · salva (sem venda) · sem tarja · gancho: "3 mensagens antes de fechar" · saiu 13h08 (disparo atrasado) · https://www.instagram.com/reel/DfsBg8CgFXg/
 - 2026-11-13 · r2 · Implante: o orçamento mais caro de perder · comenta FUNIL · gancho: "Caro de perder" · https://www.instagram.com/reel/Dfsw9OAk0xe/
 - 2026-11-14 · p1 · Dia Mundial do Diabetes: retorno não pode depender de memória (data) (Figma) · comenta RETORNO · https://www.instagram.com/p/DfuHiy5F4zj/
-- 2026-11-14 · r1 · Conteúdo: Dia Mundial do Diabetes, retorno com data marcada · salva (sem venda) · gancho: "Quem lembra do retorno?" · https://www.instagram.com/reel/Dfug5VhAR5V/
+- 2026-11-14 · r1 · Conteúdo: Dia Mundial do Diabetes, retorno com data marcada · salva (sem venda) · gancho: "Quem lembra do retorno?" · https://www.instagram.com/reel/Dfug5VhAR5V/ · ⭐ anúncio (alcance 15 x média 7 dias ≈ 1,9)
 - 2026-11-14 · r2 · Lentes de contato: a paciente que compara preço · direct FUNIL · gancho: "Ela tá cotando" · https://www.instagram.com/reel/DfvVj8YDnTM/
 - 2026-11-15 · p1 · Feriado 15/11: clínica fechada, WhatsApp aberto (data) (Figma) · direct FUNIL · https://www.instagram.com/p/DfwsWMMl0I5/
 - 2026-11-15 · r1 · Conteúdo: feriado, quem atende hoje? (mensagem de feriado) · salva (sem venda) · sem tarja · gancho: "Quem atende hoje?" · https://www.instagram.com/reel/DfxGRdaguy1/
