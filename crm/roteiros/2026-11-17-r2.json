@@ -1,0 +1,12 @@
+{
+ "tarja": "No ar em <7 dias úteis>",
+ "semente": 401,
+ "tema": "Como funciona a implantação em 7 dias",
+ "ganchos_ab": ["Em <7 dias> no ar", "Implantar CRM <demora>?"],
+ "cenas": [
+  {"tipo": "gancho", "rotulo": "orçamento que volta", "texto": "<7 dias> pra ficar no ar", "rabisco": "circulo", "dur": 2.6, "legenda": "Ou você <não paga>", "humor": "solucao"},
+  {"tipo": "lista", "texto": "O que a gente <monta>", "itens": [{"t": "Funil de orçamentos no Kommo", "ok": true}, {"t": "4 mensagens de retorno prontas", "ok": true}, {"t": "Lembrete de consulta 1 dia antes", "ok": true}, {"t": "Treino da recepção", "ok": true}], "dur": 5.0, "legenda": "Tudo no <WhatsApp da clínica>"},
+  {"tipo": "timeline", "nome": "Paciente", "passos": [{"quando": "+2h", "texto": "Ficou alguma dúvida no orçamento?"}, {"quando": "+1 dia", "texto": "Dá pra começar pela avaliação"}, {"quando": "+3 dias", "texto": "Tenho dois horários essa semana"}], "resposta": "Quero o de quinta!", "dur": 5.2, "legenda": "No dia 8, <já roda sozinho>"},
+  {"tipo": "cta", "modo": "direct", "texto": "Quer <na sua clínica>?", "palavra": "FUNIL", "dur": 4.2, "legenda": "Manda <FUNIL> no Direct"}
+ ]
+}
