@@ -1,0 +1,619 @@
+{
+ "data": "2026-11-17",
+ "tema": "beleza",
+ "produtos": [
+  {
+   "id": "MLB41038891",
+   "posicao_mais_vendidos": 1,
+   "categoria": "MLB1248",
+   "nome": "Kit Pincel De Maquiagem Com 13 Unidades Sombra Blush Cor Roxo",
+   "marca": "Makeup Brushes",
+   "modelo": "Makeup Brushes",
+   "destaques": [
+    "Cerdas sintéticas que garantem aplicação suave e uniforme dos produtos.",
+    "Cabos em plástico resistente para maior durabilidade.",
+    "Pincéis com tamanhos aproximados de 17,5 cm para fácil manuseio."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_756953-MLA79432505733_092024-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_755584-MLA79189740392_092024-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_667876-MLA79432505741_092024-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_667672-MLA79189740414_092024-F.jpg"
+   ],
+   "preco": 19.17,
+   "preco_de": null,
+   "desconto_pct": null,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "PEITER SHOP",
+   "loja_oficial": false,
+   "mercadolider": "silver",
+   "vendas_vendedor": 18233,
+   "ofertas_no_catalogo": 3,
+   "link": "https://www.mercadolivre.com.br/p/MLB41038891?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB64174316",
+   "posicao_mais_vendidos": 2,
+   "categoria": "MLB1263",
+   "nome": "L'oréal Paris Elseve Collagen Lifter Leave-in Sérum Capilar Para Cabelos Finos Injeção de Massa com Peptídeos de Colágeno Aumenta o Volume em 61% e Encorpa os Fios por 72h 100ml",
+   "marca": "L'Oréal Paris",
+   "modelo": null,
+   "destaques": [
+    "Cabelos visivelmente encorpados desde o 1º uso, com 72 horas de volume, fios livres de oleosidade e raízes soltinhas.",
+    "Leave-in da linha Elseve Collagen Lifter da L'Oréal Paris, apresentação em frasco branco com 100ml de produto.",
+    "Leave-in de uso sem enxágue com tecnologia Collagen Lifter, indicado para tratamento e cuidado dos fios no dia a dia."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_683166-MLA103936334574_012026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_759142-MLA114293842341_072026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_956620-MLA105117361832_012026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_806617-MLA111153900322_052026-F.jpg"
+   ],
+   "preco": 34.42,
+   "preco_de": 65.09,
+   "desconto_pct": 47,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Brasil",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 37433560,
+   "ofertas_no_catalogo": 100,
+   "link": "https://www.mercadolivre.com.br/p/MLB64174316?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB10481238",
+   "posicao_mais_vendidos": 2,
+   "categoria": "MLB1248",
+   "nome": "Máscara de Cílios Maybelline Lash Sensational à Prova d'Água para Volume e Definição",
+   "marca": "Maybelline",
+   "modelo": "Full Fan Effect",
+   "destaques": [
+    "A máscara proporciona o famoso efeito leque, deixando os cílios mais abertos, volumosos, flexíveis e separados.",
+    "Fórmula enriquecida com Óleo de Rosa Mosqueta, que hidrata e cuida dos seus cílios, garantindo um acabamento macio.",
+    "Aplicador com 10 camadas de cerdas que alcança até os menores fios para uma definição completa e sem falhas.",
+    "Cor intensa e impactante, sem pesar ou formar grumos nos cílios."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_645424-MLU72821012247_112023-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_865253-MLU74218961221_012024-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_901608-MLU72818228169_112023-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_813074-MLU72818228173_112023-F.jpg"
+   ],
+   "preco": 23.74,
+   "preco_de": 29.9,
+   "desconto_pct": 21,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "VENCIFARMA_",
+   "loja_oficial": false,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 11276,
+   "ofertas_no_catalogo": 18,
+   "link": "https://www.mercadolivre.com.br/p/MLB10481238?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB27987921",
+   "posicao_mais_vendidos": 3,
+   "categoria": "MLB1263",
+   "nome": "Absolut Repair Gold Quinoa Máscara 500g - L'oréal",
+   "marca": "L'Oréal Professionnel",
+   "modelo": null,
+   "destaques": [
+    "Contém extrato de quinoa dourada.",
+    "Embalagem com 3 unidades.",
+    "Ideal para cabelos danificados."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_777426-MLU72721384007_112023-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_722939-MLU72721432251_112023-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_710560-MLA116702280922_092026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_623487-MLA118250609399_092026-F.jpg"
+   ],
+   "preco": 258.31,
+   "preco_de": 287.5,
+   "desconto_pct": 10,
+   "desconto_verificado": true,
+   "frete": "grátis",
+   "vendedor": "VELA7 COSMÉTICOS",
+   "loja_oficial": false,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 39487,
+   "ofertas_no_catalogo": 53,
+   "link": "https://www.mercadolivre.com.br/p/MLB27987921?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB23535579",
+   "posicao_mais_vendidos": 3,
+   "categoria": "MLB1248",
+   "nome": "Corretivo de alta cobertura Natura Una Extrema",
+   "marca": "Natura",
+   "modelo": "Una",
+   "destaques": [
+    "O acabamento é natural.",
+    "É duradouro.",
+    "A textura é cremosa."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_737709-MLU74482834658_022024-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_925675-MLU74483110520_022024-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_809050-MLU72761230416_112023-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_736152-MLA115896591685_082026-F.jpg"
+   ],
+   "preco": 62.9,
+   "preco_de": null,
+   "desconto_pct": null,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "NATURA_OFICIAL",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 1882383,
+   "ofertas_no_catalogo": 6,
+   "link": "https://www.mercadolivre.com.br/p/MLB23535579?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB19462412",
+   "posicao_mais_vendidos": 4,
+   "categoria": "MLB1263",
+   "nome": "Máscara de Reconstrução Profunda para Cabelos Danificados, Força e Elasticidade Résistance Thérapiste Kérastase 200ml",
+   "marca": "Kérastase",
+   "modelo": null,
+   "destaques": [
+    "Apresentação: pote.",
+    "Tipo de cuidado: reparação.",
+    "Fragrância de: sim.",
+    "Para aplicar no cabelo úmido."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_753132-MLA99450295832_112025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_731036-MLA106595755048_022026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_848311-MLA106594660540_022026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_704305-MLA106595398964_022026-F.jpg"
+   ],
+   "preco": 239,
+   "preco_de": 399.9,
+   "desconto_pct": 40,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Brasil",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 37433560,
+   "ofertas_no_catalogo": 16,
+   "link": "https://www.mercadolivre.com.br/p/MLB19462412?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB55232692",
+   "posicao_mais_vendidos": 4,
+   "categoria": "MLB199407",
+   "nome": "Cetaphil Loção Hidratante Corporal e Facial para Pele Sensível, Normal a Seca 1L - Hidratação 48h",
+   "marca": "Cetaphil",
+   "modelo": null,
+   "destaques": [
+    "Ação umectante com niacinamida e pantenol que mantém a hidratação da pele por até 48 horas após a aplicação.",
+    "Fórmula de absorção rápida que permite o uso diário imediato em todo o corpo sem deixar resíduos pegajosos na pele.",
+    "Composição sem fragrância que reduz o risco de irritações para usuários com pele sensível ou propensa a ressecamento.",
+    "Formulação hipoalergênica livre de parabenos desenvolvida especificamente para tipos de pele de normal a seca."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_800625-MLA118013409895_092026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_796832-MLA111972649614_062026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_937072-MLA91723747084_092025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_930612-MLA91723747092_092025-F.jpg"
+   ],
+   "preco": 114.9,
+   "preco_de": 205.9,
+   "desconto_pct": 44,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Brasil",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 37433560,
+   "ofertas_no_catalogo": 4,
+   "link": "https://www.mercadolivre.com.br/p/MLB55232692?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB56546186",
+   "posicao_mais_vendidos": 5,
+   "categoria": "MLB1248",
+   "nome": "Bioré Óleo Demaquilante Facial Cleansing Oil Original 230ml",
+   "marca": "Bioré",
+   "modelo": null,
+   "destaques": [
+    "A tecnologia de emulsão com água permite a remoção de maquiagem resistente em segundos através do enxágue imediato.",
+    "A formulação em óleo possibilita a aplicação direta no rosto mesmo com as mãos molhadas durante o banho.",
+    "A estrutura baseada em camadas laminares possibilita a retirada de impurezas sem a necessidade de uso de algodão.",
+    "A composição sem ácidos possibilita a remoção de maquiagens à prova d'água evitando resíduos oleosos na face."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_855741-MLA119030355352_112026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_952385-MLA120725353309_112026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_716081-MLA119030063402_112026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_637354-MLA119030296062_112026-F.jpg"
+   ],
+   "preco": 104.97,
+   "preco_de": null,
+   "desconto_pct": null,
+   "desconto_verificado": false,
+   "frete": "grátis",
+   "vendedor": "VITIX_CO",
+   "loja_oficial": true,
+   "mercadolider": "silver",
+   "vendas_vendedor": 4678,
+   "ofertas_no_catalogo": 5,
+   "link": "https://www.mercadolivre.com.br/p/MLB56546186?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB24205737",
+   "posicao_mais_vendidos": 4,
+   "categoria": "MLB439347",
+   "nome": "Prancha Alisadora By Juliette Mondial Golden Rose Bivolt P-JU-01",
+   "marca": "Mondial",
+   "modelo": "Prancha Alisadora",
+   "destaques": [
+    "Possui placas de cerâmica.",
+    "Funções:Alisar.",
+    "Atinge 230 °C de temperatura máxima e 150 °C de temperatura mínima.",
+    "É adequada para cabelo seco e úmido."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_797178-MLA99964856819_112025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_678303-MLU72540892520_112023-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_673086-MLU72750945528_112023-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_664689-MLA78984961904_092024-F.jpg"
+   ],
+   "preco": 146.29,
+   "preco_de": 190,
+   "desconto_pct": 23,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "KARZEN_SP",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 22999,
+   "ofertas_no_catalogo": 15,
+   "link": "https://www.mercadolivre.com.br/p/MLB24205737?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB42456000",
+   "posicao_mais_vendidos": 5,
+   "categoria": "MLB1263",
+   "nome": "Máscara Acidificante Amend Equilíbrio do pH 250g",
+   "marca": "Amend",
+   "modelo": null,
+   "destaques": [
+    "Máscara acidificante para cabelos porosos e ásperos.",
+    "Restauração eficaz com redução do frizz.",
+    "Indicado para cuidados de reconstrução.",
+    "Livre de parabenos para segurança dos fios."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_997869-MLA119798411771_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_953693-MLA115700522740_092026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_611064-MLA115358901290_082026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_914642-MLA115700463126_092026-F.jpg"
+   ],
+   "preco": 34.91,
+   "preco_de": null,
+   "desconto_pct": null,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "BELLEBLZ",
+   "loja_oficial": false,
+   "mercadolider": "gold",
+   "vendas_vendedor": 7998,
+   "ofertas_no_catalogo": 100,
+   "link": "https://www.mercadolivre.com.br/p/MLB42456000?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB19508984",
+   "posicao_mais_vendidos": 5,
+   "categoria": "MLB199407",
+   "nome": "ISDIN Protetor Solar Facial Fusion Water 5 Stars Sem Cor FPS 60 - 50ml",
+   "marca": "Isdin",
+   "modelo": "ISDIN Fusion Water FPS 60",
+   "destaques": [
+    "Fator de proteção solar: 60+ FPS.",
+    "Dermatologicamente testado.",
+    "É livre de crueldade.",
+    "É livre de óleos."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_980727-MLA119667556620_112026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_638963-MLA121392792749_112026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_659586-MLA119666555936_112026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_927064-MLA89969728851_082025-F.jpg"
+   ],
+   "preco": 77.43,
+   "preco_de": 114.9,
+   "desconto_pct": 33,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Brasil",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 37433560,
+   "ofertas_no_catalogo": 67,
+   "link": "https://www.mercadolivre.com.br/p/MLB19508984?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB27864422",
+   "posicao_mais_vendidos": 8,
+   "categoria": "MLB1248",
+   "nome": "Gloss Labial Kiko Milano 3D Hydra Cor 01 Transparente",
+   "marca": "Kiko Milano",
+   "modelo": "3D Hydra Lipgloss",
+   "destaques": [
+    "Cor claro e transparente que proporciona um acabamento brilhante.",
+    "Formato em gel que se adapta confortavelmente aos lábios.",
+    "Produto vegano, livre de crueldade, sem ingredientes de origem animal.",
+    "Hidratante para lábios suaves e bem cuidados durante o uso."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_702679-MLU75333762686_032024-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_704449-MLA84192873140_052025-F.jpg"
+   ],
+   "preco": 198.14,
+   "preco_de": null,
+   "desconto_pct": null,
+   "desconto_verificado": false,
+   "frete": "grátis",
+   "vendedor": "CASHOP01",
+   "loja_oficial": false,
+   "mercadolider": "silver",
+   "vendas_vendedor": 5784,
+   "ofertas_no_catalogo": 13,
+   "link": "https://www.mercadolivre.com.br/p/MLB27864422?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB22203782",
+   "posicao_mais_vendidos": 7,
+   "categoria": "MLB1263",
+   "nome": "Óleo Capilar wella Oil Reflect 30ml",
+   "marca": "Wella",
+   "modelo": null,
+   "destaques": [
+    "Formato: óleo.",
+    "Apresentação: pump.",
+    "Tipo de cuidado: nutrição.",
+    "Dermatologicamente testado."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_690433-MLA116380162305_082026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_721707-MLA116380219711_082026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_773635-MLA116380543405_082026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_603747-MLA116380425389_082026-F.jpg"
+   ],
+   "preco": 86.9,
+   "preco_de": null,
+   "desconto_pct": null,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "GOOVISTORE",
+   "loja_oficial": false,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 8911,
+   "ofertas_no_catalogo": 58,
+   "link": "https://www.mercadolivre.com.br/p/MLB22203782?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB53618239",
+   "posicao_mais_vendidos": 6,
+   "categoria": "MLB199407",
+   "nome": "Kit Principia para Rotina de Skincare Pele Sensível com Protetor Solar FPS 60",
+   "marca": "Principia",
+   "modelo": null,
+   "destaques": [
+    "Sem gênero.",
+    "Funções: auxiliar proteção contra a luz visível e luz azul.",
+    "Volume da unidade: 440 mL."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_761257-MLA108807654621_032026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_933339-MLA99396531061_112025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_758141-MLA89317511826_082025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_842223-MLA98917219938_112025-F.jpg"
+   ],
+   "preco": 95,
+   "preco_de": 137,
+   "desconto_pct": 31,
+   "desconto_verificado": false,
+   "frete": "grátis",
+   "vendedor": "PRINCIPIA SKINCARE",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 1547782,
+   "ofertas_no_catalogo": 11,
+   "link": "https://www.mercadolivre.com.br/p/MLB53618239?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB52363091",
+   "posicao_mais_vendidos": 8,
+   "categoria": "MLB1263",
+   "nome": "Escova Progressiva 150g - Fashion Gold",
+   "marca": "Fashion Gold",
+   "modelo": null,
+   "destaques": [
+    "Alisamento seguro e sem formol",
+    "Redução de frizz e volume",
+    "Toque sedoso e brilho espelhado"
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_951816-MLA121034574117_112026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_905673-MLA118803294756_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_960196-MLA118803440476_102026-F.jpg"
+   ],
+   "preco": 99.89,
+   "preco_de": 116.9,
+   "desconto_pct": 15,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "FASHIONGOLDOFICIAL",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 157945,
+   "ofertas_no_catalogo": 10,
+   "link": "https://www.mercadolivre.com.br/p/MLB52363091?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB19620491",
+   "posicao_mais_vendidos": 7,
+   "categoria": "MLB199407",
+   "nome": "Gel De Limpeza Facial Effaclar Concentrado 300g La Roche Posay",
+   "marca": "La Roche-Posay",
+   "modelo": null,
+   "destaques": [
+    "Gel espuma antioleosidade com aplicação de dia/noite.",
+    "É um cosmético hipoalergênico.",
+    "É livre de parabenos."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_976360-MLA115029876009_072026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_880109-MLA115029585183_072026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_894713-MLA115030052925_072026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_970355-MLA115030082879_072026-F.jpg"
+   ],
+   "preco": 76.79,
+   "preco_de": 133.9,
+   "desconto_pct": 43,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Brasil",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 37433560,
+   "ofertas_no_catalogo": 2,
+   "link": "https://www.mercadolivre.com.br/p/MLB19620491?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB18580665",
+   "posicao_mais_vendidos": 7,
+   "categoria": "MLB439347",
+   "nome": "Taiff Black Ion Secador De Cabelo Profissional 2000w Cor Preto",
+   "marca": "Taiff",
+   "modelo": "new black 2000 prof",
+   "destaques": [
+    "Possui um cabo de 1.8m de longo.",
+    "Funciona com 4 níveis de temperatura.",
+    "Possui 2 velocidades.",
+    "É iônico."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_742671-MLU78597786812_082024-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_638358-MLA99582065382_122025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_757430-MLU78831589613_082024-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_814230-MLU70064839687_062023-F.jpg"
+   ],
+   "preco": 218.83,
+   "preco_de": 359.9,
+   "desconto_pct": 39,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "KARZEN_SP",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 22999,
+   "ofertas_no_catalogo": 58,
+   "link": "https://www.mercadolivre.com.br/p/MLB18580665?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB19314257",
+   "posicao_mais_vendidos": 9,
+   "categoria": "MLB1263",
+   "nome": "Óleo Capilar Oil Reflections Wella 100ml",
+   "marca": "Wella",
+   "modelo": null,
+   "destaques": [
+    "Formato: óleo.",
+    "Apresentação: dosador.",
+    "Tipo de cuidado: restauração.",
+    "Com fragrância."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_745593-MLA106774218986_022026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_679514-MLA109591820960_042026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_800497-MLA107444492157_022026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_900860-MLA107444287497_022026-F.jpg"
+   ],
+   "preco": 125.9,
+   "preco_de": 162.9,
+   "desconto_pct": 23,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "GOOVISTORE",
+   "loja_oficial": false,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 8911,
+   "ofertas_no_catalogo": 100,
+   "link": "https://www.mercadolivre.com.br/p/MLB19314257?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB19150371",
+   "posicao_mais_vendidos": 8,
+   "categoria": "MLB199407",
+   "nome": "NIVEA Hidratante Desodorante Beleza Radiante Cuidado Intenso 400ml, Hidratação Profunda 48h, Brilho Natural, Corporal, Pele Seca e Extrasseca",
+   "marca": "Nivea",
+   "modelo": null,
+   "destaques": [
+    "Para pele normal."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_959443-MLA93494140268_102025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_951255-MLA93914041519_102025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_678162-MLA93494021834_102025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_922398-MLA93494219966_102025-F.jpg"
+   ],
+   "preco": 18.32,
+   "preco_de": 26.99,
+   "desconto_pct": 32,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Brasil",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 37433560,
+   "ofertas_no_catalogo": 48,
+   "link": "https://www.mercadolivre.com.br/p/MLB19150371?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB6360396",
+   "posicao_mais_vendidos": 8,
+   "categoria": "MLB439347",
+   "nome": "Prancha Cerâmica Profissional Classic 180° Taiff Bivolt Preto",
+   "marca": "Taiff",
+   "modelo": "Cerâmica",
+   "destaques": [
+    "Possui placas de cerâmica.",
+    "Possui função cuidado iônico.",
+    "Atinge uma temperatura máxima de 180 °C.",
+    "Chapinha iônica."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_655055-MLA121674999075_112026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_773132-MLA96072907583_102025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_994729-MLA114453159081_072026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_683430-MLA113216054426_072026-F.jpg"
+   ],
+   "preco": 118,
+   "preco_de": 149,
+   "desconto_pct": 21,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "DOCX",
+   "loja_oficial": false,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 22238,
+   "ofertas_no_catalogo": 100,
+   "link": "https://www.mercadolivre.com.br/p/MLB6360396?matt_word=paulovitorlemes&matt_tool=37931087"
+  }
+ ],
+ "recusados": [
+  {
+   "id": "MLB23522659",
+   "motivo": "nenhum vendedor confiável"
+  }
+ ]
+}

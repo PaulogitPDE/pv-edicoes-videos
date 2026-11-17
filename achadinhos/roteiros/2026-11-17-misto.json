@@ -1,0 +1,13 @@
+{
+ "dia": "2026-11-17-fila.json",
+ "rotulo": "achadinhos que valem a pena",
+ "capa": {"linha1": "5 achadinhos", "linha2": "que estão valendo a pena", "sub": "Tem coisa a partir de R$ 77"},
+ "produtos": [
+  {"id": "MLB55776599", "foto": 0, "nome": "Headphone Philips Bluetooth", "beneficio": "Bateria de até 55 h, microfone e alcance de 10 m."},
+  {"id": "MLB18580665", "foto": 0, "nome": "Secador Taiff Black Ion", "beneficio": "2000 W, iônico, com 4 temperaturas e 2 velocidades."},
+  {"id": "MLB24205737", "foto": 0, "nome": "Prancha Mondial By Juliette", "beneficio": "Placas de cerâmica de 150 a 230 °C, bivolt."},
+  {"id": "MLB19508984", "foto": 0, "nome": "Protetor ISDIN Fusion Water", "beneficio": "FPS 60 facial, sem óleo e dermatologicamente testado."},
+  {"id": "MLB55232692", "foto": 1, "nome": "Loção Cetaphil", "beneficio": "Hidratante pra rosto e corpo, sem fragrância, pra pele sensível."}
+ ],
+ "cta": {"titulo": "Quer o link de todos?", "sub": "Comenta QUERO aqui embaixo que eu te mando no Direct o link do nosso grupo de promoções."}
+}
