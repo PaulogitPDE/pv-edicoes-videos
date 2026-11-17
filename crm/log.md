@@ -89,3 +89,4 @@
 - 2026-11-16 · r2 · Clareamento: o lead quente que esfria rápido · comenta FUNIL · gancho: "Lead quente esfria rápido" · https://www.instagram.com/reel/Df0fHOnAaN2/
 - 2026-11-17 · p1 · Mesma clínica. Outro WhatsApp. (antes_depois) (Figma) · comenta FUNIL · https://www.instagram.com/p/Df119dejtmb/
 - 2026-11-17 · r1 · Conteúdo: do Direct ao agendado em uma tela · salva (sem venda) · sem tarja · gancho: "Onde tá essa paciente?" · https://www.instagram.com/reel/Df2PgqECm3Y/
+- 2026-11-17 · r2 · Como funciona a implantação em 7 dias úteis · direct FUNIL · gancho: "7 dias pra ficar no ar" · https://www.instagram.com/reel/Df3D-JTDHf6/
