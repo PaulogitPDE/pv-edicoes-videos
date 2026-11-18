@@ -1,0 +1,13 @@
+{
+ "dia": "2026-11-18-fila.json",
+ "rotulo": "achadinhos pra cozinha e casa",
+ "capa": {"linha1": "5 achadinhos", "linha2": "pra cozinha e casa", "sub": "Tem coisa a partir de R$ 24"},
+ "produtos": [
+  {"id": "MLB10892513", "foto": 0, "nome": "Panela de pressão Tramontina", "beneficio": "4,5 L, antiaderente Starflon Max por dentro e por fora. Vai em fogão a gás e elétrico."},
+  {"id": "MLB50613178", "foto": 0, "nome": "Jogo de toalhas Karsten", "beneficio": "4 peças da linha Softmax, 99% algodão."},
+  {"id": "MLB24642826", "foto": 0, "nome": "Kit 30 cabides de veludo", "beneficio": "Finos e antiderrapantes, com gancho giratório de aço."},
+  {"id": "MLB23942853", "foto": 0, "nome": "Kit 10 panos de prato", "beneficio": "100% algodão, estampados e com tratamento anti-manchas."},
+  {"id": "MLB16084358", "foto": 0, "nome": "Papel higiênico Neve Supreme", "beneficio": "Folha tripla, pacote com 24 rolos."}
+ ],
+ "cta": {"titulo": "Quer o link de todos?", "sub": "Comenta QUERO aqui embaixo que eu te mando no Direct o link do nosso grupo de promoções."}
+}

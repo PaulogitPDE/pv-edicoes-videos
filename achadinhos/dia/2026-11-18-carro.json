@@ -1,0 +1,130 @@
+{
+ "data": "2026-11-18",
+ "tema": "carro",
+ "produtos": [
+  {
+   "id": "MLB24783436",
+   "posicao_mais_vendidos": 9,
+   "categoria": "MLB5672",
+   "nome": "Modulo Taramps 400 Rms Ts-400 Ts400x4 T400 4 Canais V6",
+   "marca": "Taramps",
+   "modelo": "400X4",
+   "destaques": [
+    "Ele pesa 600g.",
+    "Impedância de entrada: 2Ω.",
+    "Tem uma frequência mínima de 20Hz e uma frequência máxima de 30Hz.",
+    "Com filtro passa-baixa e filtro passa-alta."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_727270-MLA116319031959_082026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_888264-MLA110995859873_042026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_657577-MLA110995859885_042026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_893863-MLA110081227166_042026-F.jpg"
+   ],
+   "preco": 161.98,
+   "preco_de": 199,
+   "desconto_pct": 19,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Casa",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 10111629,
+   "ofertas_no_catalogo": 100,
+   "link": "https://www.mercadolivre.com.br/p/MLB24783436?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB24075966",
+   "posicao_mais_vendidos": 16,
+   "categoria": "MLB5672",
+   "nome": "Processador de Áudio Digital Taramps Pro 2.4S para Som Automotivo com Crossover e Equalizador 15 Bandas",
+   "marca": "Taramps",
+   "modelo": "Pro 2.4S",
+   "destaques": [
+    "Circuito Anti-Puff evitando estouros indesejados.",
+    "Entradas de áudio via FIO e RCA.",
+    "Indicador de clip de entrada e saída.",
+    "Equalizador gráfico de 15 bandas."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_830482-MLA108910560858_032026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_786236-MLA103852378125_012026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_991905-MLA91921511395_092025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_877860-MLA86285893233_062025-F.jpg"
+   ],
+   "preco": 169.89,
+   "preco_de": 230,
+   "desconto_pct": 26,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Casa",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 10111629,
+   "ofertas_no_catalogo": 99,
+   "link": "https://www.mercadolivre.com.br/p/MLB24075966?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB23873203",
+   "posicao_mais_vendidos": 18,
+   "categoria": "MLB5672",
+   "nome": "Estilete Vonder ES 218 Lâmina Segmentada 18 mm",
+   "marca": "Vonder",
+   "modelo": "ES 218",
+   "destaques": [
+    "O material do cabo é: borracha.",
+    "Com trava de segurança.",
+    "É recomendado para uso em: acrílico.",
+    "A largura da lâmina é de 1.8 cm."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_781508-MLA119564550868_112026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_673819-MLA121284564101_112026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_616812-MLA119563781240_112026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_838287-MLA119565135870_112026-F.jpg"
+   ],
+   "preco": 14.77,
+   "preco_de": null,
+   "desconto_pct": null,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "AZ ACESSORIOS",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 188157,
+   "ofertas_no_catalogo": 100,
+   "link": "https://www.mercadolivre.com.br/p/MLB23873203?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB29104012",
+   "posicao_mais_vendidos": 20,
+   "categoria": "MLB5672",
+   "nome": "Lona Plástica Polietileno 3x2m Azul Impermeável Lonas Online com UV",
+   "marca": "Lonas Online",
+   "modelo": "Lona Azul 100 Micras UV",
+   "destaques": [
+    "Espessura de 100 micras para maior resistência e durabilidade.",
+    "Proteção UV contra danos solares.",
+    "Possui bainhas com corda interna de reforço."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_643376-MLA99585610312_122025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_982801-MLA92032327018_092025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_911816-MLA92436676763_092025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_920053-MLU73533739747_122023-F.jpg"
+   ],
+   "preco": 23.9,
+   "preco_de": 39.9,
+   "desconto_pct": 40,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "LONAS_ONLINE",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 223281,
+   "ofertas_no_catalogo": 2,
+   "link": "https://www.mercadolivre.com.br/p/MLB29104012?matt_word=paulovitorlemes&matt_tool=37931087"
+  }
+ ],
+ "recusados": []
+}
