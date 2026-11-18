@@ -1,0 +1,12 @@
+{
+ "tarja": "Automação <com nome>",
+ "semente": 409,
+ "tema": "Automação parece robô? (conteúdo, mito x verdade)",
+ "ganchos_ab": ["Parece <robô>?", "Automação <esfria>?"],
+ "cenas": [
+  {"tipo": "gancho", "rotulo": "quarta de objeção", "texto": "Parece <robô>?", "rabisco": "sublinha", "dur": 2.6, "legenda": "Mito: automação <esfria a paciente>", "humor": "dor"},
+  {"tipo": "chat", "nome": "Clínica · WhatsApp", "status": "online", "mensagens": [{"de": "eu", "texto": "Prezado(a) cliente, seu orçamento encontra-se disponível.", "meta": "10:02"}], "carimbo": "Robô", "cor_carimbo": "vermelho", "dur": 3.6, "legenda": "Isso sim <parece robô>", "humor": "dor"},
+  {"tipo": "chat", "nome": "Carla · WhatsApp", "status": "online", "mensagens": [{"de": "eu", "texto": "Oi Carla! Conseguiu ver o orçamento do clareamento?", "meta": "10:02"}, {"de": "ela", "texto": "Vi sim! Dá pra parcelar?", "meta": "10:09"}], "carimbo": "Respondeu", "cor_carimbo": "lime", "dur": 4.4, "legenda": "Nome e procedimento <mudam tudo>", "humor": "solucao"},
+  {"tipo": "lista", "texto": "Pra não <soar robô>", "itens": [{"t": "Comece pelo nome da paciente", "ok": true}, {"t": "Cite o procedimento que ela pediu", "ok": true}, {"t": "Termine com uma pergunta curta", "ok": true}], "dur": 5.0, "legenda": "Salva pra <reescrever hoje>"}
+ ]
+}
