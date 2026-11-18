@@ -1,0 +1,12 @@
+{
+ "tarja": "Orçamento que <Volta>",
+ "semente": 419,
+ "tema": "Sua recepção treinada no funil (oferta)",
+ "ganchos_ab": ["Quem <cuida do funil>?", "Sua recepção <sabe o próximo passo>?"],
+ "cenas": [
+  {"tipo": "gancho", "rotulo": "recepção", "texto": "Quem <cuida do funil>?", "rabisco": "sublinha", "dur": 2.6, "legenda": "Não adianta ter sistema <se ninguém usa>", "humor": "dor"},
+  {"tipo": "leads", "titulo": "Funil da recepção", "leads": [{"nome": "Bianca", "proc": "Lentes", "valor": "R$ 5.500", "vai": 3}, {"nome": "Marcos", "proc": "Implante", "valor": "R$ 4.200", "vai": 2}, {"nome": "Sônia", "proc": "Botox", "valor": "R$ 1.100", "vai": 3}], "total": "{valor} <agendados>", "dur": 4.8, "legenda": "Ninguém <fica parado>", "humor": "solucao"},
+  {"tipo": "lista", "texto": "Sua recepção <aprende>", "itens": [{"t": "Onde cada contato entra", "ok": true}, {"t": "Quando mover o card", "ok": true}, {"t": "O que responder em cada etapa", "ok": true}], "dur": 5.0, "legenda": "Funil montado <e equipe treinada>"},
+  {"tipo": "cta", "modo": "bio", "texto": "Quer isso <na sua clínica>?", "dur": 4.4, "legenda": "Link na <bio>"}
+ ]
+}
