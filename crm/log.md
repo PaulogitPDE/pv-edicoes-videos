@@ -91,3 +91,4 @@
 - 2026-11-17 · r1 · Conteúdo: do Direct ao agendado em uma tela · salva (sem venda) · sem tarja · gancho: "Onde tá essa paciente?" · https://www.instagram.com/reel/Df2PgqECm3Y/
 - 2026-11-17 · r2 · Como funciona a implantação em 7 dias úteis · direct FUNIL · gancho: "7 dias pra ficar no ar" · https://www.instagram.com/reel/Df3D-JTDHf6/
 - 2026-11-18 · p1 · Mito x verdade: silêncio incomoda mais que follow-up (frase) (Figma) · direct FUNIL · https://www.instagram.com/p/Df4atkvFxoN/
+- 2026-11-18 · trend · Japão 3 x 2 Brasil (gol nos acréscimos) → orçamento também se perde nos acréscimos (carrossel 2 slides) (Figma) · comenta FUNIL · https://www.instagram.com/p/Df4nbL1F_QI/ (saiu 13h30 UTC, gatilho atrasado)
