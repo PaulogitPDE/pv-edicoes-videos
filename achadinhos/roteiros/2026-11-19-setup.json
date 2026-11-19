@@ -1,0 +1,13 @@
+{
+ "dia": "2026-11-19-fila.json",
+ "rotulo": "achadinhos que valem a pena",
+ "capa": {"linha1": "5 achadinhos", "linha2": "que estão valendo a pena", "sub": "Tem coisa a partir de R$ 98"},
+ "produtos": [
+  {"id": "MLB80271895", "foto": 1, "nome": "Samsung Galaxy Fit3", "beneficio": "Tela AMOLED de 1,6\", bateria de até 13 dias e resistente à água."},
+  {"id": "MLB20689534", "foto": 0, "nome": "Teclado e mouse sem fio Intelbras", "beneficio": "Kit CSI50, 2,4 GHz, teclado ABNT2 em português. Pilhas inclusas."},
+  {"id": "MLB24075966", "foto": 0, "nome": "Processador Taramps Pro 2.4S", "beneficio": "Equalizador gráfico de 15 bandas e circuito anti-puff pro som do carro."},
+  {"id": "MLB19472441", "foto": 0, "nome": "Chapinha Taiff Style Pro Titanium", "beneficio": "Placas de titânio, iônica e chega a 230 °C."},
+  {"id": "MLB53611325", "foto": 0, "nome": "Jogo de toalhas Buddemeyer", "beneficio": "4 peças 100% algodão: 2 de banho 70x132 cm e 2 de rosto."}
+ ],
+ "cta": {"titulo": "Quer o link de todos?", "sub": "Comenta QUERO aqui embaixo que eu te mando no Direct o link do nosso grupo de promoções."}
+}
