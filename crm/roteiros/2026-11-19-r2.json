@@ -1,0 +1,11 @@
+{
+ "tarja": "Preço <sem letra miúda>",
+ "semente": 431,
+ "tema": "A licença do Kommo é à parte (sem pegadinha)",
+ "ganchos_ab": ["<Duas> contas. Zero surpresa.", "Quanto custa <de verdade>?"],
+ "cenas": [
+  {"tipo": "gancho", "rotulo": "sem pegadinha", "texto": "Quanto custa <de verdade>?", "rabisco": "circulo", "dur": 2.6, "legenda": "Duas contas, <zero surpresa>", "humor": "dor"},
+  {"tipo": "lista", "texto": "As <duas contas>", "itens": [{"t": "Implantação: R$ 1.497 ou 3x R$ 550", "ok": true}, {"t": "Licença do Kommo: paga direto à Kommo", "ok": true}, {"t": "Nada cobrado em cima da licença", "ok": true}], "dur": 5.4, "legenda": "Tudo dito <antes de fechar>", "humor": "solucao"},
+  {"tipo": "cta", "modo": "comenta", "texto": "Quer o <custo total>?", "palavra": "FUNIL", "dur": 4.4, "legenda": "Comenta <FUNIL>"}
+ ]
+}
