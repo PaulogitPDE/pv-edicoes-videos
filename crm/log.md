@@ -96,3 +96,4 @@
 - 2026-11-18 · r2 · Sua recepção treinada no funil (quem cuida do funil?) · link na bio · https://www.instagram.com/reel/Df5ouYhjOAn/
 - 2026-11-19 · p1 · Dia do Empreendedorismo Feminino: você não pode ser a única memória (data) (Figma) · link na bio · https://www.instagram.com/p/Df6_kGAlSOD/
 - 2026-11-19 · r1 · Dia do Empreendedorismo Feminino: tá tudo na cabeça? tire os orçamentos da memória (conteúdo, sem tarja) · salva · https://www.instagram.com/reel/Df7ZCUIE7kJ/
+- 2026-11-19 · r2 · A licença do Kommo é à parte (sem pegadinha) · comenta FUNIL · gancho: "Quanto custa de verdade?" · https://www.instagram.com/reel/Df8NZoijbOR/
