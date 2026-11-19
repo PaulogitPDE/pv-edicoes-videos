@@ -1,0 +1,11 @@
+{
+ "semente": 421,
+ "tema": "Dia do Empreendedorismo Feminino: a dona da clínica não pode ser a única memória do negócio (conteúdo, sem tarja)",
+ "ganchos_ab": ["Tá tudo <na sua cabeça>?", "Quem lembra <quando você para>?"],
+ "cenas": [
+  {"tipo": "data", "dia": "19", "mes": "nov", "titulo": "<Dia delas>", "dur": 2.8, "legenda": "Empreendedorismo <feminino>"},
+  {"tipo": "gancho", "rotulo": "dona de clínica", "texto": "Tá tudo <na cabeça>?", "rabisco": "sublinha", "dur": 2.6, "legenda": "Quem pediu valor, quem <ficou de pensar>", "humor": "dor"},
+  {"tipo": "leads", "titulo": "Fora da sua cabeça", "leads": [{"nome": "Juliana", "proc": "Lentes", "valor": "R$ 6.000", "vai": 2}, {"nome": "Rita", "proc": "Botox", "valor": "R$ 1.200", "vai": 3}, {"nome": "Carol", "proc": "Clareamento", "valor": "R$ 900", "vai": 1}], "total": "{valor} <agendados>", "dur": 4.8, "legenda": "Cada paciente <num card>", "humor": "solucao"},
+  {"tipo": "lista", "texto": "Pra tirar <da cabeça>", "itens": [{"t": "Anote todo orçamento no dia", "ok": true}, {"t": "Dê a cada um uma data de retorno", "ok": true}, {"t": "Deixe a equipe ver a mesma lista", "ok": true}], "dur": 5.0, "legenda": "Salva pra <começar hoje>"}
+ ]
+}
