@@ -94,3 +94,4 @@
 - 2026-11-18 · trend · Japão 3 x 2 Brasil (gol nos acréscimos) → orçamento também se perde nos acréscimos (carrossel 2 slides) (Figma) · comenta FUNIL · https://www.instagram.com/p/Df4nbL1F_QI/ (saiu 13h30 UTC, gatilho atrasado)
 - 2026-11-18 · r1 · Automação parece robô? Mito: genérica soa robô, nome + procedimento + pergunta (conteúdo) · salva · https://www.instagram.com/reel/Df40NB5kat-/
 - 2026-11-18 · r2 · Sua recepção treinada no funil (quem cuida do funil?) · link na bio · https://www.instagram.com/reel/Df5ouYhjOAn/
+- 2026-11-19 · p1 · Dia do Empreendedorismo Feminino: você não pode ser a única memória (data) (Figma) · link na bio · https://www.instagram.com/p/Df6_kGAlSOD/
