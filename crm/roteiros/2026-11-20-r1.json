@@ -1,0 +1,12 @@
+{
+ "tarja": "Ninguém <sem retorno>",
+ "semente": 433,
+ "tema": "Dia da Consciência Negra (feriado): mensagem respeitosa; ninguém fica sem retorno (conteúdo)",
+ "ganchos_ab": ["Feriado <sem vácuo>", "Quem chamou <hoje>?"],
+ "cenas": [
+  {"tipo": "data", "dia": "20", "mes": "nov", "titulo": "<Feriado>", "dur": 2.8, "legenda": "Dia da Consciência <Negra>"},
+  {"tipo": "gancho", "rotulo": "feriado", "texto": "Quem <chamou>?", "rabisco": "sublinha", "dur": 2.6, "legenda": "Clínica fechada, <paciente não>", "humor": "dor"},
+  {"tipo": "chat", "nome": "Luana", "status": "online", "mensagens": [{"de": "ela", "texto": "Oi! Queria marcar uma avaliação de lentes", "meta": "sex 11:40"}, {"de": "eu", "texto": "Oi, Luana! Hoje é feriado. Segunda às 8h te mando os horários, combinado?", "meta": "sex 11:40"}], "carimbo": "Anotada", "cor_carimbo": "lime", "dur": 4.8, "legenda": "Resposta na hora, <retorno marcado>", "humor": "solucao"},
+  {"tipo": "lista", "texto": "Pra <segunda cedo>", "itens": [{"t": "Liste quem chamou no feriado", "ok": true}, {"t": "Responda na ordem de chegada", "ok": true}, {"t": "Ofereça horário já na 1ª mensagem", "ok": true}], "dur": 5.0, "legenda": "Salva pra <segunda>"}
+ ]
+}
