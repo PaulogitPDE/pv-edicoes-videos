@@ -14,3 +14,4 @@
 - 2026-11-17 misto (tech sem produtos novos no filtro): headphone Philips, secador Taiff, prancha Mondial, ISDIN FPS 60, Cetaphil. Carrossel NÃO publicado (IG ainda restringido). | fila 8 ofertas (09:00-21:30)
 - 2026-11-18 cozinha+casa: panela Tramontina, toalhas Karsten, cabides de veludo, panos de prato, papel Neve. Carrossel NÃO publicado (IG ainda restringido). | fila 8 ofertas (09:00-21:30)
 - 2026-11-19 misto (setup/tech só com 2 produtos novos): Galaxy Fit3, teclado+mouse Intelbras, Taramps Pro 2.4S, chapinha Taiff Titanium, toalhas Buddemeyer. Carrossel NÃO publicado (IG ainda restringido). | fila 8 ofertas (09:00-21:30)
+- 2026-11-20 beleza: secador Gama Eleganza, modelador Taiff Curves, óleo Wella, demaquilante Bioré, máscara Payot Boca Rosa. Carrossel NÃO publicado (IG ainda restringido). | fila 8 ofertas (09:00-21:30)
