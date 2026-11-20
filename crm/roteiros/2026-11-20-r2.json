@@ -1,0 +1,12 @@
+{
+ "tarja": "Orçamento que <Volta>",
+ "semente": 439,
+ "tema": "Antes x depois do WhatsApp da clínica (oferta)",
+ "ganchos_ab": ["Antes <x depois>", "O mesmo WhatsApp, <outro resultado>"],
+ "cenas": [
+  {"tipo": "gancho", "rotulo": "sextou", "texto": "Antes <x depois>", "rabisco": "sublinha", "dur": 2.6, "legenda": "Do WhatsApp <da clínica>", "humor": "dor"},
+  {"tipo": "chat", "nome": "Daniela", "status": "visto por último ter 19:02", "mensagens": [{"de": "eu", "texto": "O implante fica R$ 4.800, parcelamos em até 10x", "meta": "ter 18:40"}, {"de": "ela", "texto": "Vou ver e te falo", "meta": "ter 19:02"}], "carimbo": "Sumiu", "dur": 4.0, "legenda": "Antes: <ninguém voltou>", "humor": "dor"},
+  {"tipo": "leads", "titulo": "Depois: funil de orçamentos", "leads": [{"nome": "Daniela", "proc": "Implante", "valor": "R$ 4.800", "vai": 3}, {"nome": "Bruna", "proc": "Lentes", "valor": "R$ 5.200", "vai": 2}, {"nome": "Teresa", "proc": "Botox", "valor": "R$ 1.100", "vai": 3}], "total": "{valor} <agendados>", "dur": 4.8, "legenda": "Depois: <todo mundo volta>", "humor": "solucao"},
+  {"tipo": "cta", "modo": "direct", "texto": "Quer o <depois>?", "palavra": "FUNIL", "dur": 4.4, "legenda": "Manda <FUNIL> no Direct"}
+ ]
+}
