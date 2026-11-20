@@ -97,3 +97,4 @@
 - 2026-11-19 · p1 · Dia do Empreendedorismo Feminino: você não pode ser a única memória (data) (Figma) · link na bio · https://www.instagram.com/p/Df6_kGAlSOD/
 - 2026-11-19 · r1 · Dia do Empreendedorismo Feminino: tá tudo na cabeça? tire os orçamentos da memória (conteúdo, sem tarja) · salva · https://www.instagram.com/reel/Df7ZCUIE7kJ/
 - 2026-11-19 · r2 · A licença do Kommo é à parte (sem pegadinha) · comenta FUNIL · gancho: "Quanto custa de verdade?" · https://www.instagram.com/reel/Df8NZoijbOR/
+- 2026-11-20 · p1 · Dia da Consciência Negra: hoje é dia de memória e respeito (data, sem venda) (Figma) · comenta FUNIL · https://www.instagram.com/p/Df9kYlcl4qM/
