@@ -98,3 +98,4 @@
 - 2026-11-19 · r1 · Dia do Empreendedorismo Feminino: tá tudo na cabeça? tire os orçamentos da memória (conteúdo, sem tarja) · salva · https://www.instagram.com/reel/Df7ZCUIE7kJ/
 - 2026-11-19 · r2 · A licença do Kommo é à parte (sem pegadinha) · comenta FUNIL · gancho: "Quanto custa de verdade?" · https://www.instagram.com/reel/Df8NZoijbOR/
 - 2026-11-20 · p1 · Dia da Consciência Negra: hoje é dia de memória e respeito (data, sem venda) (Figma) · comenta FUNIL · https://www.instagram.com/p/Df9kYlcl4qM/
+- 2026-11-20 · trend · Tomate quase 90% mais caro em 2026 (IBGE) → caro mesmo é orçamento que estraga (carrossel 2 slides) (Figma) · link na bio · https://www.instagram.com/p/Df9xATqlJcP/ (saiu 10h30)
