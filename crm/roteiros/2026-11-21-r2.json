@@ -1,0 +1,12 @@
+{
+ "tarja": "Orçamento que <Volta>",
+ "semente": 449,
+ "tema": "Toda paciente que disse \"vou pensar\" recebe 4 mensagens (oferta)",
+ "ganchos_ab": ["\"Vou <pensar>\"", "<4 mensagens> pra quem disse vou pensar"],
+ "cenas": [
+  {"tipo": "gancho", "rotulo": "vou pensar", "texto": "\"Vou <pensar>\"", "rabisco": "circulo", "dur": 2.6, "legenda": "E aí ela recebe <4 mensagens>", "humor": "dor"},
+  {"tipo": "timeline", "nome": "Paula", "passos": [{"quando": "+2h", "texto": "Conseguiu ver o orçamento?"}, {"quando": "+1 dia", "texto": "Ficou dúvida no parcelamento?"}, {"quando": "+3 dias", "texto": "Olha esse antes e depois"}, {"quando": "+7 dias", "texto": "Separei dois horários pra você"}], "resposta": "Pode ser sábado?", "dur": 6.0, "legenda": "No dia certo, <sem ninguém lembrar>", "humor": "solucao"},
+  {"tipo": "chat", "nome": "Paula", "status": "online", "mensagens": [{"de": "ela", "texto": "Pode ser sábado às 9h?", "meta": "sáb 10:12"}, {"de": "eu", "texto": "Fechado, Paula! Te espero sábado", "meta": "sáb 10:13"}], "carimbo": "Agendou", "cor_carimbo": "lime", "dur": 4.0, "legenda": "O \"vou pensar\" <virou agenda>"},
+  {"tipo": "cta", "modo": "bio", "texto": "Quer isso <na sua clínica>?", "dur": 4.4, "legenda": "Link na <bio>"}
+ ]
+}
