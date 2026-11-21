@@ -101,3 +101,4 @@
 - 2026-11-20 · trend · Tomate quase 90% mais caro em 2026 (IBGE) → caro mesmo é orçamento que estraga (carrossel 2 slides) (Figma) · link na bio · https://www.instagram.com/p/Df9xATqlJcP/ (saiu 10h30)
 - 2026-11-20 · r1 · Feriado da Consciência Negra: quem chamou? ninguém sem retorno (conteúdo) · salva · https://www.instagram.com/reel/Df99xn9D00r/
 - 2026-11-20 · r2 · Antes x depois do WhatsApp da clínica (Sumiu → funil) · direct FUNIL · https://www.instagram.com/reel/Df-yeh4CGi3/
+- 2026-11-21 · p1 · Nunca mande "e aí, pensou?" (frase) (Figma) · direct FUNIL · https://www.instagram.com/p/DgAJDbYlGJC/
