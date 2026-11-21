@@ -102,3 +102,4 @@
 - 2026-11-20 · r1 · Feriado da Consciência Negra: quem chamou? ninguém sem retorno (conteúdo) · salva · https://www.instagram.com/reel/Df99xn9D00r/
 - 2026-11-20 · r2 · Antes x depois do WhatsApp da clínica (Sumiu → funil) · direct FUNIL · https://www.instagram.com/reel/Df-yeh4CGi3/
 - 2026-11-21 · p1 · Nunca mande "e aí, pensou?" (frase) (Figma) · direct FUNIL · https://www.instagram.com/p/DgAJDbYlGJC/
+- 2026-11-21 · r1 · Peça o horário, não a decisão (conteúdo, sem tarja) · salva · https://www.instagram.com/reel/DgAifB0j9i0/
