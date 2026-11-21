@@ -1,0 +1,11 @@
+{
+ "semente": 443,
+ "tema": "Peça o horário, não a decisão (conteúdo, sem tarja)",
+ "ganchos_ab": ["Peça o <horário>", "Não peça <a decisão>"],
+ "cenas": [
+  {"tipo": "gancho", "rotulo": "sábado de dica", "texto": "Peça o <horário>", "rabisco": "sublinha", "dur": 2.6, "legenda": "Não <a decisão>", "humor": "dor"},
+  {"tipo": "chat", "nome": "Marina", "status": "visto por último qua 18:10", "mensagens": [{"de": "eu", "texto": "E aí, decidiu se vai fazer as lentes?", "meta": "qua 18:02"}], "carimbo": "Visualizou", "dur": 3.4, "legenda": "Decisão <pesa>", "humor": "dor"},
+  {"tipo": "chat", "nome": "Marina", "status": "online", "mensagens": [{"de": "eu", "texto": "Marina, tenho quinta 15h ou sábado 9h pra sua avaliação. Qual fica melhor?", "meta": "qui 10:05"}, {"de": "ela", "texto": "Sábado 9h!", "meta": "qui 10:11"}], "carimbo": "Agendou", "cor_carimbo": "lime", "dur": 4.4, "legenda": "Horário é <fácil de responder>", "humor": "solucao"},
+  {"tipo": "lista", "texto": "Da <próxima vez>", "itens": [{"t": "Ofereça dois horários", "ok": true}, {"t": "Pergunte qual fica melhor", "ok": true}, {"t": "Pergunte \"decidiu?\"", "ok": false}], "dur": 5.0, "legenda": "Salva pra <segunda>"}
+ ]
+}
