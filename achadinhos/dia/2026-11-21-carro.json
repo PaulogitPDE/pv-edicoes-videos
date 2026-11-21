@@ -1,0 +1,99 @@
+{
+ "data": "2026-11-21",
+ "tema": "carro",
+ "produtos": [
+  {
+   "id": "MLB24783436",
+   "posicao_mais_vendidos": 8,
+   "categoria": "MLB5672",
+   "nome": "Modulo Taramps 400 Rms Ts-400 Ts400x4 T400 4 Canais V6",
+   "marca": "Taramps",
+   "modelo": "400X4",
+   "destaques": [
+    "Ele pesa 600g.",
+    "Impedância de entrada: 2Ω.",
+    "Tem uma frequência mínima de 20Hz e uma frequência máxima de 30Hz.",
+    "Com filtro passa-baixa e filtro passa-alta."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_727270-MLA116319031959_082026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_888264-MLA110995859873_042026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_657577-MLA110995859885_042026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_893863-MLA110081227166_042026-F.jpg"
+   ],
+   "preco": 155.9,
+   "preco_de": 199,
+   "desconto_pct": 22,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Casa",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 10155081,
+   "ofertas_no_catalogo": 100,
+   "link": "https://www.mercadolivre.com.br/p/MLB24783436?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB29011598",
+   "posicao_mais_vendidos": 12,
+   "categoria": "MLB5672",
+   "nome": "Lavadora de Alta Pressão WAP WL 1820 com Stop Total, Jato Leque e Concentrado",
+   "marca": "Wap",
+   "modelo": "WL 1820",
+   "destaques": [
+    "Certificado pela INMETRO. ",
+    "A alta pressão de 1500 PSI garante uma limpeza profunda, transformando tarefas desafiadoras em fáceis.",
+    "Por sua vazão de 330L/H, a limpeza é rápida, eficiente, com economia de água e tempo.",
+    "Com apenas um click, o engate rápido torna a tarefa de limpeza uma experiência descomplicada e eficaz."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_968375-MLA87428792871_072025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_774166-MLA87429106557_072025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_870538-MLA87102820760_072025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_944668-MLA87429067065_072025-F.jpg"
+   ],
+   "preco": 377.89,
+   "preco_de": 728,
+   "desconto_pct": 48,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Casa",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 10155081,
+   "ofertas_no_catalogo": 12,
+   "link": "https://www.mercadolivre.com.br/p/MLB29011598?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB29104012",
+   "posicao_mais_vendidos": 18,
+   "categoria": "MLB5672",
+   "nome": "Lona Plástica Polietileno 3x2m Azul Impermeável Lonas Online com UV",
+   "marca": "Lonas Online",
+   "modelo": "Lona Azul 100 Micras UV",
+   "destaques": [
+    "Espessura de 100 micras para maior resistência e durabilidade.",
+    "Proteção UV contra danos solares.",
+    "Possui bainhas com corda interna de reforço."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_643376-MLA99585610312_122025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_982801-MLA92032327018_092025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_911816-MLA92436676763_092025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_920053-MLU73533739747_122023-F.jpg"
+   ],
+   "preco": 23.9,
+   "preco_de": 39.9,
+   "desconto_pct": 40,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "LONAS_ONLINE",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 224959,
+   "ofertas_no_catalogo": 1,
+   "link": "https://www.mercadolivre.com.br/p/MLB29104012?matt_word=paulovitorlemes&matt_tool=37931087"
+  }
+ ],
+ "recusados": []
+}
