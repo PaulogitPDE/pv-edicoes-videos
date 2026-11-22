@@ -104,3 +104,4 @@
 - 2026-11-21 · p1 · Nunca mande "e aí, pensou?" (frase) (Figma) · direct FUNIL · https://www.instagram.com/p/DgAJDbYlGJC/
 - 2026-11-21 · r1 · Peça o horário, não a decisão (conteúdo, sem tarja) · salva · https://www.instagram.com/reel/DgAifB0j9i0/
 - 2026-11-21 · r2 · Toda paciente que disse "vou pensar" recebe 4 mensagens · link na bio · https://www.instagram.com/reel/DgBW_O2j-XE/
+- 2026-11-22 · p1 · Sua agenda não está vazia. Seu follow-up está. (frase) (Figma) · link na bio · https://www.instagram.com/p/DgCt6-dDhqY/
