@@ -106,3 +106,4 @@
 - 2026-11-21 · r2 · Toda paciente que disse "vou pensar" recebe 4 mensagens · link na bio · https://www.instagram.com/reel/DgBW_O2j-XE/
 - 2026-11-22 · p1 · Sua agenda não está vazia. Seu follow-up está. (frase) (Figma) · link na bio · https://www.instagram.com/p/DgCt6-dDhqY/
 - 2026-11-22 · r1 · O que você não mede, você perde: 3 números toda segunda (conteúdo) · salva · https://www.instagram.com/reel/DgDHNKFnBXU/
+- 2026-11-22 · r2 · Orçamento que Volta: o que é, em 20 segundos · comenta FUNIL · https://www.instagram.com/reel/DgD8I0qjt1K/
