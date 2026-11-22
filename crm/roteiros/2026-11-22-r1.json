@@ -1,0 +1,12 @@
+{
+ "tarja": "Número <da semana>",
+ "semente": 457,
+ "tema": "O que você não mede, você perde (conteúdo, domingo de planejamento)",
+ "ganchos_ab": ["Quantos <você mandou>?", "Não mede, <perde>"],
+ "cenas": [
+  {"tipo": "gancho", "rotulo": "domingo de planejamento", "texto": "Não mede, <perde>", "rabisco": "sublinha", "dur": 2.6, "legenda": "Quantos orçamentos <saíram essa semana>?", "humor": "dor"},
+  {"tipo": "numero", "rotulo": "orçamentos sem resposta", "ate": 14, "cor": "vermelho", "sub": "numa semana, <exemplo>", "dur": 3.6, "legenda": "Quem não conta <não vê>"},
+  {"tipo": "desenho", "forma": "grafico", "texto": "Quando você <mede>", "pontos": [8, 10, 9, 13, 16, 18, 22], "valor": "Subiu", "dur": 4.2, "legenda": "Dá pra ver <o que melhora>", "humor": "solucao"},
+  {"tipo": "lista", "texto": "Toda <segunda>", "itens": [{"t": "Quantos orçamentos saíram", "ok": true}, {"t": "Quantos tiveram retorno", "ok": true}, {"t": "Quantos viraram agenda", "ok": true}], "dur": 5.0, "legenda": "Salva pra <amanhã>"}
+ ]
+}
