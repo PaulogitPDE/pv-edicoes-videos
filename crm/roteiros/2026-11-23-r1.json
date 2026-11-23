@@ -1,0 +1,11 @@
+{
+ "semente": 463,
+ "tema": "O orçamento não morreu, ele esfriou (conteúdo, sem tarja)",
+ "ganchos_ab": ["Não morreu. <Esfriou>", "Ela <sumiu>?"],
+ "cenas": [
+  {"tipo": "gancho", "rotulo": "segunda da dor", "texto": "Não morreu. <Esfriou>", "rabisco": "sublinha", "dur": 2.6, "legenda": "Aquele orçamento <parado>", "humor": "dor"},
+  {"tipo": "chat", "nome": "Camila", "status": "visto por último ontem", "mensagens": [{"de": "eu", "texto": "Oi, Camila! Segue o orçamento do clareamento", "meta": "ter 15:02"}, {"de": "ela", "texto": "Obrigada! Vou ver e te falo", "meta": "ter 15:10"}], "carimbo": "Esfriou", "cor_carimbo": "vermelho", "dur": 4.6, "legenda": "E ninguém <chamou de novo>", "humor": "dor"},
+  {"tipo": "timeline", "nome": "Camila", "passos": [{"quando": "+1 dia", "texto": "Ficou alguma dúvida?"}, {"quando": "+3 dias", "texto": "Dá pra parcelar em 3x"}, {"quando": "+7 dias", "texto": "Tenho quinta às 18h, serve?"}], "resposta": "Quinta serve!", "dur": 5.6, "legenda": "Só faltou <um toque>", "humor": "solucao"},
+  {"tipo": "lista", "texto": "Pra <reaquecer>", "itens": [{"t": "Retome com uma pergunta", "ok": true}, {"t": "Traga algo novo", "ok": true}, {"t": "Ofereça um horário", "ok": true}], "dur": 5.0, "legenda": "Salva pra <hoje>"}
+ ]
+}
