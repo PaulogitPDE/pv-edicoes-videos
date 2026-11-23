@@ -1,0 +1,59 @@
+{
+ "tarja": "Orçamento que <Volta>",
+ "semente": 467,
+ "tema": "Garantia: no ar em 7 dias úteis ou você não paga",
+ "ganchos_ab": [
+  "Ou você <não paga>",
+  "7 dias <ou nada>"
+ ],
+ "cenas": [
+  {
+   "tipo": "gancho",
+   "rotulo": "garantia",
+   "texto": "Ou você <não paga>",
+   "rabisco": "sublinha",
+   "dur": 2.6,
+   "legenda": "No ar em <7 dias úteis>",
+   "humor": "solucao"
+  },
+  {
+   "tipo": "timeline",
+   "nome": "Júlia",
+   "passos": [
+    {
+     "quando": "+1 dia",
+     "texto": "Ficou alguma dúvida no orçamento?"
+    },
+    {
+     "quando": "+3 dias",
+     "texto": "Dá pra parcelar em 3x"
+    },
+    {
+     "quando": "+7 dias",
+     "texto": "Tenho sexta às 9h, serve?"
+    }
+   ],
+   "resposta": "Sexta serve!",
+   "dur": 5.6,
+   "legenda": "Isso rodando <em 7 dias úteis>",
+   "humor": "solucao"
+  },
+  {
+   "tipo": "numero",
+   "rotulo": "dias úteis pra ficar no ar",
+   "ate": 7,
+   "cor": "lime",
+   "sub": "ou você <não paga>",
+   "dur": 3.4,
+   "legenda": "Prazo <no contrato>"
+  },
+  {
+   "tipo": "cta",
+   "modo": "direct",
+   "texto": "Quer <isso>?",
+   "palavra": "FUNIL",
+   "dur": 4.4,
+   "legenda": "Manda <FUNIL> no Direct"
+  }
+ ]
+}
