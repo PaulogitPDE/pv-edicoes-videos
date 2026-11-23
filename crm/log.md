@@ -110,3 +110,4 @@
 - 2026-11-23 · p1 · A conversa que mais custa caro (chat, carimbo ESFRIOU) (Figma) · comenta FUNIL · https://www.instagram.com/p/DgFSy--CSgs/
 - 2026-11-23 · trend · Flamengo campeão brasileiro 2026 → título se ganha ponto a ponto (carrossel 2 slides) (Figma) · link na bio · https://www.instagram.com/p/DgFfe2YpYKV/
 - 2026-11-23 · r1 · O orçamento não morreu, ele esfriou (conteúdo, sem tarja) · salva · https://www.instagram.com/reel/DgFsDtZidTq/
+- 2026-11-23 · r2 · Garantia: no ar em 7 dias úteis ou você não paga · direct FUNIL · https://www.instagram.com/reel/DgGgq_HDFKJ/
