@@ -100,7 +100,7 @@
 - 2026-11-20 · p1 · Dia da Consciência Negra: hoje é dia de memória e respeito (data, sem venda) (Figma) · comenta FUNIL · https://www.instagram.com/p/Df9kYlcl4qM/
 - 2026-11-20 · trend · Tomate quase 90% mais caro em 2026 (IBGE) → caro mesmo é orçamento que estraga (carrossel 2 slides) (Figma) · link na bio · https://www.instagram.com/p/Df9xATqlJcP/ (saiu 10h30)
 - 2026-11-20 · r1 · Feriado da Consciência Negra: quem chamou? ninguém sem retorno (conteúdo) · salva · https://www.instagram.com/reel/Df99xn9D00r/
-- 2026-11-20 · r2 · Antes x depois do WhatsApp da clínica (Sumiu → funil) · direct FUNIL · https://www.instagram.com/reel/Df-yeh4CGi3/
+- 2026-11-20 · r2 · Antes x depois do WhatsApp da clínica (Sumiu → funil) · direct FUNIL · https://www.instagram.com/reel/Df-yeh4CGi3/ · ⭐ anúncio (alcance 2 x média 7 dias ≈ 0,8)
 - 2026-11-21 · p1 · Nunca mande "e aí, pensou?" (frase) (Figma) · direct FUNIL · https://www.instagram.com/p/DgAJDbYlGJC/
 - 2026-11-21 · r1 · Peça o horário, não a decisão (conteúdo, sem tarja) · salva · https://www.instagram.com/reel/DgAifB0j9i0/
 - 2026-11-21 · r2 · Toda paciente que disse "vou pensar" recebe 4 mensagens · link na bio · https://www.instagram.com/reel/DgBW_O2j-XE/
