@@ -107,3 +107,4 @@
 - 2026-11-22 · p1 · Sua agenda não está vazia. Seu follow-up está. (frase) (Figma) · link na bio · https://www.instagram.com/p/DgCt6-dDhqY/
 - 2026-11-22 · r1 · O que você não mede, você perde: 3 números toda segunda (conteúdo) · salva · https://www.instagram.com/reel/DgDHNKFnBXU/
 - 2026-11-22 · r2 · Orçamento que Volta: o que é, em 20 segundos · comenta FUNIL · https://www.instagram.com/reel/DgD8I0qjt1K/
+- 2026-11-23 · p1 · A conversa que mais custa caro (chat, carimbo ESFRIOU) (Figma) · comenta FUNIL · https://www.instagram.com/p/DgFSy--CSgs/
