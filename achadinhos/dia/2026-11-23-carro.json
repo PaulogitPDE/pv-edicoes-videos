@@ -1,0 +1,67 @@
+{
+ "data": "2026-11-23",
+ "tema": "carro",
+ "produtos": [
+  {
+   "id": "MLB29104012",
+   "posicao_mais_vendidos": 15,
+   "categoria": "MLB5672",
+   "nome": "Lona Plástica Polietileno 3x2m Azul Impermeável Lonas Online com UV",
+   "marca": "Lonas Online",
+   "modelo": "Lona Azul 100 Micras UV",
+   "destaques": [
+    "Espessura de 100 micras para maior resistência e durabilidade.",
+    "Proteção UV contra danos solares.",
+    "Possui bainhas com corda interna de reforço."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_643376-MLA99585610312_122025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_982801-MLA92032327018_092025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_911816-MLA92436676763_092025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_920053-MLU73533739747_122023-F.jpg"
+   ],
+   "preco": 23.9,
+   "preco_de": 39.9,
+   "desconto_pct": 40,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "LONAS_ONLINE",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 226023,
+   "ofertas_no_catalogo": 1,
+   "link": "https://www.mercadolivre.com.br/p/MLB29104012?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB26380332",
+   "posicao_mais_vendidos": 20,
+   "categoria": "MLB5672",
+   "nome": "Vonixx Blend 500ml Proteção E Brilho + Flanela Microfibra",
+   "marca": "Vonixx",
+   "modelo": "Blend y franela",
+   "destaques": [
+    "A base da cera é carnaúba.",
+    "Com fanela.",
+    "Aroma de baunilha."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_660778-MLA110508992255_042026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_879898-MLA110472738847_042026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_673774-MLA109594492776_042026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_655827-MLA110473230065_042026-F.jpg"
+   ],
+   "preco": 45.29,
+   "preco_de": 81.7,
+   "desconto_pct": 45,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "BUBBLE IMPORTS",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 80374,
+   "ofertas_no_catalogo": 99,
+   "link": "https://www.mercadolivre.com.br/p/MLB26380332?matt_word=paulovitorlemes&matt_tool=37931087"
+  }
+ ],
+ "recusados": []
+}

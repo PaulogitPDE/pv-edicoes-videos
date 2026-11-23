@@ -1,0 +1,626 @@
+{
+ "data": "2026-11-23",
+ "tema": "beleza",
+ "produtos": [
+  {
+   "id": "MLB26080271",
+   "posicao_mais_vendidos": 1,
+   "categoria": "MLB1263",
+   "nome": "L'Oréal Paris Elseve Óleo Extraordinário 100ml - Leave In Anti Frizz Protetor Térmico Tratamento Reconstrutor Para Todos Os Tipos De Cabelo",
+   "marca": "L'Oréal Paris",
+   "modelo": null,
+   "destaques": [
+    "Tratamento capilar intensivo com 6 óleos de flores preciosas para nutrição profunda e transformação visível em todos os ",
+    "Ação anti-frizz que disciplina fios rebeldes e oferece proteção térmica de até 230 °C contra danos de secadores e chapin",
+    "Fórmula leve e não oleosa que nutre sem pesar, deixando os cabelos macios, brilhantes e com movimento natural.",
+    "Uso versátil: como leave-in protetor em cabelos úmidos ou finalizador em cabelos secos para brilho intenso e controle ex"
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_775128-MLA120018457362_112026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_833233-MLA121823542707_112026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_763388-MLA120018427718_112026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_931897-MLA120019372272_112026-F.jpg"
+   ],
+   "preco": 29.9,
+   "preco_de": 64.19,
+   "desconto_pct": 53,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Brasil",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 37901391,
+   "ofertas_no_catalogo": 100,
+   "link": "https://www.mercadolivre.com.br/p/MLB26080271?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB24326256",
+   "posicao_mais_vendidos": 1,
+   "categoria": "MLB199407",
+   "nome": "Creme Multirreparador Pele Sensível Cicaplast Baume B5+ La Roche-Posay 40ml",
+   "marca": "La Roche-Posay",
+   "modelo": null,
+   "destaques": [
+    "Creme multirreparador calmante que repara, acalma e protege a pele sensível e irritada desde a 1ª aplicação.",
+    "TRIBIOMA patenteado reequilibra o microbioma cutâneo; Pantenol 5% e Madecassoside restauram e regeneram a barreira. ",
+    "Hidratação por até 48 horas com textura leve e não oleosa, para conforto imediato na pele sensibilizada. ",
+    "Multipropósito: indicado para pós-procedimentos, assaduras, queimaduras solares e lábios fragilizados. "
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_695558-MLA119937437423_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_905502-MLA119937583471_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_736458-MLA118290879650_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_698021-MLA119938050793_102026-F.jpg"
+   ],
+   "preco": 64.37,
+   "preco_de": 109.9,
+   "desconto_pct": 41,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Brasil",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 37901391,
+   "ofertas_no_catalogo": 3,
+   "link": "https://www.mercadolivre.com.br/p/MLB24326256?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB21361292",
+   "posicao_mais_vendidos": 2,
+   "categoria": "MLB199407",
+   "nome": "Loção Hidratante Corporal 3 Ceramidas Hidratação 120h CeraVe 473ml",
+   "marca": "CeraVe",
+   "modelo": null,
+   "destaques": [
+    "Loção de 473ml, com ótimo rendimento, para pele seca a extrasseca.",
+    "Com 3 ceramidas essenciais e ácido hialurônico que restauram a barreira da pele.",
+    "Tecnologia MVE de liberação prolongada: hidratação por até 120 horas.",
+    "Textura leve e de rápida absorção, sem perfume e sem sensação pegajosa."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_930930-MLA118355221530_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_721850-MLA120005044179_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_937506-MLA118355656584_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_801549-MLA118355656590_102026-F.jpg"
+   ],
+   "preco": 109.9,
+   "preco_de": 143.9,
+   "desconto_pct": 24,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Brasil",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 37901391,
+   "ofertas_no_catalogo": 46,
+   "link": "https://www.mercadolivre.com.br/p/MLB21361292?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB27864422",
+   "posicao_mais_vendidos": 4,
+   "categoria": "MLB1248",
+   "nome": "Gloss Labial Kiko Milano 3D Hydra Cor 01 Transparente",
+   "marca": "Kiko Milano",
+   "modelo": "3D Hydra Lipgloss",
+   "destaques": [
+    "Cor claro e transparente que proporciona um acabamento brilhante.",
+    "Formato em gel que se adapta confortavelmente aos lábios.",
+    "Produto vegano, livre de crueldade, sem ingredientes de origem animal.",
+    "Hidratante para lábios suaves e bem cuidados durante o uso."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_702679-MLU75333762686_032024-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_704449-MLA84192873140_052025-F.jpg"
+   ],
+   "preco": 198.14,
+   "preco_de": null,
+   "desconto_pct": null,
+   "desconto_verificado": false,
+   "frete": "grátis",
+   "vendedor": "CASHOP01",
+   "loja_oficial": false,
+   "mercadolider": "silver",
+   "vendas_vendedor": 5697,
+   "ofertas_no_catalogo": 15,
+   "link": "https://www.mercadolivre.com.br/p/MLB27864422?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB42456000",
+   "posicao_mais_vendidos": 4,
+   "categoria": "MLB1263",
+   "nome": "Máscara Acidificante Amend Equilíbrio do pH 250g",
+   "marca": "Amend",
+   "modelo": null,
+   "destaques": [
+    "Máscara acidificante para cabelos porosos e ásperos.",
+    "Restauração eficaz com redução do frizz.",
+    "Indicado para cuidados de reconstrução.",
+    "Livre de parabenos para segurança dos fios."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_997869-MLA119798411771_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_953693-MLA115700522740_092026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_611064-MLA115358901290_082026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_914642-MLA115700463126_092026-F.jpg"
+   ],
+   "preco": 34.97,
+   "preco_de": 59.99,
+   "desconto_pct": 42,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "APISNATURE",
+   "loja_oficial": false,
+   "mercadolider": "gold",
+   "vendas_vendedor": 11668,
+   "ofertas_no_catalogo": 100,
+   "link": "https://www.mercadolivre.com.br/p/MLB42456000?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB23535579",
+   "posicao_mais_vendidos": 6,
+   "categoria": "MLB1248",
+   "nome": "Corretivo de alta cobertura Natura Una Extrema",
+   "marca": "Natura",
+   "modelo": "Una",
+   "destaques": [
+    "O acabamento é natural.",
+    "É duradouro.",
+    "A textura é cremosa."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_737709-MLU74482834658_022024-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_925675-MLU74483110520_022024-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_809050-MLU72761230416_112023-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_736152-MLA115896591685_082026-F.jpg"
+   ],
+   "preco": 62.9,
+   "preco_de": null,
+   "desconto_pct": null,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "NATURA_OFICIAL",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 1880743,
+   "ofertas_no_catalogo": 7,
+   "link": "https://www.mercadolivre.com.br/p/MLB23535579?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB19462412",
+   "posicao_mais_vendidos": 5,
+   "categoria": "MLB1263",
+   "nome": "Máscara de Reconstrução Profunda para Cabelos Danificados, Força e Elasticidade Résistance Thérapiste Kérastase 200ml",
+   "marca": "Kérastase",
+   "modelo": null,
+   "destaques": [
+    "Apresentação: pote.",
+    "Tipo de cuidado: reparação.",
+    "Fragrância de: sim.",
+    "Para aplicar no cabelo úmido."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_753132-MLA99450295832_112025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_731036-MLA106595755048_022026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_848311-MLA106594660540_022026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_704305-MLA106595398964_022026-F.jpg"
+   ],
+   "preco": 239,
+   "preco_de": 399.9,
+   "desconto_pct": 40,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Brasil",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 37901391,
+   "ofertas_no_catalogo": 14,
+   "link": "https://www.mercadolivre.com.br/p/MLB19462412?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB22203782",
+   "posicao_mais_vendidos": 6,
+   "categoria": "MLB1263",
+   "nome": "Óleo Capilar wella Oil Reflect 30ml",
+   "marca": "Wella",
+   "modelo": null,
+   "destaques": [
+    "Formato: óleo.",
+    "Apresentação: pump.",
+    "Tipo de cuidado: nutrição.",
+    "Dermatologicamente testado."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_690433-MLA116380162305_082026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_721707-MLA116380219711_082026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_773635-MLA116380543405_082026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_603747-MLA116380425389_082026-F.jpg"
+   ],
+   "preco": 86.9,
+   "preco_de": null,
+   "desconto_pct": null,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "GOOVISTORE",
+   "loja_oficial": false,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 9173,
+   "ofertas_no_catalogo": 61,
+   "link": "https://www.mercadolivre.com.br/p/MLB22203782?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB52363091",
+   "posicao_mais_vendidos": 7,
+   "categoria": "MLB1263",
+   "nome": "Escova Progressiva 150g - Fashion Gold",
+   "marca": "Fashion Gold",
+   "modelo": null,
+   "destaques": [
+    "Alisamento seguro e sem formol",
+    "Redução de frizz e volume",
+    "Toque sedoso e brilho espelhado"
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_951816-MLA121034574117_112026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_905673-MLA118803294756_102026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_960196-MLA118803440476_102026-F.jpg"
+   ],
+   "preco": 99.9,
+   "preco_de": 116.9,
+   "desconto_pct": 15,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "FASHIONGOLDOFICIAL",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 160087,
+   "ofertas_no_catalogo": 7,
+   "link": "https://www.mercadolivre.com.br/p/MLB52363091?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB19908421",
+   "posicao_mais_vendidos": 8,
+   "categoria": "MLB1263",
+   "nome": "Máscara Keune Care Vital Nutrition 50ml Nutrição e Reparação para Cabelos Secos e Danificados",
+   "marca": "Keune",
+   "modelo": null,
+   "destaques": [
+    "Máscara de tratamento para nutrição e reparação de cabelos secos e danificados.",
+    "Hidratação profunda para cabelos ressecados.",
+    "Formato em creme, ideal para aplicação.",
+    "Dermatologicamente testado para segurança."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_899348-MLA99892745395_112025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_863100-MLU75187184352_032024-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_962974-MLU70065254391_062023-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_937460-MLA109594951830_042026-F.jpg"
+   ],
+   "preco": 29.9,
+   "preco_de": 69.8,
+   "desconto_pct": 57,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "LANARO COSMETICOS",
+   "loja_oficial": false,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 75205,
+   "ofertas_no_catalogo": 15,
+   "link": "https://www.mercadolivre.com.br/p/MLB19908421?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB19918914",
+   "posicao_mais_vendidos": 8,
+   "categoria": "MLB199407",
+   "nome": "Cetaphil Loção Advanced Hidratante Corporal para Pele Seca e Sensível 473ml - Hidratação 48h",
+   "marca": "Cetaphil",
+   "modelo": null,
+   "destaques": [
+    "Para pele seca.",
+    "Loção de dia/noite.",
+    "2dias de duração.",
+    "Absorção rápida."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_824819-MLA116564958030_092026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_825706-MLA112730836388_062026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_938676-MLA112730494834_062026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_930801-MLA113920444829_062026-F.jpg"
+   ],
+   "preco": 109.9,
+   "preco_de": null,
+   "desconto_pct": null,
+   "desconto_verificado": false,
+   "frete": "grátis",
+   "vendedor": "DISTRIBUIDORABOMPRECO_",
+   "loja_oficial": false,
+   "mercadolider": "silver",
+   "vendas_vendedor": 6729,
+   "ofertas_no_catalogo": 28,
+   "link": "https://www.mercadolivre.com.br/p/MLB19918914?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB19605864",
+   "posicao_mais_vendidos": 10,
+   "categoria": "MLB1263",
+   "nome": "Máscara Invigo Nutri-enrich 500ml Wella Pro - Nutrição e Hidratação",
+   "marca": "Wella",
+   "modelo": null,
+   "destaques": [
+    "Para cabelos secos.",
+    "Formato: creme.",
+    "Apresentação: pote.",
+    "Tipo de cuidado: hidratação."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_652186-MLA99351096240_112025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_782005-MLA111510173952_062026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_705815-MLA112569081441_062026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_749088-MLA110893163503_042026-F.jpg"
+   ],
+   "preco": 162.9,
+   "preco_de": 240.09,
+   "desconto_pct": 32,
+   "desconto_verificado": true,
+   "frete": "grátis",
+   "vendedor": "FIKBELLACOSMETICOS",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 64752,
+   "ofertas_no_catalogo": 100,
+   "link": "https://www.mercadolivre.com.br/p/MLB19605864?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB49575751",
+   "posicao_mais_vendidos": 11,
+   "categoria": "MLB1263",
+   "nome": "Keune Care Keratin Smooth Mask 50ml",
+   "marca": "Keune",
+   "modelo": null,
+   "destaques": [
+    "Máscara hidratante ideal para cabelos danificados e quebradiços.",
+    "Tecnologia Silsoft que combate o frizz efetivamente.",
+    "Recupera a maleabilidade e o brilho dos fios.",
+    "Produto dermatologicamente testado e hipoalergênico."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_890336-MLA99419583068_112025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_851470-MLA84283085716_052025-F.jpg"
+   ],
+   "preco": 30.64,
+   "preco_de": 34.05,
+   "desconto_pct": 10,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "LOJA PERCEPCAO",
+   "loja_oficial": false,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 39882,
+   "ofertas_no_catalogo": 16,
+   "link": "https://www.mercadolivre.com.br/p/MLB49575751?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB44125833",
+   "posicao_mais_vendidos": 10,
+   "categoria": "MLB439347",
+   "nome": "Plancha de cabello Taiff Clássica Cerâmica Chapa Taiff, Alisa, Modela negra",
+   "marca": "Taiff",
+   "modelo": "Cerâmica",
+   "destaques": [
+    "Tem placas de cerâmica.",
+    "Atinge uma temperatura máxima de 180 °C.",
+    "A tela é sensível ao toque.",
+    "É iônico."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_773132-MLA96072907583_102025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_753994-MLU72927151115_112023-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_837139-MLU72927062675_112023-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_888599-MLU76647718148_062024-F.jpg"
+   ],
+   "preco": 119.9,
+   "preco_de": null,
+   "desconto_pct": null,
+   "desconto_verificado": false,
+   "frete": "grátis",
+   "vendedor": "IMPACTO_26",
+   "loja_oficial": true,
+   "mercadolider": "silver",
+   "vendas_vendedor": 576,
+   "ofertas_no_catalogo": 7,
+   "link": "https://www.mercadolivre.com.br/p/MLB44125833?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB66922382",
+   "posicao_mais_vendidos": 18,
+   "categoria": "MLB1248",
+   "nome": "Batom Duo Matte Líquido E Bala Lip Twice Ruby Rose Lt30",
+   "marca": "Ruby Rose",
+   "modelo": "Duo - Batom em bala e Líquido",
+   "destaques": [
+    "Apresenta dois formatos no mesmo item com aplicador líquido e bala para viabilizar diferentes técnicas de aplicação.",
+    "Composição formulada para fixação de longa duração que mantém a cobertura nos lábios sem necessidade de retoques.",
+    "Produto fabricado mediante processos sem testes em animais garantindo o selo de livre de crueldade em sua composição.",
+    "O acabamento matte remove o brilho excessivo da superfície labial resultando em uma aparência seca e sem reflexos."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_920408-MLA109115654417_032026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_781155-MLA108323293532_032026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_857002-MLA108323443406_032026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_702708-MLA109115892099_032026-F.jpg"
+   ],
+   "preco": 21.1,
+   "preco_de": 28.12,
+   "desconto_pct": 25,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "COSMETICS LAND",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 41465,
+   "ofertas_no_catalogo": 12,
+   "link": "https://www.mercadolivre.com.br/p/MLB66922382?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB15238956",
+   "posicao_mais_vendidos": 11,
+   "categoria": "MLB439347",
+   "nome": "Chapinha De Cabelo Mq Professional Titanium Pro 480 Cor Chumbo",
+   "marca": "MQ Professional",
+   "modelo": "480 Pro Titanium",
+   "destaques": [
+    "Possui placas de titânio.",
+    "Funções:Cuidado iônico.",
+    "Atinge 250 °C de temperatura máxima e 88 °C de temperatura mínima.",
+    "Inclui 17 níveis para pranchar."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_614724-MLA99489875538_112025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_973392-MLA84554368604_052025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_871265-MLA112356748922_062026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_896102-MLA113512844733_062026-F.jpg"
+   ],
+   "preco": 412.3,
+   "preco_de": 698.53,
+   "desconto_pct": 41,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "BDS DIGITAL",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 75504,
+   "ofertas_no_catalogo": 46,
+   "link": "https://www.mercadolivre.com.br/p/MLB15238956?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB25708528",
+   "posicao_mais_vendidos": 13,
+   "categoria": "MLB1263",
+   "nome": "Shampoo Tonalizante Grecin Control GX Reduz Grisalho 118ml",
+   "marca": "Grecin",
+   "modelo": null,
+   "destaques": [
+    "Tecnologia patenteada Control GX: ajuda a reduzir gradualmente os fios brancos, com resultado natural e progressivo.",
+    "Sem amônia: fórmula desenvolvida para reduzir os fios grisalhos de forma gradual, sem utilizar amônia.",
+    "Limpa e hidrata os cabelos: atua na redução dos fios grisalhos e pode substituir o shampoo convencional.",
+    "Dica de uso: use 2 a 3 vezes por semana até atingir o tom desejado. Depois, mantenha 2 vezes por semana."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_631595-MLA99350047876_112025-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_604428-MLA113978019528_072026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_770081-MLA113978308126_072026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_735707-MLA113977930910_072026-F.jpg"
+   ],
+   "preco": 78.33,
+   "preco_de": 111.9,
+   "desconto_pct": 30,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "COMBE BRASIL",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 249431,
+   "ofertas_no_catalogo": 24,
+   "link": "https://www.mercadolivre.com.br/p/MLB25708528?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB21141988",
+   "posicao_mais_vendidos": 20,
+   "categoria": "MLB1248",
+   "nome": "Avon - Power Stay Matte Glitter Batom Líquido Nude Iluminado 7ml",
+   "marca": "Avon",
+   "modelo": "Batom Líquido",
+   "destaques": [
+    "Modelo: Matte Glitter Effect.",
+    "Batom de longa duração.",
+    "À prova d'água.",
+    "Acabamento brilho."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_841556-MLU74862719091_032024-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_952545-MLU70065253261_062023-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_645425-MLU74862719099_032024-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_890744-MLU70065370505_062023-F.jpg"
+   ],
+   "preco": 44,
+   "preco_de": null,
+   "desconto_pct": null,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "SEJA_CONTEMPORANEA",
+   "loja_oficial": false,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 25280,
+   "ofertas_no_catalogo": 32,
+   "link": "https://www.mercadolivre.com.br/p/MLB21141988?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB27731058",
+   "posicao_mais_vendidos": 14,
+   "categoria": "MLB1263",
+   "nome": "Shampoo Antiqueda Estimulante Aminexil Dercos Energy+ Vichy Refil 200g",
+   "marca": "Vichy",
+   "modelo": null,
+   "destaques": [
+    "Shampoo estimulante antiqueda que limpa profundamente o couro cabeludo e as raízes.",
+    "Com Aminexil 1,5%, Niacinamida, AHA e Vitamina E para fortalecer a fibra capilar.",
+    "Restaura a resistência natural do fio, deixando o cabelo 47% mais fortalecido.",
+    "Salva +1000 fios em 1 mês da queda por quebra e dá volume por 24 horas."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_858040-MLA121673815267_112026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_841331-MLA119930330052_112026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_642966-MLA121673379835_112026-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_870224-MLA121673667513_112026-F.jpg"
+   ],
+   "preco": 61.69,
+   "preco_de": 98.9,
+   "desconto_pct": 38,
+   "desconto_verificado": false,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Brasil",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 37901391,
+   "ofertas_no_catalogo": 4,
+   "link": "https://www.mercadolivre.com.br/p/MLB27731058?matt_word=paulovitorlemes&matt_tool=37931087"
+  },
+  {
+   "id": "MLB20993983",
+   "posicao_mais_vendidos": 13,
+   "categoria": "MLB199407",
+   "nome": "Hidratante Facial Epidrat Calm B5 Para Pele Sensível 50ml Mantecorp",
+   "marca": "Mantecorp",
+   "modelo": null,
+   "destaques": [
+    "Zona de aplicação corpo inteiro."
+   ],
+   "fotos": [
+    "https://http2.mlstatic.com/D_NQ_NP_670612-MLB74162425659_012024-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_775936-MLU72847775641_112023-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_992546-MLU72847731881_112023-F.jpg",
+    "https://http2.mlstatic.com/D_NQ_NP_670803-MLU72847775665_112023-F.jpg"
+   ],
+   "preco": 71.94,
+   "preco_de": 104.9,
+   "desconto_pct": 31,
+   "desconto_verificado": true,
+   "frete": "Full",
+   "vendedor": "Mercado Livre Brasil",
+   "loja_oficial": true,
+   "mercadolider": "platinum",
+   "vendas_vendedor": 37901391,
+   "ofertas_no_catalogo": 21,
+   "link": "https://www.mercadolivre.com.br/p/MLB20993983?matt_word=paulovitorlemes&matt_tool=37931087"
+  }
+ ],
+ "recusados": [
+  {
+   "id": "MLB41038891",
+   "motivo": "nenhum vendedor confiável"
+  },
+  {
+   "id": "MLB23522659",
+   "motivo": "nenhum vendedor confiável"
+  }
+ ]
+}

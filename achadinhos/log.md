@@ -17,3 +17,4 @@
 - 2026-11-20 beleza: secador Gama Eleganza, modelador Taiff Curves, óleo Wella, demaquilante Bioré, máscara Payot Boca Rosa. Carrossel NÃO publicado (IG ainda restringido). | fila 8 ofertas (09:00-21:30)
 - 2026-11-21 misto (carro só com 2 produtos novos): lavadora WAP WL 1820, Taramps TS-400x4, cortina 300 LEDs, Anthelios FPS 80, prancha Taiff Classic. Carrossel NÃO publicado (IG ainda restringido). | fila 8 ofertas (09:00-21:30)
 - 2026-11-22 casa: escorredor VYROX, 4 toalhas gigantes, mini mixer, varão de cortina, desinfetante Ypê Bak. Carrossel NÃO publicado (IG ainda restringido). | fila 8 ofertas (09:00-21:30)
+- 2026-11-23 misto (casa só com limpeza nova): guarda-roupa dobrável, cascata 400 LEDs, Huawei Watch Fit 5, Vonixx Blend, Cetaphil Advanced. Carrossel NÃO publicado (IG ainda restringido). | fila 8 ofertas (09:00-21:30)
