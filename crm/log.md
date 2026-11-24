@@ -113,3 +113,4 @@
 - 2026-11-23 · r2 · Garantia: no ar em 7 dias úteis ou você não paga · direct FUNIL · https://www.instagram.com/reel/DgGgq_HDFKJ/
 - 2026-11-24 · p1 · As 4 mensagens que trazem de volta (lista) (Figma) · direct FUNIL · https://www.instagram.com/p/DgH3hutFcuc/
 - 2026-11-24 · r1 · O lead que chega às 23h (conteúdo) · salva · https://www.instagram.com/reel/DgIQ0HOANf8/
+- 2026-11-24 · r2 · 3 vagas de fundador a R$ 997 · link na bio · https://www.instagram.com/reel/DgJFeXtDNyq/
