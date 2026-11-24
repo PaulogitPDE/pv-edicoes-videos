@@ -1,0 +1,12 @@
+{
+ "tarja": "Vagas de <fundador>",
+ "semente": 471,
+ "tema": "3 vagas de fundador a R$ 997",
+ "ganchos_ab": ["Só <3 vagas>", "R$ 997, <só 3>"],
+ "cenas": [
+  {"tipo": "gancho", "rotulo": "vagas de fundador", "texto": "Só <3 clínicas>", "rabisco": "sublinha", "dur": 2.6, "legenda": "Vão pagar <menos>", "humor": "solucao"},
+  {"tipo": "numero", "rotulo": "R$ na implantação de fundadora", "ate": 997, "cor": "lime", "sub": "em vez de <R$ 1.497>", "dur": 3.6, "legenda": "Em troca de <um depoimento>"},
+  {"tipo": "lista", "texto": "O que <vem junto>", "itens": [{"t": "Funil de orçamentos no Kommo", "ok": true}, {"t": "4 mensagens de retorno prontas", "ok": true}, {"t": "Recepção treinada", "ok": true}], "dur": 5.0, "legenda": "No ar em <7 dias úteis>"},
+  {"tipo": "cta", "modo": "bio", "texto": "Quer <uma vaga>?", "dur": 4.4, "legenda": "Link na <bio>"}
+ ]
+}
