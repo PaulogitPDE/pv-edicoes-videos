@@ -112,3 +112,4 @@
 - 2026-11-23 · r1 · O orçamento não morreu, ele esfriou (conteúdo, sem tarja) · salva · https://www.instagram.com/reel/DgFsDtZidTq/
 - 2026-11-23 · r2 · Garantia: no ar em 7 dias úteis ou você não paga · direct FUNIL · https://www.instagram.com/reel/DgGgq_HDFKJ/
 - 2026-11-24 · p1 · As 4 mensagens que trazem de volta (lista) (Figma) · direct FUNIL · https://www.instagram.com/p/DgH3hutFcuc/
+- 2026-11-24 · r1 · O lead que chega às 23h (conteúdo) · salva · https://www.instagram.com/reel/DgIQ0HOANf8/
