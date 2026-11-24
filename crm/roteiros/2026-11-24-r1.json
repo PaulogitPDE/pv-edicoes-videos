@@ -1,0 +1,12 @@
+{
+ "tarja": "O lead <das 23h>",
+ "semente": 469,
+ "tema": "O lead que chega às 23h (conteúdo, terça de bastidor)",
+ "ganchos_ab": ["Chegou às <23h>", "Quem responde <às 23h>?"],
+ "cenas": [
+  {"tipo": "gancho", "rotulo": "terça de bastidor", "texto": "Chegou às <23h>", "rabisco": "circulo", "dur": 2.6, "legenda": "E a recepção <já foi embora>", "humor": "dor"},
+  {"tipo": "chat", "nome": "Renata", "status": "online", "mensagens": [{"de": "ela", "texto": "Oi! Quanto custa a harmonização?", "meta": "seg 23:04"}, {"de": "eu", "texto": "Oi, Renata! Recebi sim. Amanhã às 8h te mando os valores e horários, tá?", "meta": "seg 23:04"}], "carimbo": "Respondida", "cor_carimbo": "lime", "dur": 4.8, "legenda": "Respondida <na hora>", "humor": "solucao"},
+  {"tipo": "leads", "titulo": "Chegaram de noite", "colunas": ["Novo", "Retorno 8h", "Agendado"], "leads": [{"nome": "Renata", "proc": "Harmonização", "valor": "R$ 1.800", "vai": 1}, {"nome": "Bruno", "proc": "Implante", "valor": "R$ 4.500", "vai": 2}, {"nome": "Lívia", "proc": "Clareamento", "valor": "R$ 900", "vai": 2}], "total": "{valor} <na fila>", "dur": 4.4, "legenda": "Ninguém <esquecido>"},
+  {"tipo": "lista", "texto": "Fora do <horário>", "itens": [{"t": "Responda na hora, sem preço", "ok": true}, {"t": "Diga quando vai retornar", "ok": true}, {"t": "Retorne às 8h em ponto", "ok": true}], "dur": 5.0, "legenda": "Salva pra <hoje à noite>"}
+ ]
+}
