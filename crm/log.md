@@ -114,3 +114,4 @@
 - 2026-11-24 · p1 · As 4 mensagens que trazem de volta (lista) (Figma) · direct FUNIL · https://www.instagram.com/p/DgH3hutFcuc/
 - 2026-11-24 · r1 · O lead que chega às 23h (conteúdo) · salva · https://www.instagram.com/reel/DgIQ0HOANf8/
 - 2026-11-24 · r2 · 3 vagas de fundador a R$ 997 · link na bio · https://www.instagram.com/reel/DgJFeXtDNyq/
+- 2026-11-25 · p1 · "Minha recepcionista já faz isso." Quantas vezes no mês passado? (frase) (Figma) · link na bio · https://www.instagram.com/p/DgKcSSSDCnx/
