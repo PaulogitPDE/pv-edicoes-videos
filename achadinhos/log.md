@@ -19,3 +19,4 @@
 - 2026-11-22 casa: escorredor VYROX, 4 toalhas gigantes, mini mixer, varão de cortina, desinfetante Ypê Bak. Carrossel NÃO publicado (IG ainda restringido). | fila 8 ofertas (09:00-21:30)
 - 2026-11-23 misto (casa só com limpeza nova): guarda-roupa dobrável, cascata 400 LEDs, Huawei Watch Fit 5, Vonixx Blend, Cetaphil Advanced. Carrossel NÃO publicado (IG ainda restringido). | fila 8 ofertas (09:00-21:30)
 - 2026-11-24 SEM carrossel e SEM fila: API do Mercado Livre passou a responder 403 em /products/{id}/items, /items/{id} e /sites/MLB/search com o token do app (client_credentials). Sem preço/vendedor não dá pra montar oferta segura. Avisado o usuário.
+- 2026-11-25 SEM carrossel e SEM fila: API do ML segue 403 em /products/{id}/items. IG segue restringido.
