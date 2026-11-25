@@ -116,3 +116,4 @@
 - 2026-11-24 · r2 · 3 vagas de fundador a R$ 997 · link na bio · https://www.instagram.com/reel/DgJFeXtDNyq/
 - 2026-11-25 · p1 · "Minha recepcionista já faz isso." Quantas vezes no mês passado? (frase) (Figma) · link na bio · https://www.instagram.com/p/DgKcSSSDCnx/
 - 2026-11-25 · trend · Final da Libertadores Palmeiras x Estudiantes (sábado 28) → final se ganha antes do apito (carrossel 2 slides) (Figma) · direct FUNIL · https://www.instagram.com/p/DgKo6CDj3_D/
+- 2026-11-25 · r1 · CRM é coisa de empresa grande? (conteúdo, sem tarja) · salva · https://www.instagram.com/reel/DgK1qlDuStQ/
