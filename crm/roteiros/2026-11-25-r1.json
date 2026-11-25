@@ -1,0 +1,11 @@
+{
+ "semente": 473,
+ "tema": "CRM é coisa de empresa grande? (conteúdo, sem tarja)",
+ "ganchos_ab": ["Empresa <grande>?", "Pequena <demais>?"],
+ "cenas": [
+  {"tipo": "gancho", "rotulo": "quarta de objeção", "texto": "Só pra empresa <grande>?", "rabisco": "circulo", "dur": 2.6, "legenda": "CRM <não é isso>", "humor": "dor"},
+  {"tipo": "leads", "titulo": "Clínica com 1 recepção", "colunas": ["Orçamento", "Retorno", "Agendado"], "leads": [{"nome": "Carla", "proc": "Lentes", "valor": "R$ 5.400", "vai": 2}, {"nome": "Paulo", "proc": "Implante", "valor": "R$ 3.900", "vai": 1}, {"nome": "Bia", "proc": "Botox", "valor": "R$ 1.200", "vai": 2}], "total": "{valor} <agendado>", "dur": 4.6, "legenda": "Cabe numa <tela só>", "humor": "solucao"},
+  {"tipo": "numero", "rotulo": "orçamentos por semana", "ate": 5, "cor": "lime", "sub": "pedem um <funil>", "dur": 3.2, "legenda": "Não precisa <ser grande>"},
+  {"tipo": "lista", "texto": "Precisa de <CRM> se", "itens": [{"t": "Você manda orçamento no WhatsApp", "ok": true}, {"t": "Alguém já disse \"vou pensar\"", "ok": true}, {"t": "Ninguém sabe quantos voltaram", "ok": true}], "dur": 5.0, "legenda": "Salva pra <conferir>"}
+ ]
+}
