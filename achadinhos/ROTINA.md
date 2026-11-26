@@ -22,7 +22,7 @@ Tudo que o PC precisa ler (fila, comandos) tem que estar na branch `main`.
    "specs": "Bluetooth 5.3 - Graves reforçados - Preto"}. Specs SÓ com dados dos atributos/destaques do produto.
    O script gera a arte amarela de cada oferta em achadinhos/ofertas/DATA/: OLHAR as artes (recorte ruim -> trocar produto).
 7. Commit e `git push origin HEAD:main` (o PC lê a fila da main).
-8. Publicar o carrossel: `modelo/scripts/publicar_carrossel.py achadinhos/legendas/AAAA-MM-DD.txt postados-img/achadinhos/...-1.jpg ...`
+8. Publicar o carrossel (desde 26/11 na conta ex-CRM): `IG_ID=17841477784714532 python3 modelo/scripts/publicar_carrossel.py achadinhos/legendas/AAAA-MM-DD.txt postados-img/achadinhos/...-1.jpg ...`
    (usa raw da main, por isso o push vem antes). Gravar o media id em `achadinhos/postados.json` e os ids em
    `achadinhos/usados.json`. Commit e push na main.
 9. Registrar em achadinhos/log.md: tema, produtos, link do post. Se algo falhar, avisar o usuário no thread.

@@ -2,7 +2,7 @@
 Uso: python3 modelo/scripts/publicar_carrossel.py legenda.txt postados-img/X-1.jpg postados-img/X-2.jpg ..."""
 import json, subprocess, sys, time, urllib.parse
 
-IG = '17841429538755844'
+IG = os.environ.get('IG_ID', '17841429538755844')  # IG_ID=17841477784714532 para os achadinhos (conta ex-CRM) desde 26/11
 API = 'https://graph.facebook.com/v21.0'
 RAW = 'https://raw.githubusercontent.com/PaulogitPDE/pv-edicoes-videos/main/'
 

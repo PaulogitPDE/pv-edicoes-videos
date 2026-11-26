@@ -6,7 +6,7 @@ achadinhos/respondidos.json: ids de comentários já respondidos (commitar depoi
 A resposta privada só funciona até 7 dias depois do comentário e uma vez por comentário."""
 import json, os, sys, urllib.parse, urllib.request
 
-IG = '17841429538755844'
+IG = '17841477784714532'  # conta Achadinhos do PV (ex-CRM que vende) desde 26/11; @pvedicoes restringido
 PAGINA = '1296775513530226'
 API = 'https://graph.facebook.com/v21.0'
 AQUI = os.path.dirname(os.path.abspath(__file__))
