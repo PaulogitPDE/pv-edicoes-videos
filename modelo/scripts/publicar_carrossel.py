@@ -1,6 +1,6 @@
 """Publica um carrossel (2 a 10 JPEGs já commitados em postados-img/) no @pvedicoes.
 Uso: python3 modelo/scripts/publicar_carrossel.py legenda.txt postados-img/X-1.jpg postados-img/X-2.jpg ..."""
-import json, subprocess, sys, time, urllib.parse
+import json, os, subprocess, sys, time, urllib.parse
 
 IG = os.environ.get('IG_ID', '17841429538755844')  # IG_ID=17841477784714532 para os achadinhos (conta ex-CRM) desde 26/11
 API = 'https://graph.facebook.com/v21.0'
