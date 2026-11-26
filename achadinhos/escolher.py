@@ -19,7 +19,8 @@ import datetime as dt
 import json, os, sys, urllib.parse, urllib.request
 
 API = 'https://api.mercadolibre.com'
-AQUI = os.path.dirname(os.path.abspath(__file__))
+# ACHADINHOS_DIR: pasta de dados (usados, preços, fila, artes); no servidor da nuvem fica fora do clone do repo
+AQUI = os.environ.get('ACHADINHOS_DIR') or os.path.dirname(os.path.abspath(__file__))
 AFILIADO = {'matt_word': 'paulovitorlemes', 'matt_tool': '37931087'}
 
 # tema -> categorias (mais vendidos de cada uma)
@@ -53,6 +54,9 @@ _vendedores = {}
 
 def token():
     global _tok
+    # ML_ACCESS_TOKEN = token da conta do usuário (OAuth pelo painel da nuvem); sem ele usa o token de app
+    if not _tok and os.environ.get('ML_ACCESS_TOKEN'):
+        _tok = os.environ['ML_ACCESS_TOKEN']
     if not _tok:
         dados = urllib.parse.urlencode({'grant_type': 'client_credentials', 'client_id': os.environ['ML_CLIENT_ID'],
                                         'client_secret': os.environ['ML_CLIENT_SECRET']}).encode()

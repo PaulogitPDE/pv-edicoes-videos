@@ -7,7 +7,8 @@ Também gera a arte de cada oferta em achadinhos/ofertas/DATA/ (commitar e dar p
 import datetime as dt
 import json, os, sys
 
-AQUI = os.path.dirname(os.path.abspath(__file__))
+# ACHADINHOS_DIR: pasta de dados (usados, preços, fila, artes); no servidor da nuvem fica fora do clone do repo
+AQUI = os.environ.get('ACHADINHOS_DIR') or os.path.dirname(os.path.abspath(__file__))
 RAW = 'https://raw.githubusercontent.com/PaulogitPDE/pv-edicoes-videos/main/'
 HORAS = ['09:00', '11:00', '13:00', '15:00', '18:00', '19:30', '20:30', '21:30']
 DIAS_SEM_REPETIR = 14
@@ -27,7 +28,7 @@ def texto(p, t):
     titulo = (t.get('titulo') or curto(p['nome'], 50)).upper()
     emoji = t.get('emoji', '🔥')
     modelo = t.get('modelo') or ' '.join(x for x in (p.get('marca'), p.get('modelo')) if x)
-    specs = t.get('specs', '')
+    specs = t.get('specs') or ' - '.join(curto(d, 45) for d in (p.get('destaques') or [])[:2])
     linhas = [f'{emoji} *{titulo}*', '']
     if modelo:
         linhas += [f'*{modelo}*', '']

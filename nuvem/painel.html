@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Achadinhos do PV</title>
+<style>
+:root { --am:#FFD60A; --tinta:#18161C; --fundo:#f6f5f2; --card:#fff; --cinza:#6b6870; --borda:#e6e3de; --ok:#1f9d55; --erro:#d64545; }
+* { box-sizing:border-box }
+body { margin:0; font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; background:var(--fundo); color:var(--tinta) }
+header { background:var(--tinta); color:#fff; padding:14px 16px; display:flex; align-items:center; gap:10px; position:sticky; top:0; z-index:5 }
+header b { background:var(--am); color:var(--tinta); padding:2px 8px; border-radius:6px }
+header .st { margin-left:auto; font-size:13px; opacity:.9 }
+main { max-width:860px; margin:0 auto; padding:16px; display:grid; gap:14px }
+section { background:var(--card); border:1px solid var(--borda); border-radius:14px; padding:16px }
+h2 { margin:0 0 10px; font-size:17px }
+.lin { display:flex; gap:8px; flex-wrap:wrap; align-items:center }
+button { font:inherit; border:0; border-radius:9px; padding:8px 12px; background:var(--tinta); color:#fff; cursor:pointer }
+button.sec { background:#eceae6; color:var(--tinta) }
+button.am { background:var(--am); color:var(--tinta); font-weight:600 }
+button:disabled { opacity:.5 }
+input, textarea, select { font:inherit; width:100%; padding:8px 10px; border:1px solid var(--borda); border-radius:9px; background:#fff; color:var(--tinta) }
+textarea { min-height:90px }
+label { font-size:13px; color:var(--cinza); display:block; margin-top:8px }
+.grade { display:grid; grid-template-columns:1fr 1fr; gap:0 10px }
+@media (max-width:560px) { .grade { grid-template-columns:1fr } }
+.oferta { border-top:1px solid var(--borda); padding:10px 0; display:grid; grid-template-columns:56px 1fr; gap:10px }
+.oferta img { width:56px; height:56px; object-fit:cover; border-radius:8px; background:#eee }
+.oferta pre { white-space:pre-wrap; font:13px/1.35 system-ui; margin:4px 0; max-height:4.2em; overflow:hidden }
+.oferta pre.aberto { max-height:none }
+.tag { font-size:12px; padding:1px 7px; border-radius:20px; background:#eceae6 }
+.tag.ok { background:#dff3e7; color:var(--ok) } .tag.erro { background:#fbe3e3; color:var(--erro) }
+.qr { text-align:center } .qr img { width:260px; max-width:100% }
+.peq { font-size:13px; color:var(--cinza) }
+.eventos { font:12px/1.5 ui-monospace,monospace; color:var(--cinza); max-height:180px; overflow:auto; white-space:pre-wrap }
+#aviso { position:fixed; bottom:16px; left:16px; right:16px; max-width:500px; margin:auto; background:var(--tinta); color:#fff; padding:10px 14px; border-radius:10px; display:none; z-index:9 }
+#login { max-width:340px; margin:80px auto }
+</style>
+</head>
+<body>
+<header><b>Achadinhos do PV</b><span>painel</span><span class="st" id="topo"></span></header>
+<div id="login" style="display:none"><section><h2>Entrar</h2><input id="senha" type="password" placeholder="Senha do painel" autocomplete="current-password"><p><button onclick="entrar()">Entrar</button></p></section></div>
+<main id="app" style="display:none">
+  <section id="wa">
+    <h2>WhatsApp</h2>
+    <div id="waInfo"></div>
+  </section>
+
+  <section>
+    <div class="lin"><h2 style="margin:0">Fila de hoje</h2><span class="peq" id="filaInfo"></span>
+      <span style="margin-left:auto" class="lin"><button class="sec" id="btPausa" onclick="pausar()"></button></span></div>
+    <div id="fila"></div>
+  </section>
+
+  <section>
+    <h2>Adicionar oferta</h2>
+    <p class="peq">Cole o link do produto (do painel de afiliados ou do anúncio). Se for link comum do Mercado Livre, a sua tag de afiliado entra sozinha.</p>
+    <div class="grade">
+      <div><label>Link *</label><input id="o_link" placeholder="https://..."></div>
+      <div><label>Título * (ex.: Air fryer 4 L)</label><input id="o_titulo"></div>
+      <div><label>Marca e modelo</label><input id="o_modelo" placeholder="Mondial AF-30"></div>
+      <div><label>Detalhes curtos</label><input id="o_specs" placeholder="1500 W - Antiaderente - Timer"></div>
+      <div><label>Preço "de" (opcional)</label><input id="o_de" inputmode="decimal"></div>
+      <div><label>Preço "por"</label><input id="o_por" inputmode="decimal"></div>
+      <div><label>Foto (link da imagem, opcional)</label><input id="o_imagem"></div>
+      <div class="grade" style="grid-template-columns:1fr 1fr"><div><label>Emoji</label><input id="o_emoji" value="🔥"></div><div><label>Horário</label><input id="o_hora" type="time"></div></div>
+    </div>
+    <p class="lin"><button class="sec" onclick="previa()">Ver prévia</button><button class="am" onclick="addOferta()">Pôr na fila</button></p>
+    <pre id="prev" class="peq" style="white-space:pre-wrap"></pre>
+  </section>
+
+  <section>
+    <h2>Mensagem avulsa</h2>
+    <textarea id="m_texto" placeholder="Ex.: 🔥 Amanhã começa o esquenta da Black Friday aqui no grupo!"></textarea>
+    <label>Foto (link da imagem, opcional)</label><input id="m_imagem">
+    <p><button onclick="mensagem()">Enviar agora para os grupos</button></p>
+  </section>
+
+  <section>
+    <div class="lin"><h2 style="margin:0">Grupos</h2><button class="sec" style="margin-left:auto" onclick="carregarGrupos()">Carregar todos os grupos</button></div>
+    <p class="peq">As ofertas vão para os grupos marcados.</p>
+    <div id="grupos"></div>
+  </section>
+
+  <section id="ml">
+    <h2>Mercado Livre (busca automática)</h2>
+    <div id="mlInfo"></div>
+  </section>
+
+  <section>
+    <h2>Registro</h2>
+    <div class="eventos" id="eventos"></div>
+    <p class="lin"><button class="sec" onclick="atualizarApp()">Atualizar o app</button><span class="peq">baixa a versão nova do GitHub e reinicia (uns 30 s)</span></p>
+  </section>
+</main>
+<div id="aviso"></div>
+<script>
+const $ = id => document.getElementById(id)
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]))
+let E = null, gruposTodos = null
+function aviso(t) { const a = $('aviso'); a.textContent = t; a.style.display = 'block'; clearTimeout(aviso.t); aviso.t = setTimeout(() => a.style.display = 'none', 4500) }
+async function api(rota, corpo) {
+  const r = await fetch(rota, corpo === undefined ? {} : { method:'POST', headers:{ 'content-type':'application/json' }, body: JSON.stringify(corpo) })
+  const j = await r.json().catch(() => ({}))
+  if (r.status === 401 && rota !== '/api/login') { mostrarLogin(); throw new Error('faça login') }
+  if (!r.ok) throw new Error(j.erro || 'erro ' + r.status)
+  return j
+}
+async function acao(rota, corpo, msg) { try { const j = await api(rota, corpo); if (msg) aviso(msg); await carregar(); return j } catch (e) { aviso('Erro: ' + e.message) } }
+function mostrarLogin() { $('login').style.display = 'block'; $('app').style.display = 'none' }
+async function entrar() { try { await api('/api/login', { senha: $('senha').value }); $('login').style.display = 'none'; carregar() } catch (e) { aviso(e.message) } }
+$('senha').addEventListener('keydown', e => e.key === 'Enter' && entrar())
+
+async function carregar() {
+  try { E = await api('/api/estado') } catch { return }
+  $('app').style.display = 'grid'
+  const c = E.config
+  $('topo').textContent = `WhatsApp: ${E.whatsapp}${c.pausado ? ' · PAUSADO' : ''}`
+  // WhatsApp
+  if (E.qr) $('waInfo').innerHTML = `<div class="qr"><img src="${E.qr}" alt="QR code"><p class="peq">No celular do número do grupo: WhatsApp > Aparelhos conectados > Conectar aparelho, e aponte para este código.</p></div>`
+  else $('waInfo').innerHTML = `<p>Estado: <b>${esc(E.whatsapp)}</b>${E.numero ? ' · número ' + esc(E.numero) : ''}</p>` +
+    (E.whatsapp === 'conectado' ? `<button class="sec" onclick="if(confirm('Desconectar este WhatsApp do painel?')) acao('/api/whatsapp/sair', {}, 'Desconectado. Um QR novo aparece em instantes.')">Desconectar e trocar de número</button>` : '<p class="peq">Gerando QR code...</p>')
+  // fila
+  const origem = { servidor:'montada aqui no painel', repositorio:'montada pela rotina na nuvem', vazia:'vazia' }[E.fila.origem]
+  $('filaInfo').textContent = `${E.fila.data} · ${E.fila.ofertas.length} ofertas · ${origem}`
+  $('btPausa').textContent = c.pausado ? '▶ Retomar envios' : '⏸ Pausar envios'
+  $('fila').innerHTML = E.fila.ofertas.map(o => {
+    const st = o.status ? (o.status.startsWith('perdida') ? `<span class="tag erro">${esc(o.status)}</span>` : '<span class="tag ok">enviada</span>') : '<span class="tag">na fila</span>'
+    return `<div class="oferta"><img src="${esc(o.imagem || '')}" alt="" onerror="this.style.visibility='hidden'"><div>
+      <div class="lin"><b>${esc(o.hora)}</b>${st}</div>
+      <pre onclick="this.classList.toggle('aberto')">${esc(o.texto)}</pre>
+      <div class="lin">
+        <button class="sec" onclick="acao('/api/oferta/enviar', {id:'${esc(o.id)}'}, 'Enviada')">Enviar agora</button>
+        <button class="sec" onclick="mudarHora('${esc(o.id)}','${esc(o.hora)}')">Mudar horário</button>
+        <button class="sec" onclick="editar('${esc(o.id)}')">Editar texto</button>
+        <button class="sec" onclick="if(confirm('Tirar esta oferta da fila?')) acao('/api/oferta/remover', {id:'${esc(o.id)}'}, 'Removida')">Remover</button>
+      </div></div></div>`
+  }).join('') || '<p class="peq">Nenhuma oferta para hoje ainda. Adicione abaixo ou rode a busca do Mercado Livre.</p>'
+  // grupos
+  renderGrupos()
+  // ML
+  const m = E.ml
+  $('mlInfo').innerHTML = (m.conectado ? `<p>Conectado como <b>${esc(m.usuario || 'sua conta')}</b>.</p>` : `<p>Ainda não conectado. Entre com a sua conta do Mercado Livre para liberar a busca de produtos.</p>`) +
+    `<p class="lin"><a href="/ml/conectar"><button class="${m.conectado ? 'sec' : 'am'}">${m.conectado ? 'Conectar de novo' : 'Conectar Mercado Livre'}</button></a>` +
+    (m.conectado ? `<button class="sec" onclick="testeMl()">Testar API</button><button class="sec" ${m.buscando ? 'disabled' : ''} onclick="acao('/api/ml/buscar', {}, 'Busca iniciada, leva alguns minutos')">${m.buscando ? 'Buscando...' : 'Buscar produtos agora'}</button>` : '') + '</p>' +
+    `<label><input type="checkbox" style="width:auto" ${c.busca_auto ? 'checked' : ''} onchange="acao('/api/config', {busca_auto:this.checked}, 'Salvo')"> Montar a fila sozinho todo dia às <input type="time" style="width:auto" value="${esc(c.hora_busca)}" onchange="acao('/api/config', {hora_busca:this.value}, 'Salvo')"></label>` +
+    (m.busca ? `<p class="peq">Última busca: ${esc(m.busca.data)} (${esc(m.busca.tema)})</p>` : '') + '<pre class="peq" id="mlTeste"></pre>'
+  $('eventos').textContent = E.eventos.join('\n')
+}
+function renderGrupos() {
+  const lista = gruposTodos || E.grupos.map(g => ({ ...g, recebe: true }))
+  $('grupos').innerHTML = lista.map(g => `<div class="oferta" style="grid-template-columns:1fr"><div>
+    <label style="color:var(--tinta);margin:0"><input type="checkbox" style="width:auto" ${g.recebe ? 'checked' : ''} onchange="acao('/api/grupos/recebe', {id:'${esc(g.id)}', recebe:this.checked}, 'Salvo')"> <b>${esc(g.nome)}</b> <span class="peq">${g.membros ? g.membros + ' membros' : ''}</span></label>
+    <div class="lin" style="margin-top:6px">
+      <button class="sec" onclick="link('${esc(g.id)}')">Link de convite</button>
+      ${'so_admins' in g ? `<button class="sec" onclick="acao('/api/grupos/so-admins', {id:'${esc(g.id)}', ligar:${!g.so_admins}}, 'Feito').then(carregarGrupos)">${g.so_admins ? 'Liberar todos para falar' : 'Só admins falam'}</button>` : ''}
+      <button class="sec" onclick="renomear('${esc(g.id)}')">Renomear</button>
+    </div></div></div>`).join('') || '<p class="peq">Nenhum grupo marcado.</p>'
+}
+async function carregarGrupos() { try { gruposTodos = await api('/api/grupos'); renderGrupos() } catch (e) { aviso('Erro: ' + e.message) } }
+async function link(id) { try { const j = await api('/api/grupos/link', { id }); prompt('Link de convite:', j.link) } catch (e) { aviso('Erro: ' + e.message) } }
+function renomear(id) { const n = prompt('Novo nome do grupo:'); if (n) acao('/api/grupos/nome', { id, nome: n }, 'Nome trocado').then(() => gruposTodos && carregarGrupos()) }
+function pausar() { acao('/api/config', { pausado: !E.config.pausado }, E.config.pausado ? 'Envios retomados' : 'Envios pausados') }
+function mudarHora(id, h) { const n = prompt('Novo horário (HH:MM):', h); if (n) acao('/api/oferta/editar', { id, hora: n }, 'Horário trocado') }
+function editar(id) { const o = E.fila.ofertas.find(x => x.id === id); const t = prompt('Texto da oferta:', o.texto); if (t) acao('/api/oferta/editar', { id, texto: t }, 'Texto salvo') }
+const campos = () => Object.fromEntries(['link','titulo','modelo','specs','de','por','imagem','emoji','hora'].map(k => [k, $('o_' + k).value.trim()]))
+async function previa() { try { $('prev').textContent = (await api('/api/oferta/previa', campos())).texto } catch (e) { aviso(e.message) } }
+async function addOferta() { const r = await acao('/api/oferta', campos(), 'Oferta na fila'); if (r) ['link','titulo','modelo','specs','de','por','imagem','hora'].forEach(k => $('o_' + k).value = ''), $('prev').textContent = '' }
+async function mensagem() { if (!$('m_texto').value.trim()) return aviso('Escreva a mensagem'); if (!confirm('Enviar agora para todos os grupos marcados?')) return; const r = await acao('/api/mensagem', { texto: $('m_texto').value, imagem: $('m_imagem').value.trim() }, 'Mensagem enviada'); if (r) $('m_texto').value = '' }
+async function testeMl() { try { const j = await api('/api/ml/teste', {}); $('mlTeste').textContent = `Ofertas e preços: ${j.ofertas_do_produto === 200 ? 'liberado ✅' : 'bloqueado (' + j.ofertas_do_produto + ')'}\nMais vendidos: ${j.mais_vendidos === 200 ? 'liberado ✅' : j.mais_vendidos}` } catch (e) { aviso(e.message) } }
+async function atualizarApp() { if (!confirm('Atualizar e reiniciar o app?')) return; await acao('/api/atualizar', {}, 'Atualizando, volte em 30 s') }
+carregar(); setInterval(() => { if ($('app').style.display !== 'none' && !document.hidden) carregar() }, 5000)
+</script>
+</body>
+</html>
